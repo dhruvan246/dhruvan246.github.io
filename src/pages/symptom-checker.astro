@@ -1,0 +1,144 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { SYMPTOMS, CONDITIONS } from '../data/symptoms.ts';
+---
+<BaseLayout
+  title="Pet Symptom Checker — Dog & Cat Symptoms Guide"
+  description="Select your pet's symptoms to see possible causes and how urgently to see a vet. A free educational guide for dog and cat owners — not a diagnosis."
+>
+  <section class="hero">
+    <div class="container">
+      <h1>🩺 Pet Symptom Checker</h1>
+      <p>Select the signs you're seeing to learn about possible causes and how urgently to contact your vet.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <!-- Safety notice shown up front -->
+    <div class="tool">
+      <div class="safety-note">
+        ⚠️ <strong>This tool does not diagnose your pet.</strong> It offers general educational guidance only.
+        If you are worried, always contact your vet. In an emergency, go to a vet or emergency clinic right away.
+      </div>
+    </div>
+
+    <AdSlot />
+
+    <form id="symptom-form" class="tool">
+      <div class="field">
+        <label class="field-label" for="species">Which pet?</label>
+        <select id="species">
+          <option value="dog" selected>Dog 🐕</option>
+          <option value="cat">Cat 🐈</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <span class="field-label">What signs are you seeing? (select all that apply)</span>
+        <div class="opts symptom-grid">
+          {SYMPTOMS.map((s) => (
+            <label class="opt">
+              <input type="checkbox" name="symptom" value={s.id} data-emergency={s.emergency ? '1' : '0'} />
+              <span class="opt-card"><span class="opt-emoji">{s.emoji}</span>{s.label}</span>
+            </label>
+          ))}
+        </div>
+      </div>
+
+      <div class="matcher-actions">
+        <button type="submit" class="btn-primary">🔎 Check symptoms</button>
+        <button type="reset" class="btn-ghost">Clear</button>
+      </div>
+      <p id="symptom-hint" class="matcher-hint"></p>
+    </form>
+
+    <section id="symptom-result" class="tool" hidden>
+      <div id="emergency-banner" hidden></div>
+      <h2>Possible causes to discuss with your vet</h2>
+      <p class="sub">Ranked by how many of your selected signs they involve. This is not a diagnosis.</p>
+      <div id="conditions-list" class="results-list"></div>
+      <p class="disclaimer">Many illnesses share the same symptoms, and only a vet can examine and test your pet. When in doubt, call your vet.</p>
+      <AdSlot />
+    </section>
+  </div>
+</BaseLayout>
+
+<script is:inline define:vars={{ CONDITIONS }}>
+  const form = document.getElementById('symptom-form');
+  const result = document.getElementById('symptom-result');
+  const listEl = document.getElementById('conditions-list');
+  const hintEl = document.getElementById('symptom-hint');
+  const bannerEl = document.getElementById('emergency-banner');
+
+  const URGENCY = {
+    emergency: { label: '🚨 Emergency — see a vet now', cls: 'urg-emergency' },
+    high: { label: '⚠️ See a vet soon', cls: 'urg-high' },
+    moderate: { label: '📋 Vet visit advised', cls: 'urg-moderate' },
+    low: { label: '🟢 Monitor / routine vet', cls: 'urg-low' },
+  };
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const checked = Array.from(form.querySelectorAll('input[name="symptom"]:checked'));
+    const selected = checked.map((c) => c.value);
+    const species = document.getElementById('species').value;
+
+    if (selected.length === 0) {
+      hintEl.textContent = 'Please select at least one sign you are seeing.';
+      return;
+    }
+    hintEl.textContent = '';
+
+    const anyEmergencySign = checked.some((c) => c.dataset.emergency === '1');
+
+    // Score conditions by how many selected symptoms they involve.
+    const ranked = CONDITIONS
+      .filter((c) => c.species === 'both' || c.species === species)
+      .map((c) => ({ c, matched: c.symptoms.filter((s) => selected.includes(s)).length }))
+      .filter((r) => r.matched > 0)
+      .sort((a, b) => {
+        const order = { emergency: 0, high: 1, moderate: 2, low: 3 };
+        if (b.matched !== a.matched) return b.matched - a.matched;
+        return order[a.c.urgency] - order[b.c.urgency];
+      })
+      .slice(0, 5);
+
+    const hasEmergencyCondition = ranked.some((r) => r.c.urgency === 'emergency');
+
+    if (anyEmergencySign || hasEmergencyCondition) {
+      bannerEl.hidden = false;
+      bannerEl.className = 'emergency-banner';
+      bannerEl.innerHTML = '🚨 <strong>Some of these signs can be serious.</strong> Please contact a vet or emergency animal clinic immediately — do not wait.';
+    } else {
+      bannerEl.hidden = true;
+    }
+
+    if (ranked.length === 0) {
+      listEl.innerHTML = '<p class="sub">No common matches found for those signs — please consult your vet to be safe.</p>';
+    } else {
+      listEl.innerHTML = ranked.map((r) => {
+        const u = URGENCY[r.c.urgency];
+        return `
+          <article class="match-card">
+            <div class="match-main">
+              <div class="match-head">
+                <h3>${r.c.name}</h3>
+                <span class="urg-badge ${u.cls}">${u.label}</span>
+              </div>
+              <p class="cond-matched">Matches ${r.matched} of your selected sign${r.matched === 1 ? '' : 's'}</p>
+              <p>${r.c.advice}</p>
+            </div>
+          </article>`;
+      }).join('');
+    }
+
+    result.hidden = false;
+    result.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+
+  form.addEventListener('reset', () => {
+    result.hidden = true;
+    hintEl.textContent = '';
+  });
+</script>

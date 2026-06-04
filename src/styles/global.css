@@ -235,6 +235,23 @@ a:hover { text-decoration: underline; }
 @media (max-width: 720px) { .tool-cards { grid-template-columns: 1fr; } }
 @media (max-width: 560px) { .compare-grid { grid-template-columns: 1fr; } }
 
+/* ---- Symptom checker ------------------------------------------------------- */
+.safety-note {
+  background: #fff8e6; border: 1px solid #f0c14b; border-radius: 12px;
+  padding: 14px 18px; font-size: .92rem; color: #7a5b00; line-height: 1.55;
+}
+.symptom-grid { gap: 10px; }
+.emergency-banner {
+  background: #fdecea; border: 1.5px solid #e74c3c; border-radius: 12px;
+  padding: 16px 18px; color: #b03024; font-size: 1rem; margin-bottom: 18px; line-height: 1.5;
+}
+.cond-matched { font-size: .85rem; color: var(--muted); margin: 4px 0 6px; font-weight: 600; }
+.urg-badge { font-size: .74rem; font-weight: 700; padding: 3px 10px; border-radius: 999px; white-space: nowrap; }
+.urg-emergency { background: #fdecea; color: #c0392b; border: 1px solid #e74c3c; }
+.urg-high { background: #fef0e6; color: #c75b18; border: 1px solid #f0a202; }
+.urg-moderate { background: #fff8e6; color: #8a6d00; border: 1px solid #f0c14b; }
+.urg-low { background: var(--brand-light); color: var(--brand-dark); border: 1px solid var(--brand); }
+
 /* ---- Ad slots -------------------------------------------------------------- */
 .ad-slot { margin: 28px auto; text-align: center; min-height: 90px; }
 .ad-slot .ad-label { font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; color: #aab4af; margin-bottom: 4px; }
