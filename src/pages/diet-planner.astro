@@ -1,0 +1,116 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AdSlot from '../components/AdSlot.astro';
+---
+<BaseLayout
+  title="Dog Diet Planner — Daily Food & Calorie Calculator"
+  description="Calculate how much to feed your dog each day based on weight, age and activity. Free diet planner using the standard vet calorie formula."
+>
+  <section class="hero">
+    <div class="container">
+      <h1>🥣 Dog Diet Planner</h1>
+      <p>Get a personalised daily calorie and food estimate for your dog, based on the formula vets use.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <AdSlot />
+    <form id="diet-form" class="tool">
+      <div class="field-row">
+        <div class="field">
+          <label class="field-label" for="weight">Your dog's weight</label>
+          <input type="number" id="weight" min="0.5" max="120" step="0.1" value="20" />
+        </div>
+        <div class="field">
+          <label class="field-label" for="unit">Unit</label>
+          <select id="unit">
+            <option value="1" selected>Kilograms (kg)</option>
+            <option value="0.453592">Pounds (lb)</option>
+          </select>
+        </div>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label class="field-label" for="stage">Life stage</label>
+          <select id="stage">
+            <option value="puppy">Puppy (under 1 year)</option>
+            <option value="adult" selected>Adult</option>
+            <option value="senior">Senior (7+ years)</option>
+          </select>
+        </div>
+        <div class="field">
+          <label class="field-label" for="activity">Activity & neuter status</label>
+          <select id="activity">
+            <option value="1.6" selected>Neutered, normal activity</option>
+            <option value="1.8">Intact, normal activity</option>
+            <option value="1.4">Inactive / weight loss</option>
+            <option value="2.5">Very active / working</option>
+          </select>
+        </div>
+      </div>
+      <div class="field">
+        <label class="field-label" for="kcal">Food energy (kcal per 100g)
+          <span class="hint-text">— check the bag; typical dry food ≈ 350–400</span>
+        </label>
+        <input type="number" id="kcal" min="50" max="600" step="5" value="360" />
+      </div>
+      <button type="submit" class="btn-primary">🍖 Plan my dog's diet</button>
+    </form>
+
+    <section id="diet-result" class="tool" hidden>
+      <div class="result-box">
+        <h3>Daily feeding estimate</h3>
+        <div class="stat-grid">
+          <div class="stat"><div class="num" id="calories"></div><div class="lbl">calories / day</div></div>
+          <div class="stat"><div class="num" id="grams"></div><div class="lbl">grams of food / day</div></div>
+          <div class="stat"><div class="num" id="meals"></div><div class="lbl">meals / day</div></div>
+        </div>
+        <div id="diet-tips" style="margin-top:18px;"></div>
+        <p class="disclaimer">⚠️ This is a general estimate, not veterinary advice. Always confirm your dog's diet with your vet, especially for puppies, seniors, or dogs with health conditions.</p>
+      </div>
+      <AdSlot />
+    </section>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+  const form = document.getElementById('diet-form');
+  const result = document.getElementById('diet-result');
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const weightKg = parseFloat(document.getElementById('weight').value) * parseFloat(document.getElementById('unit').value);
+    const stage = document.getElementById('stage').value;
+    let factor = parseFloat(document.getElementById('activity').value);
+    const kcalPer100 = parseFloat(document.getElementById('kcal').value);
+
+    if (!weightKg || weightKg <= 0 || !kcalPer100) return;
+
+    // Resting Energy Requirement, then daily Maintenance Energy.
+    const rer = 70 * Math.pow(weightKg, 0.75);
+    if (stage === 'puppy') factor = 2.5;       // puppies need more
+    if (stage === 'senior') factor = Math.min(factor, 1.4);
+    const mer = rer * factor;
+
+    const grams = (mer / kcalPer100) * 100;
+    const meals = stage === 'puppy' ? 3 : 2;
+
+    document.getElementById('calories').textContent = Math.round(mer);
+    document.getElementById('grams').textContent = Math.round(grams) + ' g';
+    document.getElementById('meals').textContent = meals;
+
+    const perMeal = Math.round(grams / meals);
+    document.getElementById('diet-tips').innerHTML = `
+      <p>Split into about <strong>${meals} meals</strong> a day (~<strong>${perMeal} g</strong> per meal).</p>
+      <ul>
+        <li>Always provide fresh water.</li>
+        <li>Measure food with a scale or cup — eyeballing leads to overfeeding.</li>
+        <li>Treats should be no more than ~10% of daily calories.</li>
+        ${stage === 'puppy' ? '<li>Puppies grow fast — re-check the amount as their weight changes.</li>' : ''}
+        ${stage === 'senior' ? '<li>Senior dogs are less active — watch weight and adjust as needed.</li>' : ''}
+      </ul>`;
+
+    result.hidden = false;
+    result.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+</script>

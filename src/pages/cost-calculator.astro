@@ -1,0 +1,129 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AdSlot from '../components/AdSlot.astro';
+---
+<BaseLayout
+  title="Dog Cost Calculator — How Much Does Owning a Dog Cost?"
+  description="Estimate the real yearly and monthly cost of owning a dog by size, care level and country. Free interactive pet cost calculator."
+>
+  <section class="hero">
+    <div class="container">
+      <h1>💰 Dog Cost Calculator</h1>
+      <p>See a realistic estimate of what a dog will cost you — per month, per year, and in the first year.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <AdSlot />
+    <form id="cost-form" class="tool">
+      <div class="field-row">
+        <div class="field">
+          <label class="field-label" for="size">Dog size</label>
+          <select id="size">
+            <option value="small">Small (e.g. Chihuahua, Pug)</option>
+            <option value="medium" selected>Medium (e.g. Beagle, Collie)</option>
+            <option value="large">Large (e.g. Labrador, Shepherd)</option>
+          </select>
+        </div>
+        <div class="field">
+          <label class="field-label" for="tier">Care level</label>
+          <select id="tier">
+            <option value="0.65">Budget</option>
+            <option value="1" selected>Standard</option>
+            <option value="1.8">Premium</option>
+          </select>
+        </div>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label class="field-label" for="grooming">Grooming</label>
+          <select id="grooming">
+            <option value="0">At home only</option>
+            <option value="300" selected>Occasional pro grooming</option>
+            <option value="650">Regular pro grooming</option>
+          </select>
+        </div>
+        <div class="field">
+          <label class="field-label" for="insurance">Pet insurance</label>
+          <select id="insurance">
+            <option value="0">No insurance</option>
+            <option value="420" selected>Yes (~average)</option>
+          </select>
+        </div>
+      </div>
+      <div class="field">
+        <label class="field-label" for="currency">Currency</label>
+        <select id="currency">
+          <option value="USD|$|1">US Dollar ($)</option>
+          <option value="INR|₹|83">Indian Rupee (₹)</option>
+          <option value="GBP|£|0.79">British Pound (£)</option>
+          <option value="EUR|€|0.92">Euro (€)</option>
+          <option value="AUD|A$|1.5">Australian Dollar (A$)</option>
+        </select>
+      </div>
+      <button type="submit" class="btn-primary">💵 Calculate cost</button>
+    </form>
+
+    <section id="cost-result" class="tool" hidden>
+      <div class="result-box">
+        <h3>Estimated cost</h3>
+        <div class="stat-grid">
+          <div class="stat"><div class="num" id="monthly"></div><div class="lbl">per month</div></div>
+          <div class="stat"><div class="num" id="yearly"></div><div class="lbl">per year</div></div>
+          <div class="stat"><div class="num" id="firstyear"></div><div class="lbl">first year</div></div>
+        </div>
+        <div class="cost-rows" id="breakdown"></div>
+        <p class="disclaimer">Estimates are approximate and based on typical US costs converted to your currency. Real costs vary by location, breed and individual needs.</p>
+      </div>
+      <AdSlot />
+    </section>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+  const form = document.getElementById('cost-form');
+  const result = document.getElementById('cost-result');
+
+  // Base annual USD costs by size.
+  const FOOD = { small: 320, medium: 480, large: 740 };
+  const VET = { small: 250, medium: 280, large: 340 };
+  const TREATS = { small: 90, medium: 120, large: 160 };
+  const SUPPLIES = 160;          // annual toys/bedding/etc.
+  const SETUP = { small: 450, medium: 550, large: 700 }; // one-off first-year (bowls, crate, neuter, first vaccines, microchip)
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const size = document.getElementById('size').value;
+    const tier = parseFloat(document.getElementById('tier').value);
+    const grooming = parseFloat(document.getElementById('grooming').value);
+    const insurance = parseFloat(document.getElementById('insurance').value);
+    const [code, symbol, rate] = document.getElementById('currency').value.split('|');
+    const fx = parseFloat(rate);
+
+    const food = FOOD[size] * tier;
+    const vet = VET[size];
+    const treats = TREATS[size] * tier;
+    const supplies = SUPPLIES * tier;
+    const annual = food + vet + treats + supplies + grooming + insurance;
+    const monthly = annual / 12;
+    const firstYear = annual + SETUP[size];
+
+    const fmt = (usd) => symbol + Math.round(usd * fx).toLocaleString();
+
+    document.getElementById('monthly').textContent = fmt(monthly);
+    document.getElementById('yearly').textContent = fmt(annual);
+    document.getElementById('firstyear').textContent = fmt(firstYear);
+
+    const rows = [
+      ['🍖 Food', food], ['🩺 Routine vet', vet], ['🦴 Treats', treats],
+      ['🧸 Supplies & toys', supplies], ['✂️ Grooming', grooming], ['🛡️ Insurance', insurance],
+    ].filter(([, v]) => v > 0)
+     .map(([l, v]) => `<div class="cost-row"><span>${l}</span><span>${fmt(v)}/yr</span></div>`).join('');
+    document.getElementById('breakdown').innerHTML =
+      rows + `<div class="cost-row"><span>🐾 One-off setup (first year only)</span><span>${fmt(SETUP[size])}</span></div>` +
+      `<div class="cost-row total"><span>Total per year</span><span>${fmt(annual)}</span></div>`;
+
+    result.hidden = false;
+    result.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+</script>

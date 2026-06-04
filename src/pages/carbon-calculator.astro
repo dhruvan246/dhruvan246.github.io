@@ -1,0 +1,86 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AdSlot from '../components/AdSlot.astro';
+---
+<BaseLayout
+  title="Pet Carbon Footprint Calculator — Your Pet's Environmental Pawprint"
+  description="Estimate your dog or cat's yearly carbon footprint from food and care, and learn simple ways to reduce it. Free eco calculator."
+>
+  <section class="hero">
+    <div class="container">
+      <h1>🌍 Pet Carbon Pawprint Calculator</h1>
+      <p>Estimate your pet's yearly environmental footprint — and get tips to shrink it.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <AdSlot />
+    <form id="carbon-form" class="tool">
+      <div class="field">
+        <label class="field-label" for="pet">Your pet</label>
+        <select id="pet">
+          <option value="250">Cat</option>
+          <option value="300">Small dog</option>
+          <option value="550" selected>Medium dog</option>
+          <option value="950">Large dog</option>
+        </select>
+      </div>
+      <div class="field">
+        <label class="field-label" for="diet">Diet type</label>
+        <select id="diet">
+          <option value="1.45">Premium / high-meat food</option>
+          <option value="1" selected>Standard food</option>
+          <option value="0.8">Food with some plant content</option>
+          <option value="0.65">Sustainable / insect or plant-supplemented</option>
+        </select>
+      </div>
+      <button type="submit" class="btn-primary">🌱 Calculate pawprint</button>
+    </form>
+
+    <section id="carbon-result" class="tool" hidden>
+      <div class="result-box">
+        <h3>Estimated yearly footprint</h3>
+        <div class="stat-grid">
+          <div class="stat"><div class="num" id="co2"></div><div class="lbl">kg CO₂e / year</div></div>
+          <div class="stat"><div class="num" id="km"></div><div class="lbl">≈ km driven by car</div></div>
+          <div class="stat"><div class="num" id="trees"></div><div class="lbl">trees to offset / year</div></div>
+        </div>
+        <div id="carbon-tips" style="margin-top:18px;"></div>
+        <p class="disclaimer">A rough estimate based on published pet-food footprint studies; mainly reflects diet. Actual impact varies by food brand, sourcing and lifestyle.</p>
+      </div>
+      <AdSlot />
+    </section>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+  const form = document.getElementById('carbon-form');
+  const result = document.getElementById('carbon-result');
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const base = parseFloat(document.getElementById('pet').value);
+    const dietMult = parseFloat(document.getElementById('diet').value);
+    const co2 = base * dietMult;                 // kg CO2e / year
+    const km = Math.round(co2 / 0.17);           // ~0.17 kg CO2e per car km
+    const trees = Math.max(1, Math.round(co2 / 21)); // a tree absorbs ~21 kg/yr
+
+    document.getElementById('co2').textContent = Math.round(co2);
+    document.getElementById('km').textContent = km.toLocaleString();
+    document.getElementById('trees').textContent = trees;
+
+    document.getElementById('carbon-tips').innerHTML = `
+      <p><strong>Simple ways to reduce your pet's pawprint:</strong></p>
+      <ul>
+        <li>Avoid overfeeding — less waste and a healthier pet.</li>
+        <li>Choose food made with sustainably-sourced or by-product proteins.</li>
+        <li>Buy in bulk / recyclable packaging to cut waste.</li>
+        <li>Use biodegradable poop bags and compostable litter where possible.</li>
+        <li>Pick durable, long-lasting toys over disposable ones.</li>
+      </ul>
+      <p class="hint-text">Note: cats are obligate carnivores and need meat — focus on sourcing and portioning rather than removing meat.</p>`;
+
+    result.hidden = false;
+    result.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+</script>

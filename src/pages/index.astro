@@ -20,8 +20,9 @@ const latest = articles.slice(0, 9);
           <a class="chip" href={`/category/${c.slug}`}>{c.emoji} {c.label}</a>
         ))}
       </div>
-      <p style="margin-top:22px;">
-        <a class="btn-primary" href="/breed-matcher">🔍 Find your perfect dog breed</a>
+      <p style="margin-top:22px; display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+        <a class="btn-primary" href="/breed-matcher">🔍 Find your perfect breed</a>
+        <a class="btn-ghost" href="/tools">🧰 Explore pet tools</a>
       </p>
     </div>
   </section>

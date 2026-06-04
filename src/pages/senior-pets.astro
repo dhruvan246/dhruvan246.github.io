@@ -1,0 +1,60 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AdSlot from '../components/AdSlot.astro';
+
+const topics = [
+  { emoji: '🔎', title: 'Signs of ageing', text: 'Greying muzzle, stiffness, sleeping more, cloudy eyes, weight changes and slower movement are common early signs.' },
+  { emoji: '🥣', title: 'Diet & weight', text: 'Senior pets need fewer calories but quality protein. Watch weight closely and consider joint-support nutrients like omega-3 and glucosamine.' },
+  { emoji: '🚶', title: 'Gentle exercise', text: 'Keep them moving with shorter, more frequent walks and low-impact play to protect ageing joints while staying fit.' },
+  { emoji: '🩺', title: 'More frequent vet checks', text: 'Senior pets benefit from twice-yearly check-ups and blood work to catch kidney, thyroid, dental and heart issues early.' },
+  { emoji: '🦴', title: 'Joint & mobility comfort', text: 'Orthopaedic beds, ramps, non-slip rugs and raised bowls make daily life easier on stiff joints.' },
+  { emoji: '🦷', title: 'Dental care', text: 'Dental disease is common and painful in older pets. Regular cleaning and vet dental checks matter more than ever.' },
+  { emoji: '🧠', title: 'Mental wellbeing', text: 'Cognitive decline ("doggy dementia") is real. Keep routines stable, use gentle enrichment, and watch for confusion or restlessness.' },
+  { emoji: '❤️', title: 'Comfort & quality of life', text: 'Warmth, soft bedding, easy access to food, water and outdoors, and lots of gentle attention keep senior pets happy.' },
+];
+---
+<BaseLayout
+  title="Senior Pet Care Hub — Caring for Older Dogs & Cats"
+  description="A complete guide to caring for senior dogs and cats — signs of ageing, diet, exercise, vet care, comfort and quality of life for older pets."
+>
+  <section class="hero">
+    <div class="container">
+      <h1>🐾 Senior Pet Care Hub</h1>
+      <p>Older pets have special needs. Here's how to keep your senior dog or cat healthy, comfortable and happy in their golden years.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <AdSlot />
+    <section class="section">
+      <h2>Caring for your ageing companion</h2>
+      <p class="sub">As pets get older, small changes to their care make a big difference to their comfort and lifespan.</p>
+      <div class="grid">
+        {topics.map((t) => (
+          <article class="card">
+            <div class="thumb-fallback">{t.emoji}</div>
+            <div class="body">
+              <h3>{t.title}</h3>
+              <p>{t.text}</p>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <AdSlot />
+
+    <section class="section">
+      <h2>When to see your vet promptly</h2>
+      <p>Contact your vet if your senior pet shows any of these signs:</p>
+      <ul>
+        <li>Sudden weight loss or loss of appetite</li>
+        <li>Increased thirst or urination</li>
+        <li>Difficulty standing, climbing or walking</li>
+        <li>Lumps, bumps, or changes in breathing</li>
+        <li>Confusion, disorientation or major behaviour changes</li>
+      </ul>
+      <p class="disclaimer">This hub offers general guidance only and is not a substitute for professional veterinary advice.</p>
+    </section>
+  </div>
+</BaseLayout>

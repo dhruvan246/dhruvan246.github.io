@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AdSlot from '../components/AdSlot.astro';
+
+const tools = [
+  { emoji: '🔍', title: 'Breed Matcher', text: 'Answer a few questions and find the dog breeds that fit your lifestyle.', url: '/breed-matcher' },
+  { emoji: '⚖️', title: 'Breed Comparison', text: 'Compare any two dog breeds side by side, trait by trait.', url: '/compare' },
+  { emoji: '💰', title: 'Cost Calculator', text: 'Estimate the real monthly and yearly cost of owning a dog.', url: '/cost-calculator' },
+  { emoji: '🥣', title: 'Diet Planner', text: "Calculate how much to feed your dog based on weight, age and activity.", url: '/diet-planner' },
+  { emoji: '🏷️', title: 'Pet Name Generator', text: 'Generate the perfect name for your new dog or cat.', url: '/name-generator' },
+  { emoji: '🌍', title: 'Carbon Pawprint', text: "Estimate your pet's environmental footprint and how to reduce it.", url: '/carbon-calculator' },
+];
+---
+<BaseLayout
+  title="Free Pet Tools — Calculators, Matchers & Generators"
+  description="A collection of free pet tools: breed matcher, breed comparison, cost calculator, diet planner, name generator and carbon footprint calculator."
+>
+  <section class="hero">
+    <div class="container">
+      <h1>🧰 Pet Tools</h1>
+      <p>Free, instant tools to help you choose, budget for, feed and name your perfect pet.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <AdSlot />
+    <section class="section">
+      <div class="tool-cards">
+        {tools.map((t) => (
+          <a class="tool-card" href={t.url}>
+            <div class="tool-emoji">{t.emoji}</div>
+            <h3>{t.title}</h3>
+            <p>{t.text}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
+</BaseLayout>

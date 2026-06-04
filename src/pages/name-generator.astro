@@ -1,0 +1,89 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { GENDER_NAMES, STYLE_NAMES, NAME_STYLES } from '../data/petNames.ts';
+---
+<BaseLayout
+  title="Pet Name Generator — Find the Perfect Name for Your Dog or Cat"
+  description="Generate the perfect name for your new dog or cat. Pick a style and get instant name ideas — cute, funny, classic, unique and more. Free."
+>
+  <section class="hero">
+    <div class="container">
+      <h1>🏷️ Pet Name Generator</h1>
+      <p>Stuck on a name? Choose your pet and a style, then generate fresh ideas instantly.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <AdSlot />
+    <form id="name-form" class="tool">
+      <div class="field-row">
+        <div class="field">
+          <label class="field-label" for="species">Pet type</label>
+          <select id="species">
+            <option value="dog" selected>Dog 🐕</option>
+            <option value="cat">Cat 🐈</option>
+          </select>
+        </div>
+        <div class="field">
+          <label class="field-label" for="gender">Gender</label>
+          <select id="gender">
+            <option value="any" selected>Any</option>
+            <option value="male">Male ♂️</option>
+            <option value="female">Female ♀️</option>
+          </select>
+        </div>
+      </div>
+      <div class="field">
+        <label class="field-label" for="style">Style</label>
+        <select id="style">
+          {NAME_STYLES.map((s) => <option value={s.v}>{s.e} {s.l}</option>)}
+        </select>
+      </div>
+      <button type="submit" class="btn-primary">✨ Generate names</button>
+    </form>
+
+    <section id="name-result" class="tool" hidden>
+      <div class="result-box">
+        <h3>Name ideas 🎉</h3>
+        <div id="names" class="name-results"></div>
+        <p class="hint-text">Not quite right? Hit generate again for a fresh batch.</p>
+      </div>
+      <AdSlot />
+    </section>
+  </div>
+</BaseLayout>
+
+<script is:inline define:vars={{ GENDER_NAMES, STYLE_NAMES }}>
+  const form = document.getElementById('name-form');
+  const result = document.getElementById('name-result');
+  const namesEl = document.getElementById('names');
+
+  function shuffle(arr) {
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const species = document.getElementById('species').value;
+    const gender = document.getElementById('gender').value;
+    const style = document.getElementById('style').value;
+
+    let pool = [];
+    const g = GENDER_NAMES[species];
+    if (gender === 'any') pool = [...g.male, ...g.female];
+    else pool = [...g[gender]];
+
+    if (style !== 'any' && STYLE_NAMES[style]) pool = pool.concat(STYLE_NAMES[style], STYLE_NAMES[style]);
+
+    const picks = [...new Set(shuffle(pool))].slice(0, 12);
+    namesEl.innerHTML = picks.map((n) => `<span class="name-chip">${n}</span>`).join('');
+    result.hidden = false;
+    result.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+</script>

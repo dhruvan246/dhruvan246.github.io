@@ -192,6 +192,49 @@ a:hover { text-decoration: underline; }
 .match-soon { font-size: .85rem; color: #9aa6a0; font-style: italic; }
 @media (max-width: 480px) { .match-rank { min-width: 28px; font-size: 1.1rem; } }
 
+/* ---- Generic tool forms ---------------------------------------------------- */
+.tool { max-width: 760px; margin: 8px auto 0; }
+.tool .field { margin-bottom: 18px; }
+.tool .field-label { display: block; font-weight: 700; margin-bottom: 8px; }
+.tool select, .tool input[type="number"], .tool input[type="text"] {
+  width: 100%; padding: 11px 14px; font-size: 1rem; border: 1.5px solid var(--line);
+  border-radius: 10px; background: #fff; color: var(--ink); font-family: inherit;
+}
+.tool select:focus, .tool input:focus { outline: none; border-color: var(--brand); }
+.tool .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.tool .hint-text { font-size: .85rem; color: var(--muted); margin: 6px 0 0; }
+.result-box { border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg-soft); padding: 22px; margin-top: 8px; }
+.result-box h3 { margin: 0 0 14px; }
+.stat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.stat { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 14px; text-align: center; }
+.stat .num { font-size: 1.5rem; font-weight: 800; color: var(--brand-dark); }
+.stat .lbl { font-size: .8rem; color: var(--muted); margin-top: 2px; }
+.cost-rows { margin-top: 16px; }
+.cost-row { display: flex; justify-content: space-between; padding: 9px 0; border-bottom: 1px solid var(--line); }
+.cost-row.total { font-weight: 800; border-bottom: none; font-size: 1.1rem; }
+.disclaimer { font-size: .82rem; color: var(--muted); font-style: italic; margin-top: 16px; }
+@media (max-width: 560px) { .tool .field-row { grid-template-columns: 1fr; } .stat-grid { grid-template-columns: 1fr; } }
+
+/* ---- Tools hub + comparison ------------------------------------------------ */
+.tool-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.tool-card { border: 1px solid var(--line); border-radius: var(--radius); background: #fff; padding: 22px; box-shadow: var(--shadow); transition: transform .14s ease; }
+.tool-card:hover { transform: translateY(-3px); }
+.tool-card .tool-emoji { font-size: 2.2rem; }
+.tool-card h3 { margin: 10px 0 6px; font-size: 1.15rem; }
+.tool-card p { margin: 0; color: var(--muted); font-size: .92rem; }
+.tool-card a { color: inherit; }
+.compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.cmp-table { width: 100%; border-collapse: collapse; margin-top: 18px; }
+.cmp-table th, .cmp-table td { padding: 10px 12px; border-bottom: 1px solid var(--line); text-align: center; }
+.cmp-table th:first-child, .cmp-table td:first-child { text-align: left; color: var(--muted); font-weight: 600; }
+.cmp-bar { height: 8px; background: var(--bg-soft); border-radius: 999px; overflow: hidden; }
+.cmp-bar-fill { height: 100%; background: linear-gradient(90deg, var(--accent), var(--brand)); }
+.cmp-winner { background: var(--brand-light); }
+.name-results { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px; }
+.name-chip { background: #fff; border: 1.5px solid var(--line); border-radius: 999px; padding: 10px 18px; font-weight: 700; font-size: 1.05rem; }
+@media (max-width: 720px) { .tool-cards { grid-template-columns: 1fr; } }
+@media (max-width: 560px) { .compare-grid { grid-template-columns: 1fr; } }
+
 /* ---- Ad slots -------------------------------------------------------------- */
 .ad-slot { margin: 28px auto; text-align: center; min-height: 90px; }
 .ad-slot .ad-label { font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; color: #aab4af; margin-bottom: 4px; }

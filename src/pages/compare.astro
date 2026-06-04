@@ -1,0 +1,94 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { DOG_BREED_TRAITS } from '../data/dogBreedTraits.ts';
+
+const articles = await getCollection('articles', ({ data }) => !data.draft);
+const existing = new Set(articles.map((a) => a.id));
+const breeds = DOG_BREED_TRAITS.map((b) => ({ ...b, url: existing.has(b.slug) ? `/articles/${b.slug}/` : null }))
+  .sort((a, b) => a.name.localeCompare(b.name));
+---
+<BaseLayout
+  title="Dog Breed Comparison Tool — Compare Two Breeds Side by Side"
+  description="Compare any two dog breeds side by side — size, energy, grooming, shedding, kid-friendliness and more. Free instant comparison tool."
+>
+  <section class="hero">
+    <div class="container">
+      <h1>⚖️ Compare Dog Breeds</h1>
+      <p>Pick two breeds to see how they stack up — energy, grooming, family-friendliness and more.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <AdSlot />
+    <div class="tool">
+      <div class="compare-grid">
+        <div class="field">
+          <label class="field-label" for="breedA">Breed A</label>
+          <select id="breedA">
+            {breeds.map((b, i) => <option value={i} selected={i === 0}>{b.name}</option>)}
+          </select>
+        </div>
+        <div class="field">
+          <label class="field-label" for="breedB">Breed B</label>
+          <select id="breedB">
+            {breeds.map((b, i) => <option value={i} selected={i === 1}>{b.name}</option>)}
+          </select>
+        </div>
+      </div>
+
+      <div id="cmp-output"></div>
+    </div>
+    <AdSlot />
+  </div>
+</BaseLayout>
+
+<script is:inline define:vars={{ breeds }}>
+  const selA = document.getElementById('breedA');
+  const selB = document.getElementById('breedB');
+  const out = document.getElementById('cmp-output');
+
+  const ROWS = [
+    { key: 'energy', label: 'Energy level' },
+    { key: 'grooming', label: 'Grooming needs' },
+    { key: 'shedding', label: 'Shedding' },
+    { key: 'kids', label: 'Good with kids' },
+    { key: 'pets', label: 'Good with other pets' },
+    { key: 'beginner', label: 'Beginner-friendly' },
+    { key: 'apartment', label: 'Apartment-friendly' },
+    { key: 'barking', label: 'Barking / noise' },
+  ];
+
+  function bar(v) {
+    return `<div class="cmp-bar"><div class="cmp-bar-fill" style="width:${(v / 5) * 100}%"></div></div><small>${v}/5</small>`;
+  }
+
+  function render() {
+    const a = breeds[+selA.value];
+    const b = breeds[+selB.value];
+    const rows = ROWS.map((r) => {
+      const av = a[r.key], bv = b[r.key];
+      const aWin = av > bv ? ' cmp-winner' : '';
+      const bWin = bv > av ? ' cmp-winner' : '';
+      return `<tr><td>${r.label}</td><td class="${aWin}">${bar(av)}</td><td class="${bWin}">${bar(bv)}</td></tr>`;
+    }).join('');
+
+    const link = (x) => x.url ? `<a class="btn-primary btn-sm" href="${x.url}">Read ${x.name} guide →</a>` : `<span class="match-soon">Guide coming soon</span>`;
+
+    out.innerHTML = `
+      <table class="cmp-table">
+        <thead><tr><th>Trait</th><th>${a.name}<br><small>${a.size}</small></th><th>${b.name}<br><small>${b.size}</small></th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+      <div class="compare-grid" style="margin-top:18px;">
+        <div style="text-align:center;">${link(a)}</div>
+        <div style="text-align:center;">${link(b)}</div>
+      </div>
+      <p class="disclaimer">Ratings are general guides; individual dogs vary with training, breeding and personality.</p>`;
+  }
+
+  selA.addEventListener('change', render);
+  selB.addEventListener('change', render);
+  render();
+</script>
