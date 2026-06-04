@@ -83,4 +83,47 @@ export const BREED_GROUPS: Record<string, SizeGroup[]> = {
       ],
     },
   ],
+
+  cats: [
+    {
+      slug: 'shorthair',
+      label: 'Shorthair Cats',
+      emoji: '🐈',
+      description: 'Easy-care, short-coated breeds — sleek, low-grooming and hugely popular.',
+      breeds: [
+        { name: 'British Shorthair', slug: 'british-shorthair' },
+        { name: 'American Shorthair', slug: 'american-shorthair' },
+        { name: 'Siamese', slug: 'siamese-cat' },
+        { name: 'Bengal', slug: 'bengal-cat' },
+        { name: 'Russian Blue', slug: 'russian-blue' },
+        { name: 'Abyssinian', slug: 'abyssinian-cat' },
+        { name: 'Scottish Fold', slug: 'scottish-fold' },
+      ],
+    },
+    {
+      slug: 'longhair',
+      label: 'Longhair Cats',
+      emoji: '🐱',
+      description: 'Luxurious, fluffy breeds with flowing coats that need regular grooming.',
+      breeds: [
+        { name: 'Persian', slug: 'persian-cat-care-guide' },
+        { name: 'Maine Coon', slug: 'maine-coon' },
+        { name: 'Ragdoll', slug: 'ragdoll' },
+        { name: 'Norwegian Forest Cat', slug: 'norwegian-forest-cat' },
+        { name: 'Birman', slug: 'birman' },
+        { name: 'Siberian', slug: 'siberian-cat' },
+      ],
+    },
+    {
+      slug: 'special',
+      label: 'Special & Unusual Cats',
+      emoji: '✨',
+      description: 'Distinctive breeds — hairless, curly-coated or tailless — with unique care needs.',
+      breeds: [
+        { name: 'Sphynx', slug: 'sphynx' },
+        { name: 'Devon Rex', slug: 'devon-rex' },
+        { name: 'Manx', slug: 'manx' },
+      ],
+    },
+  ],
 };
