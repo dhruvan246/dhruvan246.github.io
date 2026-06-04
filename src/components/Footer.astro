@@ -1,0 +1,34 @@
+---
+import { SITE_TITLE, SITE_DESCRIPTION, CATEGORIES } from '../consts.ts';
+const year = new Date().getFullYear();
+const cols = CATEGORIES.slice(0, 6);
+---
+<footer class="site-footer">
+  <div class="container">
+    <div class="cols">
+      <div>
+        <h4>🐾 {SITE_TITLE}</h4>
+        <p>{SITE_DESCRIPTION}</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          {cols.map((c) => (
+            <li><a href={`/category/${c.slug}`}>{c.emoji} {c.label}</a></li>
+          ))}
+        </ul>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/categories">All Pets</a></li>
+          <li><a href="/breed-matcher">Breed Finder</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/rss.xml">RSS Feed</a></li>
+        </ul>
+      </div>
+    </div>
+    <p style="margin-top:28px;">© {year} {SITE_TITLE}. Made with care for pets everywhere.</p>
+  </div>
+</footer>

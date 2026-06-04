@@ -1,0 +1,28 @@
+---
+import type { SizeGroup } from '../data/breedGroups.ts';
+
+interface Props {
+  groups: SizeGroup[];
+  existingSlugs: Set<string>;
+}
+const { groups, existingSlugs } = Astro.props;
+---
+{groups.map((group) => (
+  <section class="size-group">
+    <h2>{group.emoji} {group.label}</h2>
+    <p class="sub">{group.description}</p>
+    <ul class="breed-list">
+      {group.breeds.map((breed) =>
+        existingSlugs.has(breed.slug) ? (
+          <li>
+            <a class="breed-link" href={`/articles/${breed.slug}/`}>{breed.name}</a>
+          </li>
+        ) : (
+          <li class="breed-soon">
+            {breed.name} <span class="soon-tag">soon</span>
+          </li>
+        )
+      )}
+    </ul>
+  </section>
+))}

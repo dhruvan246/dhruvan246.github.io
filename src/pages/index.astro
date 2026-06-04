@@ -1,0 +1,54 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { SITE_TITLE, SITE_DESCRIPTION, CATEGORIES } from '../consts.ts';
+
+const articles = (await getCollection('articles', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const latest = articles.slice(0, 9);
+---
+<BaseLayout title={SITE_TITLE} description={SITE_DESCRIPTION}>
+  <section class="hero">
+    <div class="container">
+      <h1>Everything about every pet 🐾</h1>
+      <p>{SITE_DESCRIPTION}</p>
+      <div class="chips">
+        {CATEGORIES.map((c) => (
+          <a class="chip" href={`/category/${c.slug}`}>{c.emoji} {c.label}</a>
+        ))}
+      </div>
+      <p style="margin-top:22px;">
+        <a class="btn-primary" href="/breed-matcher">🔍 Find your perfect dog breed</a>
+      </p>
+    </div>
+  </section>
+
+  <div class="container">
+    <AdSlot />
+
+    <section class="section">
+      <h2>Latest articles</h2>
+      <p class="sub">Fresh pet guides, published regularly.</p>
+      {latest.length === 0 ? (
+        <p class="sub">No articles yet — your first post will appear here. Run <code>npm run new -- "Your title"</code> to create one!</p>
+      ) : (
+        <div class="grid">
+          {latest.map((a) => (
+            <ArticleCard
+              url={`/articles/${a.id}/`}
+              title={a.data.title}
+              description={a.data.description}
+              category={a.data.category}
+              pubDate={a.data.pubDate}
+              heroImage={a.data.heroImage}
+              heroImageAlt={a.data.heroImageAlt}
+            />
+          ))}
+        </div>
+      )}
+    </section>
+  </div>
+</BaseLayout>

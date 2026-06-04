@@ -1,0 +1,33 @@
+---
+// A reusable AdSense ad unit.
+// - Before AdSense approval (ADSENSE_CLIENT empty): shows a subtle placeholder box,
+//   so you can see exactly where ads will appear while you build.
+// - After approval: set ADSENSE_CLIENT in consts.ts, create an ad unit in AdSense,
+//   and pass its slot id like <AdSlot slot="1234567890" />.
+import { ADSENSE_CLIENT } from '../consts.ts';
+
+interface Props {
+  slot?: string;          // the ad unit ID from your AdSense dashboard
+  layout?: string;        // optional: 'in-article' etc.
+  format?: string;        // defaults to 'auto'
+}
+const { slot, layout, format = 'auto' } = Astro.props;
+const live = ADSENSE_CLIENT && slot;
+---
+<div class="ad-slot">
+  <div class="ad-label">Advertisement</div>
+  {live ? (
+    <ins
+      class="adsbygoogle"
+      style="display:block"
+      data-ad-client={ADSENSE_CLIENT}
+      data-ad-slot={slot}
+      data-ad-layout={layout}
+      data-ad-format={format}
+      data-full-width-responsive="true"
+    ></ins>
+    <script is:inline>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  ) : (
+    <div class="ad-placeholder">Ad space — your AdSense ad will appear here once approved.</div>
+  )}
+</div>

@@ -1,0 +1,36 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { CATEGORIES } from '../consts.ts';
+
+const articles = await getCollection('articles', ({ data }) => !data.draft);
+const countFor = (slug: string) => articles.filter((a) => a.data.category === slug).length;
+---
+<BaseLayout
+  title="All Pets"
+  description="Browse every pet category in our encyclopedia — dogs, cats, birds, fish, reptiles, small pets and more."
+>
+  <section class="hero">
+    <div class="container">
+      <h1>All Pets 🐾</h1>
+      <p>Pick a category to explore care guides, breed profiles and everything in between.</p>
+    </div>
+  </section>
+
+  <div class="container section">
+    <div class="grid">
+      {CATEGORIES.map((c) => (
+        <article class="card">
+          <a href={`/category/${c.slug}`}>
+            <div class="thumb-fallback">{c.emoji}</div>
+          </a>
+          <div class="body">
+            <h3><a href={`/category/${c.slug}`}>{c.label}</a></h3>
+            <p>{c.description}</p>
+            <div class="meta">{countFor(c.slug)} article{countFor(c.slug) === 1 ? '' : 's'}</div>
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,18 @@
+---
+import { SITE_TITLE, CATEGORIES } from '../consts.ts';
+// Show the first 5 categories in the top nav to keep it tidy.
+const topNav = CATEGORIES.slice(0, 5);
+---
+<header class="site-header">
+  <div class="container bar">
+    <a class="brand" href="/">🐾 {SITE_TITLE}</a>
+    <nav class="nav" aria-label="Primary">
+      {topNav.map((c) => (
+        <a href={`/category/${c.slug}`}>{c.label}</a>
+      ))}
+      <a href="/categories">All Pets</a>
+      <a href="/breed-matcher">Breed Finder</a>
+      <a href="/about">About</a>
+    </nav>
+  </div>
+</header>

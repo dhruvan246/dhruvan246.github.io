@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(git --version)",
+      "PowerShell($ErrorActionPreference='SilentlyContinue'; \"node: \" + \\(node --version\\); \"npm: \" + \\(npm --version\\); $c = Get-Command node; \"path: \" + $c.Source)",
+      "PowerShell(winget install OpenJS.NodeJS.LTS --silent --accept-package-agreements --accept-source-agreements --disable-interactivity)",
+      "PowerShell($env:Path = [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"User\"\\); Set-Location \"C:\\\\Users\\\\dhruv\\\\Pet website\"; npm install astro @astrojs/rss @astrojs/sitemap sharp 2>&1 | Select-Object -Last 15)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git rm *)",
+      "Bash(git config *)",
+      "Bash(git commit -q -m 'Initial commit: PawPedia pet encyclopedia site with breed matcher *)"
+    ]
+  }
+}

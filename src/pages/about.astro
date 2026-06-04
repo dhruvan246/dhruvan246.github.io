@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE_TITLE } from '../consts.ts';
+---
+<BaseLayout
+  title="About"
+  description={`Learn about ${SITE_TITLE}, the encyclopedia covering every pet and everything about caring for them.`}
+>
+  <div class="page">
+    <h1>About {SITE_TITLE}</h1>
+    <p>
+      {SITE_TITLE} is on a mission to document <strong>every pet in the world</strong> and
+      <strong>everything about caring for them</strong> — one well-researched article at a time.
+    </p>
+    <p>
+      From the most popular dog and cat breeds to rare reptiles, birds, fish and exotic companions,
+      we publish friendly, practical guides on diet, health, behaviour, housing and day-to-day care.
+    </p>
+    <p>
+      New articles are added regularly. Browse by <a href="/categories">category</a> or start from the
+      <a href="/">homepage</a> to see the latest.
+    </p>
+    <h2>Get in touch</h2>
+    <p>Have a pet you'd like us to cover, or a correction? We'd love to hear from you — add your contact details here.</p>
+  </div>
+</BaseLayout>

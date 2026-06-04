@@ -1,0 +1,64 @@
+---
+// SEO <head> for every page: title, description, canonical URL, Open Graph,
+// Twitter cards, favicon, RSS link, optional JSON-LD, and the AdSense script.
+import { SITE_TITLE, ADSENSE_CLIENT } from '../consts.ts';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  image?: string;
+  /** 'website' for normal pages, 'article' for blog posts. */
+  type?: 'website' | 'article';
+  /** Optional JSON-LD structured data object (great for SEO rich results). */
+  jsonLd?: Record<string, unknown>;
+}
+
+const { title, description, image, type = 'website', jsonLd } = Astro.props;
+
+// Canonical, absolute URL of the current page.
+const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url).href;
+const socialImage = image ? new URL(image, Astro.site ?? Astro.url).href : undefined;
+const fullTitle = title === SITE_TITLE ? title : `${title} | ${SITE_TITLE}`;
+---
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="generator" content={Astro.generator} />
+
+<!-- Primary SEO -->
+<title>{fullTitle}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+<meta name="robots" content="index, follow" />
+
+<!-- Icons + feeds -->
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="sitemap" href="/sitemap-index.xml" />
+<link rel="alternate" type="application/rss+xml" title={SITE_TITLE} href="/rss.xml" />
+
+<!-- Open Graph (Facebook, LinkedIn, etc.) -->
+<meta property="og:type" content={type} />
+<meta property="og:site_name" content={SITE_TITLE} />
+<meta property="og:title" content={fullTitle} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+{socialImage && <meta property="og:image" content={socialImage} />}
+
+<!-- Twitter -->
+<meta name="twitter:card" content={socialImage ? 'summary_large_image' : 'summary'} />
+<meta name="twitter:title" content={fullTitle} />
+<meta name="twitter:description" content={description} />
+{socialImage && <meta name="twitter:image" content={socialImage} />}
+
+<!-- Structured data for rich search results -->
+{jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+
+<!-- Google AdSense (only loads once you set ADSENSE_CLIENT in src/consts.ts) -->
+{ADSENSE_CLIENT && (
+  <script
+    async
+    src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
+    crossorigin="anonymous"
+  ></script>
+)}

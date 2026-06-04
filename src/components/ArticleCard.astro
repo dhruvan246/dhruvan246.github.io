@@ -1,0 +1,29 @@
+---
+import { getCategory } from '../consts.ts';
+
+interface Props {
+  url: string;
+  title: string;
+  description: string;
+  category: string;
+  pubDate: Date;
+  heroImage?: string;
+  heroImageAlt?: string;
+}
+const { url, title, description, category, pubDate, heroImage, heroImageAlt } = Astro.props;
+const cat = getCategory(category);
+const dateStr = pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+---
+<article class="card">
+  <a href={url} aria-label={title}>
+    {heroImage
+      ? <img class="thumb" src={heroImage} alt={heroImageAlt ?? title} loading="lazy" width="640" height="360" />
+      : <div class="thumb-fallback">{cat?.emoji ?? '🐾'}</div>}
+  </a>
+  <div class="body">
+    {cat && <a class="cat" href={`/category/${cat.slug}`}>{cat.label}</a>}
+    <h3><a href={url}>{title}</a></h3>
+    <p>{description}</p>
+    <div class="meta">{dateStr}</div>
+  </div>
+</article>

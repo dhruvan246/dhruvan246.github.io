@@ -1,0 +1,208 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { DOG_BREED_TRAITS } from '../data/dogBreedTraits.ts';
+
+// Figure out which breeds already have an article so we can link them.
+const articles = await getCollection('articles', ({ data }) => !data.draft);
+const existing = new Set(articles.map((a) => a.id));
+
+// Enrich each breed with a link (or null if its guide isn't written yet).
+const breeds = DOG_BREED_TRAITS.map((b) => ({
+  ...b,
+  url: existing.has(b.slug) ? `/articles/${b.slug}/` : null,
+}));
+
+// The quiz questions (rendered server-side so the page works for SEO too).
+const questions = [
+  { id: 'size', title: 'What size dog suits you best?', options: [
+    { v: 'small', l: 'Small', e: '🐶' }, { v: 'medium', l: 'Medium', e: '🐕' },
+    { v: 'large', l: 'Large', e: '🐕‍🦺' }, { v: 'any', l: 'No preference', e: '🤷' } ] },
+  { id: 'space', title: 'Where will your dog live?', options: [
+    { v: 'apartment', l: 'Apartment / flat', e: '🏢' }, { v: 'small-yard', l: 'House, small yard', e: '🏠' },
+    { v: 'big-yard', l: 'House, big yard', e: '🌳' } ] },
+  { id: 'activity', title: 'How active is your lifestyle?', options: [
+    { v: 'low', l: 'Relaxed — short walks', e: '🛋️' }, { v: 'moderate', l: 'Moderately active', e: '🚶' },
+    { v: 'high', l: 'Very active', e: '🏃' } ] },
+  { id: 'experience', title: 'Your experience with dogs?', options: [
+    { v: 'first', l: 'First-time owner', e: '🌱' }, { v: 'some', l: 'Some experience', e: '👍' },
+    { v: 'experienced', l: 'Very experienced', e: '🎓' } ] },
+  { id: 'kids', title: 'Are there children at home?', options: [
+    { v: 'young', l: 'Young children', e: '🧒' }, { v: 'older', l: 'Older children', e: '🧑' },
+    { v: 'none', l: 'No children', e: '🚫' } ] },
+  { id: 'grooming', title: 'How much grooming can you do?', options: [
+    { v: 'minimal', l: 'Minimal', e: '⏱️' }, { v: 'some', l: 'Some', e: '🧴' },
+    { v: 'lots', l: 'Happy to groom a lot', e: '✂️' } ] },
+  { id: 'shedding', title: 'How do you feel about shedding?', options: [
+    { v: 'low', l: 'Prefer low shedding', e: '🧹' }, { v: 'any', l: "Don't mind shedding", e: '😌' } ] },
+  { id: 'barking', title: 'Noise preference?', options: [
+    { v: 'quiet', l: 'Prefer a quiet dog', e: '🤫' }, { v: 'any', l: 'Barking is fine', e: '🔊' } ] },
+];
+---
+<BaseLayout
+  title="Dog Breed Matcher — Find Your Perfect Dog"
+  description="Answer a few quick questions and our free Dog Breed Matcher instantly recommends the breeds that best fit your lifestyle, home and family."
+>
+  <section class="hero">
+    <div class="container">
+      <h1>🐾 Find Your Perfect Dog Breed</h1>
+      <p>Answer {questions.length} quick questions and we'll match you with the breeds that fit your life best — free and instant.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <AdSlot />
+
+    <form id="matcher-form" class="matcher">
+      {questions.map((q) => (
+        <fieldset class="question">
+          <legend>{q.title}</legend>
+          <div class="opts">
+            {q.options.map((o) => (
+              <label class="opt">
+                <input type="radio" name={q.id} value={o.v} />
+                <span class="opt-card"><span class="opt-emoji">{o.e}</span>{o.l}</span>
+              </label>
+            ))}
+          </div>
+        </fieldset>
+      ))}
+
+      <div class="matcher-actions">
+        <button type="submit" class="btn-primary">🔍 Find my match</button>
+        <button type="reset" class="btn-ghost">Start over</button>
+      </div>
+      <p id="matcher-hint" class="matcher-hint"></p>
+    </form>
+
+    <section id="results" class="results" hidden>
+      <h2>Your top matches 🎉</h2>
+      <p class="sub">Based on your answers, these breeds suit you best:</p>
+      <div id="results-list" class="results-list"></div>
+      <AdSlot />
+    </section>
+  </div>
+</BaseLayout>
+
+<script is:inline define:vars={{ breeds }}>
+  const form = document.getElementById('matcher-form');
+  const resultsEl = document.getElementById('results');
+  const listEl = document.getElementById('results-list');
+  const hintEl = document.getElementById('matcher-hint');
+
+  const clamp = (n) => Math.max(0, Math.min(1, n));
+
+  // How well a breed matches one answer → fraction 0..1.
+  function fraction(qid, answer, b) {
+    switch (qid) {
+      case 'size':
+        if (answer === 'any') return 1;
+        if (b.size === answer) return 1;
+        const order = { small: 0, medium: 1, large: 2 };
+        return Math.abs(order[b.size] - order[answer]) === 1 ? 0.4 : 0.1;
+      case 'space':
+        if (answer === 'apartment') return b.apartment / 5;
+        if (answer === 'small-yard') return 0.5 + 0.5 * (b.apartment / 5);
+        return 0.6 + 0.4 * (b.energy / 5); // big-yard rewards energetic dogs
+      case 'activity':
+        if (answer === 'low') return (6 - b.energy) / 5;
+        if (answer === 'high') return b.energy / 5;
+        return 1 - Math.abs(b.energy - 3) / 4; // moderate
+      case 'experience':
+        if (answer === 'first') return b.beginner / 5;
+        if (answer === 'some') return 0.6 + 0.4 * (b.beginner / 5);
+        return 1; // experienced — any dog is fine
+      case 'kids':
+        if (answer === 'young') return b.kids / 5;
+        if (answer === 'older') return 0.5 + 0.5 * (b.kids / 5);
+        return 1; // none
+      case 'grooming':
+        if (answer === 'minimal') return (6 - b.grooming) / 5;
+        if (answer === 'some') return 0.5 + 0.5 * ((6 - b.grooming) / 5);
+        return 1; // lots
+      case 'shedding':
+        return answer === 'low' ? (6 - b.shedding) / 5 : 1;
+      case 'barking':
+        return answer === 'quiet' ? (6 - b.barking) / 5 : 1;
+      default:
+        return 1;
+    }
+  }
+
+  // Weights — size and activity matter most.
+  const WEIGHTS = { size: 3, space: 2, activity: 3, experience: 2, kids: 2, grooming: 2, shedding: 1.5, barking: 1.5 };
+
+  function badgesFor(b) {
+    const out = [];
+    if (b.apartment >= 4) out.push('🏢 Apartment-friendly');
+    if (b.beginner >= 4) out.push('🌱 Great for beginners');
+    if (b.kids >= 4) out.push('🧒 Good with kids');
+    if (b.shedding <= 2) out.push('🧹 Low shedding');
+    if (b.energy >= 4) out.push('🏃 High energy');
+    if (b.energy <= 2) out.push('🛋️ Calm & relaxed');
+    if (b.grooming <= 2) out.push('⏱️ Easy grooming');
+    if (b.pets >= 4) out.push('🐾 Good with other pets');
+    return out.slice(0, 3);
+  }
+
+  function scoreBreed(answers, b) {
+    let score = 0, max = 0;
+    for (const qid in answers) {
+      const w = WEIGHTS[qid] || 1;
+      score += clamp(fraction(qid, answers[qid], b)) * w;
+      max += w;
+    }
+    return max === 0 ? 0 : Math.round((score / max) * 100);
+  }
+
+  function render(answers) {
+    const ranked = breeds
+      .map((b) => ({ b, pct: scoreBreed(answers, b) }))
+      .sort((a, z) => z.pct - a.pct)
+      .slice(0, 5);
+
+    listEl.innerHTML = ranked.map((r, i) => {
+      const b = r.b;
+      const badges = badgesFor(b).map((t) => `<span class="match-badge">${t}</span>`).join('');
+      const cta = b.url
+        ? `<a class="btn-primary btn-sm" href="${b.url}">Read full guide →</a>`
+        : `<span class="match-soon">Full guide coming soon</span>`;
+      return `
+        <article class="match-card">
+          <div class="match-rank">#${i + 1}</div>
+          <div class="match-main">
+            <div class="match-head">
+              <h3>${b.name}</h3>
+              <span class="match-size">${b.size}</span>
+            </div>
+            <div class="match-bar"><div class="match-bar-fill" style="width:${r.pct}%"></div></div>
+            <div class="match-pct">${r.pct}% match</div>
+            <div class="match-badges">${badges}</div>
+            ${cta}
+          </div>
+        </article>`;
+    }).join('');
+
+    resultsEl.hidden = false;
+    resultsEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const data = new FormData(form);
+    const answers = {};
+    for (const [k, v] of data.entries()) answers[k] = v;
+    if (Object.keys(answers).length < 3) {
+      hintEl.textContent = 'Please answer at least a few questions for a good match. 🙂';
+      return;
+    }
+    hintEl.textContent = '';
+    render(answers);
+  });
+
+  form.addEventListener('reset', () => {
+    resultsEl.hidden = true;
+    hintEl.textContent = '';
+  });
+</script>
