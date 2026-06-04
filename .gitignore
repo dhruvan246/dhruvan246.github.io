@@ -14,3 +14,6 @@ npm-debug.log*
 Thumbs.db
 # local editor / tool settings
 .claude/
+
+# unrelated project that lives in this folder — keep it out of the pet-site repo
+stock-dashboard/
