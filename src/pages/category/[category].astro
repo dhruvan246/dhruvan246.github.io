@@ -24,6 +24,11 @@ const { cat, posts } = Astro.props;
 const groups = BREED_GROUPS[cat.slug];
 const allArticles = await getCollection('articles', ({ data }) => !data.draft);
 const existingSlugs = new Set(allArticles.map((a) => a.id));
+
+// Complete A–Z index of every article in this category (so nothing is orphaned).
+const azPosts = [...posts].sort((a, b) =>
+  (a.data.species ?? a.data.title).localeCompare(b.data.species ?? b.data.title)
+);
 ---
 <BaseLayout
   title={`${cat.label} — Care Guides & Articles`}
@@ -65,6 +70,18 @@ const existingSlugs = new Set(allArticles.map((a) => a.id));
             ))}
           </div>
         )}
+      </section>
+    )}
+
+    {posts.length > 0 && (
+      <section class="section">
+        <h2>All {cat.label} A–Z</h2>
+        <p class="sub">Every {cat.label.toLowerCase()} guide on PawPedia — {posts.length} and growing.</p>
+        <ul class="breed-list">
+          {azPosts.map((a) => (
+            <li><a class="breed-link" href={`/articles/${a.id}/`}>{a.data.species ?? a.data.title}</a></li>
+          ))}
+        </ul>
       </section>
     )}
   </div>

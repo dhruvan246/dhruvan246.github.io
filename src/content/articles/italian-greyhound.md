@@ -1,59 +1,56 @@
 ---
-title: "Italian Greyhound Care Guide: The Elegant Miniature Sighthound"
-description: "A complete guide to the Italian Greyhound — their affectionate nature, fragile build, warmth needs, exercise and health."
+title: "Italian Greyhound: Complete Care Guide"
+description: "Care guide for the Italian Greyhound: this gentle miniature sighthound's affectionate temperament, fragile build, warmth needs, diet, exercise and health."
 category: "dogs"
 species: "Italian Greyhound"
-pubDate: 2026-03-20
+pubDate: 2026-06-04
 heroImage: ""
-heroImageAlt: "A slender Italian Greyhound standing daintily"
-tags: ["italian greyhound", "small dogs", "sighthounds", "care guide"]
+heroImageAlt: "A Italian Greyhound dog"
+tags: ["italian-greyhound", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
 ---
 
-A miniature sighthound with the grace of its larger cousins, the Italian Greyhound is a delicate, affectionate companion. Sweet and sensitive, the "Iggy" combines elegance with a deeply devoted, people-loving nature.
+A miniature sighthound carrying all the grace of its larger relatives, the Italian Greyhound is a delicate, deeply affectionate companion. Often nicknamed the "Iggy," this ancient breed pairs slender elegance with a sensitive, people-loving nature and surprising turns of speed.
 
 ## Overview
 
 | Trait | Detail |
 | --- | --- |
-| Size | Tiny (3–5 kg) |
+| Size | Small / toy (roughly 3–5 kg, 33–38 cm tall) |
 | Lifespan | 13–15 years |
-| Coat | Short, fine |
-| Energy | Moderate (sprinter) |
+| Coat | Short, fine, smooth |
+| Energy | Moderate — bursts of sprinting, then rest |
 | Good with kids | Best with gentle, older children |
 
 ## Appearance & temperament
 
-Iggies are slender and fine-boned with a short, sleek coat. They are affectionate, sensitive and devoted — happiest snuggled with their people, yet capable of sudden bursts of impressive speed.
+The Italian Greyhound looks like a Greyhound in miniature: fine-boned and slender, with a deep chest, arched back and a short, sleek single coat that comes in shades such as fawn, blue, black, cream and various combinations. Iggies are affectionate, gentle and notably sensitive. They bond closely with their people, often seeking laps and blankets, yet can switch in an instant to a joyful, high-speed dash around the garden.
 
 ## Diet & nutrition
 
-- Small portions of quality food; their lean build is normal.
-
-## Care & warmth
-
-- **They feel the cold intensely** (thin coat, low body fat) — provide sweaters and warm bedding.
-- Their fine legs can break easily — supervise jumping and rough play.
-- A strong prey drive means leashes and secure areas are a must.
+Feed a good-quality complete dog food appropriate for a small or toy breed, divided into measured meals rather than free-feeding. Their naturally lean, racy build is normal, so a slightly visible waist and tuck-up is expected. Because they are small, portions are modest and treats add up quickly, so account for them in the daily total. Always provide fresh water and adjust amounts to keep a trim, healthy weight.
 
 ## Exercise & training
 
-- Daily walks plus a chance to sprint safely.
-- Sensitive and intelligent; gentle, positive training works best. House-training can take patience.
+Despite their dainty appearance, Iggies enjoy daily activity. A couple of walks plus a chance to sprint safely in a secure, enclosed area keeps them happy. They are sighthounds with a strong prey drive, so a leash or fenced space is essential and off-lead recall can be unreliable. Sensitive and intelligent, they respond best to gentle, positive, reward-based training; harsh corrections backfire. House-training is famously slow with this breed, so patience and consistency pay off.
+
+## Grooming & care
+
+Grooming needs are minimal: a quick weekly wipe or soft brush keeps the short coat clean and shiny, and they shed only lightly. The bigger care priorities are protection and warmth. Their fine legs can fracture easily, so supervise jumping from furniture and rough play, especially in young dogs. They feel the cold intensely thanks to a thin coat and low body fat, so sweaters and warm, padded bedding are genuinely useful. Brush their teeth regularly, as this breed is very prone to dental disease.
 
 ## Health & lifespan
 
-Watch for leg fractures (especially when young), dental disease (very prone — diligent dental care needed), luxating patella, and anaesthesia sensitivity (use a sighthound-aware vet).
+Italian Greyhounds are generally long-lived, often reaching 13–15 years. Owners should be aware of several breed-linked considerations: leg fractures (particularly in adolescents), dental disease, luxating patella (slipping kneecaps), and the sighthound sensitivity to certain anaesthetics, so choose a vet experienced with the breed. Some lines can carry eye conditions. Routine veterinary checkups, dental care and a sensible weight all support a long, healthy life. Always consult your veterinarian for individual guidance.
 
 ## Frequently asked questions
 
 **Are Italian Greyhounds fragile?**
-Their fine legs can break easily — careful handling and supervision are important.
+Their fine legs can break with an awkward landing or rough handling, so careful supervision around jumping and play is important, especially while they are young.
 
-**Do they get cold?**
-Very — they need warmth, sweaters and cosy bedding.
+**Do they get cold easily?**
+Yes. Their thin coat and low body fat make them feel the cold sharply, so sweaters and warm, cosy bedding are recommended in cooler weather.
 
 ## Conclusion
 
-The Italian Greyhound is an elegant, affectionate and sensitive companion that adores closeness. Keep them warm, protect their delicate legs, mind their teeth, and you'll have a devoted miniature sighthound.
+The Italian Greyhound is an elegant, affectionate and sensitive companion that thrives on closeness and gentle handling. Keep them warm, protect their delicate legs, stay on top of dental care, and offer safe chances to run, and you will have a devoted little sighthound for many years.

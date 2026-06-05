@@ -1,53 +1,60 @@
 ---
-title: "Basenji Care Guide: The Barkless 'Cat-Like' Dog"
-description: "A complete guide to the Basenji — their independent, clever nature, exercise, grooming, training challenges and health."
+title: "Basenji: Complete Care Guide"
+description: "Care guide to the Basenji, the barkless African hound: yodeling voice, cat-like grooming, independent temperament, exercise needs and health."
 category: "dogs"
 species: "Basenji"
-pubDate: 2026-03-14
+pubDate: 2026-06-04
 heroImage: ""
-heroImageAlt: "A red and white Basenji with a curled tail"
-tags: ["basenji", "medium dogs", "hounds", "care guide"]
+heroImageAlt: "A Basenji dog"
+tags: ["basenji", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
 ---
 
-Often called the "barkless dog," the Basenji is an ancient African hunting breed famous for its quiet, cat-like and independent nature. Clever and clean, the Basenji is a fascinating companion for the right owner.
+Often called the "barkless dog," the Basenji is an ancient African hunting breed prized for its quiet voice, fastidious cleanliness and fiercely independent spirit. Compact, elegant and endlessly curious, it suits owners who appreciate a clever, cat-like companion.
 
 ## Overview
 
 | Trait | Detail |
 | --- | --- |
-| Size | Medium (9–12 kg) |
-| Lifespan | 13–16 years |
-| Coat | Short, fine |
+| Size | Small (roughly 9–11 kg) |
+| Lifespan | 12–16 years |
+| Coat | Short, fine and glossy |
 | Energy | High |
-| Good with kids | Yes, with older children |
+| Good with kids | Yes, best with respectful older children |
 
 ## Appearance & temperament
 
-Basenjis are small, elegant and athletic with a curled tail and wrinkled forehead. They are independent, intelligent and reserved — often described as cat-like for their cleanliness, aloofness and self-grooming. Instead of barking, they make a unique yodel ("barroo").
+The Basenji is a small, athletic hound standing around 40–43 cm at the shoulder. It has a smoothly muscled body, a wrinkled forehead, upright pricked ears, almond-shaped eyes and a tightly curled tail set high over the back. The short coat comes in chestnut red, black, tricolour or brindle, usually with white feet, chest and tail tip.
+
+Temperamentally, Basenjis are alert, intelligent and reserved. Famously, they rarely bark; instead they produce an unusual yodel-like sound often described as a "barroo." They are affectionate with their own family yet aloof with strangers, and their strong hunting instincts make them inquisitive and sometimes mischievous.
+
+## Diet & nutrition
+
+Feed a complete, good-quality dog food appropriate to the Basenji's age and activity level, split into measured meals rather than left out all day. This is a lean, naturally trim breed, so portion control helps prevent unwanted weight gain. Always provide fresh water, and introduce any diet changes gradually. If you have questions about specific nutritional needs, ask your veterinarian.
 
 ## Exercise & training
 
-- Need plenty of daily exercise; they're athletic with a strong prey drive — keep them leashed or securely fenced.
-- Notoriously independent and hard to train; patient, creative, positive methods and early socialisation are essential.
+Basenjis are energetic and need substantial daily activity, including brisk walks and chances to run and explore. Because they have an intense prey drive, they should be exercised on a lead or within a securely fenced area, as recall can be unreliable when they spot something to chase.
+
+Training requires patience and creativity. Highly intelligent but independent and easily bored, Basenjis respond best to short, positive, reward-based sessions and consistent early socialisation. Mental enrichment such as puzzle toys helps channel their cleverness.
 
 ## Grooming & care
 
-- Very easy — they self-groom like cats and need only occasional brushing.
+Grooming is refreshingly simple. The Basenji's short coat sheds little and stays clean, and the breed grooms itself meticulously like a cat, so it rarely develops a "doggy" odour. A weekly brush, occasional baths, routine nail trimming and regular dental care are usually all that is needed. Their thin coat offers little insulation, so they appreciate warmth in cold or wet weather.
 
 ## Health & lifespan
 
-Watch for Fanconi syndrome (a kidney condition — DNA test available), eye conditions (PRA), and hip issues. Choose breeders who test, and keep up regular vet care.
+Basenjis are generally hardy and often live 12 to 16 years. Responsible breeders screen for several breed-linked conditions, most notably Fanconi syndrome, an inherited kidney disorder for which a DNA test is available. Eye disorders such as progressive retinal atrophy and conditions like hip dysplasia also occur. Choosing a breeder who health-tests, plus routine veterinary check-ups, vaccinations and parasite control, gives a Basenji the best chance at a long, healthy life.
 
 ## Frequently asked questions
 
-**Do Basenjis really not bark?**
-They rarely bark but aren't silent — they yodel and make unusual sounds.
+**Do Basenjis really never bark?**
+They rarely bark, but they are not silent. Basenjis "talk" with yodels, whines and other distinctive sounds, so they can still be quite vocal in their own way.
 
-**Are they easy to train?**
-No — they're independent and stubborn; training takes patience and creativity.
+**Are Basenjis easy to train?**
+Not especially. They are smart but independent and stubborn, so training takes patience, consistency and positive, varied methods rather than repetition.
 
 ## Conclusion
 
-The Basenji is a clever, clean and independent companion for an owner who appreciates a cat-like dog. Provide secure exercise, patient training and proper health testing, and you'll enjoy this unique, ancient breed.
+The Basenji is a clever, clean and captivating companion for an owner who values independence and a touch of the exotic. Provide secure exercise, patient training, sensible feeding and proper health testing, and this ancient barkless hound will reward you with a lively, devoted friendship.
