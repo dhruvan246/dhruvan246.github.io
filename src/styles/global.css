@@ -235,6 +235,18 @@ a:hover { text-decoration: underline; }
 @media (max-width: 720px) { .tool-cards { grid-template-columns: 1fr; } }
 @media (max-width: 560px) { .compare-grid { grid-template-columns: 1fr; } }
 
+/* ---- Pet places map -------------------------------------------------------- */
+.places-controls { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin: 8px 0 14px; }
+.place-search { display: flex; gap: 8px; flex: 1; min-width: 220px; }
+.place-search input { flex: 1; padding: 11px 14px; border: 1.5px solid var(--line); border-radius: 999px; font-size: 1rem; font-family: inherit; }
+.place-search input:focus { outline: none; border-color: var(--brand); }
+.places-filters { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 14px; }
+.places-map { height: 460px; width: 100%; border-radius: var(--radius); border: 1px solid var(--line); box-shadow: var(--shadow); z-index: 0; }
+.place-list { list-style: none; padding: 0; margin: 18px 0 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px 18px; }
+.place-list li { padding: 8px 0; border-bottom: 1px solid var(--line); font-size: .95rem; }
+.dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; margin-right: 4px; vertical-align: middle; }
+@media (max-width: 600px) { .place-list { grid-template-columns: 1fr; } .places-map { height: 380px; } }
+
 /* ---- Modern homepage ------------------------------------------------------- */
 .home-hero {
   position: relative; overflow: hidden; text-align: center;

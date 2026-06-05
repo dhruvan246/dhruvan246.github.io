@@ -1,0 +1,137 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AdSlot from '../components/AdSlot.astro';
+---
+<BaseLayout
+  title="Pet-Friendly Places Near You — Vets, Pet Shops & Dog Parks"
+  description="Find veterinary clinics, pet shops and dog parks near you on a live map. Free, powered by OpenStreetMap — just share your location or search a place."
+>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+  <section class="hero">
+    <div class="container">
+      <h1>📍 Pet Places Near You</h1>
+      <p>Find vets, pet shops and dog parks nearby — live, on a map. Free and no sign-up.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <AdSlot />
+
+    <div class="places-controls">
+      <button id="locate" class="btn-primary">📍 Use my location</button>
+      <form id="place-search" class="place-search">
+        <input id="place-q" type="text" placeholder="…or type a city or area" autocomplete="off" />
+        <button type="submit" class="btn-ghost">Search</button>
+      </form>
+    </div>
+
+    <div class="places-filters">
+      <label class="opt"><input type="checkbox" id="f-vet" checked /><span class="opt-card"><span class="dot" style="background:#e74c3c"></span> Vets</span></label>
+      <label class="opt"><input type="checkbox" id="f-pet" checked /><span class="opt-card"><span class="dot" style="background:#2f8f63"></span> Pet shops</span></label>
+      <label class="opt"><input type="checkbox" id="f-park" checked /><span class="opt-card"><span class="dot" style="background:#f0a202"></span> Dog parks</span></label>
+    </div>
+
+    <p id="places-status" class="sub">Share your location or search a place to begin.</p>
+    <div id="map" class="places-map"></div>
+    <ul id="places-list" class="place-list"></ul>
+
+    <p class="disclaimer">Place data comes from OpenStreetMap contributors and may be incomplete. Always check details before visiting.</p>
+    <AdSlot />
+  </div>
+</BaseLayout>
+
+<script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script is:inline>
+  const TYPES = {
+    vet:  { label: 'Vet', color: '#e74c3c', q: 'node["amenity"="veterinary"]' },
+    pet:  { label: 'Pet shop', color: '#2f8f63', q: 'node["shop"="pet"]' },
+    park: { label: 'Dog park', color: '#f0a202', q: 'node["leisure"="dog_park"]' },
+  };
+  const statusEl = document.getElementById('places-status');
+  const listEl = document.getElementById('places-list');
+  let map, layer, userMarker, results = [];
+  const active = { vet: true, pet: true, park: true };
+
+  function setStatus(t) { statusEl.textContent = t; }
+
+  function initMap() {
+    if (map) return;
+    map = L.map('map').setView([20, 0], 2);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors', maxZoom: 19,
+    }).addTo(map);
+    layer = L.layerGroup().addTo(map);
+  }
+
+  function render() {
+    if (!layer) return;
+    layer.clearLayers();
+    const shown = results.filter((r) => active[r.type]);
+    shown.forEach((r) => {
+      const c = TYPES[r.type].color;
+      L.circleMarker([r.lat, r.lon], { radius: 8, color: c, fillColor: c, fillOpacity: 0.85, weight: 2 })
+        .addTo(layer)
+        .bindPopup(`<b>${r.name}</b><br>${TYPES[r.type].label}`);
+    });
+    setStatus(shown.length ? `${shown.length} pet places found nearby.` : 'No matching places found nearby — try widening your filters or a bigger area.');
+    listEl.innerHTML = shown.map((r) =>
+      `<li><span class="dot" style="background:${TYPES[r.type].color}"></span> <b>${r.name}</b> <small>· ${TYPES[r.type].label}</small></li>`
+    ).join('') || '';
+  }
+
+  async function searchAt(lat, lon, label) {
+    initMap();
+    map.setView([lat, lon], 13);
+    if (userMarker) map.removeLayer(userMarker);
+    userMarker = L.circleMarker([lat, lon], { radius: 7, color: '#226b4a', fillColor: '#226b4a', fillOpacity: 1 })
+      .addTo(map).bindPopup(label || 'You are here');
+    setStatus('Searching for nearby pet places…');
+    const parts = Object.values(TYPES).map((t) => `${t.q}(around:6000,${lat},${lon});`).join('');
+    const query = `[out:json][timeout:25];(${parts});out body 80;`;
+    try {
+      const res = await fetch('https://overpass-api.de/api/interpreter', {
+        method: 'POST', body: 'data=' + encodeURIComponent(query),
+      });
+      const data = await res.json();
+      results = (data.elements || []).filter((e) => e.lat && e.lon).map((e) => ({
+        lat: e.lat, lon: e.lon,
+        name: (e.tags && e.tags.name) || '(unnamed place)',
+        type: e.tags.amenity === 'veterinary' ? 'vet' : e.tags.shop === 'pet' ? 'pet' : 'park',
+      }));
+      render();
+    } catch (err) {
+      setStatus('Could not load places — the free map service may be busy. Please try again in a moment.');
+    }
+  }
+
+  document.getElementById('locate').addEventListener('click', () => {
+    initMap();
+    if (!navigator.geolocation) { setStatus('Your browser does not support location. Try searching a place name instead.'); return; }
+    setStatus('Getting your location…');
+    navigator.geolocation.getCurrentPosition(
+      (pos) => searchAt(pos.coords.latitude, pos.coords.longitude, 'You are here'),
+      () => setStatus('Location was blocked. Type a city or area name to search instead.')
+    );
+  });
+
+  document.getElementById('place-search').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const q = document.getElementById('place-q').value.trim();
+    if (!q) return;
+    initMap();
+    setStatus('Finding that place…');
+    try {
+      const res = await fetch(`https://nominatim.openstreetmap.org/search?format=json&limit=1&q=${encodeURIComponent(q)}`);
+      const data = await res.json();
+      if (!data.length) { setStatus('Could not find that place — try a different spelling.'); return; }
+      searchAt(parseFloat(data[0].lat), parseFloat(data[0].lon), data[0].display_name.split(',')[0]);
+    } catch (err) { setStatus('Search failed — please try again.'); }
+  });
+
+  ['vet', 'pet', 'park'].forEach((k) => {
+    document.getElementById('f-' + k).addEventListener('change', (e) => { active[k] = e.target.checked; render(); });
+  });
+
+  initMap();
+</script>
