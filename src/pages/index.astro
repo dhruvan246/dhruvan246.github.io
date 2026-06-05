@@ -8,36 +8,95 @@ import { SITE_TITLE, SITE_DESCRIPTION, CATEGORIES } from '../consts.ts';
 const articles = (await getCollection('articles', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
-const latest = articles.slice(0, 9);
+const latest = articles.slice(0, 8);
+const total = articles.length;
+const dogCount = articles.filter((a) => a.data.category === 'dogs').length;
+const countFor = (slug) => articles.filter((a) => a.data.category === slug).length;
+
+const featuredTools = [
+  { emoji: '🔍', title: 'Breed Matcher', text: 'Find the dog breed that fits your life', url: '/breed-matcher' },
+  { emoji: '⚖️', title: 'Compare Breeds', text: 'Two breeds, side by side', url: '/compare' },
+  { emoji: '💰', title: 'Cost Calculator', text: 'The real cost of owning a pet', url: '/cost-calculator' },
+  { emoji: '🥣', title: 'Diet Planner', text: 'Work out how much to feed', url: '/diet-planner' },
+];
 ---
 <BaseLayout title={SITE_TITLE} description={SITE_DESCRIPTION}>
-  <section class="hero">
+  <!-- HERO -->
+  <section class="home-hero">
     <div class="container">
-      <h1>Everything about every pet 🐾</h1>
-      <p>{SITE_DESCRIPTION}</p>
-      <form class="search-form" role="search" action="/search" method="get">
-        <input name="q" type="text" placeholder="🔎 Search any pet or breed…" autocomplete="off" />
+      <span class="hero-badge">🐾 {total}+ expert pet care guides</span>
+      <h1>Everything about <span class="grad">every pet</span></h1>
+      <p class="hero-sub">{SITE_DESCRIPTION}</p>
+
+      <form class="search-form hero-search" role="search" action="/search" method="get">
+        <input name="q" type="text" placeholder="🔎  Search any pet or breed…" autocomplete="off" />
       </form>
-      <div class="chips">
-        {CATEGORIES.map((c) => (
-          <a class="chip" href={`/category/${c.slug}`}>{c.emoji} {c.label}</a>
-        ))}
-      </div>
-      <p style="margin-top:22px; display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+
+      <div class="hero-cta">
         <a class="btn-primary" href="/breed-matcher">🔍 Find your perfect breed</a>
         <a class="btn-ghost" href="/tools">🧰 Explore pet tools</a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-pill"><b>{total}+</b><span>Care guides</span></div>
+        <div class="stat-pill"><b>{dogCount}</b><span>Dog breeds</span></div>
+        <div class="stat-pill"><b>9</b><span>Free tools</span></div>
+        <div class="stat-pill"><b>100%</b><span>Free to use</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="home-section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Explore by pet 🐶🐱🐠</h2>
+        <p>Pick a category to browse breeds, species and care guides.</p>
+      </div>
+      <div class="cat-grid">
+        {CATEGORIES.map((c) => (
+          <a class="cat-tile" href={`/category/${c.slug}`}>
+            <span class="cat-ico">{c.emoji}</span>
+            <span class="cat-name">{c.label}</span>
+            <span class="cat-count">{countFor(c.slug)} guide{countFor(c.slug) === 1 ? '' : 's'}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- TOOLS -->
+  <section class="home-section home-section--soft">
+    <div class="container">
+      <div class="section-head">
+        <h2>Free pet tools 🧰</h2>
+        <p>Smart, instant tools to help you choose and care for your pet.</p>
+      </div>
+      <div class="tool-cards">
+        {featuredTools.map((t) => (
+          <a class="tool-card" href={t.url}>
+            <div class="tool-emoji">{t.emoji}</div>
+            <h3>{t.title}</h3>
+            <p>{t.text}</p>
+          </a>
+        ))}
+      </div>
+      <p style="text-align:center; margin-top:26px;">
+        <a class="btn-ghost" href="/tools">See all tools →</a>
       </p>
     </div>
   </section>
 
-  <div class="container">
-    <AdSlot />
-
-    <section class="section">
-      <h2>Latest articles</h2>
-      <p class="sub">Fresh pet guides, published regularly.</p>
+  <!-- LATEST -->
+  <section class="home-section">
+    <div class="container">
+      <AdSlot />
+      <div class="section-head">
+        <h2>Latest guides 📖</h2>
+        <p>Fresh from the encyclopedia.</p>
+      </div>
       {latest.length === 0 ? (
-        <p class="sub">No articles yet — your first post will appear here. Run <code>npm run new -- "Your title"</code> to create one!</p>
+        <p class="sub" style="text-align:center;">No articles yet — your first post will appear here.</p>
       ) : (
         <div class="grid">
           {latest.map((a) => (
@@ -53,6 +112,9 @@ const latest = articles.slice(0, 9);
           ))}
         </div>
       )}
-    </section>
-  </div>
+      <p style="text-align:center; margin-top:28px;">
+        <a class="btn-primary" href="/categories">Browse all pets →</a>
+      </p>
+    </div>
+  </section>
 </BaseLayout>
