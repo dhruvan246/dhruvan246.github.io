@@ -4,11 +4,14 @@ description: "Care guide for the Borzoi, an elegant Russian sighthound with a si
 category: "dogs"
 species: "Borzoi"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Borzoi dog"
+heroImage: "/images/borzoi.jpg"
+heroImageAlt: "A Borzoi"
 tags: ["borzoi", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Unknown photographer"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Fenklup1968BonzoDogDooDah1.jpg"
+heroLicense: "CC BY-SA 3.0 nl"
 ---
 
 The Borzoi is a tall, graceful sighthound developed in Russia, where it was historically prized by the nobility for coursing game such as hares and wolves across open country. Sometimes still called the Russian Wolfhound, the breed combines breathtaking speed with a quiet, dignified manner that makes it a surprisingly gentle companion at home.

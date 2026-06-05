@@ -17,7 +17,14 @@ const OK = /(cc0|public domain|cc[\s-]?by(\b|-sa)|attribution|creative commons)/
 const BAD = /(fair use|non-free|all rights reserved|©|copyrighted)/i;
 
 const UA = 'PawPedia/1.0 (pet encyclopedia; educational use)';
-const strip = (s) => String(s || '').replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+const strip = (s) => String(s || '')
+  .replace(/<[^>]*>/g, '')
+  .replace(/\[\[[^\]|]*\|([^\]]*)\]\]/g, '$1')
+  .replace(/\[\[([^\]]*)\]\]/g, '$1')
+  .replace(/[\w.-]+\.(jpg|jpeg|png|gif|svg):?/gi, '')
+  .replace(/derivative work:.*$/i, '')
+  .replace(/["']/g, '')
+  .replace(/\s+/g, ' ').trim();
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -33,10 +40,12 @@ async function api(host, params, tries = 4) {
   throw new Error('api 429 (gave up)');
 }
 
-const manifest = {};
+// Resumable: load any existing manifest and skip slugs already done.
+const manifest = (() => { try { return JSON.parse(readFileSync('image-manifest.json', 'utf8')); } catch { return {}; } })();
 let ok = 0, skip = 0;
 
 for (const it of items) {
+  if (manifest[it.slug]) { continue; } // already fetched in a previous run
   await sleep(1200); // be polite to the free APIs — avoids rate limiting
   try {
     // 1) Resolve best Wikipedia article title for the query.
@@ -83,6 +92,7 @@ for (const it of items) {
       source: descUrl,
     };
     ok++;
+    writeFileSync('image-manifest.json', JSON.stringify(manifest, null, 2)); // save progress incrementally
     console.log('OK  ', it.slug, '|', license, '|', artist.slice(0, 40));
   } catch (e) {
     console.log('ERR ', it.slug, e.message);

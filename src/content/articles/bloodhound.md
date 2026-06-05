@@ -4,11 +4,14 @@ description: "Complete Bloodhound care guide covering this large scent hound's g
 category: "dogs"
 species: "Bloodhound"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Bloodhound dog"
+heroImage: "/images/bloodhound.jpg"
+heroImageAlt: "A Bloodhound"
 tags: ["bloodhound", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Craig M. Groshek"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:The_Bloodhound_Gang.jpg"
+heroLicense: "Public domain"
 ---
 
 Famous for owning perhaps the most powerful nose in the dog world, the Bloodhound is a large, dignified scent hound long prized for tracking and search-and-rescue work. Behind the droopy ears and deeply wrinkled face is a gentle, affectionate and famously stubborn companion that follows its nose above all else.

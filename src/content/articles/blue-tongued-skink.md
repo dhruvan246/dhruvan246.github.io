@@ -4,11 +4,14 @@ description: "Learn how to care for a blue-tongued skink: enclosure size, heatin
 category: "reptiles"
 species: "Blue-Tongued Skink"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/blue-tongued-skink.jpg"
 heroImageAlt: "A Blue-Tongued Skink"
 tags: ["blue-tongued-skink", "reptiles", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "JJ Harrison (https://www.jjharrison.com.au/)"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Tiliqua_scincoides_scincoides.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The blue-tongued skink (genus *Tiliqua*) is one of the most popular pet lizards, prized for its calm nature, expressive face, and the bright blue tongue it flashes to startle predators. Native to Australia, Indonesia, and New Guinea, these stout, short-legged reptiles are hardy and personable, making them a great choice for beginners willing to provide adequate space and a varied diet.

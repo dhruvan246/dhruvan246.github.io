@@ -4,11 +4,14 @@ description: "Learn how to keep an axolotl healthy with cool, clean water, a chi
 category: "amphibians"
 species: "Axolotl"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/axolotl.jpg"
 heroImageAlt: "A Axolotl"
 tags: ["axolotl", "amphibians", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "LoKiLeCh"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Axolotl_ganz.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The axolotl (*Ambystoma mexicanum*) is a neotenic salamander that keeps its larval, fully aquatic form for life rather than metamorphosing into a land-dwelling adult. Famous for its feathery external gills and perpetual "smile," it has become a popular aquarium amphibian. With cool, clean water and the right setup, axolotls are hardy and long-lived companions.

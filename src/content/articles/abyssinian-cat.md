@@ -4,11 +4,14 @@ description: "A complete guide to Abyssinian cats — their playful, inquisitive
 category: "cats"
 species: "Abyssinian"
 pubDate: 2026-04-23
-heroImage: ""
-heroImageAlt: "A ruddy Abyssinian cat with a ticked coat"
+heroImage: "/images/abyssinian-cat.jpg"
+heroImageAlt: "A Abyssinian"
 tags: ["abyssinian cat", "cat breeds", "shorthair cats", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Karin Langner-Bahmann"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Gustav_chocolate.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 One of the oldest known breeds, the Abyssinian is a lithe, athletic and endlessly curious cat. With a warm ticked coat and boundless energy, the "Aby" is an active, people-loving explorer.

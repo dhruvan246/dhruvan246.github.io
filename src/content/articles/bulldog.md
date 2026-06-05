@@ -4,11 +4,14 @@ description: "A complete guide to the English Bulldog — their calm temperament
 category: "dogs"
 species: "Bulldog"
 pubDate: 2026-05-16
-heroImage: ""
-heroImageAlt: "An English Bulldog sitting calmly"
+heroImage: "/images/bulldog.jpg"
+heroImageAlt: "A Bulldog"
 tags: ["bulldog", "english bulldog", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Employee(s) of Hodder &amp; Stoughton"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Bulldog_Drummond_1st_edition_cover,_1920.jpg"
+heroLicense: "Public domain"
 ---
 
 Calm, courageous and famously laid-back, the Bulldog is a gentle companion with an unmistakable wrinkled face. Once bred for sport, today's Bulldog is a placid, affectionate family friend.

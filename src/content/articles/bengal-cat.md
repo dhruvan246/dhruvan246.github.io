@@ -4,11 +4,14 @@ description: "A complete guide to Bengal cats — their wild looks, high energy,
 category: "cats"
 species: "Bengal"
 pubDate: 2026-04-25
-heroImage: ""
-heroImageAlt: "A spotted brown Bengal cat with a wild appearance"
+heroImage: "/images/bengal-cat.jpg"
+heroImageAlt: "A Bengal"
 tags: ["bengal cat", "cat breeds", "shorthair cats", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "User:Lightburst"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Paintedcats_Red_Star_standing.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 Looking like a miniature leopard, the Bengal is a stunning, athletic breed created by crossing domestic cats with the Asian leopard cat. Behind the wild coat is an energetic, intelligent and highly active companion.
