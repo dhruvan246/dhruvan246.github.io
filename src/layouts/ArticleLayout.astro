@@ -56,7 +56,18 @@ const jsonLd = {
     </div>
 
     {d.heroImage && (
-      <img class="hero-img" src={d.heroImage} alt={d.heroImageAlt ?? d.title} width="1200" height="675" />
+      <figure class="hero-fig">
+        <img class="hero-img" src={d.heroImage} alt={d.heroImageAlt ?? d.title} width="1200" height="675" loading="eager" />
+        {d.heroCredit && (
+          <figcaption class="hero-credit">
+            📷 Photo:{' '}
+            {d.heroCreditUrl
+              ? <a href={d.heroCreditUrl} target="_blank" rel="noopener nofollow">{d.heroCredit}</a>
+              : <span>{d.heroCredit}</span>}
+            {d.heroLicense ? ` · ${d.heroLicense}` : ''} · via Wikimedia Commons
+          </figcaption>
+        )}
+      </figure>
     )}
 
     <AdSlot />

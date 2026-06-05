@@ -1,0 +1,12 @@
+[
+  { "slug": "golden-retriever-complete-care-guide", "q": "Golden Retriever", "alt": "A Golden Retriever dog" },
+  { "slug": "labrador-retriever", "q": "Labrador Retriever", "alt": "A Labrador Retriever dog" },
+  { "slug": "border-collie", "q": "Border Collie", "alt": "A Border Collie dog" },
+  { "slug": "persian-cat-care-guide", "q": "Persian cat", "alt": "A Persian cat" },
+  { "slug": "bearded-dragon", "q": "Central bearded dragon", "alt": "A bearded dragon" },
+  { "slug": "budgerigar-care-guide-for-beginners", "q": "Budgerigar", "alt": "A budgerigar (budgie)" },
+  { "slug": "betta-fish", "q": "Siamese fighting fish", "alt": "A betta fish" },
+  { "slug": "holland-lop", "q": "Holland Lop", "alt": "A Holland Lop rabbit" },
+  { "slug": "ball-python", "q": "Ball python", "alt": "A ball python snake" },
+  { "slug": "syrian-hamster", "q": "Golden hamster", "alt": "A Syrian hamster" }
+]

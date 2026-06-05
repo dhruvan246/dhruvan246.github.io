@@ -1,0 +1,51 @@
+{
+  "golden-retriever-complete-care-guide": {
+    "file": "/images/golden-retriever-complete-care-guide.jpg",
+    "alt": "A Golden Retriever dog",
+    "credit": "Dukedestiny01.jpg: \"Janneke Vreugdenhil\" derivative work: Anka Friedrich ([[User talk:Ankaaswe Trix Friedrich|talk]])",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Golden_Retriever_Dukedestiny01_drvd.jpg"
+  },
+  "labrador-retriever": {
+    "file": "/images/labrador-retriever.jpg",
+    "alt": "A Labrador Retriever dog",
+    "credit": "IDS.photos from Tiverton, UK",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Labrador_on_Quantock_(2175262184).jpg"
+  },
+  "border-collie": {
+    "file": "/images/border-collie.jpg",
+    "alt": "A Border Collie dog",
+    "credit": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Border_Collie_600.jpg"
+  },
+  "persian-cat-care-guide": {
+    "file": "/images/persian-cat-care-guide.jpg",
+    "alt": "A Persian cat",
+    "credit": "The original uploader was Lajoma at Finnish Wikipedia.",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Persialainen.jpg"
+  },
+  "betta-fish": {
+    "file": "/images/betta-fish.jpg",
+    "alt": "A betta fish",
+    "credit": "Daniella Vereeken",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:HM_Orange_M_Sarawut.jpg"
+  },
+  "holland-lop": {
+    "file": "/images/holland-lop.jpg",
+    "alt": "A Holland Lop rabbit",
+    "credit": "SirDukeOfAwe",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Holland_Lop_Bunny_Standing_On_Her_Back_Feet.jpg"
+  },
+  "ball-python": {
+    "file": "/images/ball-python.jpg",
+    "alt": "A ball python snake",
+    "credit": "HCA (talk)",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ball_python_lucy.JPG"
+  }
+}

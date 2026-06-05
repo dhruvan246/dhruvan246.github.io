@@ -19,6 +19,9 @@ const articles = defineCollection({
     species: z.string().optional(), // e.g. "Golden Retriever", "Persian Cat"
     heroImage: z.string().optional(), // a URL or a path inside /public, e.g. /images/dog.jpg
     heroImageAlt: z.string().optional(),
+    heroCredit: z.string().optional(),     // photo author (for attribution)
+    heroCreditUrl: z.string().optional(),  // link to the image's source page
+    heroLicense: z.string().optional(),    // e.g. "CC BY-SA 4.0"
     tags: z.array(z.string()).default([]),
     author: z.string().optional(),
     draft: z.boolean().default(false), // set true to hide an unfinished article

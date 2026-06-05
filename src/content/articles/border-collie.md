@@ -4,11 +4,14 @@ description: "A complete guide to Border Collies — the world's smartest dog br
 category: "dogs"
 species: "Border Collie"
 pubDate: 2026-05-31
-heroImage: ""
-heroImageAlt: "A black and white Border Collie in mid-stride"
+heroImage: "/images/border-collie.jpg"
+heroImageAlt: "A Border Collie dog"
 tags: ["border collie", "medium dogs", "herding breeds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Border_Collie_600.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Widely regarded as the most intelligent dog breed on earth, the Border Collie is a tireless, brilliant working dog. They are incredible companions — for the right, active owner who can meet their enormous need for activity and mental challenge.
