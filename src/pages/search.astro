@@ -1,0 +1,84 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { CATEGORIES } from '../consts.ts';
+const catMap = Object.fromEntries(CATEGORIES.map((c) => [c.slug, `${c.emoji} ${c.label}`]));
+---
+<BaseLayout
+  title="Search"
+  description="Search PawPedia's library of pet care guides — find any breed, species or topic instantly."
+>
+  <section class="hero">
+    <div class="container">
+      <h1>🔎 Search PawPedia</h1>
+      <p>Find any pet, breed or care topic across our whole library.</p>
+      <form class="search-form" role="search" onsubmit="return false;">
+        <input id="q" type="text" placeholder="Try “golden retriever”, “betta”, “rabbit”…" autocomplete="off" autofocus />
+      </form>
+    </div>
+  </section>
+
+  <div class="container">
+    <AdSlot />
+    <section class="section">
+      <p id="search-status" class="sub">Loading the library…</p>
+      <div id="search-results" class="results-list"></div>
+    </section>
+  </div>
+</BaseLayout>
+
+<script is:inline define:vars={{ catMap }}>
+  const input = document.getElementById('q');
+  const status = document.getElementById('search-status');
+  const out = document.getElementById('search-results');
+  let data = [];
+
+  fetch('/search-index.json')
+    .then((r) => r.json())
+    .then((items) => {
+      data = items;
+      status.textContent = `Search ${data.length} guides.`;
+      const q = new URLSearchParams(location.search).get('q');
+      if (q) { input.value = q; run(q); }
+    })
+    .catch(() => { status.textContent = 'Could not load search. Please refresh.'; });
+
+  function score(item, terms) {
+    const hay = (item.t + ' ' + item.s + ' ' + item.g.join(' ') + ' ' + item.c + ' ' + item.d).toLowerCase();
+    let s = 0;
+    for (const t of terms) {
+      if (!hay.includes(t)) return 0;          // every term must match
+      if ((item.s + ' ' + item.t).toLowerCase().includes(t)) s += 3; // name match weighs more
+      s += 1;
+    }
+    return s;
+  }
+
+  function run(query) {
+    const terms = query.toLowerCase().trim().split(/\s+/).filter(Boolean);
+    if (terms.length === 0) { out.innerHTML = ''; status.textContent = `Search ${data.length} guides.`; return; }
+    const hits = data
+      .map((item) => ({ item, s: score(item, terms) }))
+      .filter((x) => x.s > 0)
+      .sort((a, b) => b.s - a.s)
+      .slice(0, 50);
+
+    status.textContent = hits.length ? `${hits.length} result${hits.length === 1 ? '' : 's'} for “${query}”` : `No results for “${query}”. Try a different word.`;
+    out.innerHTML = hits.map(({ item }) => `
+      <article class="match-card">
+        <div class="match-main">
+          <div class="match-head">
+            <h3><a href="${item.u}">${item.s || item.t}</a></h3>
+            <span class="match-size">${catMap[item.c] || item.c}</span>
+          </div>
+          <p>${item.d}</p>
+        </div>
+      </article>`).join('');
+  }
+
+  let timer;
+  input.addEventListener('input', () => {
+    clearTimeout(timer);
+    timer = setTimeout(() => run(input.value), 120);
+  });
+</script>

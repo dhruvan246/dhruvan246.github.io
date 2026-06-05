@@ -15,6 +15,9 @@ const latest = articles.slice(0, 9);
     <div class="container">
       <h1>Everything about every pet 🐾</h1>
       <p>{SITE_DESCRIPTION}</p>
+      <form class="search-form" role="search" action="/search" method="get">
+        <input name="q" type="text" placeholder="🔎 Search any pet or breed…" autocomplete="off" />
+      </form>
       <div class="chips">
         {CATEGORIES.map((c) => (
           <a class="chip" href={`/category/${c.slug}`}>{c.emoji} {c.label}</a>
