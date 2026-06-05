@@ -13,7 +13,7 @@ export const SITE_DESCRIPTION =
  * Your real website address. CHANGE THIS before you publish/deploy.
  * No trailing slash. Example: 'https://www.pawpedia.com'
  */
-export const SITE_URL = 'https://example.com';
+export const SITE_URL = 'https://dhruvan246.github.io';
 
 /** Author/brand name shown on articles by default. */
 export const SITE_AUTHOR = 'The PawPedia Team';

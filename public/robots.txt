@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Update the domain below to match your real site (same as SITE_URL in src/consts.ts).
-Sitemap: https://example.com/sitemap-index.xml
+Sitemap: https://dhruvan246.github.io/sitemap-index.xml
