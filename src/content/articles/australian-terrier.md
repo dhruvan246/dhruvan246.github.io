@@ -3,7 +3,7 @@ title: "Australian Terrier: Complete Care Guide"
 description: "A practical care guide to the Australian Terrier, covering this small, spirited working breed's grooming, diet, training, exercise, and health needs."
 category: "dogs"
 species: "Australian Terrier"
-pubDate: undefined
+pubDate: 2026-03-01
 heroImage: ""
 heroImageAlt: "A Australian Terrier dog"
 tags: ["australian-terrier", "dogs", "small dogs", "care guide"]

@@ -3,7 +3,7 @@ title: "Mexican Hairless Dog: Complete Care Guide"
 description: "Care guide for the toy Mexican Hairless Dog (Xoloitzcuintli): an ancient, calm, hairless companion needing skin care, warmth, and steady training."
 category: "dogs"
 species: "Mexican Hairless Dog"
-pubDate: undefined
+pubDate: 2026-03-01
 heroImage: ""
 heroImageAlt: "A Mexican Hairless Dog dog"
 tags: ["xoloitzcuintli-toy", "dogs", "small dogs", "care guide"]

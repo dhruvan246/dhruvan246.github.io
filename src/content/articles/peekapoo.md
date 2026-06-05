@@ -3,7 +3,7 @@ title: "Peekapoo: Complete Care Guide"
 description: "Discover the Peekapoo, an affectionate Pekingese and Poodle crossbreed. Learn about this small dog's grooming, low-shedding coat, training, and health needs."
 category: "dogs"
 species: "Peekapoo"
-pubDate: undefined
+pubDate: 2026-03-01
 heroImage: ""
 heroImageAlt: "A Peekapoo dog"
 tags: ["peekapoo", "dogs", "small dogs", "care guide"]

@@ -3,7 +3,7 @@ title: "Shikoku: Complete Care Guide"
 description: "A care guide to the Shikoku, a rare medium-sized Japanese spitz bred to hunt boar. Learn about its bold temperament, exercise, grooming, and health."
 category: "dogs"
 species: "Shikoku"
-pubDate: undefined
+pubDate: 2026-03-01
 heroImage: ""
 heroImageAlt: "A Shikoku dog"
 tags: ["shikoku", "dogs", "medium dogs", "care guide"]

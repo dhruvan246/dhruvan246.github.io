@@ -3,7 +3,7 @@ title: "Lowchen: Complete Care Guide"
 description: "The Lowchen is a rare, affectionate small companion dog known for its traditional lion-trim clip, playful nature, and devoted family bond."
 category: "dogs"
 species: "Lowchen"
-pubDate: undefined
+pubDate: 2026-03-01
 heroImage: ""
 heroImageAlt: "A Lowchen dog"
 tags: ["lowchen", "dogs", "small dogs", "care guide"]

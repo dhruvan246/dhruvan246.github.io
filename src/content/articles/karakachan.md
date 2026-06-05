@@ -3,7 +3,7 @@ title: "Karakachan: Complete Care Guide"
 description: "Care guide to the Karakachan, a large Bulgarian livestock guardian dog known for its protective instincts, thick coat, and calm devotion."
 category: "dogs"
 species: "Karakachan"
-pubDate: undefined
+pubDate: 2026-03-01
 heroImage: ""
 heroImageAlt: "A Karakachan dog"
 tags: ["karakachan", "dogs", "large dogs", "care guide"]

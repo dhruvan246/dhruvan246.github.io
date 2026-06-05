@@ -3,7 +3,7 @@ title: "Rough Collie: Complete Care Guide"
 description: "Care guide for the Rough Collie: the elegant long-coated herding dog known for intelligence, gentle loyalty, grooming needs, and family devotion."
 category: "dogs"
 species: "Rough Collie"
-pubDate: undefined
+pubDate: 2026-03-01
 heroImage: ""
 heroImageAlt: "A Rough Collie dog"
 tags: ["rough-collie", "dogs", "large dogs", "care guide"]

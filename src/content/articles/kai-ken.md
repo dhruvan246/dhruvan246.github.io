@@ -3,7 +3,7 @@ title: "Kai Ken: Complete Care Guide"
 description: "Care guide for the Kai Ken, a rare brindle-coated Japanese hunting dog known for loyalty, agility, and an independent, devoted temperament."
 category: "dogs"
 species: "Kai Ken"
-pubDate: undefined
+pubDate: 2026-03-01
 heroImage: ""
 heroImageAlt: "A Kai Ken dog"
 tags: ["kai-ken", "dogs", "medium dogs", "care guide"]

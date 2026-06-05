@@ -3,7 +3,7 @@ title: "Cavapoo: Complete Care Guide"
 description: "Care guide for the Cavapoo, a small affectionate Cavalier-Poodle cross known for its low-shedding curly coat, friendly nature, and family-friendly temperament."
 category: "dogs"
 species: "Cavapoo"
-pubDate: undefined
+pubDate: 2026-03-01
 heroImage: ""
 heroImageAlt: "A Cavapoo dog"
 tags: ["cavapoo", "dogs", "small dogs", "care guide"]

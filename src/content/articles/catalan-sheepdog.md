@@ -3,7 +3,7 @@ title: "Catalan Sheepdog: Complete Care Guide"
 description: "The Catalan Sheepdog is a rugged, shaggy-coated herding breed from Spain known for its loyalty, intelligence, and tireless work ethic on the farm."
 category: "dogs"
 species: "Catalan Sheepdog"
-pubDate: undefined
+pubDate: 2026-03-01
 heroImage: ""
 heroImageAlt: "A Catalan Sheepdog dog"
 tags: ["catalan-sheepdog", "dogs", "medium dogs", "care guide"]

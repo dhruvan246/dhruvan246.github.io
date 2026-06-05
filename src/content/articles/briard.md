@@ -3,7 +3,7 @@ title: "Briard: Complete Care Guide"
 description: "Discover the Briard, a large French herding dog known for its long coat, loyal heart, and protective instincts. Learn diet, grooming, and care."
 category: "dogs"
 species: "Briard"
-pubDate: undefined
+pubDate: 2026-03-01
 heroImage: ""
 heroImageAlt: "A Briard dog"
 tags: ["briard", "dogs", "large dogs", "care guide"]

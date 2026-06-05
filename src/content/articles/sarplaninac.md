@@ -3,7 +3,7 @@ title: "Sarplaninac: Complete Care Guide"
 description: "Care guide for the Sarplaninac, a large livestock guardian dog from the Balkans known for its dense coat, independence, and devoted protective nature."
 category: "dogs"
 species: "Sarplaninac"
-pubDate: undefined
+pubDate: 2026-03-01
 heroImage: ""
 heroImageAlt: "A Sarplaninac dog"
 tags: ["sarplaninac", "dogs", "large dogs", "care guide"]

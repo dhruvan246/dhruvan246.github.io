@@ -3,7 +3,7 @@ title: "Schapendoes: Complete Care Guide"
 description: "Care guide to the Schapendoes, a shaggy-coated Dutch herding dog known for its agility, cheerful nature, and love of active families."
 category: "dogs"
 species: "Schapendoes"
-pubDate: undefined
+pubDate: 2026-03-01
 heroImage: ""
 heroImageAlt: "A Schapendoes dog"
 tags: ["schapendoes", "dogs", "medium dogs", "care guide"]

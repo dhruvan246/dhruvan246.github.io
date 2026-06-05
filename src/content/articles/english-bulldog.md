@@ -3,7 +3,7 @@ title: "English Bulldog: Complete Care Guide"
 description: "Care guide for the English Bulldog, a calm, muscular companion dog. Learn diet, exercise, grooming, and the breathing and skin-fold health needs it requires."
 category: "dogs"
 species: "English Bulldog"
-pubDate: undefined
+pubDate: 2026-03-01
 heroImage: ""
 heroImageAlt: "A English Bulldog dog"
 tags: ["english-bulldog", "dogs", "medium dogs", "care guide"]

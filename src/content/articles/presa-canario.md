@@ -3,7 +3,7 @@ title: "Presa Canario: Complete Care Guide"
 description: "Learn how to care for the Presa Canario, a powerful Spanish mastiff-type guardian, with tips on diet, training, grooming, exercise and health."
 category: "dogs"
 species: "Presa Canario"
-pubDate: undefined
+pubDate: 2026-03-01
 heroImage: ""
 heroImageAlt: "A Presa Canario dog"
 tags: ["presa-canario", "dogs", "large dogs", "care guide"]

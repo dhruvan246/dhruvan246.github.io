@@ -3,7 +3,7 @@ title: "King Shepherd: Complete Care Guide"
 description: "Care guide for the King Shepherd, a large American-bred dog resembling an oversized German Shepherd, covering diet, exercise, grooming and health."
 category: "dogs"
 species: "King Shepherd"
-pubDate: undefined
+pubDate: 2026-03-01
 heroImage: ""
 heroImageAlt: "A King Shepherd dog"
 tags: ["king-shepherd", "dogs", "large dogs", "care guide"]

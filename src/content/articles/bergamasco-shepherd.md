@@ -3,7 +3,7 @@ title: "Bergamasco Shepherd: Complete Care Guide"
 description: "Care guide to the Bergamasco Shepherd, the Italian herding dog known for its unique felted coat of mats, calm loyalty, and low grooming needs."
 category: "dogs"
 species: "Bergamasco Shepherd"
-pubDate: undefined
+pubDate: 2026-03-01
 heroImage: ""
 heroImageAlt: "A Bergamasco Shepherd dog"
 tags: ["bergamasco-shepherd", "dogs", "large dogs", "care guide"]
