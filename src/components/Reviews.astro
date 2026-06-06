@@ -33,8 +33,9 @@ const { slug, name } = Astro.props;
 
       <script is:inline src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
       <script is:inline define:vars={{ SUPABASE_URL, SUPABASE_ANON_KEY, REVIEW_PHOTO_BUCKET, slug, name }}>
-        const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
         const listEl = document.getElementById('rv-list');
+        function startReviews() {
+        const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
         const summaryEl = document.getElementById('rv-summary');
         const formWrap = document.getElementById('rv-formwrap');
         const loginPrompt = document.getElementById('rv-loginprompt');
@@ -102,6 +103,17 @@ const { slug, name } = Astro.props;
         loadReviews();
         refreshAuth();
         sb.auth.onAuthStateChange(() => refreshAuth());
+        }
+        // Wait for the Supabase SDK to be ready before initialising (the CDN
+        // script can finish after this inline script on heavier pages).
+        if (window.supabase && window.supabase.createClient) { startReviews(); }
+        else {
+          let _n = 0;
+          const _iv = setInterval(function () {
+            if (window.supabase && window.supabase.createClient) { clearInterval(_iv); startReviews(); }
+            else if (++_n > 120) { clearInterval(_iv); if (listEl) listEl.innerHTML = '<p class="sub">Could not load reviews right now — please refresh.</p>'; }
+          }, 50);
+        }
       </script>
     </>
   )}

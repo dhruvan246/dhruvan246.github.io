@@ -73,6 +73,7 @@ const providers = OAUTH_PROVIDERS.filter((p) => PROVIDER_META[p]).map((p) => ({ 
     <>
       <script is:inline src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
       <script is:inline define:vars={{ SUPABASE_URL, SUPABASE_ANON_KEY }}>
+        function startAuth() {
         const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
         const form = document.getElementById('auth-form');
         const msg = document.getElementById('auth-msg');
@@ -133,6 +134,15 @@ const providers = OAUTH_PROVIDERS.filter((p) => PROVIDER_META[p]).map((p) => ({ 
         });
 
         refresh();
+        }
+        if (window.supabase && window.supabase.createClient) { startAuth(); }
+        else {
+          let _n = 0;
+          const _iv = setInterval(function () {
+            if (window.supabase && window.supabase.createClient) { clearInterval(_iv); startAuth(); }
+            else if (++_n > 120) { clearInterval(_iv); }
+          }, 50);
+        }
       </script>
     </>
   )}
