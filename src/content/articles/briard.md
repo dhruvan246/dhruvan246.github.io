@@ -4,11 +4,14 @@ description: "Discover the Briard, a large French herding dog known for its long
 category: "dogs"
 species: "Briard"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Briard dog"
+heroImage: "/images/briard.jpg"
+heroImageAlt: "A Briard"
 tags: ["briard", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Birgit Balzer, Deutschland (uploaded by Caronna 17:00, 10 Feb 2005 (UTC))"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Briard_fauve.JPG"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Briard is an old French herding breed prized for its devotion, intelligence, and unmistakable shaggy coat. Once used to guard and move flocks across the French countryside, this large, hardworking dog forms deep bonds with its family and thrives when given a job to do.

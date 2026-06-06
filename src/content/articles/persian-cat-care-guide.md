@@ -4,14 +4,12 @@ description: "A complete guide to Persian cats — their calm temperament, daily
 category: "cats"
 species: "Persian Cat"
 pubDate: 2026-06-03
-heroImage: "/images/persian-cat-care-guide.jpg"
+heroImage: ""
 heroImageAlt: "A Persian cat"
 tags: ["persian cat", "cat breeds", "long-haired cats", "care guide"]
 author: "The PawPedia Team"
 draft: false
-heroCredit: "The original uploader was Lajoma at Finnish Wikipedia."
-heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Persialainen.jpg"
-heroLicense: "CC BY-SA 3.0"
+
 ---
 
 With their luxurious coats, sweet faces and calm personalities, Persian cats are among the most recognisable felines in the world. But that gorgeous fur comes with real responsibility. Here's everything you need to know.

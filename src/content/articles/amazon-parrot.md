@@ -4,11 +4,14 @@ description: "Care guide for the Amazon parrot, covering housing, diet, talking 
 category: "birds"
 species: "Amazon Parrot"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/amazon-parrot.jpg"
 heroImageAlt: "A Amazon Parrot"
 tags: ["amazon-parrot", "birds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "M30UTH"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Amazona_parrots_collage.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 Amazon parrots are charismatic, intelligent New World parrots prized for their bold personalities and impressive talking ability. They make rewarding companions for dedicated owners, but their long lifespan, loud voices, and need for daily interaction mean they are not a casual pet.

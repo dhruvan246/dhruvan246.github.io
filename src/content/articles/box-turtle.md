@@ -4,11 +4,14 @@ description: "Learn how to care for an Eastern Box Turtle, from outdoor pens and
 category: "reptiles"
 species: "Eastern Box Turtle"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/box-turtle.jpg"
 heroImageAlt: "A Eastern Box Turtle"
 tags: ["box-turtle", "reptiles", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "(c) Joshua Liverman, some rights reserved (CC BY)"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Eastern_Box_Turtle,_North_Carolina,_US_imported_from_iNaturalist_photo_71168521_(cropped).jpg"
+heroLicense: "CC BY 4.0"
 ---
 
 The Eastern Box Turtle (*Terrapene carolina carolina*) is a small, terrestrial North American turtle known for its hinged shell, which lets it close up tightly for protection. They are long-lived, low-key reptiles that reward patient keepers with decades of companionship.

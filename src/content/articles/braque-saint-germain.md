@@ -4,11 +4,14 @@ description: "Meet the Braque Saint-Germain, a rare French pointing breed. Learn
 category: "dogs"
 species: "Braque Saint-Germain"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Braque Saint-Germain dog"
+heroImage: "/images/braque-saint-germain.jpg"
+heroImageAlt: "A Braque Saint-Germain"
 tags: ["braque-saint-germain", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Pleple2000"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Braque_saint-germain_666.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Braque Saint-Germain is an elegant French pointing breed developed in the 19th century, with roots tracing to crosses between French braques and imported English Pointers. Friendly, sensitive and eager to please, it remains rare even in its native France but makes a devoted companion and capable gundog for active homes.

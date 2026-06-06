@@ -4,11 +4,14 @@ description: "Discover the Austrian Pinscher, a rare medium-sized farm dog known
 category: "dogs"
 species: "Austrian Pinscher"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Austrian Pinscher dog"
+heroImage: "/images/austrian-pinscher.jpg"
+heroImageAlt: "A Austrian Pinscher"
 tags: ["austrian-pinscher", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Przykuta"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Pinczer_austiacki_678.jpg"
+heroLicense: "CC BY-SA 2.5"
 ---
 
 The Austrian Pinscher (Österreichischer Pinscher) is a rare medium-sized working dog that developed on Austrian farms, where it served as a versatile watchdog, ratter, and all-purpose companion. Sturdy, alert, and deeply devoted to its family, this breed remains uncommon outside its homeland but rewards owners with loyalty and a lively, confident personality.

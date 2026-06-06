@@ -4,11 +4,14 @@ description: "Everything about the Bichon Frise — their happy temperament, flu
 category: "dogs"
 species: "Bichon Frise"
 pubDate: 2026-03-29
-heroImage: ""
-heroImageAlt: "A fluffy white Bichon Frise"
+heroImage: "/images/bichon-frise.jpg"
+heroImageAlt: "A Bichon Frise"
 tags: ["bichon frise", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Heike Andres"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Bichon_Fris%C3%A9_-_studdogbichon.jpg"
+heroLicense: "CC BY-SA 3.0 de"
 ---
 
 A cheerful little powder-puff of a dog, the Bichon Frise is famous for its fluffy white coat and sunny, affectionate personality. Playful and sociable, the Bichon makes a delightful companion for families and city dwellers alike.

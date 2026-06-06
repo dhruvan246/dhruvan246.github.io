@@ -4,11 +4,14 @@ description: "The Akbash is a large white Turkish livestock guardian dog known f
 category: "dogs"
 species: "Akbash"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Akbash dog"
+heroImage: "/images/akbash.jpg"
+heroImageAlt: "A Akbash"
 tags: ["akbash", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Ramazanondersen"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Akba%C5%9F_cinsi_k%C3%B6pek.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Akbash is a large, white livestock guardian dog from western Turkey, where it has protected sheep and goats from predators for centuries. Calm, watchful, and fiercely loyal, the Akbash blends the lean athleticism of sighthounds with the heavy build of mountain guardian breeds, making it a capable working dog and a devoted, if strong-willed, companion.

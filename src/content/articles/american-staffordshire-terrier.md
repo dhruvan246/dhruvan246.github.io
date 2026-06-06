@@ -4,11 +4,14 @@ description: "Care guide for the American Staffordshire Terrier: a muscular, con
 category: "dogs"
 species: "American Staffordshire Terrier"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A American Staffordshire Terrier dog"
+heroImage: "/images/american-staffordshire-terrier.jpg"
+heroImageAlt: "A American Staffordshire Terrier"
 tags: ["american-staffordshire-terrier", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Svenska Mässan from Sweden"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:AMERICAN_STAFFORDSHIRE_TERRIER,_Zican%E2%80%99s_Bz_Ez_Dragon_(24208348891).2.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The American Staffordshire Terrier, often nicknamed the "AmStaff," is a muscular, medium-sized bully breed recognized by the American Kennel Club in 1936. Developed from bull-and-terrier crosses brought to North America in the 19th century, it was selectively bred for a heavier, more powerful build than its English cousin, the Staffordshire Bull Terrier. Today it is valued as a confident, affectionate family companion.

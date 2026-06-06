@@ -4,11 +4,14 @@ description: "Everything about the Australian Cattle Dog — their intense energ
 category: "dogs"
 species: "Australian Cattle Dog"
 pubDate: 2026-03-15
-heroImage: ""
-heroImageAlt: "A blue-speckled Australian Cattle Dog standing alert"
+heroImage: "/images/australian-cattle-dog.jpg"
+heroImageAlt: "A Australian Cattle Dog"
 tags: ["australian cattle dog", "blue heeler", "medium dogs", "herding breeds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Zingpix"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:ACD-blue-spud.jpg"
+heroLicense: "CC BY 3.0"
 ---
 
 Tough, tireless and brilliant, the Australian Cattle Dog (often called the "Blue Heeler") was bred to drive cattle across vast distances. Intensely energetic and loyal, this is a working dog that demands an active, engaged owner.

@@ -4,11 +4,14 @@ description: "Care guide for the American Eskimo Dog: this bright white Spitz br
 category: "dogs"
 species: "American Eskimo Dog"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A American Eskimo Dog dog"
+heroImage: "/images/american-eskimo-dog.jpg"
+heroImageAlt: "A American Eskimo Dog"
 tags: ["american-eskimo-dog", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Christmas w/a K"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:American_Eskimo_Dog_1.jpg"
+heroLicense: "CC BY-SA 2.0"
 ---
 
 The American Eskimo Dog is a striking white Spitz breed known for its fluffy double coat, alert expression, and lively, affectionate personality. Despite the name, the breed developed in the United States from German Spitz dogs and is prized as a smart, devoted companion.

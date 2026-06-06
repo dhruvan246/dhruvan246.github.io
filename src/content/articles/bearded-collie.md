@@ -4,11 +4,14 @@ description: "A complete Bearded Collie care guide covering size, temperament, d
 category: "dogs"
 species: "Bearded Collie"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Bearded Collie dog"
+heroImage: "/images/bearded-collie.jpg"
+heroImageAlt: "A Bearded Collie"
 tags: ["bearded-collie", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Bearded_Collie_600.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Bouncy, shaggy and irrepressibly cheerful, the Bearded Collie is an old Scottish herding breed prized for its long flowing coat and lively, affectionate nature. Bred to drive sheep and cattle across the rugged Highlands in all weather, the "Beardie" remains an energetic, people-loving companion that thrives on activity and family life.

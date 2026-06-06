@@ -4,11 +4,14 @@ description: "Meet the Braque Francais, a versatile French pointing breed. Learn
 category: "dogs"
 species: "Braque Francais"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Braque Francais dog"
+heroImage: "/images/braque-francais.jpg"
+heroImageAlt: "A Braque Francais"
 tags: ["braque-francais", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Kasiablanka"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Wy%C5%BCe%C5%82_Gasko%C5%84ski.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Braque Francais is a classic French pointing dog, an old gundog breed developed for hunting over varied terrain. Existing in two distinct types, the larger Gascogne and the smaller Pyrenean, it is valued for its keen nose, biddable nature and an easygoing temperament that translates well into family life.

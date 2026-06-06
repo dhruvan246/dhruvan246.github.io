@@ -20,9 +20,10 @@ for (const f of files) {
   if (!name) name = get('title').replace(/:.*$/, '').replace(/\s+Care Guide.*$/i, '').trim();
   if (!name) continue;
 
+  // Cats need "<name> cat" (bare names like "Bengal" are ambiguous); dogs and
+  // other species use the bare name, which matches Wikipedia articles far better.
   let q = name;
-  if (category === 'dogs') q = `${name} dog`;
-  else if (category === 'cats') q = `${name} cat`;
+  if (category === 'cats') q = `${name} cat`;
 
   out.push({ slug, q, alt: `A ${name}` });
 }

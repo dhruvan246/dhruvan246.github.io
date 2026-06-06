@@ -4,11 +4,14 @@ description: "Care guide to the Basset Fauve de Bretagne: a small, sturdy French
 category: "dogs"
 species: "Basset Fauve de Bretagne"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Basset Fauve de Bretagne dog"
+heroImage: "/images/basset-fauve-de-bretagne.jpg"
+heroImageAlt: "A Basset Fauve de Bretagne"
 tags: ["basset-fauve-de-bretagne", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Basset_Fauve_de_Bretagne_600.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Basset Fauve de Bretagne is a small, short-legged scent hound from Brittany in France, prized for its rich fawn coat, courageous hunting heritage, and friendly, energetic personality.

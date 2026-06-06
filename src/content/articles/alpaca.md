@@ -4,11 +4,14 @@ description: "Learn how to keep alpacas happy and healthy, covering pasture, she
 category: "farm-pets"
 species: "Alpaca"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/alpaca.jpg"
 heroImageAlt: "A Alpaca"
 tags: ["alpaca", "farm-pets", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "KKPCW"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Alpaca_in_Higashiyama_Zoo_-_1.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The alpaca is a domesticated South American camelid prized for its soft fleece and calm, curious nature. Originally bred in the Andes, alpacas have become popular smallholding and hobby-farm animals across the world. They are gentle, social, and relatively low-maintenance compared with many livestock, but they have specific needs that owners must meet.

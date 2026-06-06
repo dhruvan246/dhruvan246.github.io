@@ -4,11 +4,14 @@ description: "Care guide to the Brazilian Terrier (Fox Paulistinha): Brazil's li
 category: "dogs"
 species: "Brazilian Terrier"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Brazilian Terrier dog"
+heroImage: "/images/brazilian-terrier.jpg"
+heroImageAlt: "A Brazilian Terrier"
 tags: ["brazilian-terrier", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Ludax91"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Terrier_brazylijski_2.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Brazilian Terrier, known in its homeland as the Fox Paulistinha, is one of the few breeds native to Brazil. Compact, alert and bursting with energy, this tricolor terrier was developed as a farm and household ratter and remains a spirited, affectionate companion that thrives on activity and family life.

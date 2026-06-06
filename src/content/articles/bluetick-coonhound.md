@@ -4,11 +4,14 @@ description: "Care guide to the Bluetick Coonhound: the speckled blue coat, loud
 category: "dogs"
 species: "Bluetick Coonhound"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Bluetick Coonhound dog"
+heroImage: "/images/bluetick-coonhound.jpg"
+heroImageAlt: "A Bluetick Coonhound"
 tags: ["bluetick-coonhound", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:BluetickCoonhound.jpg"
+heroLicense: "Public domain"
 ---
 
 Named for its striking mottled "blue" coat, the Bluetick Coonhound is an American scent hound bred to trail and tree raccoons and other game. Tireless, devoted and famously vocal, it suits active homes that can channel its powerful nose and stamina.

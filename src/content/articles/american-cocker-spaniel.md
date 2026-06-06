@@ -4,11 +4,14 @@ description: "Care guide for the American Cocker Spaniel: this small, gentle gun
 category: "dogs"
 species: "American Cocker Spaniel"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A American Cocker Spaniel dog"
+heroImage: "/images/american-cocker-spaniel.jpg"
+heroImageAlt: "A American Cocker Spaniel"
 tags: ["american-cocker-spaniel", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Kulala"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:PointbreakHoneyimHome.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The American Cocker Spaniel is the smallest member of the sporting group, known for its rounded head, gentle expression and flowing, feathered coat. Originally developed in the United States from English spaniel stock to flush and retrieve birds, today it is mostly a beloved, merry companion.

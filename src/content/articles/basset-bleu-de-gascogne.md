@@ -4,11 +4,14 @@ description: "Care guide for the Basset Bleu de Gascogne: a French scent hound w
 category: "dogs"
 species: "Basset Bleu de Gascogne"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Basset Bleu de Gascogne dog"
+heroImage: "/images/basset-bleu-de-gascogne.jpg"
+heroImageAlt: "A Basset Bleu de Gascogne"
 tags: ["basset-bleu-de-gascogne", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "M.W. Reichert (Eingestellt von Caronna 10:10, 25 January 2006)"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Basset_bleu_de_Gascogne.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Basset Bleu de Gascogne is a French scent hound prized for its striking mottled coat and its calm, friendly temperament. Developed in the Gascony region of southwestern France for hunting small game on foot, it is a short-legged, low-set member of the basset family, valued as much for its melodious voice and keen nose as for its good looks.

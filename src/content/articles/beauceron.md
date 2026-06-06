@@ -4,11 +4,14 @@ description: "Care guide for the Beauceron, France's powerful herding dog: tempe
 category: "dogs"
 species: "Beauceron"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Beauceron dog"
+heroImage: "/images/beauceron.jpg"
+heroImageAlt: "A Beauceron"
 tags: ["beauceron", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Stefan Schmitz"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:BeauceronStand.jpg"
+heroLicense: "CC BY-SA 3.0 de"
 ---
 
 Powerful, intelligent and intensely loyal, the Beauceron is an old French herding breed developed on the plains around Paris to drive flocks of sheep and cattle. Also known as the Berger de Beauce or Bas Rouge ("red stockings"), it is a confident working dog that bonds deeply with its family while remaining watchful with strangers.

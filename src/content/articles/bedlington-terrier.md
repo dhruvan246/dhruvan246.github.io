@@ -4,11 +4,14 @@ description: "Care guide for the Bedlington Terrier, the lamb-like terrier with 
 category: "dogs"
 species: "Bedlington Terrier"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Bedlington Terrier dog"
+heroImage: "/images/bedlington-terrier.jpg"
+heroImageAlt: "A Bedlington Terrier"
 tags: ["bedlington-terrier", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "David Owsiany"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Boutchie_apres_championnat_004.JPG"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Bedlington Terrier is instantly recognizable for its lamb-like appearance, with a curly coat, arched back, and pear-shaped head. Originally bred in the mining region of Northumberland, England, to hunt vermin, this athletic little dog combines a gentle, affectionate home life with surprising speed and grit when roused.

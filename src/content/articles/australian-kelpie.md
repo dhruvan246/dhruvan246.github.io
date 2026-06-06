@@ -4,11 +4,14 @@ description: "Care guide to the Australian Kelpie, a tireless medium-sized herdi
 category: "dogs"
 species: "Australian Kelpie"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Australian Kelpie dog"
+heroImage: "/images/australian-kelpie.jpg"
+heroImageAlt: "A Australian Kelpie"
 tags: ["australian-kelpie", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Pertti Kärppä"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Hilu_the_Australian_Kelpie_dog.jpg"
+heroLicense: "Public domain"
 ---
 
 The Australian Kelpie is a medium-sized herding breed developed in Australia in the late 1800s to muster sheep across vast, rugged stations in harsh heat. Lean, athletic, and endlessly energetic, the Kelpie is prized for its stamina, sharp intelligence, and devotion to a job. It remains a working dog at heart and thrives when given a purpose.

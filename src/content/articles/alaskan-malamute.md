@@ -4,11 +4,14 @@ description: "A complete guide to Alaskan Malamutes — their strength, exercise
 category: "dogs"
 species: "Alaskan Malamute"
 pubDate: 2026-04-05
-heroImage: ""
-heroImageAlt: "A large grey and white Alaskan Malamute"
+heroImage: "/images/alaskan-malamute.jpg"
+heroImageAlt: "A Alaskan Malamute"
 tags: ["alaskan malamute", "large dogs", "sled dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "SCMW"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Alaskan_Malamute.jpg"
+heroLicense: "CC BY 3.0"
 ---
 
 Bigger and stronger than its Husky cousin, the Alaskan Malamute was bred to haul heavy freight across the Arctic. Powerful, friendly and independent, the Malamute is a magnificent dog for an active, experienced owner.

@@ -4,11 +4,14 @@ description: "Care guide for the Boykin Spaniel: South Carolina's brown gun dog.
 category: "dogs"
 species: "Boykin Spaniel"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Boykin Spaniel dog"
+heroImage: "/images/boykin-spaniel.jpg"
+heroImageAlt: "A Boykin Spaniel"
 tags: ["boykin-spaniel", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "jetsonphoto"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Boykin_Spaniel_April_Jet.jpg"
+heroLicense: "CC BY-SA 2.0"
 ---
 
 The Boykin Spaniel is a medium-sized brown sporting dog developed in South Carolina, where it is the official state dog. Bred to hunt and retrieve waterfowl and turkey from small boats, it pairs an eager, affectionate nature with genuine working drive.

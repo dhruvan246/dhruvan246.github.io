@@ -4,14 +4,12 @@ description: "Learn how to care for a Ball Python, including enclosure setup, he
 category: "reptiles"
 species: "Ball Python"
 pubDate: 2026-03-01
-heroImage: "/images/ball-python.jpg"
+heroImage: ""
 heroImageAlt: "A ball python snake"
 tags: ["ball-python", "reptiles", "care guide"]
 author: "The PawPedia Team"
 draft: false
-heroCredit: "HCA (talk)"
-heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Ball_python_lucy.JPG"
-heroLicense: "CC BY-SA 3.0"
+
 ---
 
 The Ball Python (*Python regius*) is one of the most popular pet snakes in the world, prized for its manageable size, docile nature, and striking patterns. Native to the grasslands and forests of West and Central Africa, it earns its name from its habit of curling into a tight ball when stressed. With proper care, it makes a rewarding companion for beginner and experienced keepers alike.

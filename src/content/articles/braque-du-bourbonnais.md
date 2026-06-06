@@ -4,11 +4,14 @@ description: "Meet the Braque du Bourbonnais, a rare French pointing breed. Lear
 category: "dogs"
 species: "Braque du Bourbonnais"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Braque du Bourbonnais dog"
+heroImage: "/images/braque-du-bourbonnais.jpg"
+heroImageAlt: "A Braque du Bourbonnais"
 tags: ["braque-du-bourbonnais", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Mic comte at English Wikipedia"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Braque_du_Bourbonnais.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Braque du Bourbonnais is an old French pointing breed from the Bourbonnais region of central France, prized as a versatile hunting dog and an affectionate family companion. Known for its ticked or roan coat and a famously short (sometimes naturally absent) tail, this medium-sized gundog combines a strong nose and steady pointing instinct with a gentle, people-focused temperament.

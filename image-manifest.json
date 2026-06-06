@@ -1,53 +1,4 @@
 {
-  "golden-retriever-complete-care-guide": {
-    "file": "/images/golden-retriever-complete-care-guide.jpg",
-    "alt": "A Golden Retriever dog",
-    "credit": "Dukedestiny01.jpg: \"Janneke Vreugdenhil\" derivative work: Anka Friedrich ([[User talk:Ankaaswe Trix Friedrich|talk]])",
-    "license": "Public domain",
-    "source": "https://commons.wikimedia.org/wiki/File:Golden_Retriever_Dukedestiny01_drvd.jpg"
-  },
-  "labrador-retriever": {
-    "file": "/images/labrador-retriever.jpg",
-    "alt": "A Labrador Retriever dog",
-    "credit": "IDS.photos from Tiverton, UK",
-    "license": "CC BY-SA 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Labrador_on_Quantock_(2175262184).jpg"
-  },
-  "border-collie": {
-    "file": "/images/border-collie.jpg",
-    "alt": "A Border Collie dog",
-    "credit": "Wikimedia Commons",
-    "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Border_Collie_600.jpg"
-  },
-  "persian-cat-care-guide": {
-    "file": "/images/persian-cat-care-guide.jpg",
-    "alt": "A Persian cat",
-    "credit": "The original uploader was Lajoma at Finnish Wikipedia.",
-    "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Persialainen.jpg"
-  },
-  "betta-fish": {
-    "file": "/images/betta-fish.jpg",
-    "alt": "A betta fish",
-    "credit": "Daniella Vereeken",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:HM_Orange_M_Sarawut.jpg"
-  },
-  "holland-lop": {
-    "file": "/images/holland-lop.jpg",
-    "alt": "A Holland Lop rabbit",
-    "credit": "SirDukeOfAwe",
-    "license": "CC0",
-    "source": "https://commons.wikimedia.org/wiki/File:Holland_Lop_Bunny_Standing_On_Her_Back_Feet.jpg"
-  },
-  "ball-python": {
-    "file": "/images/ball-python.jpg",
-    "alt": "A ball python snake",
-    "credit": "HCA (talk)",
-    "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Ball_python_lucy.JPG"
-  },
   "abyssinian-cat": {
     "file": "/images/abyssinian-cat.jpg",
     "alt": "A Abyssinian",
@@ -55,12 +6,103 @@
     "license": "CC BY-SA 3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Gustav_chocolate.jpg"
   },
-  "african-dwarf-frog": {
-    "file": "/images/african-dwarf-frog.jpg",
-    "alt": "A African Dwarf Frog",
-    "credit": "James Gathany",
+  "afghan-hound": {
+    "file": "/images/afghan-hound.jpg",
+    "alt": "A Afghan Hound",
+    "credit": "Weaveravel",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Afghan_dog_-_cropped.jpg"
+  },
+  "akbash": {
+    "file": "/images/akbash.jpg",
+    "alt": "A Akbash",
+    "credit": "Ramazanondersen",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Akba%C5%9F_cinsi_k%C3%B6pek.jpg"
+  },
+  "alaskan-malamute": {
+    "file": "/images/alaskan-malamute.jpg",
+    "alt": "A Alaskan Malamute",
+    "credit": "SCMW",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alaskan_Malamute.jpg"
+  },
+  "alpaca": {
+    "file": "/images/alpaca.jpg",
+    "alt": "A Alpaca",
+    "credit": "KKPCW",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alpaca_in_Higashiyama_Zoo_-_1.jpg"
+  },
+  "amazon-parrot": {
+    "file": "/images/amazon-parrot.jpg",
+    "alt": "A Amazon Parrot",
+    "credit": "M30UTH",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Amazona_parrots_collage.jpg"
+  },
+  "american-cocker-spaniel": {
+    "file": "/images/american-cocker-spaniel.jpg",
+    "alt": "A American Cocker Spaniel",
+    "credit": "Kulala",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:PointbreakHoneyimHome.jpg"
+  },
+  "american-eskimo-dog": {
+    "file": "/images/american-eskimo-dog.jpg",
+    "alt": "A American Eskimo Dog",
+    "credit": "Christmas w/a K",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:American_Eskimo_Dog_1.jpg"
+  },
+  "american-foxhound": {
+    "file": "/images/american-foxhound.jpg",
+    "alt": "A American Foxhound",
+    "credit": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:AmericanFoxhound2.jpg"
+  },
+  "american-staffordshire-terrier": {
+    "file": "/images/american-staffordshire-terrier.jpg",
+    "alt": "A American Staffordshire Terrier",
+    "credit": "Svenska Mässan from Sweden",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:AMERICAN_STAFFORDSHIRE_TERRIER,_Zican%E2%80%99s_Bz_Ez_Dragon_(24208348891).2.jpg"
+  },
+  "american-water-spaniel": {
+    "file": "/images/american-water-spaniel.jpg",
+    "alt": "A American Water Spaniel",
+    "credit": "Awsguy1",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chien_d%27eau_americain_champion_1.JPG"
+  },
+  "australian-cattle-dog": {
+    "file": "/images/australian-cattle-dog.jpg",
+    "alt": "A Australian Cattle Dog",
+    "credit": "Zingpix",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ACD-blue-spud.jpg"
+  },
+  "australian-kelpie": {
+    "file": "/images/australian-kelpie.jpg",
+    "alt": "A Australian Kelpie",
+    "credit": "Pertti Kärppä",
     "license": "Public domain",
-    "source": "https://commons.wikimedia.org/wiki/File:African_dwarf_frog.jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Hilu_the_Australian_Kelpie_dog.jpg"
+  },
+  "australian-shepherd": {
+    "file": "/images/australian-shepherd.jpg",
+    "alt": "A Australian Shepherd",
+    "credit": "Trickdog-Fina",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Australian_Shepherd_red_bi.JPG"
+  },
+  "austrian-pinscher": {
+    "file": "/images/austrian-pinscher.jpg",
+    "alt": "A Austrian Pinscher",
+    "credit": "Przykuta",
+    "license": "CC BY-SA 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Pinczer_austiacki_678.jpg"
   },
   "axolotl": {
     "file": "/images/axolotl.jpg",
@@ -69,6 +111,55 @@
     "license": "CC BY-SA 3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Axolotl_ganz.jpg"
   },
+  "azawakh": {
+    "file": "/images/azawakh.jpg",
+    "alt": "A Azawakh",
+    "credit": "Cristian.vantu",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bistrita_2015_(22).jpg"
+  },
+  "basenji": {
+    "file": "/images/basenji.jpg",
+    "alt": "A Basenji",
+    "credit": "fugzu",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Basenji_Profile_(loosercrop).jpg"
+  },
+  "basset-bleu-de-gascogne": {
+    "file": "/images/basset-bleu-de-gascogne.jpg",
+    "alt": "A Basset Bleu de Gascogne",
+    "credit": "M.W. Reichert (Eingestellt von Caronna 10:10, 25 January 2006)",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Basset_bleu_de_Gascogne.jpg"
+  },
+  "basset-fauve-de-bretagne": {
+    "file": "/images/basset-fauve-de-bretagne.jpg",
+    "alt": "A Basset Fauve de Bretagne",
+    "credit": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Basset_Fauve_de_Bretagne_600.jpg"
+  },
+  "bearded-collie": {
+    "file": "/images/bearded-collie.jpg",
+    "alt": "A Bearded Collie",
+    "credit": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bearded_Collie_600.jpg"
+  },
+  "beauceron": {
+    "file": "/images/beauceron.jpg",
+    "alt": "A Beauceron",
+    "credit": "Stefan Schmitz",
+    "license": "CC BY-SA 3.0 de",
+    "source": "https://commons.wikimedia.org/wiki/File:BeauceronStand.jpg"
+  },
+  "bedlington-terrier": {
+    "file": "/images/bedlington-terrier.jpg",
+    "alt": "A Bedlington Terrier",
+    "credit": "David Owsiany",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Boutchie_apres_championnat_004.JPG"
+  },
   "bengal-cat": {
     "file": "/images/bengal-cat.jpg",
     "alt": "A Bengal",
@@ -76,12 +167,19 @@
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Paintedcats_Red_Star_standing.jpg"
   },
-  "bloodhound": {
-    "file": "/images/bloodhound.jpg",
-    "alt": "A Bloodhound",
-    "credit": "Craig M. Groshek",
-    "license": "Public domain",
-    "source": "https://commons.wikimedia.org/wiki/File:The_Bloodhound_Gang.jpg"
+  "bichon-frise": {
+    "file": "/images/bichon-frise.jpg",
+    "alt": "A Bichon Frise",
+    "credit": "Heike Andres",
+    "license": "CC BY-SA 3.0 de",
+    "source": "https://commons.wikimedia.org/wiki/File:Bichon_Fris%C3%A9_-_studdogbichon.jpg"
+  },
+  "black-and-tan-coonhound": {
+    "file": "/images/black-and-tan-coonhound.jpg",
+    "alt": "A Black and Tan Coonhound",
+    "credit": "Steffen Heinz (Caronna)",
+    "license": "CC BY-SA 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Black_and_Tan_Coonhound.jpg"
   },
   "blue-tongued-skink": {
     "file": "/images/blue-tongued-skink.jpg",
@@ -90,32 +188,88 @@
     "license": "CC BY-SA 3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Tiliqua_scincoides_scincoides.jpg"
   },
+  "bluetick-coonhound": {
+    "file": "/images/bluetick-coonhound.jpg",
+    "alt": "A Bluetick Coonhound",
+    "credit": "Wikimedia Commons",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:BluetickCoonhound.jpg"
+  },
+  "boa-constrictor": {
+    "file": "/images/boa-constrictor.jpg",
+    "alt": "A Boa Constrictor",
+    "credit": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Red-tailed_boa_(Boa_constrictor_constrictor)_Rio_Napo.jpg"
+  },
+  "boer-goat": {
+    "file": "/images/boer-goat.jpg",
+    "alt": "A Boer Goat",
+    "credit": "Teunie at Dutch Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Boerbok.jpg"
+  },
+  "border-collie": {
+    "file": "/images/border-collie.jpg",
+    "alt": "A Border Collie",
+    "credit": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Border_Collie_600.jpg"
+  },
   "borzoi": {
     "file": "/images/borzoi.jpg",
     "alt": "A Borzoi",
-    "credit": "Unknown photographer",
-    "license": "CC BY-SA 3.0 nl",
-    "source": "https://commons.wikimedia.org/wiki/File:Fenklup1968BonzoDogDooDah1.jpg"
-  },
-  "bulldog": {
-    "file": "/images/bulldog.jpg",
-    "alt": "A Bulldog",
-    "credit": "Employee(s) of Hodder &amp; Stoughton",
-    "license": "Public domain",
-    "source": "https://commons.wikimedia.org/wiki/File:Bulldog_Drummond_1st_edition_cover,_1920.jpg"
-  },
-  "california-kingsnake": {
-    "file": "/images/california-kingsnake.jpg",
-    "alt": "A California Kingsnake",
-    "credit": "Connor Long",
+    "credit": "Pleple2000",
     "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:California_Kingsnake_(Lampropeltis_getula_californiae).JPG"
+    "source": "https://commons.wikimedia.org/wiki/File:Chart_rosyjski_borzoj_rybnik-kamien_pl.jpg"
   },
-  "cardinal-tetra": {
-    "file": "/images/cardinal-tetra.jpg",
-    "alt": "A Cardinal Tetra",
-    "credit": "CHUCAO",
+  "box-turtle": {
+    "file": "/images/box-turtle.jpg",
+    "alt": "A Eastern Box Turtle",
+    "credit": "(c) Joshua Liverman, some rights reserved (CC BY)",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Eastern_Box_Turtle,_North_Carolina,_US_imported_from_iNaturalist_photo_71168521_(cropped).jpg"
+  },
+  "boykin-spaniel": {
+    "file": "/images/boykin-spaniel.jpg",
+    "alt": "A Boykin Spaniel",
+    "credit": "jetsonphoto",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Boykin_Spaniel_April_Jet.jpg"
+  },
+  "braque-du-bourbonnais": {
+    "file": "/images/braque-du-bourbonnais.jpg",
+    "alt": "A Braque du Bourbonnais",
+    "credit": "Mic comte at English Wikipedia",
     "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cardinal_Paracheirodon_axelrodi_(3).jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Braque_du_Bourbonnais.jpg"
+  },
+  "braque-francais": {
+    "file": "/images/braque-francais.jpg",
+    "alt": "A Braque Francais",
+    "credit": "Kasiablanka",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wy%C5%BCe%C5%82_Gasko%C5%84ski.jpg"
+  },
+  "braque-saint-germain": {
+    "file": "/images/braque-saint-germain.jpg",
+    "alt": "A Braque Saint-Germain",
+    "credit": "Pleple2000",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Braque_saint-germain_666.jpg"
+  },
+  "brazilian-terrier": {
+    "file": "/images/brazilian-terrier.jpg",
+    "alt": "A Brazilian Terrier",
+    "credit": "Ludax91",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Terrier_brazylijski_2.jpg"
+  },
+  "briard": {
+    "file": "/images/briard.jpg",
+    "alt": "A Briard",
+    "credit": "Birgit Balzer, Deutschland (uploaded by Caronna 17:00, 10 Feb 2005 (UTC))",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Briard_fauve.JPG"
   }
 }

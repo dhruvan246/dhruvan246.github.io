@@ -4,11 +4,14 @@ description: "Everything about Australian Shepherds — their high energy, exerc
 category: "dogs"
 species: "Australian Shepherd"
 pubDate: 2026-05-17
-heroImage: ""
-heroImageAlt: "A blue merle Australian Shepherd standing alert"
+heroImage: "/images/australian-shepherd.jpg"
+heroImageAlt: "A Australian Shepherd"
 tags: ["australian shepherd", "medium dogs", "herding breeds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Trickdog-Fina"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Australian_Shepherd_red_bi.JPG"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Smart, athletic and devoted, the Australian Shepherd is a herding dog that thrives on work and activity. Despite the name, the breed was refined in the United States — and it remains one of the most capable working companions around.

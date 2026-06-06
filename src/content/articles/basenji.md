@@ -4,11 +4,14 @@ description: "Care guide to the Basenji, the barkless African hound: yodeling vo
 category: "dogs"
 species: "Basenji"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Basenji dog"
+heroImage: "/images/basenji.jpg"
+heroImageAlt: "A Basenji"
 tags: ["basenji", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "fugzu"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Basenji_Profile_(loosercrop).jpg"
+heroLicense: "CC BY 2.0"
 ---
 
 Often called the "barkless dog," the Basenji is an ancient African hunting breed prized for its quiet voice, fastidious cleanliness and fiercely independent spirit. Compact, elegant and endlessly curious, it suits owners who appreciate a clever, cat-like companion.

@@ -4,11 +4,14 @@ description: "Care guide for the American Foxhound, a large, athletic scent houn
 category: "dogs"
 species: "American Foxhound"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A American Foxhound dog"
+heroImage: "/images/american-foxhound.jpg"
+heroImageAlt: "A American Foxhound"
 tags: ["american-foxhound", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:AmericanFoxhound2.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Bred in the United States to chase fox over long distances, the American Foxhound is a lean, tireless scent hound with a melodious voice and an easygoing, friendly nature. Athletic and pack-oriented, it thrives in active homes that can match its considerable stamina.

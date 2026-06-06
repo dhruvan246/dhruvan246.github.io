@@ -5,7 +5,7 @@ category: "dogs"
 species: "Border Collie"
 pubDate: 2026-05-31
 heroImage: "/images/border-collie.jpg"
-heroImageAlt: "A Border Collie dog"
+heroImageAlt: "A Border Collie"
 tags: ["border collie", "medium dogs", "herding breeds", "care guide"]
 author: "The PawPedia Team"
 draft: false

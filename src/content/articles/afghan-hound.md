@@ -4,11 +4,14 @@ description: "Care guide for the Afghan Hound: a tall, silky-coated sighthound w
 category: "dogs"
 species: "Afghan Hound"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Afghan Hound dog"
+heroImage: "/images/afghan-hound.jpg"
+heroImageAlt: "A Afghan Hound"
 tags: ["afghan-hound", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Weaveravel"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Afghan_dog_-_cropped.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Afghan Hound is one of the most distinctive of all dog breeds, instantly recognized by its long, flowing silky coat and dignified, aristocratic bearing. An ancient sighthound originally developed in the mountains of Afghanistan, it combines remarkable speed and agility with an aloof, independent personality that many owners describe as almost cat-like.

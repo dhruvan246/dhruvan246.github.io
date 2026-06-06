@@ -4,11 +4,14 @@ description: "Care guide for the American Water Spaniel: this rare medium-sized 
 category: "dogs"
 species: "American Water Spaniel"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A American Water Spaniel dog"
+heroImage: "/images/american-water-spaniel.jpg"
+heroImageAlt: "A American Water Spaniel"
 tags: ["american-water-spaniel", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Awsguy1"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Chien_d%27eau_americain_champion_1.JPG"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The American Water Spaniel is a versatile, medium-sized gundog developed in the upper Midwest of the United States to hunt and retrieve waterfowl and upland game from boats and marshes. Compact, eager and affectionate, this relatively rare breed is the state dog of Wisconsin and makes a devoted companion for active owners.

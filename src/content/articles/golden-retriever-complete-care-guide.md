@@ -4,14 +4,12 @@ description: "Everything you need to know about Golden Retrievers — temperamen
 category: "dogs"
 species: "Golden Retriever"
 pubDate: 2026-06-04
-heroImage: "/images/golden-retriever-complete-care-guide.jpg"
+heroImage: ""
 heroImageAlt: "A Golden Retriever dog"
 tags: ["golden retriever", "dog breeds", "family dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
-heroCredit: "Dukedestiny01.jpg: \"Janneke Vreugdenhil\" derivative work: Anka Friedrich ([[User talk:Ankaaswe Trix Friedrich|talk]])"
-heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Golden_Retriever_Dukedestiny01_drvd.jpg"
-heroLicense: "Public domain"
+
 ---
 
 The Golden Retriever is one of the most beloved dog breeds in the world — and for good reason. Friendly, intelligent and endlessly patient, Goldens make wonderful family companions. In this guide we'll cover everything you need to raise a happy, healthy Golden Retriever.

@@ -4,11 +4,14 @@ description: "Learn how to keep a Boer Goat: housing, fencing, browse-based diet
 category: "farm-pets"
 species: "Boer Goat"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/boer-goat.jpg"
 heroImageAlt: "A Boer Goat"
 tags: ["boer-goat", "farm-pets", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Teunie at Dutch Wikipedia"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Boerbok.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Boer goat is a robust, fast-growing meat breed developed in South Africa during the early 1900s. Easily recognized by its white body and distinctive reddish-brown head, it has become one of the most popular meat goats worldwide thanks to its hardiness, docile nature, and strong maternal instincts. While primarily a livestock animal, Boers are also kept as friendly homestead companions.

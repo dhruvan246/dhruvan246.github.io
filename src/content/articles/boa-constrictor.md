@@ -4,11 +4,14 @@ description: "Learn how to keep a Boa Constrictor: enclosure size, heating, humi
 category: "reptiles"
 species: "Boa Constrictor"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/boa-constrictor.jpg"
 heroImageAlt: "A Boa Constrictor"
 tags: ["boa-constrictor", "reptiles", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Charles J. Sharp"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Red-tailed_boa_(Boa_constrictor_constrictor)_Rio_Napo.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Boa Constrictor (*Boa constrictor*) is a large, heavy-bodied, nonvenomous snake native to Central and South America. Calm and long-lived, it is a popular reptile for keepers ready to commit to a powerful animal and decades of care. Because it grows large, it is best suited to dedicated owners rather than first-time snake keepers.

@@ -4,14 +4,12 @@ description: "Learn how to keep a California Kingsnake healthy: enclosure setup,
 category: "reptiles"
 species: "California Kingsnake"
 pubDate: 2026-03-01
-heroImage: "/images/california-kingsnake.jpg"
+heroImage: ""
 heroImageAlt: "A California Kingsnake"
 tags: ["california-kingsnake", "reptiles", "care guide"]
 author: "The PawPedia Team"
 draft: false
-heroCredit: "Connor Long"
-heroCreditUrl: "https://commons.wikimedia.org/wiki/File:California_Kingsnake_(Lampropeltis_getula_californiae).JPG"
-heroLicense: "CC BY-SA 4.0"
+
 ---
 
 The California Kingsnake (*Lampropeltis californiae*) is one of the most popular pet snakes in the hobby, prized for its hardiness, manageable size, and striking color patterns. Native to the western United States and northern Mexico, this non-venomous constrictor adapts well to captivity and is widely recommended for first-time snake keepers.

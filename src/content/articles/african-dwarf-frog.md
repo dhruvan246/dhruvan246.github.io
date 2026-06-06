@@ -4,14 +4,12 @@ description: "Learn to care for African Dwarf Frogs: tank size, water parameters
 category: "amphibians"
 species: "African Dwarf Frog"
 pubDate: 2026-03-01
-heroImage: "/images/african-dwarf-frog.jpg"
+heroImage: ""
 heroImageAlt: "A African Dwarf Frog"
 tags: ["african-dwarf-frog", "amphibians", "care guide"]
 author: "The PawPedia Team"
 draft: false
-heroCredit: "James Gathany"
-heroCreditUrl: "https://commons.wikimedia.org/wiki/File:African_dwarf_frog.jpg"
-heroLicense: "Public domain"
+
 ---
 
 The African Dwarf Frog (genus *Hymenochirus*) is a small, fully aquatic amphibian from the freshwater streams and pools of Central Africa. Hardy, peaceful, and endlessly entertaining as they dart to the surface for air, they have become a popular choice for community aquariums and dedicated frog tanks alike.

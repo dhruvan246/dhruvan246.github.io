@@ -4,11 +4,14 @@ description: "Care guide for the Black and Tan Coonhound: a large, scent-driven 
 category: "dogs"
 species: "Black and Tan Coonhound"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Black and Tan Coonhound dog"
+heroImage: "/images/black-and-tan-coonhound.jpg"
+heroImageAlt: "A Black and Tan Coonhound"
 tags: ["black-and-tan-coonhound", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Steffen Heinz (Caronna)"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Black_and_Tan_Coonhound.jpg"
+heroLicense: "CC BY-SA 2.5"
 ---
 
 The Black and Tan Coonhound is a large American scenthound bred to trail and tree raccoons and other game by following ground scent over long distances. Easygoing at home but tireless on a trail, this breed rewards owners who appreciate its mellow nature and powerful nose.

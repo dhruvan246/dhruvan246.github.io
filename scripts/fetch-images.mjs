@@ -46,7 +46,7 @@ let ok = 0, skip = 0;
 
 for (const it of items) {
   if (manifest[it.slug]) { continue; } // already fetched in a previous run
-  await sleep(1200); // be polite to the free APIs — avoids rate limiting
+  await sleep(2000); // be polite to the free APIs — avoids rate limiting (429s)
   try {
     // 1) Resolve best Wikipedia article title for the query.
     const s = await api('en.wikipedia.org', { action: 'opensearch', search: it.q, limit: '1', namespace: '0' });

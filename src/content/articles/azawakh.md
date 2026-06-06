@@ -4,11 +4,14 @@ description: "Discover the Azawakh, a lean West African sighthound. Learn about 
 category: "dogs"
 species: "Azawakh"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Azawakh dog"
+heroImage: "/images/azawakh.jpg"
+heroImageAlt: "A Azawakh"
 tags: ["azawakh", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Cristian.vantu"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Bistrita_2015_(22).jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Azawakh is a tall, lean sighthound originating from the Sahelian regions of West Africa, including Mali, Niger, and Burkina Faso. Bred by nomadic peoples as a hunting companion and a loyal guardian, this breed combines striking elegance with a deeply devoted and independent nature.

@@ -4,14 +4,12 @@ description: "Learn how to care for a Holland Lop rabbit, including housing, die
 category: "small-pets"
 species: "Holland Lop"
 pubDate: 2026-03-01
-heroImage: "/images/holland-lop.jpg"
+heroImage: ""
 heroImageAlt: "A Holland Lop rabbit"
 tags: ["holland-lop", "small-pets", "care guide"]
 author: "The PawPedia Team"
 draft: false
-heroCredit: "SirDukeOfAwe"
-heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Holland_Lop_Bunny_Standing_On_Her_Back_Feet.jpg"
-heroLicense: "CC0"
+
 ---
 
 The Holland Lop is one of the most popular pet rabbit breeds, prized for its compact body, floppy ears, and friendly, easygoing personality. Originally developed in the Netherlands, this dwarf breed makes a rewarding companion for families, singles, and first-time rabbit keepers willing to meet its daily care needs.

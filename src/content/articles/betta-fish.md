@@ -4,14 +4,12 @@ description: "Learn how to care for a Betta fish, including ideal tank size, war
 category: "fish"
 species: "Betta Fish"
 pubDate: 2026-03-01
-heroImage: "/images/betta-fish.jpg"
+heroImage: ""
 heroImageAlt: "A betta fish"
 tags: ["betta-fish", "fish", "care guide"]
 author: "The PawPedia Team"
 draft: false
-heroCredit: "Daniella Vereeken"
-heroCreditUrl: "https://commons.wikimedia.org/wiki/File:HM_Orange_M_Sarawut.jpg"
-heroLicense: "CC BY 2.0"
+
 ---
 
 The Betta fish (*Betta splendens*), also called the Siamese fighting fish, is one of the most popular freshwater aquarium pets. Native to the slow-moving waters of Southeast Asia, it is prized for its vivid colours and flowing fins. With the right warm, filtered tank, a betta is hardy and rewarding to keep.
