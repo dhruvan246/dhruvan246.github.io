@@ -4,11 +4,14 @@ description: "Care guide for the Cesky Fousek, a versatile Czech wirehaired poin
 category: "dogs"
 species: "Cesky Fousek"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Cesky Fousek dog"
+heroImage: "/images/cesky-fousek.jpg"
+heroImageAlt: "A Cesky Fousek"
 tags: ["cesky-fousek", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Pleple2000"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Czeski_fousek_777.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Cesky Fousek (also called the Bohemian Wirehaired Pointing Griffon) is a versatile hunting dog from the Czech Republic, prized for its ability to point, retrieve and track on land and in water. With its harsh, bearded coat and devoted nature, it is a hardworking, affectionate companion for active, outdoor-minded households.

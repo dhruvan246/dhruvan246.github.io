@@ -4,11 +4,14 @@ description: "Care guide for the Green Iguana, covering enclosure size, UVB ligh
 category: "reptiles"
 species: "Green Iguana"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/green-iguana.jpg"
 heroImageAlt: "A Green Iguana"
 tags: ["green-iguana", "reptiles", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Hans Hillewaert"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Iguana_iguana_(male_resting).jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Green Iguana (*Iguana iguana*) is a large, arboreal lizard native to the tropical forests of Central and South America. Often sold cheaply as a tiny hatchling, it grows into a demanding reptile that needs a great deal of space, specialized equipment, and a long-term commitment. It is one of the most commonly surrendered exotic pets precisely because owners underestimate its adult size and needs.

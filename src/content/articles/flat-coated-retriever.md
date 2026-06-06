@@ -4,11 +4,14 @@ description: "A complete care guide to the Flat-Coated Retriever — the cheerfu
 category: "dogs"
 species: "Flat-Coated Retriever"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Flat-Coated Retriever dog"
+heroImage: "/images/flat-coated-retriever.jpg"
+heroImageAlt: "A Flat-Coated Retriever"
 tags: ["flat-coated-retriever", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Gunnandreassen"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Flat_Coated_Retriever_-_black.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Often called the "Peter Pan" of dogs for its lasting puppy-like exuberance, the Flat-Coated Retriever is a friendly, energetic gundog originally bred in Britain to retrieve game on both land and water. Smart, sociable and eager to please, it makes a devoted family companion for active homes.

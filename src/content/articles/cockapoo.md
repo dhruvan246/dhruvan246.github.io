@@ -4,11 +4,14 @@ description: "A complete Cockapoo care guide covering size, temperament, diet, e
 category: "dogs"
 species: "Cockapoo"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Cockapoo dog"
+heroImage: "/images/cockapoo.jpg"
+heroImageAlt: "A Cockapoo"
 tags: ["cockapoo", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "No machine-readable author provided. BetacommandBot assumed (based on copyright claims)."
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Cockapoo_apricot_standing.jpg"
+heroLicense: "CC BY 2.5"
 ---
 
 The Cockapoo is a popular crossbreed produced by mating a Cocker Spaniel with a Poodle (most often a Miniature or Toy Poodle). Prized for its affectionate nature and low-shedding coat, it has become one of the most sought-after companion dogs in homes and apartments alike.

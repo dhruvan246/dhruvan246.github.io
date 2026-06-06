@@ -4,11 +4,14 @@ description: "Everything about French Bulldogs — their easygoing temperament, 
 category: "dogs"
 species: "French Bulldog"
 pubDate: 2026-05-28
-heroImage: ""
-heroImageAlt: "A fawn French Bulldog with large bat ears"
+heroImage: "/images/french-bulldog.jpg"
+heroImageAlt: "A French Bulldog"
 tags: ["french bulldog", "frenchie", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Ildar Sagdejev (Specious)"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:2008-07-28_Dog_at_Frolick_Field.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 With their bat ears and squishy faces, French Bulldogs have become one of the most popular city dogs in the world. They're affectionate, low-energy and great for apartments — but their flat faces mean they need careful, informed care.

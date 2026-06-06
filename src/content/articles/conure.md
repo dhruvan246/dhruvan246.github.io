@@ -4,11 +4,14 @@ description: "Learn how to care for a conure, the playful small-to-medium parrot
 category: "birds"
 species: "Conure"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/conure.jpg"
 heroImageAlt: "A Conure"
 tags: ["conure", "birds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Srimanta Khadanga niku"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Birds_Sun_Conure.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 Conures are a popular group of small-to-medium parrots native to Central and South America. Affectionate, curious, and full of personality, they make rewarding companions for owners who can offer plenty of daily attention. Popular types include the green-cheeked, sun, and jenday conure.

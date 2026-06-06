@@ -4,11 +4,14 @@ description: "Care guide to the Canaan Dog, an ancient Middle Eastern pariah bre
 category: "dogs"
 species: "Canaan Dog"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Canaan Dog dog"
+heroImage: "/images/canaan-dog.jpg"
+heroImageAlt: "A Canaan Dog"
 tags: ["canaan-dog", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Canaan Dog, Hodowla Samorodok Hanaana http://www.ruscanaan.ru"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:CanaanDogChakede.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Canaan Dog is one of the oldest and hardiest breeds in the world, an ancient pariah dog from the Middle East that survived for centuries in the deserts of the region. Naturally alert, agile and deeply loyal, it makes a devoted yet self-reliant companion for experienced, active owners.

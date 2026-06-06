@@ -4,11 +4,14 @@ description: "The Catalan Sheepdog is a rugged, shaggy-coated herding breed from
 category: "dogs"
 species: "Catalan Sheepdog"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Catalan Sheepdog dog"
+heroImage: "/images/catalan-sheepdog.jpg"
+heroImageAlt: "A Catalan Sheepdog"
 tags: ["catalan-sheepdog", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Gos-d%27Atura-Catala.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Catalan Sheepdog, known in its homeland as the Gos d'Atura Català, is a medium-sized herding dog from the Catalonia region of northeastern Spain. Bred for centuries to move and guard flocks of sheep across the Pyrenees foothills, this shaggy, weather-hardy breed combines a sharp mind with deep devotion to its family.

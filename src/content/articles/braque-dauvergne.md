@@ -4,11 +4,14 @@ description: "Meet the Braque d'Auvergne, a French pointing breed. Learn this ge
 category: "dogs"
 species: "Braque d'Auvergne"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Braque d'Auvergne dog"
+heroImage: "/images/braque-dauvergne.jpg"
+heroImageAlt: "A Braque d'Auvergne"
 tags: ["braque-dauvergne", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Mrsthurlow"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Braque_d_Auvergne.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Braque d'Auvergne is a French pointing breed that hails from the Auvergne region in central France. Built as an all-round gundog, it is admired for its keen nose, steady working style and its striking black-and-white "charbonné" coat. Friendly and even-tempered, the Braque d'Auvergne is equally at home in the field and as a devoted family companion.

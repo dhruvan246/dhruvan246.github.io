@@ -4,11 +4,14 @@ description: "A complete care guide to the English Toy Spaniel — this gentle t
 category: "dogs"
 species: "English Toy Spaniel"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A English Toy Spaniel dog"
+heroImage: "/images/english-toy-spaniel.jpg"
+heroImageAlt: "A English Toy Spaniel"
 tags: ["english-toy-spaniel", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Pleple2000 10:18, 5 April 2006 (UTC)"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:King_Charles_Spaniel_200.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Gentle, affectionate and content to be a devoted lap dog, the English Toy Spaniel is a true companion breed. Often confused with the larger Cavalier King Charles Spaniel, this smaller toy spaniel has its own distinct domed head and quiet, dignified charm.

@@ -4,11 +4,14 @@ description: "Meet the Cesky Terrier, a calm Czech hunting terrier with a soft, 
 category: "dogs"
 species: "Cesky Terrier"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Cesky Terrier dog"
+heroImage: "/images/cesky-terrier.jpg"
+heroImageAlt: "A Cesky Terrier"
 tags: ["cesky-terrier", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Pleple2000"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Terier_czeski_suka_2009_pl2.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 Developed in the 1940s by Czech breeder Frantisek Horak, the Cesky Terrier (also called the Bohemian Terrier) was created by crossing Sealyham and Scottish Terriers to produce a leaner, more cooperative hunting dog. The result is a calm, good-natured terrier that is noticeably more laid-back than many of its scrappier cousins, making it a pleasant companion for families and apartment dwellers alike.

@@ -4,11 +4,14 @@ description: "Everything about Cocker Spaniels — their sweet temperament, coat
 category: "dogs"
 species: "Cocker Spaniel"
 pubDate: 2026-06-01
-heroImage: ""
-heroImageAlt: "A golden Cocker Spaniel with long ears"
+heroImage: "/images/cocker-spaniel.jpg"
+heroImageAlt: "A Cocker Spaniel"
 tags: ["cocker spaniel", "medium dogs", "spaniels", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Fcocker"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Gessa_d%27Aran_Copo_de_Nieve-_arancio_roano-_prop.Kalesa.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 With their soulful eyes, silky ears and gentle nature, Cocker Spaniels are one of the most affectionate family dogs around. Originally bred to flush and retrieve birds, they're active, loving and eager to please.

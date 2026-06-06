@@ -4,11 +4,14 @@ description: "Learn how to care for a Flemish Giant rabbit, one of the largest b
 category: "small-pets"
 species: "Flemish Giant"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/flemish-giant.jpg"
 heroImageAlt: "A Flemish Giant"
 tags: ["flemish-giant", "small-pets", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Lucile Petit"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Lapin_geant_des_flandres.JPG"
+heroLicense: "Public domain"
 ---
 
 The Flemish Giant is one of the largest domestic rabbit breeds, often nicknamed the "gentle giant" for its calm, docile nature. Bred originally in Belgium, this breed combines an impressive size with a friendly, easygoing personality that makes it a rewarding companion for owners prepared to meet its larger-than-average needs.

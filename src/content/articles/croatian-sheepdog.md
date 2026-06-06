@@ -4,11 +4,14 @@ description: "Care guide to the Croatian Sheepdog, a nimble black-coated herding
 category: "dogs"
 species: "Croatian Sheepdog"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Croatian Sheepdog dog"
+heroImage: "/images/croatian-sheepdog.jpg"
+heroImageAlt: "A Croatian Sheepdog"
 tags: ["croatian-sheepdog", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Michala Mračková"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Gera062005sed.jpg"
+heroLicense: "Public domain"
 ---
 
 The Croatian Sheepdog (Hrvatski Ovčar) is an agile, alert herding breed native to Croatia, where it has worked alongside shepherds for centuries. Compact, quick, and famously devoted, it remains a hardworking dog that thrives when given a job and an active home.

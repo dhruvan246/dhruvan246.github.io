@@ -4,11 +4,14 @@ description: "A practical care guide to the Australian Terrier, covering this sm
 category: "dogs"
 species: "Australian Terrier"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Australian Terrier dog"
+heroImage: "/images/australian-terrier.jpg"
+heroImageAlt: "A Australian Terrier"
 tags: ["australian-terrier", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Chuck in MA"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Australian_Terrier_adult_male.jpg"
+heroLicense: "Public domain"
 ---
 
 The Australian Terrier is a small, hardy working terrier developed in Australia to control rodents and snakes and to serve as a loyal companion on remote homesteads. Confident, alert, and surprisingly tough for its size, it remains an affectionate and adaptable family dog today.

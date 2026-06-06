@@ -4,11 +4,14 @@ description: "Care guide for the Cao de Castro Laboreiro, a rare Portuguese moun
 category: "dogs"
 species: "Cao de Castro Laboreiro"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Cao de Castro Laboreiro dog"
+heroImage: "/images/cao-de-castro-laboreiro.jpg"
+heroImageAlt: "A Cao de Castro Laboreiro"
 tags: ["cao-de-castro-laboreiro", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Schiowa"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Cao_de_Castro_Laboreiro_Ruede.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Cao de Castro Laboreiro is a rare livestock-guarding breed from the mountainous Minho region of northern Portugal. Named after the village of Castro Laboreiro, it was developed over centuries to protect flocks of sheep and cattle from wolves and other predators. Calm, deeply loyal, and intensely watchful, it remains uncommon outside its homeland.

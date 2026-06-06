@@ -4,11 +4,14 @@ description: "Care guide for the German Wirehaired Pointer: this versatile, weat
 category: "dogs"
 species: "German Wirehaired Pointer"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A German Wirehaired Pointer dog"
+heroImage: "/images/german-wirehaired-pointer.jpg"
+heroImageAlt: "A German Wirehaired Pointer"
 tags: ["german-wirehaired-pointer", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "JainaKo"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Dan_vom_hardenberg_(cropped).jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The German Wirehaired Pointer (GWP) is a rugged, all-purpose hunting dog bred in Germany to point, retrieve and work in tough terrain and cold water. Distinguished by its harsh, weather-resistant coat and bushy facial furnishings, the GWP is an energetic, loyal companion for active households.

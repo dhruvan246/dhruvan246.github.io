@@ -4,11 +4,14 @@ description: "A complete Cardigan Welsh Corgi care guide covering size, temperam
 category: "dogs"
 species: "Cardigan Welsh Corgi"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Cardigan Welsh Corgi dog"
+heroImage: "/images/cardigan-welsh-corgi.png"
+heroImageAlt: "A Cardigan Welsh Corgi"
 tags: ["cardigan-welsh-corgi", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "FatFairfax"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Cardigan_Welsh_Corgi,_Profile.png"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Sturdy, alert and quietly devoted, the Cardigan Welsh Corgi is one of the oldest herding breeds in Britain, developed to drive cattle across the farms of Wales. Distinguished from its Pembroke cousin by a long, fox-like tail and rounded ears, the Cardigan pairs a low-slung, powerful body with a thoughtful, loyal nature.

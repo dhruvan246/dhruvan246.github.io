@@ -4,11 +4,14 @@ description: "Care guide for the Greenland Dog, a powerful Arctic sled breed nee
 category: "dogs"
 species: "Greenland Dog"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Greenland Dog dog"
+heroImage: "/images/greenland-dog.jpg"
+heroImageAlt: "A Greenland Dog"
 tags: ["greenland-dog", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "sannse"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Greenland_Dog.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Greenland Dog is one of the oldest and hardiest sled-dog breeds, developed by Arctic peoples for hauling loads and hunting across snow and ice. Robust, independent, and tireless, it is a working dog at heart that thrives in cold climates and active homes rather than apartments or sedentary households.

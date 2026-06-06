@@ -4,11 +4,14 @@ description: "Learn how to keep domestic geese happy and healthy, from housing a
 category: "farm-pets"
 species: "Domestic Goose"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/domestic-goose.jpg"
 heroImageAlt: "A Domestic Goose"
 tags: ["domestic-goose", "farm-pets", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Tomás Del Coro from Las Vegas, Nevada, USA"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Sunset_Park_-_Las_Vegas_(11044584144).jpg"
+heroLicense: "CC BY-SA 2.0"
 ---
 
 The domestic goose is one of the oldest farmed birds, kept for centuries for meat, eggs, down, and weeding. Hardy, intelligent, and surprisingly affectionate when raised well, geese make rewarding additions to a homestead. Most breeds descend from the European Greylag (*Anser anser*) or the Asian Swan goose (*Anser cygnoides*), the ancestor of Chinese and African breeds.

@@ -4,11 +4,14 @@ description: "A practical guide to keeping the hardy, easy-to-breed Convict Cich
 category: "fish"
 species: "Convict Cichlid"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/convict-cichlid.jpg"
 heroImageAlt: "A Convict Cichlid"
 tags: ["convict-cichlid", "fish", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "S. Olkowicz - User Hippocampus on pl.wikipedia"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Archocentrus_nigrofasciatus_female.jpg"
+heroLicense: "CC BY 2.5"
 ---
 
 The Convict Cichlid (*Amatitlania nigrofasciata*) is one of the most popular beginner cichlids, prized for its bold personality, striking stripes and willingness to breed in almost any aquarium. Native to Central America, it is hardy and undemanding, but its aggression means it must be housed thoughtfully.

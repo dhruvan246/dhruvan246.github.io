@@ -4,11 +4,14 @@ description: "Discover the Australian Stumpy Tail Cattle Dog, a hardy naturally 
 category: "dogs"
 species: "Australian Stumpy Tail Cattle Dog"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Australian Stumpy Tail Cattle Dog dog"
+heroImage: "/images/australian-stumpy-tail-cattle-dog.jpg"
+heroImageAlt: "A Australian Stumpy Tail Cattle Dog"
 tags: ["australian-stumpy-tail-cattle-dog", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Wendy Hodges"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Australian_Stumpy_Tail_Cattle_Dog.jpg"
+heroLicense: "CC BY 2.0"
 ---
 
 The Australian Stumpy Tail Cattle Dog is a tough, naturally short-tailed herding breed developed in the Australian outback to move cattle across vast, rugged country. Often confused with its close relative the Australian Cattle Dog, the "Stumpy" is a distinct breed with a square build, a naturally bobbed or absent tail, and an independent, hard-working character.
