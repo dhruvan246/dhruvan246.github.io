@@ -4,11 +4,14 @@ description: "Care guide to the Dutch Shepherd, a hardy brindle herding dog know
 category: "dogs"
 species: "Dutch Shepherd"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Dutch Shepherd dog"
+heroImage: "/images/dutch-shepherd.jpg"
+heroImageAlt: "A Dutch Shepherd"
 tags: ["dutch-shepherd", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "CaroleField"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Luna-orig-modified.Feb_2019.DSC_4339-SharpenAI-Softness.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Dutch Shepherd (Hollandse Herdershond) is a versatile herding breed developed in the rural Netherlands, where it worked as an all-purpose farm dog tending sheep, guarding property, and pulling carts. Recognizable by its distinctive brindle coat, this athletic, sharp-minded dog has become a favorite for dog sports, police, and military work.

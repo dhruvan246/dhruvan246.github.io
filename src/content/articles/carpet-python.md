@@ -4,11 +4,14 @@ description: "Learn how to keep a Carpet Python: enclosure setup, heating and hu
 category: "reptiles"
 species: "Carpet Python"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/carpet-python.jpg"
 heroImageAlt: "A Carpet Python"
 tags: ["carpet-python", "reptiles", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Amos T Fairchild"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Australian-Carpet-Python.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Carpet Python (*Morelia spilota*) is a non-venomous Australian and New Guinean snake popular with intermediate keepers for its striking patterns, manageable size, and reputation as a hardy, long-lived captive.

@@ -4,11 +4,14 @@ description: "Care guide to the Clumber Spaniel: a heavy, mellow gundog with a d
 category: "dogs"
 species: "Clumber Spaniel"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Clumber Spaniel dog"
+heroImage: "/images/clumber-spaniel.jpg"
+heroImageAlt: "A Clumber Spaniel"
 tags: ["clumber-spaniel", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Pleple2000"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Clumber_spaniel_rybnik_kamien_pppl.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Clumber Spaniel is the largest and heaviest of the spaniels — a calm, dignified gundog built low to the ground. Known for its mellow disposition and soulful expression, this English breed is a devoted, easygoing companion that prefers a steady walk to a frantic sprint.

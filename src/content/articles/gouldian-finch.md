@@ -4,11 +4,14 @@ description: "Care guide for the Gouldian Finch, covering housing, diet, tempera
 category: "birds"
 species: "Gouldian Finch"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/gouldian-finch.jpg"
 heroImageAlt: "A Gouldian Finch"
 tags: ["gouldian-finch", "birds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Martybugs (talk)"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Male_adult_Gouldian_Finch.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Gouldian Finch (*Chloebia gouldiae*) is one of the most strikingly colored small birds kept in captivity, native to the grasslands of northern Australia. Prized for its rainbow plumage rather than its voice or tameness, it is best suited to aviary keepers who enjoy watching birds rather than handling them.

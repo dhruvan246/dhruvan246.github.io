@@ -4,11 +4,14 @@ description: "Complete Boerboel care guide covering this large South African mas
 category: "dogs"
 species: "Boerboel"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Boerboel dog"
+heroImage: "/images/boerboel.jpg"
+heroImageAlt: "A Boerboel"
 tags: ["boerboel", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Smok Bazyli"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Boerboel_wiki.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Boerboel is a large, powerfully built mastiff-type breed developed in South Africa as a farm guardian. Bred to protect homesteads and livestock against intruders and predators, it combines imposing size with surprising agility, deep family devotion and a strong, confident guarding instinct.

@@ -4,11 +4,14 @@ description: "Care guide for the Emperor Scorpion, a docile, long-lived African 
 category: "invertebrates"
 species: "Emperor Scorpion"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/emperor-scorpion.jpg"
 heroImageAlt: "A Emperor Scorpion"
 tags: ["emperor-scorpion", "invertebrates", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Rosa Pineda"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Female_Emperor_Scorpion.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Emperor Scorpion (*Pandinus imperator*) is one of the most popular pet scorpions, prized for its large size, glossy black body and famously calm disposition. Native to the rainforests and savannas of West Africa, it is a hardy, low-maintenance invertebrate that suits keepers wanting an unusual but manageable display animal.

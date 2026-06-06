@@ -4,11 +4,14 @@ description: "Learn how to keep hardy, colorful damselfish: ideal tank size, ree
 category: "fish"
 species: "Damselfish"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/damselfish.jpg"
 heroImageAlt: "A Damselfish"
 tags: ["damselfish", "fish", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "USGS - Individual photographer uncredited by source."
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Caribbean_Cocoa_damselfish.jpg"
+heroLicense: "Public domain"
 ---
 
 Damselfish are small, brightly colored marine fish from the family Pomacentridae, long valued as one of the hardiest and most affordable saltwater aquarium species. With dozens of species available, from electric-blue damsels to yellowtail and domino varieties, they are often recommended for beginners. Their toughness comes with a catch, however: most damselfish are bold and territorial, so they require thoughtful planning to fit into a peaceful community.

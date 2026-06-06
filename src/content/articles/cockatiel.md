@@ -4,11 +4,14 @@ description: "Learn how to care for a cockatiel, from cage setup and a balanced 
 category: "birds"
 species: "Cockatiel"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/cockatiel.jpg"
 heroImageAlt: "A Cockatiel"
 tags: ["cockatiel", "birds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Photo by: Ganatron – paulweberphoto.com"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Cockatiel_3.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The cockatiel is one of the most popular pet birds in the world, prized for its gentle nature, charming crest, and ability to bond closely with people. Native to the arid interior of Australia, this small member of the cockatoo family is hardy, affectionate, and well suited to first-time bird keepers willing to offer daily attention.

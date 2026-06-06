@@ -4,11 +4,14 @@ description: "Care guide to the Basset Hound: this droopy-eared scent hound's ca
 category: "dogs"
 species: "Basset Hound"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Basset Hound dog"
+heroImage: "/images/basset-hound.jpg"
+heroImageAlt: "A Basset Hound"
 tags: ["basset-hound", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Cali1008"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:BassetHound_profil.jpg"
+heroLicense: "Public domain"
 ---
 
 Famous for their long velvety ears, soulful droopy eyes and short, sturdy legs, the Basset Hound is a gentle, easy-going scent hound. Bred to track game by smell, they pair a powerful nose with a famously laid-back, affectionate nature.

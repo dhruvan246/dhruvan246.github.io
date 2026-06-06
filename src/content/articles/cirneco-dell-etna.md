@@ -4,11 +4,14 @@ description: "Care guide to the Cirneco dell'Etna, an ancient Sicilian sighthoun
 category: "dogs"
 species: "Cirneco dell'Etna"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Cirneco dell'Etna dog"
+heroImage: "/images/cirneco-dell-etna.jpg"
+heroImageAlt: "A Cirneco dell'Etna"
 tags: ["cirneco-dell-etna", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "de:Benutzer:Jan Eduard, contrast Pleple2000"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Cirneco_dell_Etna_611.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 An ancient hunting hound from the slopes of Mount Etna in Sicily, the Cirneco dell'Etna is a lean, athletic dog with large upright ears and a tan coat. Hardy and self-reliant, it blends sighthound speed with a scenthound's nose.

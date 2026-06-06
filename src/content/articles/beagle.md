@@ -4,11 +4,14 @@ description: "A complete Beagle care guide covering size, temperament, diet, exe
 category: "dogs"
 species: "Beagle"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Beagle dog"
+heroImage: "/images/beagle.jpg"
+heroImageAlt: "A Beagle"
 tags: ["beagle", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Beagle_600.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Cheerful, curious and guided above all by their remarkable nose, Beagles are among the most beloved family dogs in the world. Originally bred to hunt rabbits and hares in packs, they are sociable, sturdy and endlessly food-motivated companions.

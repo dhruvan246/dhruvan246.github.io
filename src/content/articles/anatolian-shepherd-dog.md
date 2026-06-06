@@ -4,11 +4,14 @@ description: "Learn how to care for the Anatolian Shepherd Dog, a large, indepen
 category: "dogs"
 species: "Anatolian Shepherd Dog"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Anatolian Shepherd Dog dog"
+heroImage: "/images/anatolian-shepherd-dog.jpg"
+heroImageAlt: "A Anatolian Shepherd Dog"
 tags: ["anatolian-shepherd-dog", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Kangalshepherddog"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Kangal_front_on.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Anatolian Shepherd Dog is a powerful, ancient livestock guardian developed over thousands of years on the rugged plateaus of central Turkey. Bred to protect flocks from wolves and other predators, this breed is fiercely loyal, intensely territorial, and remarkably independent. It is a serious working dog best suited to experienced owners who understand its protective instincts.

@@ -4,11 +4,14 @@ description: "Discover the Drentse Patrijshond, a versatile Dutch gundog — its
 category: "dogs"
 species: "Drentse Patrijshond"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Drentse Patrijshond dog"
+heroImage: "/images/drentse-patrijshond.jpg"
+heroImageAlt: "A Drentse Patrijshond"
 tags: ["drentse-patrijshond", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Eric Broeksma"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Drentse_Patrijshond.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Drentse Patrijshond (Dutch Partridge Dog) is a versatile hunting and companion breed from the Drenthe province of the Netherlands. Calm at home yet capable in the field, it suits active families who want a loyal, soft-natured all-rounder.

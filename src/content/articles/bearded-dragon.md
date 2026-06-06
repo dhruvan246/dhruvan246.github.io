@@ -4,11 +4,14 @@ description: "Learn how to keep a Bearded Dragon healthy with the right enclosur
 category: "reptiles"
 species: "Bearded Dragon"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/bearded-dragon.jpg"
 heroImageAlt: "A Bearded Dragon"
 tags: ["bearded-dragon", "reptiles", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "(c) Kai Squires, some rights reserved (CC BY)"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Eastern_Bearded_Dragon,_Majura,_ACT_2609,_Australia_imported_from_iNaturalist_photo_67070853_(cropped).jpg"
+heroLicense: "CC BY 4.0"
 ---
 
 The Bearded Dragon (*Pogona vitticeps*) is one of the most popular pet reptiles in the world, prized for its calm nature and curious personality. Native to the arid woodlands and deserts of central Australia, it adapts well to captive life when its specific heat, light, and dietary needs are met.

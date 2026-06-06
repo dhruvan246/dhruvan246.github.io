@@ -4,11 +4,14 @@ description: "A complete guide to the Devon Rex — their mischievous personalit
 category: "cats"
 species: "Devon Rex"
 pubDate: 2026-04-15
-heroImage: ""
-heroImageAlt: "A Devon Rex cat with large ears and a curly coat"
+heroImage: "/images/devon-rex.jpg"
+heroImageAlt: "A Devon Rex"
 tags: ["devon rex", "cat breeds", "curly-coated cats", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Anna Belial"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Devon_Rex_Cassini.jpeg"
+heroLicense: "CC BY 4.0"
 ---
 
 With huge ears, big eyes and a soft curly coat, the Devon Rex looks like a pixie — and acts like a mischievous one too. Playful, clever and intensely people-focused, this breed is a true companion cat.

@@ -4,11 +4,14 @@ description: "Care guide for the Caucasian Shepherd Dog: a giant livestock guard
 category: "dogs"
 species: "Caucasian Shepherd Dog"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Caucasian Shepherd Dog dog"
+heroImage: "/images/caucasian-shepherd-dog.jpg"
+heroImageAlt: "A Caucasian Shepherd Dog"
 tags: ["caucasian-shepherd-dog", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Pleple2000"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Owczarek_kaukaski_65556.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Powerful, fearless and deeply devoted to its family, the Caucasian Shepherd Dog is an ancient livestock-guardian breed from the Caucasus mountain region. Bred for centuries to protect flocks from wolves and predators, this giant dog combines imposing size with calm confidence. It is not a breed for first-time owners, but for experienced handlers it can be a loyal and capable guardian.

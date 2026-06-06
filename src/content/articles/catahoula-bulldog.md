@@ -4,11 +4,14 @@ description: "A complete Catahoula Bulldog care guide covering this muscular wor
 category: "dogs"
 species: "Catahoula Bulldog"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Catahoula Bulldog dog"
+heroImage: "/images/catahoula-bulldog.jpg"
+heroImageAlt: "A Catahoula Bulldog"
 tags: ["catahoula-bulldog", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Nagygabornet"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:02._Coahoma_Arkansas_Logan.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Catahoula Bulldog is a powerful working crossbreed developed in the southern United States by blending the Louisiana Catahoula Leopard Dog with the American Bulldog. Bred to handle cattle and hogs on rugged farmland, it combines the agility and herding drive of the Catahoula with the muscle and tenacity of the Bulldog, producing a loyal, hardworking companion.

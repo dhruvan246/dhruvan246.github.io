@@ -4,11 +4,14 @@ description: "Care guide to the Belgian Tervuren, the elegant long-coated Belgia
 category: "dogs"
 species: "Belgian Tervuren"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Belgian Tervuren dog"
+heroImage: "/images/belgian-tervuren.jpg"
+heroImageAlt: "A Belgian Tervuren"
 tags: ["belgian-tervuren", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Various, see description. Compiled by User:Adventurous36"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:04_-_Belgian_shepherd_dog_varieties_-_Groenendael,Tervuren,_Malinois,_Laekenois.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Belgian Tervuren is the elegant long-haired variety of the Belgian Shepherd, named after the Belgian village of Tervuren. Graceful, intensely alert and deeply devoted to its family, it was bred as a versatile herding and working dog. Today it excels at herding, obedience, agility and protection sports, thriving when given a job and close companionship.

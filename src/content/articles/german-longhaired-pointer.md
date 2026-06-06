@@ -4,11 +4,14 @@ description: "Care guide to the German Longhaired Pointer: this large, gentle, v
 category: "dogs"
 species: "German Longhaired Pointer"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A German Longhaired Pointer dog"
+heroImage: "/images/german-longhaired-pointer.jpg"
+heroImageAlt: "A German Longhaired Pointer"
 tags: ["german-longhaired-pointer", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Ottilie Stüwe"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:DeutschLanghaarneu.jpg"
+heroLicense: "Public domain"
 ---
 
 The German Longhaired Pointer (GLP) is a versatile continental gundog bred to point, retrieve and work both on land and in water. Calm and affectionate at home yet tireless in the field, it suits active owners who want an even-tempered, hardworking companion.

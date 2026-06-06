@@ -4,11 +4,14 @@ description: "Care guide for the English Springer Spaniel: a cheerful, energetic
 category: "dogs"
 species: "English Springer Spaniel"
 pubDate: 2026-03-30
-heroImage: ""
-heroImageAlt: "A English Springer Spaniel dog"
+heroImage: "/images/english-springer-spaniel.jpg"
+heroImageAlt: "A English Springer Spaniel"
 tags: ["english-springer-spaniel", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Ratsniffer"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Springer_Spaniel_Wide_Shot.jpg"
+heroLicense: "CC0"
 ---
 
 Cheerful, energetic and devoted, the English Springer Spaniel is a classic flushing gundog that has become a popular active family companion. Bred to work closely with hunters, the "Springer" is eager to please, highly trainable and happiest when it has a job to do and people to do it with.

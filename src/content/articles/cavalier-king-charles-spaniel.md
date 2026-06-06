@@ -4,11 +4,14 @@ description: "Discover the Cavalier King Charles Spaniel: a gentle, affectionate
 category: "dogs"
 species: "Cavalier King Charles Spaniel"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Cavalier King Charles Spaniel dog"
+heroImage: "/images/cavalier-king-charles-spaniel.jpg"
+heroImageAlt: "A Cavalier King Charles Spaniel"
 tags: ["cavalier-king-charles-spaniel", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Andreweatock"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:CarterBIS.Tiki.13.6.09.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 With their soft, expressive eyes and silky coats, Cavalier King Charles Spaniels are among the most affectionate of all toy breeds. Bred as companion lapdogs, they thrive on human company and bring a gentle, easygoing charm to almost any home.

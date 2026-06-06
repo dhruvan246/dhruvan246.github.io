@@ -4,11 +4,14 @@ description: "Care guide to the Belgian Sheepdog (Groenendael): the long black-c
 category: "dogs"
 species: "Belgian Sheepdog"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Belgian Sheepdog dog"
+heroImage: "/images/belgian-sheepdog.jpg"
+heroImageAlt: "A Belgian Sheepdog"
 tags: ["belgian-sheepdog", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Various, see description. Compiled by User:Adventurous36"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:04_-_Belgian_shepherd_dog_varieties_-_Groenendael,Tervuren,_Malinois,_Laekenois.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Belgian Sheepdog, known as the Groenendael in its native Belgium, is an elegant, all-black herding dog prized for its intelligence, devotion, and tireless work ethic. One of four closely related Belgian herding varieties, it was developed in the late 19th century and remains a versatile partner in herding, obedience, tracking, and protection work.

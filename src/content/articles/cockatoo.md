@@ -4,11 +4,14 @@ description: "Learn how to care for a pet cockatoo, including cage setup, diet, 
 category: "birds"
 species: "Cockatoo"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/cockatoo.jpg"
 heroImageAlt: "A Cockatoo"
 tags: ["cockatoo", "birds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "JJ Harrison (https://www.jjharrison.com.au/)"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Cacatua_galerita_Tas_2.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Cockatoos are striking, crested parrots native to Australia, Indonesia, and surrounding islands. Known for their expressive head crests and deep need for companionship, they are among the most affectionate and demanding birds kept as pets. Anyone considering one should understand that these are highly intelligent, long-lived, and noisy animals requiring an enormous commitment of time and attention.

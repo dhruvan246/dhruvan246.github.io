@@ -4,11 +4,14 @@ description: "Keeping domestic sheep means secure pasture, a flock of two or mor
 category: "farm-pets"
 species: "Domestic Sheep"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/domestic-sheep.jpg"
 heroImageAlt: "A Domestic Sheep"
 tags: ["domestic-sheep", "farm-pets", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Keith Weller"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Flock_of_sheep.jpg"
+heroLicense: "Public domain"
 ---
 
 Domestic sheep (*Ovis aries*) are gentle, social grazing animals kept worldwide for wool, meat, milk, and increasingly as friendly smallholding companions. They are hardy and low-cost to feed, but they are not solitary pets: a sheep needs the company of its own kind and enough land to graze.

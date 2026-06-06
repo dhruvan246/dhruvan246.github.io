@@ -4,11 +4,14 @@ description: "Learn how to keep a Common Pleco, the algae-eating catfish that gr
 category: "fish"
 species: "Common Pleco"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/common-pleco.png"
 heroImageAlt: "A Common Pleco"
 tags: ["common-pleco", "fish", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Raphaël Covain, Natural History Museum of Geneva"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Hypostomus_plecostomus_-_Rapha%C3%ABl_Covain.png"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Common Pleco (often *Pterygoplichthys* or *Hypostomus* species) is a large suckermouth armoured catfish from South America, frequently sold as a cheap "algae eater." While hardy and long-lived, it grows far bigger than most beginners expect, making it a serious commitment rather than a simple cleanup crew.

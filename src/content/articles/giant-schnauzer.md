@@ -4,11 +4,14 @@ description: "Care guide for the Giant Schnauzer: a powerful, intelligent workin
 category: "dogs"
 species: "Giant Schnauzer"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Giant Schnauzer dog"
+heroImage: "/images/giant-schnauzer.jpg"
+heroImageAlt: "A Giant Schnauzer"
 tags: ["giant-schnauzer", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Petrucha"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Nev_Lemar_Barbara1.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Giant Schnauzer is the largest of the three schnauzer breeds, developed in southern Germany as a robust working dog for driving cattle and later valued as a guard and police dog. Powerful, intelligent and intensely loyal, it combines a commanding presence with a strong desire to work alongside its people. This is very much a dog for active, experienced owners who can meet its considerable physical and mental needs.

@@ -4,11 +4,14 @@ description: "A complete guide to German Shepherds — temperament, training, ex
 category: "dogs"
 species: "German Shepherd"
 pubDate: 2026-06-02
-heroImage: ""
-heroImageAlt: "A black and tan German Shepherd standing alert"
+heroImage: "/images/german-shepherd.jpg"
+heroImageAlt: "A German Shepherd"
 tags: ["german shepherd", "large dogs", "working dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "gomagoti"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:German_Shepherd_-_DSC_0346_(10096362833).jpg"
+heroLicense: "CC BY-SA 2.5"
 ---
 
 Intelligent, courageous and devoted, the German Shepherd is one of the world's most capable and popular dogs. From family guardian to police and service work, this versatile breed does it all — for an owner ready to train and exercise them well.

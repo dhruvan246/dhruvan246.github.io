@@ -4,11 +4,14 @@ description: "Care guide for the Cavapoo, a small affectionate Cavalier-Poodle c
 category: "dogs"
 species: "Cavapoo"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Cavapoo dog"
+heroImage: "/images/cavapoo.jpg"
+heroImageAlt: "A Cavapoo"
 tags: ["cavapoo", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Aivi1987"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:F1_Red_Toy_Cavoodle_Puppy.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Cavapoo is a popular companion crossbreed that pairs the Cavalier King Charles Spaniel with the Poodle (usually a Miniature or Toy Poodle). Also called the Cavoodle, it is prized for being gentle, sociable, and well suited to family life.

@@ -4,11 +4,14 @@ description: "Learn how to care for the Central Asian Shepherd Dog, an ancient l
 category: "dogs"
 species: "Central Asian Shepherd Dog"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Central Asian Shepherd Dog dog"
+heroImage: "/images/central-asian-shepherd-dog.jpg"
+heroImageAlt: "A Central Asian Shepherd Dog"
 tags: ["central-asian-shepherd-dog", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Halalosirambankiskecskek"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:2.CAO_in_Hungary.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Central Asian Shepherd Dog, also known as the Alabai, is one of the oldest livestock-guardian breeds in the world, developed across the steppes and mountains of Central Asia to protect flocks from predators. Powerful, calm, and fiercely loyal, this large dog is a serious commitment best suited to experienced owners who can provide firm, consistent leadership.

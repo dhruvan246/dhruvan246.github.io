@@ -4,11 +4,14 @@ description: "Learn how to care for the Greater Swiss Mountain Dog, a large Swis
 category: "dogs"
 species: "Greater Swiss Mountain Dog"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Greater Swiss Mountain Dog dog"
+heroImage: "/images/greater-swiss-mountain-dog.jpg"
+heroImageAlt: "A Greater Swiss Mountain Dog"
 tags: ["greater-swiss-mountain-dog", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Canarian"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Greater_Swiss_Mountain_Dog_2018.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Greater Swiss Mountain Dog, affectionately called the "Swissy," is a powerful, tricolored working breed originally developed in the Swiss Alps as a draft and farm dog. Gentle and devoted at home, this big-boned companion thrives with an active family that appreciates its calm confidence and loyal nature.

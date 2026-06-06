@@ -4,11 +4,14 @@ description: "Learn how to care for a Green Anole, including enclosure setup, he
 category: "reptiles"
 species: "Green Anole"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/green-anole.jpg"
 heroImageAlt: "A Green Anole"
 tags: ["green-anole", "reptiles", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Paul Hirst (Phirst)"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Anole_Lizard_Hilo_Hawaii_edit.jpg"
+heroLicense: "CC BY-SA 2.5"
 ---
 
 The Green Anole (*Anolis carolinensis*) is a small, active arboreal lizard native to the southeastern United States. Famous for its ability to shift between bright green and brown, it is an affordable, widely available reptile. While often marketed as a beginner pet, it has real care needs and is better watched than handled.

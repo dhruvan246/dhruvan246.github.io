@@ -4,11 +4,14 @@ description: "Complete Dachshund care guide covering this small hound's temperam
 category: "dogs"
 species: "Dachshund"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Dachshund dog"
+heroImage: "/images/dachshund.jpg"
+heroImageAlt: "A Dachshund"
 tags: ["dachshund", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Katemil94"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:%EB%8B%A5%EC%8A%A4%ED%9B%88%ED%8A%B8(%EB%8B%A8%EB%AA%A8%EC%A2%85)_(Dachshund_(Short)).jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Dachshund is a small, long-bodied hound originally bred in Germany to hunt badgers and other burrowing animals. Instantly recognizable by their elongated frame and short legs, Dachshunds pack a surprisingly big personality into a compact body. They remain one of the most popular companion breeds in the world.

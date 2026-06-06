@@ -4,11 +4,14 @@ description: "Care guide to the Curly-Coated Retriever: its distinctive curly co
 category: "dogs"
 species: "Curly-Coated Retriever"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Curly-Coated Retriever dog"
+heroImage: "/images/curly-coated-retriever.jpg"
+heroImageAlt: "A Curly-Coated Retriever"
 tags: ["curly-coated-retriever", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Curly_Coated_Retriever.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Easily recognised by its mass of tight curls, the Curly-Coated Retriever is one of the oldest retriever breeds. Bred to retrieve game from land and water, this confident, athletic dog combines a sporting heritage with a loyal, independent nature that suits active owners.

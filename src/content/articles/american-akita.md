@@ -4,11 +4,14 @@ description: "Care guide for the American Akita: a large, powerful, dignified gu
 category: "dogs"
 species: "American Akita"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A American Akita dog"
+heroImage: "/images/american-akita.png"
+heroImageAlt: "A American Akita"
 tags: ["american-akita", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Peter Theakston; Keetanii; Melodorakitas; Sevenfatdogs"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Akita_Collage.png"
+heroLicense: "CC BY 3.0"
 ---
 
 The American Akita is a large, powerful working breed known for its bold presence, plush double coat, and deeply loyal, dignified temperament. Developed from Japanese Akita stock and refined in the United States, this breed is a devoted family guardian that thrives with confident, experienced owners.

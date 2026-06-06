@@ -4,11 +4,14 @@ description: "Learn how to keep backyard chickens happy and healthy, covering co
 category: "farm-pets"
 species: "Chicken"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/chicken.jpg"
 heroImageAlt: "A Chicken"
 tags: ["chicken", "farm-pets", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Andrei Niemimäki from Turku, Finland"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Male_and_female_chicken_sitting_together.jpg"
+heroLicense: "CC BY-SA 2.0"
 ---
 
 ## Overview

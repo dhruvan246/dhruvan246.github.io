@@ -4,11 +4,14 @@ description: "Meet the German Pinscher, a medium, athletic working breed with a 
 category: "dogs"
 species: "German Pinscher"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A German Pinscher dog"
+heroImage: "/images/german-pinscher.jpg"
+heroImageAlt: "A German Pinscher"
 tags: ["german-pinscher", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Bonnie van den Born, http://www.bonfoto.nl"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Bvdb-duitse_pincher.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The German Pinscher is a medium-sized, muscular working dog from Germany, prized for its intelligence, alertness, and tireless energy. One of the country's older breeds, it influenced the development of the Doberman Pinscher and the Miniature Pinscher. Spirited and devoted, it thrives with an active owner who appreciates a confident, thinking dog.

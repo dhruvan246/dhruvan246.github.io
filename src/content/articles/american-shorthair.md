@@ -4,11 +4,14 @@ description: "A complete guide to the American Shorthair — their friendly temp
 category: "cats"
 species: "American Shorthair"
 pubDate: 2026-04-27
-heroImage: ""
-heroImageAlt: "A silver tabby American Shorthair cat"
+heroImage: "/images/american-shorthair.jpg"
+heroImageAlt: "A American Shorthair"
 tags: ["american shorthair", "cat breeds", "shorthair cats", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "odin_aka_zero-one"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Jewelkatz_Romeo_Of_Stalker-Bars.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Descended from working cats that kept ships and farms free of rodents, the American Shorthair is a hardy, good-natured and adaptable breed. Friendly without being demanding, they make wonderful, easy family cats.

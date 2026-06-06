@@ -4,11 +4,14 @@ description: "Care guide for the African Grey Parrot, a highly intelligent talki
 category: "birds"
 species: "African Grey Parrot"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/african-grey-parrot.jpg"
 heroImageAlt: "A African Grey Parrot"
 tags: ["african-grey-parrot", "birds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Florettesokeng"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Perroquet_%C3%A0_Yampopo_Beach_-_Douala.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The African Grey Parrot is widely regarded as one of the most intelligent companion birds in the world. Famous for its remarkable talking ability and problem-solving skills, this medium-sized parrot forms deep bonds with its keepers but demands a serious, long-term commitment.

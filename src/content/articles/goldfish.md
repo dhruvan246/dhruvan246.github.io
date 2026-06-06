@@ -4,11 +4,14 @@ description: "Learn how to care for a Common Goldfish, covering tank size, water
 category: "fish"
 species: "Common Goldfish"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/goldfish.jpg"
 heroImageAlt: "A Common Goldfish"
 tags: ["goldfish", "fish", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "ぱたごん"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:%E3%83%AF%E3%82%AD%E3%83%B320120701.JPG"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Common Goldfish (*Carassius auratus*) is one of the oldest and most popular ornamental fish, descended from wild carp domesticated in China over a thousand years ago. Though often seen as a "starter" pet, this slender, single-tailed fish is large, messy and long-lived, and it thrives only with proper space and filtration.

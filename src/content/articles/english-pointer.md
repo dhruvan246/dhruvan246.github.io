@@ -4,11 +4,14 @@ description: "Care guide to the English Pointer, an athletic large gundog: tempe
 category: "dogs"
 species: "English Pointer"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A English Pointer dog"
+heroImage: "/images/english-pointer.jpg"
+heroImageAlt: "A English Pointer"
 tags: ["english-pointer", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Canarian"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:English_Pointer_orange-white.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Bred to find and point game birds, the English Pointer is a lean, athletic gundog famous for the classic "pointing" stance — head low, body rigid and one foreleg raised. Energetic in the field yet gentle at home, it suits active owners who can match its drive.

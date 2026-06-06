@@ -4,11 +4,14 @@ description: "Learn how to care for a pet chinchilla, covering its cool dust-bat
 category: "small-pets"
 species: "Chinchilla"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/chinchilla.jpg"
 heroImageAlt: "A Chinchilla"
 tags: ["chinchilla", "small-pets", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Guérin Nicolas (messages)"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Chinchilla_lanigera_(Wroclaw_zoo)-2.JPG"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The chinchilla is a small, crepuscular rodent native to the cold, rocky slopes of the Andes Mountains in South America. Prized for its remarkably dense, soft fur, it makes a curious and long-lived companion for owners willing to meet its specialized needs.

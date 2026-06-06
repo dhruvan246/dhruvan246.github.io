@@ -4,11 +4,14 @@ description: "Care guide to the Brittany dog: an energetic, friendly medium gund
 category: "dogs"
 species: "Brittany"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Brittany dog"
+heroImage: "/images/brittany.jpg"
+heroImageAlt: "A Brittany"
 tags: ["brittany", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Credit: Jacques Descloitres, MODIS Rapid Response Team, NASA/GSFC"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Satellite_picture_of_Brittany_-_NASA,_2002.jpg"
+heroLicense: "Public domain"
 ---
 
 Bright, athletic and eager to please, the Brittany is a versatile gundog that also makes a wonderful active family companion. Compact, leggy and seemingly tireless, this French-bred pointing dog loves nothing more than vigorous exercise and close time with its people.

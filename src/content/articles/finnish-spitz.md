@@ -4,11 +4,14 @@ description: "Care guide for the Finnish Spitz, a fox-red barking bird dog from 
 category: "dogs"
 species: "Finnish Spitz"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Finnish Spitz dog"
+heroImage: "/images/finnish-spitz.jpg"
+heroImageAlt: "A Finnish Spitz"
 tags: ["finnish-spitz", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Finnish_Spitz_600.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Finnish Spitz is the national dog of Finland, a fox-like hunting breed prized for its glowing red coat and its remarkable habit of "barking" to point out game birds in the trees. Lively, devoted, and famously vocal, it makes a spirited companion for active families who appreciate an independent-minded northern breed.

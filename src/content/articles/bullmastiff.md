@@ -4,11 +4,14 @@ description: "A complete guide to Bullmastiffs — their calm protective nature,
 category: "dogs"
 species: "Bullmastiff"
 pubDate: 2026-04-03
-heroImage: ""
-heroImageAlt: "A fawn Bullmastiff with a dark mask"
+heroImage: "/images/bullmastiff.jpg"
+heroImageAlt: "A Bullmastiff"
 tags: ["bullmastiff", "large dogs", "guardian breeds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Fausto Moreno"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Bullmastiff_edited.JPG"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Bred to guard estates by quietly pinning intruders, the Bullmastiff is a powerful yet calm and affectionate guardian. Devoted to family and naturally protective, this large breed is gentle at home with the right training.

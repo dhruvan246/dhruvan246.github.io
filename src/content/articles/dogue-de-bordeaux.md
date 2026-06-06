@@ -4,11 +4,14 @@ description: "Care guide for the Dogue de Bordeaux, the powerful French Mastiff:
 category: "dogs"
 species: "Dogue de Bordeaux"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Dogue de Bordeaux dog"
+heroImage: "/images/dogue-de-bordeaux.jpg"
+heroImageAlt: "A Dogue de Bordeaux"
 tags: ["dogue-de-bordeaux", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Canarian"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:French_Mastiff_female_4.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Dogue de Bordeaux, often called the French Mastiff, is one of the oldest French breeds and an unmistakable giant with a massive, wrinkled head and devoted nature. Powerful yet affectionate, this breed forms deep bonds with its family while remaining calm and watchful at home.

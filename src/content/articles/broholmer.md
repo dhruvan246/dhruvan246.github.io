@@ -4,11 +4,14 @@ description: "Complete Broholmer care guide covering this large Danish mastiff's
 category: "dogs"
 species: "Broholmer"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Broholmer dog"
+heroImage: "/images/broholmer.jpg"
+heroImageAlt: "A Broholmer"
 tags: ["broholmer", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Thrudgelmir"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Male_Broholmer.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Broholmer is a large Danish mastiff-type breed once used to guard estates and hunt large game. Named after Sehestedt Castle on the Broholm estate, it nearly disappeared after the World Wars before dedicated Danish breeders revived it in the 1970s. Today it is a calm, dignified family guardian known for its impressive size paired with a gentle, even-tempered nature.

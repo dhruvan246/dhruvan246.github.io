@@ -4,11 +4,14 @@ description: "Care guide for the American Bully: a muscular, affectionate compan
 category: "dogs"
 species: "American Bully"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A American Bully dog"
+heroImage: "/images/american-bully.jpg"
+heroImageAlt: "A American Bully"
 tags: ["american-bully", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "BullyB6"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Champion_Charlie_Muscles_(2).jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The American Bully is a muscular, blocky companion breed developed in the United States in the 1990s, largely from the American Pit Bull Terrier and American Staffordshire Terrier with influence from other bully-type dogs. Despite its powerful, intimidating appearance, the breed was bred specifically for a gentle, people-focused temperament, and it has become a popular family companion.

@@ -4,11 +4,14 @@ description: "Care guide for the Dutch Smoushond, a rare small Dutch terrier-typ
 category: "dogs"
 species: "Dutch Smoushond"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Dutch Smoushond dog"
+heroImage: "/images/dutch-smoushond.jpg"
+heroImageAlt: "A Dutch Smoushond"
 tags: ["dutch-smoushond", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "ZeppWeb"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Hollandse_Smoushond_Amsterdam_cropped.jpg"
+heroLicense: "CC BY 2.0"
 ---
 
 The Dutch Smoushond (Hollandse Smoushond) is a small, rare working terrier-type breed from the Netherlands. Once kept around stables and shops to control rats, it nearly disappeared during the twentieth century and was rebuilt through a careful breeding program. Today it is prized as a cheerful, friendly companion with a distinctive shaggy yellow coat.

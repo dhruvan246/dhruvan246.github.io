@@ -4,11 +4,14 @@ description: "A complete guide to Chow Chows — their aloof temperament, heavy 
 category: "dogs"
 species: "Chow Chow"
 pubDate: 2026-04-07
-heroImage: ""
-heroImageAlt: "A red Chow Chow with a lion-like mane and blue-black tongue"
+heroImage: "/images/chow-chow.jpg"
+heroImageAlt: "A Chow Chow"
 tags: ["chow chow", "medium dogs", "spitz breeds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Томасина"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Chow-chow_in_Tallinn.JPG"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 With a lion-like mane and a distinctive blue-black tongue, the Chow Chow is an ancient, dignified breed. Independent and reserved, the Chow is loyal to its family but famously cat-like and aloof.

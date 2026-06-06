@@ -4,11 +4,14 @@ description: "A care guide to the Fila Brasileiro, Brazil's massive molosser-typ
 category: "dogs"
 species: "Fila Brasileiro"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Fila Brasileiro dog"
+heroImage: "/images/fila-brasileiro.jpg"
+heroImageAlt: "A Fila Brasileiro"
 tags: ["fila-brasileiro", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Pleple2000"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Fila_brasileiro_ppk9.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Fila Brasileiro, also called the Brazilian Mastiff, is a large molosser-type working dog developed in Brazil as a tracker, livestock guardian, and estate protector. Powerful, devoted to its family, and famously wary of strangers, it is a serious breed best suited to experienced owners who can provide firm, consistent leadership.

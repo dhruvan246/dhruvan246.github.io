@@ -4,11 +4,14 @@ description: "Learn how to keep a pet ant colony in a formicarium, from nest set
 category: "invertebrates"
 species: "Ant Colony"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/ant-colony.jpg"
 heroImageAlt: "A Ant Colony"
 tags: ["ant-colony", "invertebrates", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Charles F. Badland"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Walter_R._Tschinkel_and_Pogonomyrmex_badius_nest_cast.jpg"
+heroLicense: "CC BY 3.0 us"
 ---
 
 ## Overview

@@ -4,11 +4,14 @@ description: "A complete guide to Bull Terriers — their comical, energetic per
 category: "dogs"
 species: "Bull Terrier"
 pubDate: 2026-03-18
-heroImage: ""
-heroImageAlt: "A white Bull Terrier with an egg-shaped head"
+heroImage: "/images/bull-terrier.jpg"
+heroImageAlt: "A Bull Terrier"
 tags: ["bull terrier", "medium dogs", "terriers", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Pixabay User TC-TORRES"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Bullterrier-3453301920.jpg"
+heroLicense: "CC0"
 ---
 
 Unmistakable with its egg-shaped head and triangular eyes, the Bull Terrier is a muscular, comical and energetic breed. Playful and affectionate, the "Bully" is a clownish companion that thrives on attention and activity.

@@ -4,11 +4,14 @@ description: "Everything about the Cane Corso — their confident protective nat
 category: "dogs"
 species: "Cane Corso"
 pubDate: 2026-04-02
-heroImage: ""
-heroImageAlt: "A black Cane Corso standing alert"
+heroImage: "/images/cane-corso.png"
+heroImageAlt: "A Cane Corso"
 tags: ["cane corso", "large dogs", "guardian breeds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Claudio Domiziani"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Cane_corso_temi_1_1024x768x24_(cropped).png"
+heroLicense: "CC BY-SA 2.5"
 ---
 
 A majestic Italian mastiff-type breed, the Cane Corso is a powerful, intelligent guardian. Confident and deeply devoted to its family, this is a serious working dog that demands an experienced, committed owner.

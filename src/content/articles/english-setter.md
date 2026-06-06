@@ -4,11 +4,14 @@ description: "Care guide to the English Setter: the gentle, friendly gundog with
 category: "dogs"
 species: "English Setter"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A English Setter dog"
+heroImage: "/images/english-setter.jpg"
+heroImageAlt: "A English Setter"
 tags: ["english-setter", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Elf at English Wikipedia"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:EnglishSetter9_fx_wb.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Gentle, sociable and elegant, the English Setter is a classic bird dog prized for its flowing, speckled coat and mellow disposition. Often described as the most easygoing of the setters, it makes a devoted companion for active households that can meet its need for exercise and companionship.

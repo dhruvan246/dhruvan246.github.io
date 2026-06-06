@@ -4,11 +4,14 @@ description: "Learn how to keep clownfish thriving with the right marine tank se
 category: "fish"
 species: "Clownfish"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/clownfish.jpg"
 heroImageAlt: "A Clownfish"
 tags: ["clownfish", "fish", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Nick Hobgood"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Amphiprion_ocellaris_(Clown_anemonefish)_by_Nick_Hobgood.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The clownfish, made famous worldwide by animated films, is one of the most popular saltwater aquarium fish. Hardy, colourful, and full of personality, it is often recommended as a first marine species, though it still requires a properly cycled reef-style system to thrive.

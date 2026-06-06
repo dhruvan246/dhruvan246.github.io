@@ -4,11 +4,14 @@ description: "Care guide for the Coton de Tulear, a small, cottony-coated compan
 category: "dogs"
 species: "Coton de Tulear"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Coton de Tulear dog"
+heroImage: "/images/coton-de-tulear.jpg"
+heroImageAlt: "A Coton de Tulear"
 tags: ["coton-de-tulear", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Uschi Goess (eingestellt von Caronna)"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Coton_de_Tular_1.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Coton de Tulear is a small companion breed named for the port city of Tulear (Toliara) in Madagascar, where it developed as a cheerful lapdog. Its name comes from the French word for cotton, a nod to its uniquely soft, fluffy coat. Today the "Coton" is prized as an affectionate, sociable family dog.

@@ -4,11 +4,14 @@ description: "Care guide for the Bully Kutta, a large South Asian mastiff: tempe
 category: "dogs"
 species: "Bully Kutta"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Bully Kutta dog"
+heroImage: "/images/bully-kutta.jpg"
+heroImageAlt: "A Bully Kutta"
 tags: ["bully-kutta", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Nicolas2200"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:PakistaniMastiffPunjab.jpg"
+heroLicense: "CC0"
 ---
 
 The Bully Kutta is a large, powerful mastiff-type dog originating from the Indian subcontinent, where it is also known as the Pakistani Mastiff or Indian Mastiff. Historically used as a guardian and working dog, it is a tall, muscular breed best suited to experienced, dedicated owners who can meet its strong management and training needs.

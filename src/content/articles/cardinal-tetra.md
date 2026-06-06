@@ -4,12 +4,15 @@ description: "Learn how to keep the dazzling Cardinal Tetra: ideal water paramet
 category: "fish"
 species: "Cardinal Tetra"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/cardinal-tetra.jpg"
 heroImageAlt: "A Cardinal Tetra"
 tags: ["cardinal-tetra", "fish", "care guide"]
 author: "The PawPedia Team"
 draft: false
 
+heroCredit: "CHUCAO"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Cardinal_Paracheirodon_axelrodi_(3).jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Cardinal Tetra (*Paracheirodon axelrodi*) is one of the most popular freshwater aquarium fish, prized for its brilliant red-and-blue stripe that runs the full length of its body. Native to the soft, acidic blackwater rivers of the upper Orinoco and Negro basins in South America, it is a peaceful schooling fish that brings vivid colour to planted community tanks.

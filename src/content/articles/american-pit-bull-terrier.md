@@ -4,11 +4,14 @@ description: "Everything about the American Pit Bull Terrier — their affection
 category: "dogs"
 species: "American Pit Bull Terrier"
 pubDate: 2026-03-17
-heroImage: ""
-heroImageAlt: "A muscular American Pit Bull Terrier with a friendly expression"
+heroImage: "/images/american-pit-bull-terrier.jpg"
+heroImageAlt: "A American Pit Bull Terrier"
 tags: ["american pit bull terrier", "pitbull", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "https://www.flickr.com/people/geoggirl/"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:001_American_Pit_Bull_Terrier.jpg"
+heroLicense: "CC BY 2.0"
 ---
 
 Strong, athletic and intensely loyal, the American Pit Bull Terrier is an affectionate and people-loving breed often misunderstood. Well-bred and well-raised, the "Pit Bull" is a devoted, fun-loving family companion.

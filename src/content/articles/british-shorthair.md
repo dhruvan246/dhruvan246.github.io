@@ -4,11 +4,14 @@ description: "Everything about British Shorthairs — their easy-going temperame
 category: "cats"
 species: "British Shorthair"
 pubDate: 2026-04-28
-heroImage: ""
-heroImageAlt: "A blue-grey British Shorthair with round copper eyes"
+heroImage: "/images/british-shorthair.jpg"
+heroImageAlt: "A British Shorthair"
 tags: ["british shorthair", "cat breeds", "shorthair cats", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "BritishEmpire"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Mystica_from_British_Empire_Cattery.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 With their dense plush coats, round faces and famously calm nature, British Shorthairs are like living teddy bears. Easy-going and undemanding, they're one of the most popular cat breeds in the world.

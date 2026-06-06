@@ -4,11 +4,14 @@ description: "A complete Brussels Griffon care guide covering size, temperament,
 category: "dogs"
 species: "Brussels Griffon"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Brussels Griffon dog"
+heroImage: "/images/brussels-griffon.jpg"
+heroImageAlt: "A Brussels Griffon"
 tags: ["brussels-griffon", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Arne Fagerholt"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Monkey_Bizniz_Drama_Queen.jpg"
+heroLicense: "CC BY 3.0"
 ---
 
 With a near-human expression, a beard-framed face and an almost obsessive devotion to their owners, the Brussels Griffon is one of the most characterful toy breeds you can own. Developed in Belgium from small terrier-type ratters kept in stables and coach houses, this tiny companion combines a bold, terrier-flavoured spirit with the affectionate clinginess of a true lap dog.

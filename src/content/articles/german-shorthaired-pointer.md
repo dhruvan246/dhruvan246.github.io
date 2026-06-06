@@ -4,11 +4,14 @@ description: "A complete German Shorthaired Pointer care guide covering this ath
 category: "dogs"
 species: "German Shorthaired Pointer"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A German Shorthaired Pointer dog"
+heroImage: "/images/german-shorthaired-pointer.jpg"
+heroImageAlt: "A German Shorthaired Pointer"
 tags: ["german-shorthaired-pointer", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Bonnie van den Born, http://www.bonfoto.nl"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Duitse_staande_korthaar_10-10-2.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The German Shorthaired Pointer (GSP) is one of the most versatile sporting breeds, prized for its athleticism, intelligence and affectionate nature. Developed in 19th-century Germany as an all-purpose hunting dog, the GSP today makes a devoted companion for active households that can match its considerable energy.

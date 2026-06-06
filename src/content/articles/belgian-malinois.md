@@ -4,11 +4,14 @@ description: "A complete guide to the Belgian Malinois — their extreme drive, 
 category: "dogs"
 species: "Belgian Malinois"
 pubDate: 2026-04-01
-heroImage: ""
-heroImageAlt: "A fawn Belgian Malinois with a black mask standing alert"
+heroImage: "/images/belgian-malinois.jpg"
+heroImageAlt: "A Belgian Malinois"
 tags: ["belgian malinois", "large dogs", "working dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Various, see description. Compiled by User:Adventurous36"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:04_-_Belgian_shepherd_dog_varieties_-_Groenendael,Tervuren,_Malinois,_Laekenois.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Belgian Malinois is the elite athlete of the dog world — the breed of choice for police and military work. Intensely driven, intelligent and tireless, the "Mal" is a phenomenal partner for the right owner, and a poor fit for almost everyone else.

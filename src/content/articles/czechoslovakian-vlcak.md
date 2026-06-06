@@ -4,11 +4,14 @@ description: "The Czechoslovakian Vlcak is a wolf-like working dog bred from Ger
 category: "dogs"
 species: "Czechoslovakian Vlcak"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Czechoslovakian Vlcak dog"
+heroImage: "/images/czechoslovakian-vlcak.jpg"
+heroImageAlt: "A Czechoslovakian Vlcak"
 tags: ["czechoslovakian-vlcak", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Pandora666"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Czechoslovakian-wolfdog-profile_big.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Czechoslovakian Vlcak, also known as the Czechoslovakian Wolfdog, is a relatively young breed created in the 1950s from a planned cross between German Shepherds and Carpathian wolves. Originally developed for military border patrol, it is now a striking companion and working dog known for its wolf-like looks and demanding nature.
