@@ -1,6 +1,15 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { SUPABASE_URL, SUPABASE_ANON_KEY, REVIEWS_ENABLED } from '../lib/supabase.ts';
+import { SUPABASE_URL, SUPABASE_ANON_KEY, REVIEWS_ENABLED, OAUTH_PROVIDERS } from '../lib/supabase.ts';
+
+const PROVIDER_META: Record<string, { label: string; emoji: string }> = {
+  google: { label: 'Continue with Google', emoji: '🔵' },
+  github: { label: 'Continue with GitHub', emoji: '🐙' },
+  facebook: { label: 'Continue with Facebook', emoji: '📘' },
+  twitter: { label: 'Continue with X (Twitter)', emoji: '✖️' },
+  azure: { label: 'Continue with Microsoft', emoji: '🪟' },
+};
+const providers = OAUTH_PROVIDERS.filter((p) => PROVIDER_META[p]).map((p) => ({ id: p, ...PROVIDER_META[p] }));
 ---
 <BaseLayout title="Log in / Sign up" description="Log in or create a free PawPedia account to leave owner reviews and share photos of your pets.">
   <section class="hero">
@@ -16,6 +25,18 @@ import { SUPABASE_URL, SUPABASE_ANON_KEY, REVIEWS_ENABLED } from '../lib/supabas
     ) : (
       <div class="tool" style="max-width:440px;">
         <div id="auth-status" class="result-box" hidden></div>
+
+        {providers.length > 0 && (
+          <div class="oauth-list">
+            {providers.map((p) => (
+              <button type="button" class="btn-oauth" data-provider={p.id}>
+                <span aria-hidden="true">{p.emoji}</span> {p.label}
+              </button>
+            ))}
+            <div class="oauth-divider"><span>or use email</span></div>
+          </div>
+        )}
+
         <form id="auth-form" class="tool">
           <div class="field">
             <label class="field-label" for="email">Email</label>
@@ -56,19 +77,46 @@ import { SUPABASE_URL, SUPABASE_ANON_KEY, REVIEWS_ENABLED } from '../lib/supabas
         }
         const creds = () => ({ email: document.getElementById('email').value.trim(), password: document.getElementById('password').value });
 
+        // Shared validation so an empty field never reaches Supabase (an empty
+        // email makes Supabase attempt an anonymous sign-in → confusing error).
+        function validate(c) {
+          if (!c.email) { msg.textContent = '⚠️ Please enter your email address.'; return false; }
+          if (!c.password || c.password.length < 6) { msg.textContent = '⚠️ Password must be at least 6 characters.'; return false; }
+          return true;
+        }
+
         form.addEventListener('submit', async (e) => {
-          e.preventDefault(); msg.textContent = 'Logging in…';
-          const { error } = await sb.auth.signInWithPassword(creds());
+          e.preventDefault();
+          const c = creds();
+          if (!validate(c)) return;
+          msg.textContent = 'Logging in…';
+          const { error } = await sb.auth.signInWithPassword(c);
           msg.textContent = error ? ('Error: ' + error.message) : '✅ Logged in!';
           if (!error) refresh();
         });
         document.getElementById('btn-signup').addEventListener('click', async () => {
+          const c = creds();
+          if (!validate(c)) return;
           msg.textContent = 'Creating account…';
-          const { error } = await sb.auth.signUp(creds());
-          msg.textContent = error ? ('Error: ' + error.message) : '✅ Account created! You can now log in and leave reviews.';
+          const { error } = await sb.auth.signUp(c);
+          msg.textContent = error ? ('Error: ' + error.message) : '✅ Account created — you are now logged in. Visit any breed page to leave a review!';
           if (!error) refresh();
         });
         document.getElementById('btn-logout').addEventListener('click', async () => { await sb.auth.signOut(); refresh(); });
+
+        // Social login (Google / GitHub / etc.) — buttons only exist for
+        // providers enabled in OAUTH_PROVIDERS.
+        document.querySelectorAll('.btn-oauth').forEach((b) => {
+          b.addEventListener('click', async () => {
+            msg.textContent = 'Redirecting…';
+            const { error } = await sb.auth.signInWithOAuth({
+              provider: b.dataset.provider,
+              options: { redirectTo: window.location.origin + '/login/' },
+            });
+            if (error) msg.textContent = 'Error: ' + error.message;
+          });
+        });
+
         refresh();
       </script>
     </>

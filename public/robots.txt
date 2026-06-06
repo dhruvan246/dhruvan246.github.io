@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /admin
 
 # Update the domain below to match your real site (same as SITE_URL in src/consts.ts).
 Sitemap: https://dhruvan246.github.io/sitemap-index.xml

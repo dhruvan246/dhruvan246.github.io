@@ -1076,5 +1076,369 @@
     "credit": "sannse",
     "license": "CC BY-SA 3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Greenland_Dog.jpg"
+  },
+  "chesapeake-bay-retriever": {
+    "file": "/images/chesapeake-bay-retriever.jpg",
+    "alt": "A Chesapeake Bay Retriever",
+    "credit": "George Makatura",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:CH_Chesapeake.jpg"
+  },
+  "chinese-crested": {
+    "file": "/images/chinese-crested.jpg",
+    "alt": "A Chinese Crested",
+    "credit": "Tommy Gildseth",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:IndyStands.jpg"
+  },
+  "dandie-dinmont-terrier": {
+    "file": "/images/dandie-dinmont-terrier.jpg",
+    "alt": "A Dandie Dinmont Terrier",
+    "credit": "en:User:Sannse",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dandie_Dinmont_Terrier_600.jpg"
+  },
+  "dwarf-gourami": {
+    "file": "/images/dwarf-gourami.jpg",
+    "alt": "A Dwarf Gourami",
+    "credit": "Felix Gertz",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Colisa_lalia-Male_and_Female.jpg"
+  },
+  "east-siberian-laika": {
+    "file": "/images/east-siberian-laika.jpg",
+    "alt": "A East Siberian Laika",
+    "credit": "No machine-readable author provided. PrzemekL assumed (based on copyright claims).",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:East_Siberian_Laika.jpg"
+  },
+  "eastern-newt": {
+    "file": "/images/eastern-newt.jpg",
+    "alt": "A Eastern Newt",
+    "credit": "Brian Gratwicke",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Redspotted_newt.jpg"
+  },
+  "english-toy-terrier": {
+    "file": "/images/english-toy-terrier.jpg",
+    "alt": "A English Toy Terrier",
+    "credit": "Svenska Mässan from Sweden",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ENGLISH_TOY_TERRIER,_NO_JV-14_NO_UCH_X-Pected_Dine_Mites_X-Factor_(23995274170).jpg"
+  },
+  "entlebucher-mountain-dog": {
+    "file": "/images/entlebucher-mountain-dog.jpg",
+    "alt": "A Entlebucher Mountain Dog",
+    "credit": "Serge Renggli",
+    "license": "CC BY-SA 2.0 de",
+    "source": "https://commons.wikimedia.org/wiki/File:Elio_v_Schaerlig_im_Juni_2007_klein.jpg"
+  },
+  "epagneul-bleu-de-picardie": {
+    "file": "/images/epagneul-bleu-de-picardie.jpg",
+    "alt": "A Epagneul Bleu de Picardie",
+    "credit": "Pleple2000",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Epagneul_bleu_de_picardie_868.jpg"
+  },
+  "epagneul-picard": {
+    "file": "/images/epagneul-picard.jpg",
+    "alt": "A Epagneul Picard",
+    "credit": "Pleple2000",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Epagneul_picard_685.jpg"
+  },
+  "estrela-mountain-dog": {
+    "file": "/images/estrela-mountain-dog.jpg",
+    "alt": "A Estrela Mountain Dog",
+    "credit": "Traceywashere at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Estrela_Mountain_Dog_6_month_old_male.jpg"
+  },
+  "eurasier": {
+    "file": "/images/eurasier.jpg",
+    "alt": "A Eurasier",
+    "credit": "Kerstin Kühnel Wuppertatzen",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Eurasier_BailyWtatze.jpg"
+  },
+  "fennec-fox": {
+    "file": "/images/fennec-fox.jpg",
+    "alt": "A Fennec Fox",
+    "credit": "Drew Avery",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fennec_Fox_Vulpes_zerda.jpg"
+  },
+  "gerbil": {
+    "file": "/images/gerbil.jpg",
+    "alt": "A Gerbil",
+    "credit": "Alastair Rae from London, United Kingdom",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Meriones_unguiculatus_(wild).jpg"
+  },
+  "great-dane": {
+    "file": "/images/great-dane.jpg",
+    "alt": "A Great Dane",
+    "credit": "Lilly M",
+    "license": "CC BY-SA 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Dog_niemiecki_%C5%BC%C3%B3%C5%82ty_LM980.jpg"
+  },
+  "greyhound": {
+    "file": "/images/greyhound.jpg",
+    "alt": "A Greyhound",
+    "credit": "Neurodoc",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:GraceTheGreyhound.jpg"
+  },
+  "guinea-pig": {
+    "file": "/images/guinea-pig.jpg",
+    "alt": "A Guinea Pig",
+    "credit": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:George_the_amazing_guinea_pig.jpg"
+  },
+  "guppy": {
+    "file": "/images/guppy.jpg",
+    "alt": "A Guppy",
+    "credit": "Per Harald Olsen",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Guppy_pho_0048.jpg"
+  },
+  "hermanns-tortoise": {
+    "file": "/images/hermanns-tortoise.jpg",
+    "alt": "A Hermann's Tortoise",
+    "credit": "Orchi",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Testudo_hermanni_hermanni_Mallorca_02.jpg"
+  },
+  "hermit-crab": {
+    "file": "/images/hermit-crab.jpg",
+    "alt": "A Hermit Crab",
+    "credit": "H. Zell",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Calliactis_and_Dardanus_001.JPG"
+  },
+  "holland-lop": {
+    "file": "/images/holland-lop.jpg",
+    "alt": "A Holland Lop",
+    "credit": "SirDukeOfAwe",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Holland_Lop_Bunny_Standing_On_Her_Back_Feet.jpg"
+  },
+  "irish-red-and-white-setter": {
+    "file": "/images/irish-red-and-white-setter.jpg",
+    "alt": "A Irish Red and White Setter",
+    "credit": "Missledwidge",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Irish_Red_And_White_Setter_2005.jpg"
+  },
+  "irish-setter": {
+    "file": "/images/irish-setter.jpg",
+    "alt": "A Irish Setter",
+    "credit": "Luis Miguel Bugallo Sánchez (Lmbuga Commons)(Lmbuga Galipedia) Publicada por/Publish by: Luis Miguel Bugallo Sánchez",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Can_Setter_dog_GFDL.jpg"
+  },
+  "irish-wolfhound": {
+    "file": "/images/irish-wolfhound.jpg",
+    "alt": "A Irish Wolfhound",
+    "credit": "Dux",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:(2)_Irish_Wolfhound_4.jpg"
+  },
+  "italian-greyhound": {
+    "file": "/images/italian-greyhound.jpg",
+    "alt": "A Italian Greyhound",
+    "credit": "christina",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Italian_Greyhound_standing_gray_(cropped).jpg"
+  },
+  "jack-dempsey": {
+    "file": "/images/jack-dempsey.jpg",
+    "alt": "A Jack Dempsey",
+    "credit": "Wikimedia Commons",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Jack_Dempsey_1.jpg"
+  },
+  "jack-russell-terrier": {
+    "file": "/images/jack-russell-terrier.jpg",
+    "alt": "A Jack Russell Terrier",
+    "credit": "Plank",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jack_Russell_Terrier_1.jpg"
+  },
+  "japanese-spitz": {
+    "file": "/images/japanese-spitz.jpg",
+    "alt": "A Japanese Spitz",
+    "credit": "Svenska Mässan from Sweden",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:BIR_Grupp_5-_JAPANSK_SPETS,_Chezzay%E2%80%99s_Nice_N%E2%80%99Easy_(23938629860).jpg"
+  },
+  "kai-ken": {
+    "file": "/images/kai-ken.jpg",
+    "alt": "A Kai Ken",
+    "credit": "Kei87c1",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kai-front.jpg"
+  },
+  "kangal-shepherd-dog": {
+    "file": "/images/kangal-shepherd-dog.jpg",
+    "alt": "A Kangal Shepherd Dog",
+    "credit": "Kangalshepherddog",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kangal_front_on.jpg"
+  },
+  "king-shepherd": {
+    "file": "/images/king-shepherd.jpg",
+    "alt": "A King Shepherd",
+    "credit": "gomagoti",
+    "license": "CC BY-SA 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:German_Shepherd_-_DSC_0346_(10096362833).jpg"
+  },
+  "kishu-ken": {
+    "file": "/images/kishu-ken.jpg",
+    "alt": "A Kishu Ken",
+    "credit": "Sabine, user of DogWiki",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kishu.jpg"
+  },
+  "komondor": {
+    "file": "/images/komondor.jpg",
+    "alt": "A Komondor",
+    "credit": "Nikki68 at Russian Wikipedia",
+    "license": "CC BY 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Komondor_delvin.jpg"
+  },
+  "kooikerhondje": {
+    "file": "/images/kooikerhondje.jpg",
+    "alt": "A Kooikerhondje",
+    "credit": "Wikimedia Commons",
+    "license": "CC BY 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Kooiker03.jpg"
+  },
+  "korean-jindo": {
+    "file": "/images/korean-jindo.jpg",
+    "alt": "A Korean Jindo",
+    "credit": "Herocosmos",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ARIRANG.jpg"
+  },
+  "labradoodle": {
+    "file": "/images/labradoodle.jpg",
+    "alt": "A Labradoodle",
+    "credit": "Anton Porsche",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Labradoodle-Brown-Male-SideFace.jpg"
+  },
+  "labrador-retriever": {
+    "file": "/images/labrador-retriever.jpg",
+    "alt": "A Labrador Retriever",
+    "credit": "IDS.photos from Tiverton, UK",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Labrador_on_Quantock_(2175262184).jpg"
+  },
+  "lakeland-terrier": {
+    "file": "/images/lakeland-terrier.jpg",
+    "alt": "A Lakeland Terrier",
+    "credit": "sannse",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lakeland_Terrier.jpg"
+  },
+  "leopard-gecko": {
+    "file": "/images/leopard-gecko.jpg",
+    "alt": "A Leopard Gecko",
+    "credit": "Matt Reinbold",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Eublepharis_macularius1.jpg"
+  },
+  "lhasa-apso": {
+    "file": "/images/lhasa-apso.jpg",
+    "alt": "A Lhasa Apso",
+    "credit": "Elminjas at Dutch Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Aishia.jpg"
+  },
+  "llama": {
+    "file": "/images/llama.jpg",
+    "alt": "A Llama",
+    "credit": "Andrija12345678",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Llamas,_Vernagt-Stausee,_Italy.jpg"
+  },
+  "madagascar-hissing-cockroach": {
+    "file": "/images/madagascar-hissing-cockroach.jpg",
+    "alt": "A Madagascar Hissing Cockroach",
+    "credit": "Almabes at English Wikipedia",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Female_Madagascar_hissing_cockroach.JPG"
+  },
+  "maine-coon": {
+    "file": "/images/maine-coon.jpg",
+    "alt": "A Maine Coon",
+    "credit": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:M%C3%A2le_Black_Silver_Blotched_Tabby.jpeg"
+  },
+  "manx": {
+    "file": "/images/manx.jpg",
+    "alt": "A Manx",
+    "credit": "Karen Weaver",
+    "license": "CC BY 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Manx_cat_by_Karen_Weaver.jpg"
+  },
+  "maremma-sheepdog": {
+    "file": "/images/maremma-sheepdog.jpg",
+    "alt": "A Maremma Sheepdog",
+    "credit": "Justlettersandnumbers",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pastore_Maremmano-Abruzzese,_young_dog_(cropped).jpg"
+  },
+  "miniature-american-shepherd": {
+    "file": "/images/miniature-american-shepherd.jpg",
+    "alt": "A Miniature American Shepherd",
+    "credit": "Lextergrace",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Blue_Merle_Miniature_American_Shepherd_in_Grass.jpg"
+  },
+  "miniature-bull-terrier": {
+    "file": "/images/miniature-bull-terrier.jpg",
+    "alt": "A Miniature Bull Terrier",
+    "credit": "Томасина",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Minibull_2_Moletai_May_2014.jpg"
+  },
+  "miniature-pinscher": {
+    "file": "/images/miniature-pinscher.jpg",
+    "alt": "A Miniature Pinscher",
+    "credit": "Sebastian Wallin. Sebastian Wallin. Sebwal",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Miniature_pinscher.jpg"
+  },
+  "miniature-schnauzer": {
+    "file": "/images/miniature-schnauzer.jpg",
+    "alt": "A Miniature Schnauzer",
+    "credit": "Canarian",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Miniature_Schnauzer_salt_%26_pepper_(cropped).jpg"
+  },
+  "mudi": {
+    "file": "/images/mudi.jpg",
+    "alt": "A Mudi",
+    "credit": "Vulpes at Dutch Wikipedia",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Hondenras_Mudi.jpg"
+  },
+  "neapolitan-mastiff": {
+    "file": "/images/neapolitan-mastiff.jpg",
+    "alt": "A Neapolitan Mastiff",
+    "credit": "Ewa Ziemska",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mastino_sylwetka.jpg"
+  },
+  "nenets-herding-laika": {
+    "file": "/images/nenets-herding-laika.jpg",
+    "alt": "A Nenets Herding Laika",
+    "credit": "КурилинаЕ",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:461A1456.jpg"
   }
 }

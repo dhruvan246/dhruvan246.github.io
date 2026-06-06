@@ -1,0 +1,84 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SUPABASE_URL, SUPABASE_ANON_KEY, REVIEWS_ENABLED, ADMIN_EMAIL } from '../lib/supabase.ts';
+---
+<BaseLayout title="Review Moderation" description="Admin-only review moderation.">
+  <section class="hero">
+    <div class="container">
+      <h1>🛡️ Review Moderation</h1>
+      <p>Admin-only — review and remove any owner review across the site.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    {!REVIEWS_ENABLED ? (
+      <p class="page sub">Reviews backend not configured.</p>
+    ) : (
+      <div class="tool">
+        <p id="admin-state" class="rv-msg">Checking access…</p>
+        <p id="admin-login" hidden>
+          You must be logged in as the admin to moderate reviews.
+          <a class="btn-primary btn-sm" href="/login/">Go to login</a>
+        </p>
+        <div id="admin-panel" hidden>
+          <p id="admin-count" class="sub"></p>
+          <div id="admin-list" class="rv-list"></div>
+        </div>
+      </div>
+    )}
+  </div>
+
+  {REVIEWS_ENABLED && (
+    <>
+      <script is:inline src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+      <script is:inline define:vars={{ SUPABASE_URL, SUPABASE_ANON_KEY, ADMIN_EMAIL }}>
+        const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+        const stateEl = document.getElementById('admin-state');
+        const loginEl = document.getElementById('admin-login');
+        const panel = document.getElementById('admin-panel');
+        const listEl = document.getElementById('admin-list');
+        const countEl = document.getElementById('admin-count');
+
+        const esc = (s) => (s == null ? '' : String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])));
+
+        async function load() {
+          const { data: { user } } = await sb.auth.getUser();
+          if (!user) { stateEl.hidden = true; loginEl.hidden = false; return; }
+          if ((user.email || '').toLowerCase() !== String(ADMIN_EMAIL).toLowerCase()) {
+            stateEl.textContent = '🚫 Logged in as ' + user.email + ' — not an admin account.';
+            return;
+          }
+          stateEl.hidden = true; panel.hidden = false;
+          const { data, error } = await sb.from('reviews').select('*').order('created_at', { ascending: false });
+          if (error) { panel.hidden = true; stateEl.hidden = false; stateEl.textContent = 'Error: ' + error.message; return; }
+          countEl.textContent = (data.length || 0) + ' review(s) total.';
+          if (!data.length) { listEl.innerHTML = '<p class="sub">No reviews yet.</p>'; return; }
+          listEl.innerHTML = data.map((r) => `
+            <div class="rv-item" data-id="${r.id}">
+              <div class="rv-head">
+                <strong>${esc(r.author_name) || 'Anonymous'}</strong>
+                <span class="rv-stars">${'★'.repeat(r.rating || 0)}${'☆'.repeat(5 - (r.rating || 0))}</span>
+                <a class="sub" href="/articles/${esc(r.slug)}/" target="_blank">/${esc(r.slug)}</a>
+                <span class="sub">${new Date(r.created_at).toLocaleDateString()}</span>
+              </div>
+              ${r.comment ? `<p>${esc(r.comment)}</p>` : ''}
+              ${r.photo_url ? `<img class="rv-photo" src="${esc(r.photo_url)}" alt="" loading="lazy" />` : ''}
+              <button class="btn-ghost btn-sm rv-del" data-id="${r.id}">🗑️ Delete</button>
+            </div>`).join('');
+
+          listEl.querySelectorAll('.rv-del').forEach((btn) => {
+            btn.addEventListener('click', async () => {
+              if (!window.confirm('Delete this review permanently?')) return;
+              btn.disabled = true; btn.textContent = 'Deleting…';
+              const { error } = await sb.from('reviews').delete().eq('id', btn.dataset.id);
+              if (error) { btn.disabled = false; btn.textContent = '🗑️ Delete'; alert('Error: ' + error.message); return; }
+              const card = listEl.querySelector(`.rv-item[data-id="${btn.dataset.id}"]`);
+              if (card) card.remove();
+            });
+          });
+        }
+        load();
+      </script>
+    </>
+  )}
+</BaseLayout>
