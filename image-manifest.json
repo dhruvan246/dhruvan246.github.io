@@ -1853,5 +1853,19 @@
     "credit": "Svenska Mässan from Sweden",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:(2_version)_Grupp_3,_YORKSHIRETERRIER,_NO_UCH_SE_UCH_Oxzar_Amazing_Bel%E2%80%99s_Toffy_(24310212305).jpg"
+  },
+  "persian-cat-care-guide": {
+    "file": "/images/persian-cat-care-guide.jpg",
+    "alt": "A Persian cat",
+    "credit": "The original uploader was Lajoma at Finnish Wikipedia.",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Persialainen.jpg"
+  },
+  "betta-fish": {
+    "file": "/images/betta-fish.jpg",
+    "alt": "A betta fish",
+    "credit": "Daniella Vereeken",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:HM_Orange_M_Sarawut.jpg"
   }
 }

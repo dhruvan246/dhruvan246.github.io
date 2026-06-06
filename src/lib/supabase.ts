@@ -29,4 +29,4 @@ export const ADMIN_EMAIL = 'dhruvan2510@gmail.com';
 // so users never see a button that errors with "provider not enabled".
 // Supported here: 'google', 'github', 'facebook', 'twitter', 'azure'...
 // =============================================================================
-export const OAUTH_PROVIDERS: string[] = [];
+export const OAUTH_PROVIDERS: string[] = ['google'];
