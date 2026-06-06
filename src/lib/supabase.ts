@@ -8,8 +8,8 @@
 // "coming soon" message instead of breaking.
 // =============================================================================
 
-export const SUPABASE_URL = '';
-export const SUPABASE_ANON_KEY = '';
+export const SUPABASE_URL = 'https://nebjnsndgrhumnkuipqy.supabase.co';
+export const SUPABASE_ANON_KEY = 'sb_publishable_MDlQwiVc5deii91__UNeDg_z9r4Fk98';
 
 export const REVIEWS_ENABLED = Boolean(SUPABASE_URL && SUPABASE_ANON_KEY);
 
