@@ -4,11 +4,14 @@ description: "A complete guide to the Cairn Terrier — their bold, busy persona
 category: "dogs"
 species: "Cairn Terrier"
 pubDate: 2026-03-22
-heroImage: ""
-heroImageAlt: "A shaggy Cairn Terrier standing alert"
+heroImage: "/images/cairn-terrier.jpg"
+heroImageAlt: "A Cairn Terrier"
 tags: ["cairn terrier", "small dogs", "terriers", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Ronald Müller-Hagen (Ketterechts)"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Cairn-Terrier-Garten1.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Famous as Toto from *The Wizard of Oz*, the Cairn Terrier is a small, hardy and spirited working terrier from Scotland. Bold, busy and full of character, the Cairn is a fun-loving companion with a big personality.

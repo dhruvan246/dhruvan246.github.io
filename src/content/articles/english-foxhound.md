@@ -4,11 +4,14 @@ description: "Care guide for the English Foxhound, a large, sociable pack scenth
 category: "dogs"
 species: "English Foxhound"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A English Foxhound dog"
+heroImage: "/images/english-foxhound.jpg"
+heroImageAlt: "A English Foxhound"
 tags: ["english-foxhound", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Flickr user Thowra_uk"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:English_Foxhound_portrait.jpg"
+heroLicense: "CC BY 2.0"
 ---
 
 The English Foxhound is a large, sturdy scenthound developed in England over centuries to hunt foxes in packs alongside mounted riders. Built for stamina rather than speed, it is friendly, sociable and tireless, making it a rewarding companion for active homes with the space and time it needs.

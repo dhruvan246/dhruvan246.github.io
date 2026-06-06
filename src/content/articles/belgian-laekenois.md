@@ -4,11 +4,14 @@ description: "A complete Belgian Laekenois care guide covering this rare rough-c
 category: "dogs"
 species: "Belgian Laekenois"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Belgian Laekenois dog"
+heroImage: "/images/belgian-laekenois.jpg"
+heroImageAlt: "A Belgian Laekenois"
 tags: ["belgian-laekenois", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Various, see description. Compiled by User:Adventurous36"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:04_-_Belgian_shepherd_dog_varieties_-_Groenendael,Tervuren,_Malinois,_Laekenois.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Belgian Laekenois is the rarest of the four Belgian shepherd varieties, distinguished by its tousled, wiry coat. Originally bred to guard linen drying in fields near the town of Laeken, this hardworking, devoted dog combines an alert herding instinct with deep loyalty to its family.

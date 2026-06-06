@@ -4,11 +4,14 @@ description: "Learn how to care for the Bergamasco Sheepdog, an ancient Italian 
 category: "dogs"
 species: "Bergamasco Sheepdog"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Bergamasco Sheepdog dog"
+heroImage: "/images/bergamasco-sheepdog.jpg"
+heroImageAlt: "A Bergamasco Sheepdog"
 tags: ["bergamasco-sheepdog", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Luigi Guidobono Cavalchini (Josephine06)"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Ortensia_di_Valle_Scrivia.jpg"
+heroLicense: "CC BY 3.0"
 ---
 
 The Bergamasco Sheepdog is an ancient herding breed from the Italian Alps near Bergamo, best known for its distinctive coat that naturally forms flat mats, or "flocks." Patient, intelligent, and deeply devoted, the Bergamasco was bred to think independently while guarding flocks, traits that make it a steady, watchful family companion today.

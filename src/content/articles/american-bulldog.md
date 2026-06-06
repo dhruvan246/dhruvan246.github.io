@@ -4,11 +4,14 @@ description: "Care guide for the American Bulldog: a powerful, athletic working 
 category: "dogs"
 species: "American Bulldog"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A American Bulldog dog"
+heroImage: "/images/american-bulldog.jpg"
+heroImageAlt: "A American Bulldog"
 tags: ["american-bulldog", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Photo by sannse"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:American_Bulldog_600.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The American Bulldog is a powerful, athletic working dog descended from the old English bulldogs brought to North America by early settlers, where they were used as all-purpose farm and stock dogs. Confident and loyal, the breed nearly disappeared after World War II before dedicated breeders revived it. Today the American Bulldog is valued as a devoted family guardian and capable working companion.

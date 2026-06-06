@@ -4,11 +4,14 @@ description: "Care guide for the Carolina Dog, a primitive American breed once l
 category: "dogs"
 species: "Carolina Dog"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Carolina Dog dog"
+heroImage: "/images/carolina-dog.jpg"
+heroImageAlt: "A Carolina Dog"
 tags: ["carolina-dog", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Tomc1977"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Dakota,_the_Dixie_Dingo_(or_Carolina_Dog).jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Carolina Dog is a primitive, medium-sized breed native to the southeastern United States, where free-roaming populations were studied living near the swamps and forests of the Carolinas and Georgia. Sometimes called the "American Dingo," it retains many natural behaviors that make it a fascinating, independent companion.

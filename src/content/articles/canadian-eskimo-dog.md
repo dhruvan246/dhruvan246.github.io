@@ -4,11 +4,14 @@ description: "Care guide for the Canadian Eskimo Dog, a powerful Arctic sled dog
 category: "dogs"
 species: "Canadian Eskimo Dog"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Canadian Eskimo Dog dog"
+heroImage: "/images/canadian-eskimo-dog.jpg"
+heroImageAlt: "A Canadian Eskimo Dog"
 tags: ["canadian-eskimo-dog", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Exhaustfumes at English Wikipedia"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Spoonsced.jpg"
+heroLicense: "Public domain"
 ---
 
 The Canadian Eskimo Dog is one of North America's oldest and rarest working breeds, developed by the Inuit of the Arctic to haul sleds and hunt across frozen terrain. Also known as the Canadian Inuit Dog or Qimmiq, it is a robust, hard-driving spitz built for endurance in extreme cold rather than for the show ring. This is a serious working dog with intense energy and deep pack instincts.

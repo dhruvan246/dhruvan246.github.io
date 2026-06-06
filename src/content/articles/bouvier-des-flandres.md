@@ -4,11 +4,14 @@ description: "Care guide for the Bouvier des Flandres, a powerful Belgian herdin
 category: "dogs"
 species: "Bouvier des Flandres"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Bouvier des Flandres dog"
+heroImage: "/images/bouvier-des-flandres.jpg"
+heroImageAlt: "A Bouvier des Flandres"
 tags: ["bouvier-des-flandres", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Basco at Dutch Wikipedia (Original text: annekedirven@tiscali.nl)"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Bouvier.JPG"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Bouvier des Flandres is a large, rugged working dog that originated on the farms of Flanders, the region straddling northern France and Belgium. Bred to herd cattle, pull carts, and guard the homestead, the breed earned a reputation for tireless versatility and unshakable steadiness. Today the Bouvier is valued as a loyal family guardian, a capable competitor in herding and obedience, and a dignified companion that bonds deeply with its people.

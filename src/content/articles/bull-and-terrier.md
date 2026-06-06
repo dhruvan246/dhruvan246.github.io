@@ -4,11 +4,14 @@ description: "A complete Bull and Terrier care guide covering size, temperament,
 category: "dogs"
 species: "Bull and Terrier"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Bull and Terrier dog"
+heroImage: "/images/bull-and-terrier.jpg"
+heroImageAlt: "A Bull and Terrier"
 tags: ["bull-and-terrier", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Philippe Rousseau"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Philippe_Rousseau_-_Best_Of_Friends_-_Bulldog_%26_Bull_Terrier.jpg"
+heroLicense: "Public domain"
 ---
 
 Powerful, agile and intensely loyal, the Bull and Terrier is a historic crossbred type developed by combining the strength of Bulldogs with the speed and tenacity of terriers. Once a working and sporting dog, it is the ancestral root of several modern breeds such as the Staffordshire Bull Terrier and the Bull Terrier. Today the name describes a muscular, athletic dog known for its devotion to people, its bravery and its surprisingly gentle nature with its own family.

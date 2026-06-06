@@ -4,11 +4,14 @@ description: "Care guide for the American Hairless Terrier, a lively hairless or
 category: "dogs"
 species: "American Hairless Terrier"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A American Hairless Terrier dog"
+heroImage: "/images/american-hairless-terrier.jpg"
+heroImageAlt: "A American Hairless Terrier"
 tags: ["american-hairless-terrier", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Nyaah"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:American_Hairless_Terrier_Adelor.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The American Hairless Terrier is a curious, energetic small dog that descends from the Rat Terrier. It is unusual among terriers because it comes in both a truly hairless variety and a short, smooth coated variety, making it a favorite among people who want a lively companion with minimal shedding.

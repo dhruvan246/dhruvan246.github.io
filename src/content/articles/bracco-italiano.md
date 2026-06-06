@@ -4,11 +4,14 @@ description: "Discover the Bracco Italiano, an ancient Italian pointing breed. L
 category: "dogs"
 species: "Bracco Italiano"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Bracco Italiano dog"
+heroImage: "/images/bracco-italiano.jpg"
+heroImageAlt: "A Bracco Italiano"
 tags: ["bracco-italiano", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Mohawk28 at German Wikipedia"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Bracco_Italiano_(cropped).jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Bracco Italiano is one of the oldest pointing breeds in Europe, a versatile Italian gundog prized for its keen nose and gentle, affectionate nature. With its distinctive long ears, loose skin and dignified expression, the "Bracco" combines serious hunting ability with the temperament of a devoted family companion.

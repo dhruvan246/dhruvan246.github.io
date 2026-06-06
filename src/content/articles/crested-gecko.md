@@ -4,11 +4,14 @@ description: "Learn how to keep a crested gecko happy with the right enclosure, 
 category: "reptiles"
 species: "Crested Gecko"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/crested-gecko.jpg"
 heroImageAlt: "A Crested Gecko"
 tags: ["crested-gecko", "reptiles", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Lennart Hudel"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Crested_gecko_-_1.jpg"
+heroLicense: "CC BY 4.0"
 ---
 
 The crested gecko (*Correlophus ciliatus*) is one of the most popular pet reptiles for beginners. Native to New Caledonia, this arboreal lizard is hardy, docile, and undemanding, thriving at room temperature on a simple powdered diet.

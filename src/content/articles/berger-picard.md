@@ -4,11 +4,14 @@ description: "Care guide for the Berger Picard: a rugged French herding dog with
 category: "dogs"
 species: "Berger Picard"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Berger Picard dog"
+heroImage: "/images/berger-picard.jpg"
+heroImageAlt: "A Berger Picard"
 tags: ["berger-picard", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Cufleadh"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Picard_Delice_Stacked.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Berger Picard (also called the Picardy Shepherd) is a rustic French herding breed prized for its lively, observant nature and unmistakable shaggy looks. With its naturally erect ears, expressive eyes and crinkled weatherproof coat, this old farm dog combines hardiness with a playful, sometimes mischievous personality that has earned it a devoted following.

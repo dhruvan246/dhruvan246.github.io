@@ -4,11 +4,14 @@ description: "Care guide to the Alaskan Klee Kai, a small spitz resembling a min
 category: "dogs"
 species: "Alaskan Klee Kai"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Alaskan Klee Kai dog"
+heroImage: "/images/alaskan-klee-kai.jpg"
+heroImageAlt: "A Alaskan Klee Kai"
 tags: ["alaskan-klee-kai", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Hyrel at English Wikipedia"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:WOWAKK-Kukai-Alaskan-Klee-Kai.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Looking like a husky in miniature, the Alaskan Klee Kai is a small, striking spitz developed in Alaska in the 1970s and 1980s as a companion-sized northern dog. Quick, alert and devoted to its family, it pairs eye-catching looks with a sharp, watchful mind.

@@ -4,11 +4,14 @@ description: "Learn how to care for the Dogo Argentino, a powerful white Argenti
 category: "dogs"
 species: "Dogo Argentino"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Dogo Argentino dog"
+heroImage: "/images/dogo-argentino.jpg"
+heroImageAlt: "A Dogo Argentino"
 tags: ["dogo-argentino", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Ricardo Martins from Gent, Belgium"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Argentine_Dogo_(535032632)_(cropped).jpg"
+heroLicense: "CC BY 2.0"
 ---
 
 The Dogo Argentino is a large, muscular working breed developed in Argentina during the 1920s by Dr. Antonio Nores Martínez, who set out to create a brave, athletic dog for big-game hunting and companionship. Recognizable by its all-white coat and powerful build, the Dogo is loyal and protective, but its strength and drive make it best suited to experienced, committed owners.

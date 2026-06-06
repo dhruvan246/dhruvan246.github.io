@@ -4,11 +4,14 @@ description: "Learn how to care for Discus, the elegant Amazonian cichlid, with 
 category: "fish"
 species: "Discus"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/discus-fish.jpg"
 heroImageAlt: "A Discus"
 tags: ["discus-fish", "fish", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Robert_Harting_von_der_Sportfö Bundeswehr-Fotos"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Robert_Harting_(2008).jpg"
+heroLicense: "CC BY 2.0"
 ---
 
 The Discus (*Symphysodon* species) is a round, disc-shaped cichlid native to the slow-moving waters of the Amazon River basin. Prized for its vivid colours and graceful movement, it is often called the "king of the aquarium." Discus are rewarding but demanding fish best suited to aquarists who enjoy attentive, hands-on care.

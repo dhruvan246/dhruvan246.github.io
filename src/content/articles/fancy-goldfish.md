@@ -4,11 +4,14 @@ description: "Learn how to keep fancy goldfish healthy with the right tank size,
 category: "fish"
 species: "Fancy Goldfish"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/fancy-goldfish.jpg"
 heroImageAlt: "A Fancy Goldfish"
 tags: ["fancy-goldfish", "fish", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "לינה אבוגוש"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Gold_fish1.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Fancy goldfish are selectively bred varieties of the common goldfish, prized for their rounded, egg-shaped bodies and ornamental fins. Popular types include the Fantail, Oranda, Ryukin, Black Moor, Telescope and Ranchu. Though they have a reputation as easy "starter" fish, they live longest and look their best when given a properly sized, well-filtered cold-water aquarium.

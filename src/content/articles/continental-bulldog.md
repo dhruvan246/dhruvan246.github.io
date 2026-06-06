@@ -4,11 +4,14 @@ description: "Care guide to the Continental Bulldog, a healthy Swiss bulldog bre
 category: "dogs"
 species: "Continental Bulldog"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Continental Bulldog dog"
+heroImage: "/images/continental-bulldog.jpg"
+heroImageAlt: "A Continental Bulldog"
 tags: ["continental-bulldog", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Pitsch"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Pitsch-Dog.jpg"
+heroLicense: "CC0"
 ---
 
 The Continental Bulldog is a relatively modern Swiss breed developed to combine the affectionate, easygoing character of the English Bulldog with a healthier, more athletic body. Sturdy yet agile, it has a longer muzzle and freer breathing than its ancestors, making it a friendly, family-oriented companion that can actually keep up on a walk.

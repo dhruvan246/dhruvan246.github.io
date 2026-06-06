@@ -4,11 +4,14 @@ description: "Learn how to care for a Domestic Pigeon, covering loft housing, gr
 category: "birds"
 species: "Domestic Pigeon"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/domestic-pigeon.jpg"
 heroImageAlt: "A Domestic Pigeon"
 tags: ["domestic-pigeon", "birds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Karl Wagner"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:LA2-NSRW-3-0536_cropped.jpg"
+heroLicense: "Public domain"
 ---
 
 The Domestic Pigeon (*Columba livia domestica*) is one of the oldest domesticated birds, kept for thousands of years for racing, showing, and companionship. Calm, intelligent, and remarkably tame when hand-raised, pigeons make rewarding pets for keepers who can provide an outdoor loft or aviary and daily care.

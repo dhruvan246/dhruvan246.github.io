@@ -4,11 +4,14 @@ description: "Care guide for the Alapaha Blue Blood Bulldog, a rare, loyal South
 category: "dogs"
 species: "Alapaha Blue Blood Bulldog"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Alapaha Blue Blood Bulldog dog"
+heroImage: "/images/alapaha-blue-blood-bulldog.jpg"
+heroImageAlt: "A Alapaha Blue Blood Bulldog"
 tags: ["alapaha-blue-blood-bulldog", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Mjrustline"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Alapaha_blue_blood_bulldog2.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Alapaha Blue Blood Bulldog is a rare working bulldog developed in the southern United States, particularly around the Alapaha River region of southern Georgia. Bred to guard property and manage livestock, it is a confident, athletic, and devoted companion that bonds closely with its family.

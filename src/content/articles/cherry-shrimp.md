@@ -4,11 +4,14 @@ description: "Learn how to keep colorful, peaceful Cherry Shrimp: ideal tank set
 category: "invertebrates"
 species: "Cherry Shrimp"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/cherry-shrimp.jpg"
 heroImageAlt: "A Cherry Shrimp"
 tags: ["cherry-shrimp", "invertebrates", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "TheJammingYam (talk)"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Red_Cherry_Shrimp_1.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Cherry Shrimp (*Neocaridina davidi*) is one of the most popular freshwater invertebrates in the aquarium hobby. Hardy, peaceful, and brightly colored, these small dwarf shrimp are an excellent choice for beginners and a rewarding addition to planted nano tanks.

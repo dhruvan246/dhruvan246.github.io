@@ -4,11 +4,14 @@ description: "Care guide for the Russian Black Terrier (Black Russian Terrier), 
 category: "dogs"
 species: "Russian Black Terrier"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Russian Black Terrier dog"
+heroImage: "/images/black-russian-terrier.jpg"
+heroImageAlt: "A Russian Black Terrier"
 tags: ["black-russian-terrier", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Pleple2000"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Wystawa_Rybnik_02.10.2011_czarny_terier_rosyjski_2pl.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Russian Black Terrier, also called the Black Russian Terrier or "Tchiorny Terrier," is a large, robust working dog developed in the mid-20th century by the Soviet military to serve as a hardy guard dog. Despite the name, it is more of an all-purpose guardian than a true terrier, blending the traits of several breeds including the Giant Schnauzer, Airedale Terrier, and Rottweiler.

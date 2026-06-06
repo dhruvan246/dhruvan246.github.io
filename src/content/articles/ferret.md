@@ -4,11 +4,14 @@ description: "Learn how to keep a pet ferret happy with the right cage, meat-bas
 category: "small-pets"
 species: "Ferret"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/ferret.png"
 heroImageAlt: "A Ferret"
 tags: ["ferret", "small-pets", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Alfredo Gutiérrez"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Ferret_2008.png"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The ferret is a small, domesticated member of the weasel family, kept as a pet for centuries and prized for its curious, mischievous personality. Energetic and intensely social, ferrets form strong bonds with their owners and reward attentive care with hours of comical, acrobatic play.

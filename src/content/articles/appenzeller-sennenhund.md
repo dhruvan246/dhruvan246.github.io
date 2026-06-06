@@ -4,11 +4,14 @@ description: "Care guide for the Appenzeller Sennenhund, an energetic Swiss moun
 category: "dogs"
 species: "Appenzeller Sennenhund"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Appenzeller Sennenhund dog"
+heroImage: "/images/appenzeller-sennenhund.jpg"
+heroImageAlt: "A Appenzeller Sennenhund"
 tags: ["appenzeller-sennenhund", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Appenzeller Blaess"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Eisa_Kessy_v_Br%C3%BCnggberg.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Appenzeller Sennenhund is a lively, hard-working Swiss farm dog and one of the four traditional Sennenhund (Alpine herding) breeds. Bred in the Appenzell region of northeastern Switzerland to drive cattle, guard property, and pull small carts, this medium-sized breed is alert, athletic, and deeply devoted to its family.

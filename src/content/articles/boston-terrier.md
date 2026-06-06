@@ -4,11 +4,14 @@ description: "Everything about Boston Terriers — their friendly temperament, e
 category: "dogs"
 species: "Boston Terrier"
 pubDate: 2026-05-21
-heroImage: ""
-heroImageAlt: "A black and white Boston Terrier with tuxedo markings"
+heroImage: "/images/boston-terrier.jpg"
+heroImageAlt: "A Boston Terrier"
 tags: ["boston terrier", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Andreas Schlaugat"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Boston-terrier-carlos-de.JPG"
+heroLicense: "CC BY 3.0"
 ---
 
 Nicknamed the "American Gentleman" for its tuxedo-like markings and polite manners, the Boston Terrier is a friendly, adaptable little dog that fits city and family life beautifully.
