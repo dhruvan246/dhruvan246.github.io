@@ -45,7 +45,7 @@ let ok = 0, skip = 0;
 
 for (const it of items) {
   if (manifest[it.slug]) continue;
-  await sleep(1200);
+  await sleep(3500);
   try {
     // 1) REST summary — CDN-served, resolves redirects. Retry through 429s.
     let sres = null;
