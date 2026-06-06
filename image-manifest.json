@@ -1447,5 +1447,47 @@
     "credit": "金色黎明",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Rabbit-with-grass.jpg"
+  },
+  "norfolk-terrier": {
+    "file": "/images/norfolk-terrier.jpg",
+    "alt": "A Norfolk Terrier",
+    "credit": "Nutak at Dutch Wikipedia (Original text: NTCN, mw.G. Hajnova)",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Norfolk_terrier_CAC.jpg"
+  },
+  "norrbottenspets": {
+    "file": "/images/norrbottenspets.jpg",
+    "alt": "A Norrbottenspets",
+    "credit": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nordic_Spitz.jpg"
+  },
+  "norwegian-lundehund": {
+    "file": "/images/norwegian-lundehund.jpg",
+    "alt": "A Norwegian Lundehund",
+    "credit": "Karen Elise Dahlmo",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lundehund-2003.jpg"
+  },
+  "norwich-terrier": {
+    "file": "/images/norwich-terrier.jpg",
+    "alt": "A Norwich Terrier",
+    "credit": "H. Gisin",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Norwichterrier.jpg"
+  },
+  "old-english-sheepdog": {
+    "file": "/images/old-english-sheepdog.jpg",
+    "alt": "A Old English Sheepdog",
+    "credit": "AKS.9955",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Old_English_Sheepdog_(side).jpg"
+  },
+  "olde-english-bulldogge": {
+    "file": "/images/olde-english-bulldogge.jpg",
+    "alt": "A Olde English Bulldogge",
+    "credit": "Ss 051",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:UKC_Olde_English_Bulldogge_Male.jpg"
   }
 }

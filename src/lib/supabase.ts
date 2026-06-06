@@ -21,7 +21,7 @@ export const REVIEW_PHOTO_BUCKET = 'review-photos';
 // Whoever logs in with this exact email can delete ANY review.
 // (A matching Supabase RLS policy enforces this on the database side too.)
 // =============================================================================
-export const ADMIN_EMAIL = 'dhruvan246@gmail.com';
+export const ADMIN_EMAIL = 'dhruvan2510@gmail.com';
 
 // =============================================================================
 // SOCIAL LOGIN — list the OAuth providers you've enabled in
