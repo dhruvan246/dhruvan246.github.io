@@ -16,7 +16,33 @@ const topNav = CATEGORIES.slice(0, 5);
       <a href="/search">Search</a>
       <a href="/senior-pets">Senior Pets</a>
       <a href="/about">About</a>
-      <a href="/login" class="nav-account">Log in</a>
+      <a href="/login" class="nav-account" id="nav-account-link">Log in</a>
     </nav>
   </div>
 </header>
+
+<script is:inline>
+  // Reflect Supabase login state in the nav (static site — read the session
+  // straight from localStorage so we don't load the whole Supabase SDK on
+  // every page). Shows the logged-in user's name (or email) linking to /login.
+  (function () {
+    try {
+      var key = Object.keys(localStorage).find(function (k) {
+        return k.indexOf('sb-') === 0 && k.indexOf('-auth-token') > -1;
+      });
+      if (!key) return;
+      var sess = JSON.parse(localStorage.getItem(key) || 'null');
+      var user = sess && (sess.user || (sess.currentSession && sess.currentSession.user));
+      if (!user) return;
+      var meta = user.user_metadata || {};
+      var name = meta.full_name || meta.name || meta.user_name ||
+                 (user.email ? user.email.split('@')[0] : null);
+      if (!name) return;
+      var link = document.getElementById('nav-account-link');
+      if (link) {
+        link.textContent = '👤 ' + name;
+        link.setAttribute('title', 'View account / log out');
+      }
+    } catch (e) { /* not logged in or storage blocked — leave "Log in" */ }
+  })();
+</script>

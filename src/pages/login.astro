@@ -27,7 +27,7 @@ const providers = OAUTH_PROVIDERS.filter((p) => PROVIDER_META[p]).map((p) => ({ 
         <div id="auth-status" class="result-box" hidden></div>
 
         {providers.length > 0 && (
-          <div class="oauth-list">
+          <div class="oauth-list" id="oauth-section">
             {providers.map((p) => (
               <button type="button" class="btn-oauth" data-provider={p.id}>
                 {p.id === 'google' ? (
@@ -79,10 +79,16 @@ const providers = OAUTH_PROVIDERS.filter((p) => PROVIDER_META[p]).map((p) => ({ 
         const loggedIn = document.getElementById('auth-loggedin');
         const emailLbl = document.getElementById('auth-email');
 
+        const oauthSection = document.getElementById('oauth-section');
         async function refresh() {
           const { data: { user } } = await sb.auth.getUser();
-          if (user) { form.hidden = true; loggedIn.hidden = false; emailLbl.textContent = user.email; }
-          else { form.hidden = false; loggedIn.hidden = true; }
+          if (user) {
+            form.hidden = true; loggedIn.hidden = false; emailLbl.textContent = user.email;
+            if (oauthSection) oauthSection.hidden = true;
+          } else {
+            form.hidden = false; loggedIn.hidden = true;
+            if (oauthSection) oauthSection.hidden = false;
+          }
         }
         const creds = () => ({ email: document.getElementById('email').value.trim(), password: document.getElementById('password').value });
 
