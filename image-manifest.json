@@ -1440,5 +1440,12 @@
     "credit": "КурилинаЕ",
     "license": "CC0",
     "source": "https://commons.wikimedia.org/wiki/File:461A1456.jpg"
+  },
+  "netherland-dwarf": {
+    "file": "/images/netherland-dwarf.jpg",
+    "alt": "A Netherland Dwarf",
+    "credit": "金色黎明",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rabbit-with-grass.jpg"
   }
 }
