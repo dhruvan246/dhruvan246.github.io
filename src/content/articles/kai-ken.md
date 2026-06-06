@@ -4,11 +4,14 @@ description: "Care guide for the Kai Ken, a rare brindle-coated Japanese hunting
 category: "dogs"
 species: "Kai Ken"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Kai Ken dog"
+heroImage: "/images/kai-ken.jpg"
+heroImageAlt: "A Kai Ken"
 tags: ["kai-ken", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Kei87c1"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Kai-front.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Kai Ken is one of Japan's six native spitz breeds, originating in the mountainous Kai region (modern Yamanashi Prefecture). Bred to hunt boar and deer in rugged terrain, it is among the rarest of Japanese dogs and is treasured for its distinctive brindle coat and deeply loyal nature.

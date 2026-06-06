@@ -4,11 +4,14 @@ description: "Care guide to the Epagneul Picard, a friendly French gundog. Learn
 category: "dogs"
 species: "Epagneul Picard"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Epagneul Picard dog"
+heroImage: "/images/epagneul-picard.jpg"
+heroImageAlt: "A Epagneul Picard"
 tags: ["epagneul-picard", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Pleple2000"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Epagneul_picard_685.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Epagneul Picard, or Picardy Spaniel, is a versatile French gundog prized for its calm, affectionate nature and willingness to work in tough cover and wet terrain. Bred in the Picardy region of northern France, it is a capable pointer and retriever that today also makes a devoted, even-tempered family companion for active homes.

@@ -4,11 +4,14 @@ description: "Care guide to the Miniature Bull Terrier: a small, sturdy egg-head
 category: "dogs"
 species: "Miniature Bull Terrier"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Miniature Bull Terrier dog"
+heroImage: "/images/miniature-bull-terrier.jpg"
+heroImageAlt: "A Miniature Bull Terrier"
 tags: ["miniature-bull-terrier", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Томасина"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Minibull_2_Moletai_May_2014.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Miniature Bull Terrier is a compact, muscular companion that carries all the personality of the standard Bull Terrier in a smaller frame. Famous for its distinctive egg-shaped head and mischievous, comical nature, this breed is a big dog at heart packed into a small, sturdy body.

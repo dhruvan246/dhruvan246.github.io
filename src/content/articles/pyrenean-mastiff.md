@@ -4,11 +4,14 @@ description: "Care guide for the Pyrenean Mastiff, a giant Spanish livestock gua
 category: "dogs"
 species: "Pyrenean Mastiff"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Pyrenean Mastiff dog"
+heroImage: "/images/pyrenean-mastiff.jpg"
+heroImageAlt: "A Pyrenean Mastiff"
 tags: ["pyrenean-mastiff", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "TBjornstad 07:59, 6 October 2006 (UTC)"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:MasPiri-Lula-ESP.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Pyrenean Mastiff is a giant livestock guardian breed from the Aragonese Pyrenees of northern Spain. For centuries it protected sheep flocks from wolves and bears during seasonal migrations, and today it is valued as a calm, deeply loyal family companion and watchdog.

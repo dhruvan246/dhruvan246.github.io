@@ -4,11 +4,14 @@ description: "Care guide to the Lakeland Terrier, a bold, wiry-coated working te
 category: "dogs"
 species: "Lakeland Terrier"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Lakeland Terrier dog"
+heroImage: "/images/lakeland-terrier.jpg"
+heroImageAlt: "A Lakeland Terrier"
 tags: ["lakeland-terrier", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "sannse"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Lakeland_Terrier.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Bred in England's rugged Lake District to hunt foxes that threatened sheep, the Lakeland Terrier is a small, sturdy and supremely confident working terrier. With its dense wiry coat, square build and famously bold spirit, it packs the courage of a much larger dog into a tidy, energetic package.

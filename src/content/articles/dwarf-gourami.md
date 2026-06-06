@@ -4,11 +4,14 @@ description: "Learn how to keep a Dwarf Gourami: ideal tank size, gentle water p
 category: "fish"
 species: "Dwarf Gourami"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/dwarf-gourami.jpg"
 heroImageAlt: "A Dwarf Gourami"
 tags: ["dwarf-gourami", "fish", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Felix Gertz"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Colisa_lalia-Male_and_Female.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Dwarf Gourami (*Trichogaster lalius*) is a small, brightly colored freshwater fish native to the slow-moving waters of South Asia. Prized for its shimmering blues, reds, and oranges, it is a popular centerpiece fish for community aquariums and a manageable choice for hobbyists who can provide stable, calm conditions.

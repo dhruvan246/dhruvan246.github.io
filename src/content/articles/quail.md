@@ -4,11 +4,14 @@ description: "Learn how to keep quail as backyard farm pets, covering housing, d
 category: "farm-pets"
 species: "Quail"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/quail.jpg"
 heroImageAlt: "A Quail"
 tags: ["quail", "farm-pets", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Duncan Wright"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Brown_Quail.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Quail are small, ground-dwelling game birds kept widely as low-maintenance farm pets for their eggs, gentle nature, and compact space needs. The Coturnix (Japanese) quail is the most popular backyard species, prized for being hardy, quiet, and quick to mature. They suit small yards, sheds, and even some urban setups where larger poultry would be impractical.

@@ -4,11 +4,14 @@ description: "Care guide for the Labradoodle, a friendly Labrador and Poodle cro
 category: "dogs"
 species: "Labradoodle"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Labradoodle dog"
+heroImage: "/images/labradoodle.jpg"
+heroImageAlt: "A Labradoodle"
 tags: ["labradoodle", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Anton Porsche"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Labradoodle-Brown-Male-SideFace.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Labradoodle is a popular crossbreed created by mating a Labrador Retriever with a Poodle. First bred in Australia in the late 1980s as a guide-dog prospect for owners with allergies, it has become one of the most recognized "doodle" mixes worldwide. Because it is a cross rather than a standardized breed, individual dogs vary, but most share a friendly, people-oriented personality and a wavy or curly coat.

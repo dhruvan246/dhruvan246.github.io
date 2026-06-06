@@ -4,11 +4,14 @@ description: "Care guide for the Volpino Italiano: this ancient Italian spitz's 
 category: "dogs"
 species: "Volpino Italiano"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Volpino Italiano dog"
+heroImage: "/images/volpino-italiano.jpg"
+heroImageAlt: "A Volpino Italiano"
 tags: ["volpino-italiano", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Lilly M real name: Małgorzata Miłaszewska"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Szpic_miniaturowy_Volpino_MWPR_Katowice_2008_(cropped).JPG"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Volpino Italiano is a small, fox-like spitz from Italy, prized for centuries as both a companion and an alert watchdog. Compact, fluffy, and full of energy, it shares an ancient lineage with the German Spitz and Pomeranian but remains a distinct and rare breed today.

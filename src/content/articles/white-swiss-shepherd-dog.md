@@ -4,11 +4,14 @@ description: "Care guide for the White Swiss Shepherd Dog, a striking all-white 
 category: "dogs"
 species: "White Swiss Shepherd Dog"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A White Swiss Shepherd Dog dog"
+heroImage: "/images/white-swiss-shepherd-dog.jpg"
+heroImageAlt: "A White Swiss Shepherd Dog"
 tags: ["white-swiss-shepherd-dog", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Durdur31"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:White_Swiss_Shepherd_Dog_Djinn_(cropped).JPG"
+heroLicense: "Public domain"
 ---
 
 The White Swiss Shepherd Dog, also called the Berger Blanc Suisse, is an elegant, all-white herding breed closely related to the German Shepherd. Officially recognized by the Fédération Cynologique Internationale (FCI) with Switzerland as the patron country, it combines a working dog's intelligence with a notably gentle, devoted temperament. Owners are drawn to its beauty, trainability, and steady loyalty.

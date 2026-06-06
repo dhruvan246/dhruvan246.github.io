@@ -4,11 +4,14 @@ description: "Everything about the Rhodesian Ridgeback — their independent, lo
 category: "dogs"
 species: "Rhodesian Ridgeback"
 pubDate: 2026-03-11
-heroImage: ""
-heroImageAlt: "A wheaten Rhodesian Ridgeback with the signature ridge along its back"
+heroImage: "/images/rhodesian-ridgeback.jpg"
+heroImageAlt: "A Rhodesian Ridgeback"
 tags: ["rhodesian ridgeback", "large dogs", "hounds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Bonnie van den Born, http://www.bonfoto.nl"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Rhodesian_ridgeback.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Bred in southern Africa to track lions, the Rhodesian Ridgeback is a powerful, dignified hound named for the distinctive ridge of backward-growing hair along its spine. Loyal and independent, the Ridgeback is a devoted guardian for an experienced owner.

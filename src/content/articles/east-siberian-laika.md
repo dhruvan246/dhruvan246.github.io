@@ -4,11 +4,14 @@ description: "Care guide for the East Siberian Laika, a rugged Russian spitz-typ
 category: "dogs"
 species: "East Siberian Laika"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A East Siberian Laika dog"
+heroImage: "/images/east-siberian-laika.jpg"
+heroImageAlt: "A East Siberian Laika"
 tags: ["east-siberian-laika", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "No machine-readable author provided. PrzemekL assumed (based on copyright claims)."
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:East_Siberian_Laika.jpg"
+heroLicense: "Public domain"
 ---
 
 The East Siberian Laika is a hardy, spitz-type hunting dog developed across the vast forests of eastern Siberia, where it was bred by indigenous peoples to hunt large game and to haul light loads in harsh, cold conditions. It is the largest of the Russian Laika breeds and remains primarily a working dog, prized for its stamina, independence, and unwavering loyalty.

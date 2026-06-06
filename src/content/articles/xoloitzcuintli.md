@@ -4,11 +4,14 @@ description: "Care guide for the Xoloitzcuintli, the ancient Mexican hairless do
 category: "dogs"
 species: "Xoloitzcuintli"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Xoloitzcuintli dog"
+heroImage: "/images/xoloitzcuintli.jpg"
+heroImageAlt: "A Xoloitzcuintli"
 tags: ["xoloitzcuintli", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Svenska Mässan from Sweden"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:BIR_Grupp_5-_MEXIKANSK_NAKENHUND,_Lokal_Hero%E2%80%99s_King_Og_Hart%E2%80%99s_Istas_(23607403303).jpg"
+heroLicense: "CC BY 2.0"
 ---
 
 The Xoloitzcuintli (pronounced "show-low-eats-QUEENT-lee"), often shortened to "Xolo," is one of the world's oldest and rarest dog breeds. Native to Mexico, this ancient companion is best known for its hairless variety, though a coated version exists as well. Calm, loyal, and dignified, the Xolo has been treasured for thousands of years and remains a distinctive, low-maintenance companion today.

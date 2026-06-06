@@ -4,11 +4,14 @@ description: "Care guide for the King Shepherd, a large American-bred dog resemb
 category: "dogs"
 species: "King Shepherd"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A King Shepherd dog"
+heroImage: "/images/king-shepherd.jpg"
+heroImageAlt: "A King Shepherd"
 tags: ["king-shepherd", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "gomagoti"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:German_Shepherd_-_DSC_0346_(10096362833).jpg"
+heroLicense: "CC BY-SA 2.5"
 ---
 
 The King Shepherd is a large American breed developed in the 1990s to resemble an oversized, sturdier German Shepherd. Bred from German Shepherd, Shiloh Shepherd, and other large herding lines, it is prized as a gentle family guardian with an imposing presence and a calm, loyal disposition.

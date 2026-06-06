@@ -4,11 +4,14 @@ description: "Learn how to care for a Society Finch, a hardy, social songbird id
 category: "birds"
 species: "Society Finch"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/society-finch.jpg"
 heroImageAlt: "A Society Finch"
 tags: ["society-finch", "birds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Gallo71"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Rbruni.JPG"
+heroLicense: "Public domain"
 ---
 
 The Society Finch, also called the Bengalese Finch, is a small, domesticated songbird prized for its calm nature, hardiness, and strong social instincts. Bred in captivity for centuries, it does not exist in the wild and is one of the easiest finches to keep, making it a favorite among first-time bird owners.

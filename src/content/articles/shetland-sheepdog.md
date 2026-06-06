@@ -4,11 +4,14 @@ description: "A complete guide to the Shetland Sheepdog — their intelligence, 
 category: "dogs"
 species: "Shetland Sheepdog"
 pubDate: 2026-03-12
-heroImage: ""
-heroImageAlt: "A sable and white Shetland Sheepdog with a long coat"
+heroImage: "/images/shetland-sheepdog.jpg"
+heroImageAlt: "A Shetland Sheepdog"
 tags: ["shetland sheepdog", "sheltie", "medium dogs", "herding breeds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Flickr user nickobec (Nick Cowie)"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Shetland_Sheepdog_sable.jpg"
+heroLicense: "CC BY-SA 2.0"
 ---
 
 Resembling a miniature Rough Collie, the Shetland Sheepdog — the "Sheltie" — is a bright, sensitive and devoted herding breed. Highly trainable and affectionate, the Sheltie is a wonderful companion for an active family.

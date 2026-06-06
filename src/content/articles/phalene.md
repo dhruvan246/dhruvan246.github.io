@@ -4,11 +4,14 @@ description: "Care guide to the Phalene, the elegant drop-eared cousin of the Pa
 category: "dogs"
 species: "Phalene"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Phalene dog"
+heroImage: "/images/phalene.jpg"
+heroImageAlt: "A Phalene"
 tags: ["phalene", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Gvdmoort"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Outdoor_Continental_Toy_Spaniel_Papillon.jpeg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Phalene is a small, refined toy dog and the drop-eared variety of the Continental Toy Spaniel. While its famous relative, the Papillon, has large erect ears resembling butterfly wings, the Phalene carries its ears folded down close to the head. Its name comes from the French word for "moth," reflecting the softly draped ears. Apart from ear carriage, the two are the same breed and may even appear in the same litter.

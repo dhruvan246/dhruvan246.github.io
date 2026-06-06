@@ -4,11 +4,14 @@ description: "Care guide to the Epagneul Bleu de Picardie, a calm, gentle French
 category: "dogs"
 species: "Epagneul Bleu de Picardie"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Epagneul Bleu de Picardie dog"
+heroImage: "/images/epagneul-bleu-de-picardie.jpg"
+heroImageAlt: "A Epagneul Bleu de Picardie"
 tags: ["epagneul-bleu-de-picardie", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Pleple2000"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Epagneul_bleu_de_picardie_868.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Gentle, hardworking and devoted, the Epagneul Bleu de Picardie (Blue Picardy Spaniel) is a French gundog prized by hunters for its calm temperament and tireless stamina in the field. Developed in the Picardy region of northern France, this versatile pointing and retrieving spaniel combines a soft, biddable nature at home with genuine working drive outdoors, making it a rewarding companion for active, attentive owners.

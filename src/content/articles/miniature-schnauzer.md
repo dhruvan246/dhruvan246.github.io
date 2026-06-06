@@ -4,11 +4,14 @@ description: "Everything about Miniature Schnauzers — their smart, lively temp
 category: "dogs"
 species: "Miniature Schnauzer"
 pubDate: 2026-05-19
-heroImage: ""
-heroImageAlt: "A salt-and-pepper Miniature Schnauzer with a beard"
+heroImage: "/images/miniature-schnauzer.jpg"
+heroImageAlt: "A Miniature Schnauzer"
 tags: ["miniature schnauzer", "small dogs", "terriers", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Canarian"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Miniature_Schnauzer_salt_%26_pepper_(cropped).jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 With their distinctive beard, bushy eyebrows and bright, alert expression, Miniature Schnauzers are smart, spirited little dogs. Bred as farm ratters, they're energetic, loyal and endlessly entertaining.

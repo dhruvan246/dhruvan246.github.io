@@ -4,11 +4,14 @@ description: "The Petit Brabancon is a smooth-coated Brussels Griffon variety: a
 category: "dogs"
 species: "Petit Brabancon"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Petit Brabancon dog"
+heroImage: "/images/petit-brabancon.jpg"
+heroImageAlt: "A Petit Brabancon"
 tags: ["petit-brabancon", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Arne Fagerholt"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Monkey_Bizniz_Drama_Queen.jpg"
+heroLicense: "CC BY 3.0"
 ---
 
 The Petit Brabancon is the smooth-coated variety of the Brussels Griffon family of Belgian toy dogs, sharing the same ancestry, body type, and personality as its rough-coated cousins but distinguished by a short, glossy coat instead of a wiry beard. Originally bred in Brussels to control rats in stables, these little dogs evolved into devoted companions prized for their lively intelligence and remarkably expressive faces.

@@ -4,11 +4,14 @@ description: "Keeping poison dart frogs means a planted bioactive vivarium, high
 category: "amphibians"
 species: "Poison Dart Frog"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/poison-dart-frog.jpg"
 heroImageAlt: "A Poison Dart Frog"
 tags: ["poison-dart-frog", "amphibians", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Pixeltoo"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Blue-poison.dart.frog.and.Yellow-banded.dart.frog.arp.jpg"
+heroLicense: "Public domain"
 ---
 
 Poison dart frogs (family Dendrobatidae) are small, brilliantly coloured amphibians from the rainforests of Central and South America. Popular hobby species include the dyeing dart frog (*Dendrobates tinctorius*), the green-and-black (*D. auratus*), and the strawberry frog (*Oophaga pumilio*). They are prized as living jewels for planted terrariums, but they need stable, humid conditions and a constant supply of tiny live food.

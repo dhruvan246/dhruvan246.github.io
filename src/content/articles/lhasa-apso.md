@@ -4,11 +4,14 @@ description: "A complete guide to the Lhasa Apso — their independent personali
 category: "dogs"
 species: "Lhasa Apso"
 pubDate: 2026-03-24
-heroImage: ""
-heroImageAlt: "A long-coated Lhasa Apso"
+heroImage: "/images/lhasa-apso.jpg"
+heroImageAlt: "A Lhasa Apso"
 tags: ["lhasa apso", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Elminjas at Dutch Wikipedia"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Aishia.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Bred for centuries as a sentinel in Tibetan monasteries, the Lhasa Apso is a confident, dignified little dog with a flowing coat and a watchful nature. Independent yet devoted, the Lhasa is a charming companion with a regal air.

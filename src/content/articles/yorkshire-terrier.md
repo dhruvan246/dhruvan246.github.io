@@ -4,11 +4,14 @@ description: "A complete guide to Yorkshire Terriers — their feisty personalit
 category: "dogs"
 species: "Yorkshire Terrier"
 pubDate: 2026-05-24
-heroImage: ""
-heroImageAlt: "A Yorkshire Terrier with a long silky coat"
+heroImage: "/images/yorkshire-terrier.jpg"
+heroImageAlt: "A Yorkshire Terrier"
 tags: ["yorkshire terrier", "yorkie", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Svenska Mässan from Sweden"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:(2_version)_Grupp_3,_YORKSHIRETERRIER,_NO_UCH_SE_UCH_Oxzar_Amazing_Bel%E2%80%99s_Toffy_(24310212305).jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 Don't let the glamorous coat fool you — the Yorkshire Terrier is a true terrier at heart: brave, lively and full of confidence. The "Yorkie" packs enormous personality into a tiny, elegant package.

@@ -4,11 +4,14 @@ description: "Care guide for the Netherland Dwarf rabbit, covering housing, diet
 category: "small-pets"
 species: "Netherland Dwarf"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/netherland-dwarf.jpg"
 heroImageAlt: "A Netherland Dwarf"
 tags: ["netherland-dwarf", "small-pets", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "金色黎明"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Rabbit-with-grass.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Netherland Dwarf is one of the smallest domestic rabbit breeds, prized for its compact body, large head, and short upright ears. Originally developed in the Netherlands, it has become a popular companion animal worldwide. Despite its tiny size, it needs the same dedicated, daily care as any pet rabbit.

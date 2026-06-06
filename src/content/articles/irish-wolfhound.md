@@ -4,11 +4,14 @@ description: "Care guide to the Irish Wolfhound: the gentle giant's calm tempera
 category: "dogs"
 species: "Irish Wolfhound"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Irish Wolfhound dog"
+heroImage: "/images/irish-wolfhound.jpg"
+heroImageAlt: "A Irish Wolfhound"
 tags: ["irish-wolfhound", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Dux"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:(2)_Irish_Wolfhound_4.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Among the tallest dog breeds in the world, the Irish Wolfhound combines commanding size with a famously gentle, easygoing nature. Bred in Ireland as a hunting and coursing hound, today this calm sighthound is treasured as a dignified, affectionate family companion.

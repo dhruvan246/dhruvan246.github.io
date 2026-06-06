@@ -4,11 +4,14 @@ description: "A complete guide to Rottweilers — their loyal temperament, train
 category: "dogs"
 species: "Rottweiler"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A black and tan Rottweiler sitting calmly"
+heroImage: "/images/rottweiler.jpg"
+heroImageAlt: "A Rottweiler"
 tags: ["rottweiler", "large dogs", "working dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Dr. Manfred Herrmann Allgemeiner Deutscher Rottweiler-Klub (ADRK) e.V. http://www.ADRK.de"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Rottweiler_standing_facing_left.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Powerful, confident and deeply loyal, the Rottweiler is a natural guardian with a surprisingly calm and affectionate side. In the right hands — those of a committed, experienced owner — the "Rottie" is a devoted and gentle family companion.

@@ -4,11 +4,14 @@ description: "Everything about Scottish Fold cats — their gentle nature, folde
 category: "cats"
 species: "Scottish Fold"
 pubDate: 2026-04-22
-heroImage: ""
-heroImageAlt: "A Scottish Fold cat with folded ears and round eyes"
+heroImage: "/images/scottish-fold.jpg"
+heroImageAlt: "A Scottish Fold"
 tags: ["scottish fold", "cat breeds", "shorthair cats", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Heikki Siltala"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Scottish_Fold_-_CFF_cat_show_Heinola_2008-05-03_IMG_7882.JPG"
+heroLicense: "CC BY 3.0"
 ---
 
 Instantly recognisable by their folded ears and round, owl-like faces, Scottish Folds are sweet, placid cats that bond closely with their families. They're charming companions — though their signature ears come with important health considerations.

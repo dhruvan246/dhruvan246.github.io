@@ -4,11 +4,14 @@ description: "Everything about Siamese cats — their vocal, affectionate person
 category: "cats"
 species: "Siamese"
 pubDate: 2026-04-26
-heroImage: ""
-heroImageAlt: "A seal-point Siamese cat with blue eyes"
+heroImage: "/images/siamese-cat.jpg"
+heroImageAlt: "A Siamese"
 tags: ["siamese cat", "cat breeds", "shorthair cats", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Meekahoo"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Siamese_cat_Vaillante.JPG"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Striking, intelligent and famously chatty, the Siamese is one of the oldest and most recognisable cat breeds. With their blue eyes and colour-point coats, they're as devoted as they are vocal.

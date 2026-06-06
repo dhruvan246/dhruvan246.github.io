@@ -4,11 +4,14 @@ description: "Complete Miniature American Shepherd care guide covering this smal
 category: "dogs"
 species: "Miniature American Shepherd"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Miniature American Shepherd dog"
+heroImage: "/images/miniature-american-shepherd.jpg"
+heroImageAlt: "A Miniature American Shepherd"
 tags: ["miniature-american-shepherd", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Lextergrace"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Blue_Merle_Miniature_American_Shepherd_in_Grass.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Miniature American Shepherd is a compact, agile herding dog developed in the United States from small Australian Shepherds. Bright, energetic, and devoted, it offers the intelligence and work ethic of a herding breed in a smaller, more portable package, making it a popular companion for active families.

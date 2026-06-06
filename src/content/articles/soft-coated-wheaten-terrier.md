@@ -4,11 +4,14 @@ description: "Care guide for the Soft Coated Wheaten Terrier, a cheerful medium-
 category: "dogs"
 species: "Soft Coated Wheaten Terrier"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Soft Coated Wheaten Terrier dog"
+heroImage: "/images/soft-coated-wheaten-terrier.jpg"
+heroImageAlt: "A Soft Coated Wheaten Terrier"
 tags: ["soft-coated-wheaten-terrier", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Terrierkännaren"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Soft-Coated_Wheaten_Terrier.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Soft Coated Wheaten Terrier is a friendly, energetic Irish farm dog known for its silky, wheaten-colored coat and famously happy "Wheaten greetin'." Bred as an all-purpose working terrier, it remains spirited, affectionate, and devoted to its family.

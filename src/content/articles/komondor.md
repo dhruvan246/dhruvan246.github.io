@@ -4,11 +4,14 @@ description: "A complete care guide to the Komondor, the large Hungarian livesto
 category: "dogs"
 species: "Komondor"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Komondor dog"
+heroImage: "/images/komondor.jpg"
+heroImageAlt: "A Komondor"
 tags: ["komondor", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Nikki68 at Russian Wikipedia"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Komondor_delvin.jpg"
+heroLicense: "CC BY 2.5"
 ---
 
 The Komondor is one of the most instantly recognizable dog breeds in the world, thanks to its distinctive white corded coat that resembles a mop or dreadlocks. Developed in Hungary as a livestock guardian, the Komondor is a large, powerful, and deeply protective dog with a calm, independent character. This guide covers what life with a Komondor is really like.

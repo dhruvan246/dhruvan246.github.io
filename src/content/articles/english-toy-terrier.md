@@ -4,11 +4,14 @@ description: "Care guide for the English Toy Terrier, a tiny, elegant black-and-
 category: "dogs"
 species: "English Toy Terrier"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A English Toy Terrier dog"
+heroImage: "/images/english-toy-terrier.jpg"
+heroImageAlt: "A English Toy Terrier"
 tags: ["english-toy-terrier", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Svenska Mässan from Sweden"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:ENGLISH_TOY_TERRIER,_NO_JV-14_NO_UCH_X-Pected_Dine_Mites_X-Factor_(23995274170).jpg"
+heroLicense: "CC BY 2.0"
 ---
 
 The English Toy Terrier (Black & Tan) is a rare, refined toy breed descended from the old Manchester Terrier. Compact and graceful, it combines a true terrier spirit with the affectionate, easy-care nature of a lap dog, making it a devoted companion for the right household.

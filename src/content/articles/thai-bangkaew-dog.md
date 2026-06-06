@@ -4,11 +4,14 @@ description: "Care guide to the Thai Bangkaew Dog, a loyal Thai spitz-type breed
 category: "dogs"
 species: "Thai Bangkaew Dog"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Thai Bangkaew Dog dog"
+heroImage: "/images/thai-bangkaew-dog.jpg"
+heroImageAlt: "A Thai Bangkaew Dog"
 tags: ["thai-bangkaew-dog", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Noipow"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%81%E0%B9%89%E0%B8%A7.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Thai Bangkaew Dog is a medium-sized spitz-type breed that originated in Thailand's Phitsanulok Province, near the village of Bangkaew. Devoted, alert, and naturally watchful, it has become one of Thailand's most cherished native dogs and a capable family companion and guardian.

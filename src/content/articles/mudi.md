@@ -4,11 +4,14 @@ description: "The Mudi is a rare Hungarian herding dog with a curly coat, sharp 
 category: "dogs"
 species: "Mudi"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Mudi dog"
+heroImage: "/images/mudi.jpg"
+heroImageAlt: "A Mudi"
 tags: ["mudi", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Vulpes at Dutch Wikipedia"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Hondenras_Mudi.jpg"
+heroLicense: "Public domain"
 ---
 
 The Mudi (pronounced "moody") is a versatile Hungarian herding breed prized by shepherds for its agility, courage, and quick mind. Still relatively rare outside its homeland, the Mudi is a compact, athletic working dog that thrives when given a job to do and a close bond with its people.

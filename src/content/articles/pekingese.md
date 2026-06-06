@@ -4,11 +4,14 @@ description: "Everything about the Pekingese — their dignified personality, co
 category: "dogs"
 species: "Pekingese"
 pubDate: 2026-03-23
-heroImage: ""
-heroImageAlt: "A long-coated Pekingese with a flat face"
+heroImage: "/images/pekingese.jpg"
+heroImageAlt: "A Pekingese"
 tags: ["pekingese", "small dogs", "brachycephalic", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "SheltieBoy"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:1AKC_Pekingese_Dog_Show_2011.jpg"
+heroLicense: "CC BY 2.0"
 ---
 
 An ancient breed once cherished by Chinese royalty, the Pekingese is a dignified, lion-like little dog with a bold personality. Loyal and self-assured, the "Peke" carries itself with regal confidence.

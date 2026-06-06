@@ -4,11 +4,14 @@ description: "Care guide for the Miniature Pinscher: a bold, energetic toy breed
 category: "dogs"
 species: "Miniature Pinscher"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Miniature Pinscher dog"
+heroImage: "/images/miniature-pinscher.jpg"
+heroImageAlt: "A Miniature Pinscher"
 tags: ["miniature-pinscher", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Sebastian Wallin. Sebastian Wallin. Sebwal"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Miniature_pinscher.jpg"
+heroLicense: "CC BY 3.0"
 ---
 
 The Miniature Pinscher, often nicknamed the "Min Pin" or the "King of Toys," is a small, spirited dog that packs an outsized personality into a compact body. Despite a passing resemblance to the Doberman Pinscher, the Min Pin is a distinct breed developed in Germany, where it was prized as a fearless ratter and watchdog. Today it remains a confident, lively companion.

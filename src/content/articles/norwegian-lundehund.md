@@ -4,11 +4,14 @@ description: "Care guide for the Norwegian Lundehund, a rare six-toed Norwegian 
 category: "dogs"
 species: "Norwegian Lundehund"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Norwegian Lundehund dog"
+heroImage: "/images/norwegian-lundehund.jpg"
+heroImageAlt: "A Norwegian Lundehund"
 tags: ["norwegian-lundehund", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Karen Elise Dahlmo"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Lundehund-2003.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Norwegian Lundehund is one of the world's rarest and most physically unusual dog breeds. Developed on remote Norwegian islands to hunt puffins along steep sea cliffs, this small spitz-type dog has a remarkable set of anatomical adaptations that make it unlike any other breed.

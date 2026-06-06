@@ -4,11 +4,14 @@ description: "Caring for the Irish Red and White Setter: this athletic, friendly
 category: "dogs"
 species: "Irish Red and White Setter"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Irish Red and White Setter dog"
+heroImage: "/images/irish-red-and-white-setter.jpg"
+heroImageAlt: "A Irish Red and White Setter"
 tags: ["irish-red-and-white-setter", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Missledwidge"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Irish_Red_And_White_Setter_2005.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Irish Red and White Setter is an athletic, good-natured gundog from Ireland, distinguished from its solid-red cousin by a clearly patterned white coat broken with rich red markings. Strong, friendly and biddable, it makes a devoted companion for active homes.

@@ -4,11 +4,14 @@ description: "Learn how to care for guppies: tank size, water parameters, diet, 
 category: "fish"
 species: "Guppy"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/guppy.jpg"
 heroImageAlt: "A Guppy"
 tags: ["guppy", "fish", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Per Harald Olsen"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Guppy_pho_0048.jpg"
+heroLicense: "CC BY 3.0"
 ---
 
 The guppy (*Poecilia reticulata*) is one of the most popular freshwater aquarium fish in the world. Hardy, colourful, and easy to breed, it is an ideal choice for beginners and experienced hobbyists alike. Native to northeastern South America, guppies adapt well to a wide range of conditions, which is part of why they have become an aquarium staple.

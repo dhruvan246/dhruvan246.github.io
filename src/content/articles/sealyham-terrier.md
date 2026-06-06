@@ -4,11 +4,14 @@ description: "A complete Sealyham Terrier care guide covering size, calm tempera
 category: "dogs"
 species: "Sealyham Terrier"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Sealyham Terrier dog"
+heroImage: "/images/sealyham-terrier.jpg"
+heroImageAlt: "A Sealyham Terrier"
 tags: ["sealyham-terrier", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Dr. Sabine Schumann"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:SealyhamTerrier01.jpg"
+heroLicense: "Public domain"
 ---
 
 Sturdy, dignified and surprisingly mellow for a working terrier, the Sealyham Terrier is a short-legged Welsh breed developed in the 19th century to hunt badgers, otters and foxes. Today it is one of the rarer terriers, prized as a calm, affectionate companion with a distinctive white coat and a wonderfully expressive, bearded face.

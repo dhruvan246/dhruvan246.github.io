@@ -4,11 +4,14 @@ description: "Everything about Pugs — their loving temperament, diet, exercise
 category: "dogs"
 species: "Pug"
 pubDate: 2026-05-23
-heroImage: ""
-heroImageAlt: "A fawn Pug with a wrinkled face"
+heroImage: "/images/pug.jpg"
+heroImageAlt: "A Pug"
 tags: ["pug", "small dogs", "brachycephalic", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Xidrep"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Mops-duke-mopszucht-vom-maegdebrunnen.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 With their wrinkled faces, curly tails and comical personalities, Pugs are little companions bred purely to be loved. Affectionate, sociable and endlessly entertaining, they thrive on human company.

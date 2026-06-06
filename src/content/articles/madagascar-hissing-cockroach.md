@@ -4,11 +4,14 @@ description: "Learn how to keep a Madagascar Hissing Cockroach, from warm humid 
 category: "invertebrates"
 species: "Madagascar Hissing Cockroach"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/madagascar-hissing-cockroach.jpg"
 heroImageAlt: "A Madagascar Hissing Cockroach"
 tags: ["madagascar-hissing-cockroach", "invertebrates", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Almabes at English Wikipedia"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Female_Madagascar_hissing_cockroach.JPG"
+heroLicense: "Public domain"
 ---
 
 The Madagascar hissing cockroach (*Gromphadorhina portentosa*) is one of the largest cockroach species in the world and a popular choice for first-time invertebrate keepers, classrooms, and exotic-pet enthusiasts. Native to the forest floors of Madagascar, it is wingless, slow-moving, and famous for the hissing sound it produces by forcing air through its breathing pores. These calm, hardy insects are inexpensive to house and easy to care for, making them an excellent introduction to keeping invertebrates.

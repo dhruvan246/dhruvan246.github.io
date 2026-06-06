@@ -4,11 +4,14 @@ description: "A complete guide to Maine Coon cats — their friendly temperament
 category: "cats"
 species: "Maine Coon"
 pubDate: 2026-04-21
-heroImage: ""
-heroImageAlt: "A large brown tabby Maine Coon with tufted ears"
+heroImage: "/images/maine-coon.jpg"
+heroImageAlt: "A Maine Coon"
 tags: ["maine coon", "cat breeds", "longhair cats", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:M%C3%A2le_Black_Silver_Blotched_Tabby.jpeg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 One of the largest domestic cat breeds, the Maine Coon is a friendly, dog-like "gentle giant." With a shaggy coat, tufted ears and a sociable, playful nature, they're among the most beloved cats in the world.

@@ -4,11 +4,14 @@ description: "A complete guide to Siberian cats — their friendly nature, thick
 category: "cats"
 species: "Siberian"
 pubDate: 2026-04-17
-heroImage: ""
-heroImageAlt: "A fluffy brown tabby Siberian cat"
+heroImage: "/images/siberian-cat.jpg"
+heroImageAlt: "A Siberian"
 tags: ["siberian cat", "cat breeds", "longhair cats", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Floofymarshmallow"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Samiha%27s_Siberian_cat_Moon_Pie.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 Russia's native forest cat, the Siberian is a sturdy, affectionate breed with a luxurious triple coat built for cold winters. Playful and devoted, they're also famous for being more tolerable to many allergy sufferers.

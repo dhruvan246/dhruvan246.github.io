@@ -4,11 +4,14 @@ description: "Complete Kishu Ken care guide covering this ancient Japanese hunti
 category: "dogs"
 species: "Kishu Ken"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Kishu Ken dog"
+heroImage: "/images/kishu-ken.jpg"
+heroImageAlt: "A Kishu Ken"
 tags: ["kishu-ken", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Sabine, user of DogWiki"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Kishu.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Kishu Ken is an ancient Japanese hunting breed developed in the mountainous Kishu region of Honshu, where it was prized for tracking wild boar and deer. Reserved, loyal, and dignified, this medium-sized spitz forms a deep bond with its family while remaining naturally wary of strangers. It is one of Japan's designated National Treasures.

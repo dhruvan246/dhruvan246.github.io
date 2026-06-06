@@ -4,11 +4,14 @@ description: "Everything about the Shiba Inu — their independent temperament, 
 category: "dogs"
 species: "Shiba Inu"
 pubDate: 2026-05-15
-heroImage: ""
-heroImageAlt: "A red Shiba Inu with pricked ears and a curled tail"
+heroImage: "/images/shiba-inu.jpg"
+heroImageAlt: "A Shiba Inu"
 tags: ["shiba inu", "medium dogs", "spitz breeds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Takashiba at English Wikipedia"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Taka_Shiba.jpg"
+heroLicense: "Public domain"
 ---
 
 Bold, alert and famously independent, the Shiba Inu is Japan's most popular companion dog. With a fox-like face and a confident, cat-like personality, the Shiba is charming — but it has a strong will of its own.

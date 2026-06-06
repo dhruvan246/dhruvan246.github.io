@@ -4,11 +4,14 @@ description: "Keeping a guinea pig means daily vitamin C, unlimited hay, a roomy
 category: "small-pets"
 species: "Guinea Pig"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/guinea-pig.jpg"
 heroImageAlt: "A Guinea Pig"
 tags: ["guinea-pig", "small-pets", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:George_the_amazing_guinea_pig.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The guinea pig (*Cavia porcellus*), also called a cavy, is a gentle, social rodent domesticated thousands of years ago in the Andes of South America. Vocal, affectionate, and rarely prone to biting, guinea pigs are among the most popular small pets for families, though they need more space and care than many people expect.

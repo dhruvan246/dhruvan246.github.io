@@ -4,11 +4,14 @@ description: "Everything about Manx cats — their playful, friendly nature, tai
 category: "cats"
 species: "Manx"
 pubDate: 2026-04-14
-heroImage: ""
-heroImageAlt: "A tailless Manx cat sitting upright"
+heroImage: "/images/manx.jpg"
+heroImageAlt: "A Manx"
 tags: ["manx", "cat breeds", "tailless cats", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Karen Weaver"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Manx_cat_by_Karen_Weaver.jpg"
+heroLicense: "CC BY 2.5"
 ---
 
 Originating on the Isle of Man, the Manx is famous for being tailless — the result of a natural genetic mutation. Behind that unusual silhouette is a friendly, playful and intelligent cat often described as dog-like.

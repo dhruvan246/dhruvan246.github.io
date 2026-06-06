@@ -4,11 +4,14 @@ description: "Care guide for the Nenets Herding Laika, the hardy Arctic reindeer
 category: "dogs"
 species: "Nenets Herding Laika"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Nenets Herding Laika dog"
+heroImage: "/images/nenets-herding-laika.jpg"
+heroImageAlt: "A Nenets Herding Laika"
 tags: ["nenets-herding-laika", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "КурилинаЕ"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:461A1456.jpg"
+heroLicense: "CC0"
 ---
 
 The Nenets Herding Laika, also called the Reindeer Herding Laika, is a medium-sized spitz developed by the Nenets and other Indigenous peoples of the Russian Arctic to herd and guard reindeer across the tundra. Bred for centuries in one of Earth's harshest climates, it is tough, weatherproof, and intensely devoted to its work.

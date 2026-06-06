@@ -4,11 +4,14 @@ description: "Care guide for the Italian Greyhound: this gentle miniature sighth
 category: "dogs"
 species: "Italian Greyhound"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Italian Greyhound dog"
+heroImage: "/images/italian-greyhound.jpg"
+heroImageAlt: "A Italian Greyhound"
 tags: ["italian-greyhound", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "christina"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Italian_Greyhound_standing_gray_(cropped).jpg"
+heroLicense: "CC BY 2.0"
 ---
 
 A miniature sighthound carrying all the grace of its larger relatives, the Italian Greyhound is a delicate, deeply affectionate companion. Often nicknamed the "Iggy," this ancient breed pairs slender elegance with a sensitive, people-loving nature and surprising turns of speed.

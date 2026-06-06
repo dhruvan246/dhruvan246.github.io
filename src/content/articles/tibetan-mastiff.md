@@ -4,11 +4,14 @@ description: "Care guide for the Tibetan Mastiff: a large, independent guardian 
 category: "dogs"
 species: "Tibetan Mastiff"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Tibetan Mastiff dog"
+heroImage: "/images/tibetan-mastiff.jpg"
+heroImageAlt: "A Tibetan Mastiff"
 tags: ["tibetan-mastiff", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Svenska Mässan from Sweden"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:BIR_Grupp_2-_TIBETANSK_MASTIFF,_Legenda_Tibeta_Temudzhin_(23938629470).jpg"
+heroLicense: "CC BY 2.0"
 ---
 
 The Tibetan Mastiff is an ancient guardian breed from the Himalayan region, prized for centuries for protecting livestock and homes against predators. Imposing, independent, and deeply loyal, it is a dog built for serious owners who understand large protective breeds.

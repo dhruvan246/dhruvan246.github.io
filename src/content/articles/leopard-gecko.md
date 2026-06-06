@@ -4,11 +4,14 @@ description: "Learn how to keep a Leopard Gecko healthy: enclosure setup, belly 
 category: "reptiles"
 species: "Leopard Gecko"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/leopard-gecko.jpg"
 heroImageAlt: "A Leopard Gecko"
 tags: ["leopard-gecko", "reptiles", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Matt Reinbold"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Eublepharis_macularius1.jpg"
+heroLicense: "CC BY-SA 2.0"
 ---
 
 The Leopard Gecko (*Eublepharis macularius*) is one of the most popular pet reptiles in the world, and for good reason. Hardy, ground-dwelling, and slow-moving, it tolerates handling well and stays small enough for a modest enclosure. These traits make it a frequent recommendation for first-time reptile keepers willing to learn proper husbandry.

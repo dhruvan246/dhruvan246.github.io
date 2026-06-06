@@ -4,11 +4,14 @@ description: "Everything about Sphynx cats — their loving personality, special
 category: "cats"
 species: "Sphynx"
 pubDate: 2026-04-16
-heroImage: ""
-heroImageAlt: "A wrinkled hairless Sphynx cat"
+heroImage: "/images/sphynx.jpg"
+heroImageAlt: "A Sphynx"
 tags: ["sphynx", "cat breeds", "hairless cats", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Dmitry Makeev"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Sphynx_-_cat._img_031.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 Famous for being (nearly) hairless, the Sphynx is one of the most affectionate and attention-loving of all cat breeds. Warm, wrinkled and endlessly people-focused, they have unique care needs that set them apart.

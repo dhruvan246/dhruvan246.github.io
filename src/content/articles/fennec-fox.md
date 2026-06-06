@@ -4,11 +4,14 @@ description: "Keeping a Fennec Fox means meeting an exotic desert animal's needs
 category: "exotic"
 species: "Fennec Fox"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/fennec-fox.jpg"
 heroImageAlt: "A Fennec Fox"
 tags: ["fennec-fox", "exotic", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Drew Avery"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Fennec_Fox_Vulpes_zerda.jpg"
+heroLicense: "CC BY 2.0"
 ---
 
 The Fennec Fox (*Vulpes zerda*) is the smallest of the world's foxes, native to the sandy deserts of North Africa and the Sahara. Famous for its enormous ears and tiny body, it is sometimes kept as an exotic pet. It is a demanding, high-energy wild animal rather than a domesticated companion, and it requires a committed, experienced keeper.

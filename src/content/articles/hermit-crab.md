@@ -4,11 +4,14 @@ description: "Learn how to care for a hermit crab, from humid terrarium setups a
 category: "invertebrates"
 species: "Hermit Crab"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/hermit-crab.jpg"
 heroImageAlt: "A Hermit Crab"
 tags: ["hermit-crab", "invertebrates", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "H. Zell"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Calliactis_and_Dardanus_001.JPG"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Land hermit crabs are social, long-lived invertebrates that have become popular as low-cost pets, often sold at seaside shops. Despite their reputation as "starter" animals, they have demanding environmental needs and reward attentive keepers with surprisingly active, interesting behaviour.

@@ -4,11 +4,14 @@ description: "Learn how to care for the Teddy Roosevelt Terrier, a short-legged 
 category: "dogs"
 species: "Teddy Roosevelt Terrier"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Teddy Roosevelt Terrier dog"
+heroImage: "/images/teddy-roosevelt-terrier.jpg"
+heroImageAlt: "A Teddy Roosevelt Terrier"
 tags: ["teddy-roosevelt-terrier", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "NinaB at English Wikipedia"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Teddyterrier.jpg"
+heroLicense: "Public domain"
 ---
 
 The Teddy Roosevelt Terrier is a compact, muscular American breed developed as a versatile farm dog and ratter. Often confused with the leggier Rat Terrier, the "Teddy" is distinguished by its shorter legs, longer body, and low-set, sturdy build. Affectionate with family yet a tenacious hunter at heart, it makes a lively and loyal companion.

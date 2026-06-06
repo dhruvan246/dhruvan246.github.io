@@ -4,11 +4,14 @@ description: "Care guide for the Entlebucher Mountain Dog: the smallest Swiss mo
 category: "dogs"
 species: "Entlebucher Mountain Dog"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Entlebucher Mountain Dog dog"
+heroImage: "/images/entlebucher-mountain-dog.jpg"
+heroImageAlt: "A Entlebucher Mountain Dog"
 tags: ["entlebucher-mountain-dog", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Serge Renggli"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Elio_v_Schaerlig_im_Juni_2007_klein.jpg"
+heroLicense: "CC BY-SA 2.0 de"
 ---
 
 The Entlebucher Mountain Dog, often called the "Entle," is the smallest of the four Swiss mountain dog breeds. Originally bred in the Entlebuch valley region of Switzerland to drive cattle and guard farms, this compact, muscular dog combines athleticism with a sharp, devoted mind. Today it makes a lively, loyal companion for active households that can keep up with its considerable energy.

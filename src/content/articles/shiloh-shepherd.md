@@ -4,11 +4,14 @@ description: "Care guide for the Shiloh Shepherd: a large, gentle German Shepher
 category: "dogs"
 species: "Shiloh Shepherd"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Shiloh Shepherd dog"
+heroImage: "/images/shiloh-shepherd.jpg"
+heroImageAlt: "A Shiloh Shepherd"
 tags: ["shiloh-shepherd", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "gomagoti"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:German_Shepherd_-_DSC_0346_(10096362833).jpg"
+heroLicense: "CC BY-SA 2.5"
 ---
 
 The Shiloh Shepherd is a large, intelligent herding-type dog developed in the United States from German Shepherd lines, with the goal of producing a bigger, calmer, more sound-natured companion. Created by breeder Tina Barber in New York beginning in the 1970s and 1980s, the breed emphasizes good hips, an even temperament and an imposing yet gentle presence. Though not recognized by the major all-breed registries, it has a devoted following among families seeking a steady, devoted guardian.

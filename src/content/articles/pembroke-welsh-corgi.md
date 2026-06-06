@@ -4,11 +4,14 @@ description: "A complete guide to Pembroke Welsh Corgis — their smart, lively 
 category: "dogs"
 species: "Pembroke Welsh Corgi"
 pubDate: 2026-03-26
-heroImage: ""
-heroImageAlt: "A red and white Pembroke Welsh Corgi with short legs"
+heroImage: "/images/pembroke-welsh-corgi.jpg"
+heroImageAlt: "A Pembroke Welsh Corgi"
 tags: ["pembroke welsh corgi", "corgi", "medium dogs", "herding breeds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Dog breed facts"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Welsh_Pembroke_Corgi.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 Famous for their short legs, big ears and bright personalities, Pembroke Welsh Corgis are herding dogs in a compact package. Smart, lively and affectionate, the Corgi is a charming and surprisingly energetic companion.

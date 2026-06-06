@@ -4,11 +4,14 @@ description: "Learn how to care for a Hermann's Tortoise, covering enclosure set
 category: "reptiles"
 species: "Hermann's Tortoise"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/hermanns-tortoise.jpg"
 heroImageAlt: "A Hermann's Tortoise"
 tags: ["hermanns-tortoise", "reptiles", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Orchi"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Testudo_hermanni_hermanni_Mallorca_02.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Hermann's Tortoise (*Testudo hermanni*) is one of the most popular pet tortoises, prized for its manageable size, hardy nature and engaging, active personality. Native to southern Europe, it is a long-term commitment that can easily outlive its keeper.

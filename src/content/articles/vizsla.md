@@ -4,11 +4,14 @@ description: "Complete Vizsla care guide covering this affectionate Hungarian gu
 category: "dogs"
 species: "Vizsla"
 pubDate: 2026-04-10
-heroImage: ""
-heroImageAlt: "A Vizsla dog"
+heroImage: "/images/vizsla.jpg"
+heroImageAlt: "A Vizsla"
 tags: ["vizsla", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Pleple2000"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Wy%C5%BCe%C5%82_w%C4%99gierski_g%C5%82adkow%C5%82osy_500.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Vizsla is a sleek, golden-rust Hungarian gundog prized for its athleticism, affection, and close bond with people. Often called the "velcro dog" for its desire to stay near its owner, the Vizsla is an energetic, sensitive companion that thrives in an active, attentive household.

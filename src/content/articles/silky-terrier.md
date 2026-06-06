@@ -4,11 +4,14 @@ description: "A complete Silky Terrier care guide covering size, temperament, di
 category: "dogs"
 species: "Silky Terrier"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Silky Terrier dog"
+heroImage: "/images/silky-terrier.jpg"
+heroImageAlt: "A Silky Terrier"
 tags: ["silky-terrier", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Ofsilkysdream"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Australian_Silky_Terrier_Alana_Of_Silky%27s_Dream.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Lively, confident and refined, the Silky Terrier is a true toy terrier that pairs a glamorous, flowing coat with the bold, busy spirit of its working ancestors. Developed in Australia by crossing Australian Terriers with Yorkshire Terriers, the breed is sometimes called the Australian Silky Terrier. It thrives as an alert, devoted companion that is small enough for apartment life yet far too feisty to be considered a lap-only pet.

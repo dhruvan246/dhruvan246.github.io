@@ -4,11 +4,14 @@ description: "Learn how to keep sugar gliders happy: their tall cages, specializ
 category: "exotic"
 species: "Sugar Glider"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/sugar-glider.jpg"
 heroImageAlt: "A Sugar Glider"
 tags: ["sugar-glider", "exotic", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Petaurus_breviceps-Cayley.jpg"
+heroLicense: "Public domain"
 ---
 
 The sugar glider (*Petaurus breviceps*) is a small, nocturnal marsupial native to Australia, Indonesia, and New Guinea. Named for its love of sweet foods and the gliding membrane that lets it sail between trees, it has become a popular but demanding exotic pet that requires careful research before adoption.

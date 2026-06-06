@@ -4,11 +4,14 @@ description: "Care guide for the Eurasier: a calm, family-oriented spitz with a 
 category: "dogs"
 species: "Eurasier"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Eurasier dog"
+heroImage: "/images/eurasier.jpg"
+heroImageAlt: "A Eurasier"
 tags: ["eurasier", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Kerstin Kühnel Wuppertatzen"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Eurasier_BailyWtatze.jpg"
+heroLicense: "CC0"
 ---
 
 The Eurasier is a balanced, dignified spitz-type breed developed in Germany in the 1960s by crossing the Chow Chow, Keeshond (Wolfspitz) and later the Samoyed. Bred specifically as a calm family companion, the Eurasier is prized for its even temperament, close bond with its household and quiet, undemanding nature.

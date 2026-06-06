@@ -4,11 +4,14 @@ description: "Learn how to keep a praying mantis as a pet: housing, humidity, li
 category: "invertebrates"
 species: "Praying Mantis"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/praying-mantis.jpg"
 heroImageAlt: "A Praying Mantis"
 tags: ["praying-mantis", "invertebrates", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Mihai C. Popa"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Mantis_(European).jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The praying mantis is one of the most rewarding invertebrate pets, prized for its alert posture, swiveling head and ambush hunting behaviour. With thousands of species worldwide, popular pet types include the Chinese, European, ghost and orchid mantises. They are quiet, compact and surprisingly interactive, making them a great introduction to keeping insects.

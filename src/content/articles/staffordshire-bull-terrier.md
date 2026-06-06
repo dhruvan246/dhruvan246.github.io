@@ -4,11 +4,14 @@ description: "Everything about Staffordshire Bull Terriers — their affectionat
 category: "dogs"
 species: "Staffordshire Bull Terrier"
 pubDate: 2026-05-11
-heroImage: ""
-heroImageAlt: "A muscular Staffordshire Bull Terrier smiling"
+heroImage: "/images/staffordshire-bull-terrier.jpg"
+heroImageAlt: "A Staffordshire Bull Terrier"
 tags: ["staffordshire bull terrier", "staffy", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Or Logassi"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:%D7%A1%D7%90%D7%98%D7%A3_%D7%90%D7%A0%D7%92%D7%9C%D7%99.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 Affectionately known as the "Staffy," the Staffordshire Bull Terrier is a muscular, courageous dog with a famously loving nature — especially towards children, earning the old nickname "nanny dog." Behind the strong build is a soft, devoted companion.

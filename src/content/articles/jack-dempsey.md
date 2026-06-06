@@ -4,11 +4,14 @@ description: "Learn how to care for the Jack Dempsey cichlid: tank size, water p
 category: "fish"
 species: "Jack Dempsey"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/jack-dempsey.jpg"
 heroImageAlt: "A Jack Dempsey"
 tags: ["jack-dempsey", "fish", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Jack_Dempsey_1.jpg"
+heroLicense: "Public domain"
 ---
 
 The Jack Dempsey (*Rocio octofasciata*) is a striking Central American cichlid named after the famous boxer, a nod to its bold, sometimes pugnacious personality. Native to slow rivers and lakes of Mexico and Central America, it has become a popular choice for hobbyists who want a characterful, colorful fish with plenty of attitude.

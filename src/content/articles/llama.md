@@ -4,11 +4,14 @@ description: "Learn how to care for a llama, from pasture and shelter needs to f
 category: "farm-pets"
 species: "Llama"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/llama.jpg"
 heroImageAlt: "A Llama"
 tags: ["llama", "farm-pets", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Andrija12345678"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Llamas,_Vernagt-Stausee,_Italy.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The llama (*Lama glama*) is a domesticated South American camelid, traditionally bred in the Andes as a pack animal and fiber producer. Calm, intelligent, and surprisingly low-maintenance for their size, llamas have become popular on small farms and homesteads as guard animals, companions, and gentle introductions to livestock keeping.

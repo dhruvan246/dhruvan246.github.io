@@ -4,11 +4,14 @@ description: "Learn how to keep a Uromastyx: enclosure setup, blazing basking te
 category: "reptiles"
 species: "Uromastyx"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/uromastyx.jpg"
 heroImageAlt: "A Uromastyx"
 tags: ["uromastyx", "reptiles", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "איתן פרמן"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Uromastyx_aegyptia_2.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Uromastyx, often called the spiny-tailed lizard or dabb lizard, is a genus of desert-dwelling reptiles native to arid regions of North Africa, the Middle East, and parts of Asia. Known for their stocky bodies, club-like spiny tails, and surprisingly vivid colors, these herbivorous lizards have become popular among keepers who can provide the intense heat and dry conditions they require.

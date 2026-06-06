@@ -4,11 +4,14 @@ description: "Learn how to care for the Presa Canario, a powerful Spanish mastif
 category: "dogs"
 species: "Presa Canario"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Presa Canario dog"
+heroImage: "/images/presa-canario.jpg"
+heroImageAlt: "A Presa Canario"
 tags: ["presa-canario", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Smok Bazyli"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Presacanarionaturalears.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Presa Canario, also known as the Dogo Canario or Canary Mastiff, is a large, powerful working breed originally developed in Spain's Canary Islands for guarding livestock and farm property. Calm yet imposing, it is a serious guardian best suited to experienced owners.

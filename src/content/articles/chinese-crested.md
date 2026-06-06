@@ -4,11 +4,14 @@ description: "Everything about the Chinese Crested — their loving nature, skin
 category: "dogs"
 species: "Chinese Crested"
 pubDate: 2026-03-19
-heroImage: ""
-heroImageAlt: "A hairless Chinese Crested dog with tufted head and feet"
+heroImage: "/images/chinese-crested.jpg"
+heroImageAlt: "A Chinese Crested"
 tags: ["chinese crested", "small dogs", "hairless breeds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Tommy Gildseth"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:IndyStands.jpg"
+heroLicense: "CC BY 3.0"
 ---
 
 Unique and endearing, the Chinese Crested comes in two varieties — the (mostly) hairless and the fully-coated "Powderpuff." Affectionate and devoted, this little companion bonds intensely with its people.

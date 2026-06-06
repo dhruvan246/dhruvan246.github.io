@@ -4,11 +4,14 @@ description: "Care guide for the Skye Terrier, a long, low Scottish dog with a f
 category: "dogs"
 species: "Skye Terrier"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Skye Terrier dog"
+heroImage: "/images/skye-terrier.jpg"
+heroImageAlt: "A Skye Terrier"
 tags: ["skye-terrier", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Pleple2000"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Skye_terrier_800.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Skye Terrier is one of Scotland's oldest terrier breeds, instantly recognizable for its long, low body, draping coat, and feathered ears. Originally bred on the Isle of Skye to hunt fox, badger, and otter, this small but sturdy dog combines terrier grit with an unusually loyal, dignified personality.

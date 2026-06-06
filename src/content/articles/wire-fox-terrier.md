@@ -4,11 +4,14 @@ description: "Care guide for the Wire Fox Terrier, a lively medium terrier. Lear
 category: "dogs"
 species: "Wire Fox Terrier"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Wire Fox Terrier dog"
+heroImage: "/images/wire-fox-terrier.jpg"
+heroImageAlt: "A Wire Fox Terrier"
 tags: ["wire-fox-terrier", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Simona Nováková, owner"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Elias1%C4%8Derven2006.jpg"
+heroLicense: "Public domain"
 ---
 
 The Wire Fox Terrier is a spirited, square-built terrier developed in England to flush foxes from their dens during hunts. Bright, bold, and endlessly curious, this breed combines a sharp mind with a playful, mischievous personality that has made it a favorite in the show ring and family home alike.

@@ -4,11 +4,14 @@ description: "Care guide for the Norwich Terrier, one of the smallest working te
 category: "dogs"
 species: "Norwich Terrier"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Norwich Terrier dog"
+heroImage: "/images/norwich-terrier.jpg"
+heroImageAlt: "A Norwich Terrier"
 tags: ["norwich-terrier", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "H. Gisin"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Norwichterrier.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Norwich Terrier is one of the smallest of the working terriers, a compact and hardy dog originally bred in England to bolt foxes and control vermin around farms and stables. Despite its tiny stature, it carries a confident, energetic personality and a surprisingly weatherproof coat. It is closely related to the Norfolk Terrier, the two breeds differing chiefly in their ears: the Norwich has erect, pricked ears, while the Norfolk's fold forward.

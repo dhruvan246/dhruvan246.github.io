@@ -4,11 +4,14 @@ description: "A complete guide to the Whippet — their calm home life, bursts o
 category: "dogs"
 species: "Whippet"
 pubDate: 2026-05-14
-heroImage: ""
-heroImageAlt: "A slender fawn Whippet standing gracefully"
+heroImage: "/images/whippet.jpg"
+heroImageAlt: "A Whippet"
 tags: ["whippet", "medium dogs", "sighthounds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Canarian"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Whippet_2018_6.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 Often called the perfect house dog, the Whippet is a gentle, affectionate sighthound that's calm and quiet indoors yet astonishingly fast outdoors. They combine athletic grace with an easy, loving temperament.

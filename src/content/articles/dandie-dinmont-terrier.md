@@ -4,11 +4,14 @@ description: "Care guide for the Dandie Dinmont Terrier, the long-bodied Scottis
 category: "dogs"
 species: "Dandie Dinmont Terrier"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Dandie Dinmont Terrier dog"
+heroImage: "/images/dandie-dinmont-terrier.jpg"
+heroImageAlt: "A Dandie Dinmont Terrier"
 tags: ["dandie-dinmont-terrier", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "en:User:Sannse"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Dandie_Dinmont_Terrier_600.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Dandie Dinmont Terrier is an unmistakable small breed from the Scottish-English border country, instantly recognized by its long, low body, soulful eyes, and the soft "topknot" of hair crowning its head. Named after a character in Sir Walter Scott's novel *Guy Mannering*, it remains a rare and characterful companion.

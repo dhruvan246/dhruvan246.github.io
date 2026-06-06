@@ -4,11 +4,14 @@ description: "Care guide for the Prague Ratter (Pražský Krysařík): the tiny 
 category: "dogs"
 species: "Prague Ratter"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Prague Ratter dog"
+heroImage: "/images/prague-ratter.jpg"
+heroImageAlt: "A Prague Ratter"
 tags: ["prague-ratter", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Tomáš Čepička"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Prague_Ratter.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Prague Ratter, known in its homeland as the Pražský Krysařík, is one of the smallest dog breeds in the world. Originating in the Czech lands, this diminutive companion was historically valued for catching rats and is now cherished as a devoted, alert, and surprisingly hardy family dog.

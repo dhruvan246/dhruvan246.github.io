@@ -4,11 +4,14 @@ description: "A complete Korean Jindo care guide covering size, loyal temperamen
 category: "dogs"
 species: "Korean Jindo"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Korean Jindo dog"
+heroImage: "/images/korean-jindo.jpg"
+heroImageAlt: "A Korean Jindo"
 tags: ["korean-jindo", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Herocosmos"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:ARIRANG.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 Famous in its homeland for unwavering loyalty, the Korean Jindo is a medium-sized spitz-type dog that originated on Jindo Island off the southwest coast of South Korea. Prized as a hunting and guarding companion for centuries, the breed is a designated National Treasure of South Korea and is known for its courage, cleanliness and deep devotion to one person or family.

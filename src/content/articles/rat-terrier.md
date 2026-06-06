@@ -4,11 +4,14 @@ description: "A complete Rat Terrier care guide covering size, temperament, diet
 category: "dogs"
 species: "Rat Terrier"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Rat Terrier dog"
+heroImage: "/images/rat-terrier.jpg"
+heroImageAlt: "A Rat Terrier"
 tags: ["rat-terrier", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Jadenschaul"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Amberina_the_Rat_Terrier.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Rat Terrier is an all-American working dog bred on farms to hunt rats and other vermin. Energetic, clever, and devoted to its family, it remains a versatile companion that blends terrier tenacity with an affectionate, people-oriented nature.

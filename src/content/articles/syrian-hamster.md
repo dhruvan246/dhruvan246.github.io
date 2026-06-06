@@ -4,11 +4,14 @@ description: "Learn how to care for a Syrian hamster, from solo housing and deep
 category: "small-pets"
 species: "Syrian Hamster"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/syrian-hamster.jpg"
 heroImageAlt: "A Syrian Hamster"
 tags: ["syrian-hamster", "small-pets", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Adamjennison111 at English Wikipedia"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Golden_hamster_front_1.jpg"
+heroLicense: "CC BY 2.5"
 ---
 
 The Syrian hamster, also called the golden or teddy bear hamster, is one of the most popular small pets in the world. Solitary, hardy, and big enough to handle comfortably, it makes an excellent first pet for older children and adults willing to learn its needs.

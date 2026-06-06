@@ -4,11 +4,14 @@ description: "Everything about Great Danes — their gentle temperament, space a
 category: "dogs"
 species: "Great Dane"
 pubDate: 2026-05-07
-heroImage: ""
-heroImageAlt: "A large Great Dane standing beside a person"
+heroImage: "/images/great-dane.jpg"
+heroImageAlt: "A Great Dane"
 tags: ["great dane", "large dogs", "giant breeds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Lilly M"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Dog_niemiecki_%C5%BC%C3%B3%C5%82ty_LM980.jpg"
+heroLicense: "CC BY-SA 2.5"
 ---
 
 Towering yet tender, the Great Dane is the quintessential "gentle giant." One of the tallest dog breeds in the world, the Dane is surprisingly calm, affectionate and great with families — a sweet soul in an enormous body.

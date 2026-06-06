@@ -4,12 +4,15 @@ description: "Care guide for the Labrador Retriever: friendly temperament, diet 
 category: "dogs"
 species: "Labrador Retriever"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Labrador Retriever dog"
+heroImage: "/images/labrador-retriever.jpg"
+heroImageAlt: "A Labrador Retriever"
 tags: ["labrador-retriever", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
 
+heroCredit: "IDS.photos from Tiverton, UK"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Labrador_on_Quantock_(2175262184).jpg"
+heroLicense: "CC BY-SA 2.0"
 ---
 
 Friendly, eager to please and endlessly adaptable, the Labrador Retriever is one of the world's most popular dogs. Originally bred to retrieve game and help fishermen, the Lab today thrives as a family companion, assistance dog and active outdoor partner.

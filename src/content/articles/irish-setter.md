@@ -4,11 +4,14 @@ description: "Irish Setter care guide covering this red gundog's exuberant tempe
 category: "dogs"
 species: "Irish Setter"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Irish Setter dog"
+heroImage: "/images/irish-setter.jpg"
+heroImageAlt: "A Irish Setter"
 tags: ["irish-setter", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Luis Miguel Bugallo Sánchez (Lmbuga Commons)(Lmbuga Galipedia) Publicada por/Publish by: Luis Miguel Bugallo Sánchez"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Can_Setter_dog_GFDL.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 With a gleaming mahogany-red coat and an irrepressibly cheerful personality, the Irish Setter is one of the most recognizable and joyful gundogs. Originally bred in Ireland to locate and "set" game birds for hunters, this elegant, athletic sporting dog combines beauty with boundless energy. Affectionate, sociable and famously playful, the Irish Setter thrives in active homes that can match its enthusiasm.

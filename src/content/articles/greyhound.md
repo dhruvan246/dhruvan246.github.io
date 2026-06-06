@@ -4,11 +4,14 @@ description: "A complete Greyhound care guide covering this gentle sighthound's 
 category: "dogs"
 species: "Greyhound"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Greyhound dog"
+heroImage: "/images/greyhound.jpg"
+heroImageAlt: "A Greyhound"
 tags: ["greyhound", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Neurodoc"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:GraceTheGreyhound.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Famous as the fastest dog breed, the Greyhound is built for short bursts of remarkable speed yet spends most of its day relaxing. Gentle, quiet, and affectionate, Greyhounds, including retired racers, make calm and easygoing companions.

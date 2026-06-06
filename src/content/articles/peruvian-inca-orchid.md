@@ -4,11 +4,14 @@ description: "A complete Peruvian Inca Orchid care guide covering this ancient h
 category: "dogs"
 species: "Peruvian Inca Orchid"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Peruvian Inca Orchid dog"
+heroImage: "/images/peruvian-inca-orchid.jpg"
+heroImageAlt: "A Peruvian Inca Orchid"
 tags: ["peruvian-inca-orchid", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "No machine-readable author provided. Brunobarreto~commonswiki assumed (based on copyright claims)."
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:PHDStandardStanding_-_Perro_Sin_Pelo_del_Per%C3%BA.jpg"
+heroLicense: "Public domain"
 ---
 
 The Peruvian Inca Orchid is an elegant, ancient sighthound from Peru, prized for its smooth, mostly hairless skin and sensitive, devoted nature. Often called the Peruvian Hairless Dog (or "Perro sin Pelo del Perú"), the breed comes in both hairless and coated varieties and has accompanied Andean peoples for centuries.

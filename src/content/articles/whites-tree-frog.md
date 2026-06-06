@@ -4,11 +4,14 @@ description: "How to keep a White's Tree Frog: enclosure setup, humidity, temper
 category: "amphibians"
 species: "White's Tree Frog"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/whites-tree-frog.jpg"
 heroImageAlt: "A White's Tree Frog"
 tags: ["whites-tree-frog", "amphibians", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "LiquidGhoul"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Australia_green_tree_frog_(Litoria_caerulea)_crop.jpg"
+heroLicense: "Public domain"
 ---
 
 The White's Tree Frog (*Litoria caerulea*), also called the dumpy tree frog or Australian green tree frog, is one of the most popular pet amphibians. Native to Australia and New Guinea, it is prized for its calm nature, sturdy build, and surprisingly long life in captivity.

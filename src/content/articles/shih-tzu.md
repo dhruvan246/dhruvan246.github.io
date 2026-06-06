@@ -4,11 +4,14 @@ description: "A complete guide to the Shih Tzu — friendly temperament, daily c
 category: "dogs"
 species: "Shih Tzu"
 pubDate: 2026-05-29
-heroImage: ""
-heroImageAlt: "A long-haired Shih Tzu with a topknot"
+heroImage: "/images/shih-tzu.jpg"
+heroImageAlt: "A Shih Tzu"
 tags: ["shih tzu", "small dogs", "toy breeds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Canino21"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Shihtzu_(cropped).jpg"
+heroLicense: "Public domain"
 ---
 
 Bred for centuries as a royal companion, the Shih Tzu lives for one thing: being with you. Friendly, sturdy and irresistibly cute, this little lap dog is a favourite for families and seniors alike.

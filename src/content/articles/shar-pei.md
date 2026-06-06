@@ -4,11 +4,14 @@ description: "Care guide to the Chinese Shar Pei: signature wrinkles, blue-black
 category: "dogs"
 species: "Shar Pei"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Shar Pei dog"
+heroImage: "/images/shar-pei.jpg"
+heroImageAlt: "A Shar Pei"
 tags: ["shar-pei", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Yan Mis/&amp;Den Rakov"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Adult_sharpei.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 Instantly recognisable by its deep facial wrinkles, "hippopotamus" muzzle and blue-black tongue, the Chinese Shar Pei is an ancient breed once used for hunting, herding and guarding. Calm, dignified and devoted to its family, it makes a loyal and watchful companion for experienced owners.

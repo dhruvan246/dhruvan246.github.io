@@ -4,11 +4,14 @@ description: "A complete Smooth Fox Terrier care guide covering size, temperamen
 category: "dogs"
 species: "Smooth Fox Terrier"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Smooth Fox Terrier dog"
+heroImage: "/images/smooth-fox-terrier.jpg"
+heroImageAlt: "A Smooth Fox Terrier"
 tags: ["smooth-fox-terrier", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Tialin at English Wikipedia"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Patrick_the_Smooth_Fox_Terrier.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Smooth Fox Terrier is a lively, fearless English breed developed to flush foxes from their dens during the hunt. Quick, confident and endlessly curious, it packs a big personality into a compact, athletic frame.

@@ -4,11 +4,14 @@ description: "Care guide for the Neapolitan Mastiff, the massive wrinkled Italia
 category: "dogs"
 species: "Neapolitan Mastiff"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Neapolitan Mastiff dog"
+heroImage: "/images/neapolitan-mastiff.jpg"
+heroImageAlt: "A Neapolitan Mastiff"
 tags: ["neapolitan-mastiff", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Ewa Ziemska"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Mastino_sylwetka.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Neapolitan Mastiff, or Mastino Napoletano, is an ancient Italian guardian breed instantly recognized by its enormous frame, loose folds of skin, and abundant facial wrinkles. Calm, loyal, and intensely devoted to family, the "Mastino" is a serious commitment best suited to experienced owners with space to spare.

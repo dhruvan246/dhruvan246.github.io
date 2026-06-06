@@ -4,11 +4,14 @@ description: "Care guide to the Estrela Mountain Dog, a large Portuguese livesto
 category: "dogs"
 species: "Estrela Mountain Dog"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Estrela Mountain Dog dog"
+heroImage: "/images/estrela-mountain-dog.jpg"
+heroImageAlt: "A Estrela Mountain Dog"
 tags: ["estrela-mountain-dog", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Traceywashere at English Wikipedia"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Estrela_Mountain_Dog_6_month_old_male.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Estrela Mountain Dog (Cão da Serra da Estrela) is one of the oldest breeds of the Iberian Peninsula, developed in Portugal's Serra da Estrela mountains to guard flocks of sheep against wolves. Powerful, independent, and deeply devoted to its family, this large guardian combines a calm home presence with a strong protective instinct.

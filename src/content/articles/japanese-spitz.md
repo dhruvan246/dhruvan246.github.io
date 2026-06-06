@@ -4,11 +4,14 @@ description: "Care guide for the Japanese Spitz: a small, fluffy white companion
 category: "dogs"
 species: "Japanese Spitz"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Japanese Spitz dog"
+heroImage: "/images/japanese-spitz.jpg"
+heroImageAlt: "A Japanese Spitz"
 tags: ["japanese-spitz", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Svenska Mässan from Sweden"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:BIR_Grupp_5-_JAPANSK_SPETS,_Chezzay%E2%80%99s_Nice_N%E2%80%99Easy_(23938629860).jpg"
+heroLicense: "CC BY 2.0"
 ---
 
 The Japanese Spitz is a small, brilliantly white companion dog developed in Japan during the early-to-mid 20th century. With its pointed muzzle, dark almond eyes, pricked ears, and a magnificent tail curled over the back, it resembles a smaller cousin of the Samoyed. Affectionate, alert, and surprisingly low-maintenance for such a fluffy breed, it has become a beloved family pet around the world.

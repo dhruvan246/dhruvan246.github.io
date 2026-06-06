@@ -4,11 +4,14 @@ description: "Care guide to the Norfolk Terrier, one of the smallest working ter
 category: "dogs"
 species: "Norfolk Terrier"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Norfolk Terrier dog"
+heroImage: "/images/norfolk-terrier.jpg"
+heroImageAlt: "A Norfolk Terrier"
 tags: ["norfolk-terrier", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Nutak at Dutch Wikipedia (Original text: NTCN, mw.G. Hajnova)"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Norfolk_terrier_CAC.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Norfolk Terrier is one of the smallest of the working terriers, a sturdy, low-set little dog with a confident attitude that far exceeds its size. Once bred in England to hunt vermin and bolt foxes, today it is a popular companion known for being friendly, plucky, and surprisingly adaptable.

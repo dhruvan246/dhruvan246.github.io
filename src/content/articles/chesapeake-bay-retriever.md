@@ -4,11 +4,14 @@ description: "Care guide for the Chesapeake Bay Retriever: the rugged American w
 category: "dogs"
 species: "Chesapeake Bay Retriever"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Chesapeake Bay Retriever dog"
+heroImage: "/images/chesapeake-bay-retriever.jpg"
+heroImageAlt: "A Chesapeake Bay Retriever"
 tags: ["chesapeake-bay-retriever", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "George Makatura"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:CH_Chesapeake.jpg"
+heroLicense: "Public domain"
 ---
 
 The Chesapeake Bay Retriever, affectionately called the "Chessie," is a rugged American gundog developed around the Chesapeake Bay to retrieve waterfowl from cold, choppy water. Powerful, hardy and devoted to its family, this breed combines serious working drive with a protective, independent streak.

@@ -4,11 +4,14 @@ description: "Care guide to the Tibetan Spaniel, a small, alert lap dog from the
 category: "dogs"
 species: "Tibetan Spaniel"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Tibetan Spaniel dog"
+heroImage: "/images/tibetan-spaniel.jpg"
+heroImageAlt: "A Tibetan Spaniel"
 tags: ["tibetan-spaniel", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "No machine-readable author provided. Wolfman1 assumed (based on copyright claims)."
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Tibetansk_spaniel.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Tibetan Spaniel is a small, assertive companion dog that originated in the monasteries of Tibet, where it served as a watchful sentinel and a beloved lap warmer. Despite the name, it is not a true spaniel; it is more closely related to other Asian breeds such as the Pekingese and the Lhasa Apso. Often nicknamed the "Tibbie," this breed combines an affectionate, devoted personality with an independent, almost cat-like intelligence.

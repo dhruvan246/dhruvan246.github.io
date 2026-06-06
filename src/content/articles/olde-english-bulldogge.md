@@ -4,11 +4,14 @@ description: "Care guide for the Olde English Bulldogge, a muscular, athletic bu
 category: "dogs"
 species: "Olde English Bulldogge"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Olde English Bulldogge dog"
+heroImage: "/images/olde-english-bulldogge.jpg"
+heroImageAlt: "A Olde English Bulldogge"
 tags: ["olde-english-bulldogge", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Ss 051"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:UKC_Olde_English_Bulldogge_Male.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Olde English Bulldogge is a muscular, athletic dog developed in the United States during the 1970s by breeder David Leavitt, who aimed to recreate the look of the 18th-century bulldog while producing a healthier, more functional animal than the modern English Bulldog. The result is a sturdy, confident companion with a longer muzzle and fewer breathing problems than its flatter-faced relatives.

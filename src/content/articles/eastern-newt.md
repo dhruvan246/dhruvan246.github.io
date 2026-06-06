@@ -4,11 +4,14 @@ description: "Learn to keep an Eastern Newt with the right aquatic setup, cool w
 category: "amphibians"
 species: "Eastern Newt"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/eastern-newt.jpg"
 heroImageAlt: "A Eastern Newt"
 tags: ["eastern-newt", "amphibians", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Brian Gratwicke"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Redspotted_newt.jpg"
+heroLicense: "CC BY 2.0"
 ---
 
 The Eastern newt (*Notophthalmus viridescens*) is a small, hardy North American amphibian best known for its striking bright-orange juvenile stage. Adaptable and long-lived, it is a popular choice for keepers who want an aquatic amphibian with personality and easy-to-meet needs.

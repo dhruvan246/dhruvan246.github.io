@@ -4,11 +4,14 @@ description: "A complete guide to Siberian Huskies — their high energy, exerci
 category: "dogs"
 species: "Siberian Husky"
 pubDate: 2026-05-10
-heroImage: ""
-heroImageAlt: "A black and white Siberian Husky with blue eyes"
+heroImage: "/images/siberian-husky.jpg"
+heroImageAlt: "A Siberian Husky"
 tags: ["siberian husky", "large dogs", "sled dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "xJaM (talk · contribs)"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Husky_L.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Strikingly beautiful and bred to run for miles pulling sleds, the Siberian Husky is a high-energy, independent dog with a friendly, mischievous spirit. They're stunning — but they're a serious commitment.

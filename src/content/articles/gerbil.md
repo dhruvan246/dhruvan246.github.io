@@ -4,11 +4,14 @@ description: "Learn how to keep a gerbil happy: deep bedding for burrowing, same
 category: "small-pets"
 species: "Gerbil"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/gerbil.jpg"
 heroImageAlt: "A Gerbil"
 tags: ["gerbil", "small-pets", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Alastair Rae from London, United Kingdom"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Meriones_unguiculatus_(wild).jpg"
+heroLicense: "Public domain"
 ---
 
 The gerbil, most commonly the Mongolian gerbil (*Meriones unguiculatus*), is a small desert rodent that has become a popular and rewarding pet. Curious, clean, and active during the day, gerbils are social animals that thrive in company and reward attentive owners with entertaining digging and tunnelling behaviour.

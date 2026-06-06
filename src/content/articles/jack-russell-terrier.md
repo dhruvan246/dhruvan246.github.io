@@ -4,11 +4,14 @@ description: "A complete guide to Jack Russell Terriers — their boundless ener
 category: "dogs"
 species: "Jack Russell Terrier"
 pubDate: 2026-05-18
-heroImage: ""
-heroImageAlt: "A white and tan Jack Russell Terrier mid-play"
+heroImage: "/images/jack-russell-terrier.jpg"
+heroImageAlt: "A Jack Russell Terrier"
 tags: ["jack russell terrier", "small dogs", "terriers", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Plank"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Jack_Russell_Terrier_1.jpg"
+heroLicense: "CC BY 3.0"
 ---
 
 Small in size but enormous in energy, the Jack Russell Terrier is a fearless, intelligent working dog. Bred to hunt foxes, this little terrier needs an active owner who can keep up with its tireless drive.

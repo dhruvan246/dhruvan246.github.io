@@ -4,11 +4,14 @@ description: "Care guide for the Old English Sheepdog, a large shaggy herding br
 category: "dogs"
 species: "Old English Sheepdog"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Old English Sheepdog dog"
+heroImage: "/images/old-english-sheepdog.jpg"
+heroImageAlt: "A Old English Sheepdog"
 tags: ["old-english-sheepdog", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "AKS.9955"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Old_English_Sheepdog_(side).jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Old English Sheepdog is a large, profusely coated herding breed instantly recognized by its shaggy gray-and-white coat and ambling "bear-like" gait. Despite the name, it is a relatively recent English breed developed for driving cattle and sheep to market. Affectionate, clownish, and devoted to family, it remains a beloved companion for owners who can keep up with its considerable grooming needs.

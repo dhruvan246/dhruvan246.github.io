@@ -4,11 +4,14 @@ description: "Care guide for the Sarplaninac, a large livestock guardian dog fro
 category: "dogs"
 species: "Sarplaninac"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Sarplaninac dog"
+heroImage: "/images/sarplaninac.jpg"
+heroImageAlt: "A Sarplaninac"
 tags: ["sarplaninac", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Illyricum Scardus (talk)"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Sardog.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Sarplaninac (also spelled Šarplaninac and sometimes called the Yugoslav Shepherd Dog) is an ancient livestock guardian breed from the Šar Mountains of the Balkans, spanning modern North Macedonia, Kosovo, and Serbia. Bred for centuries to protect flocks from wolves and bears, it is a powerful, self-reliant working dog best suited to experienced owners who understand guardian breeds.

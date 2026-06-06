@@ -4,11 +4,14 @@ description: "A complete Maremma Sheepdog care guide covering this Italian lives
 category: "dogs"
 species: "Maremma Sheepdog"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Maremma Sheepdog dog"
+heroImage: "/images/maremma-sheepdog.jpg"
+heroImageAlt: "A Maremma Sheepdog"
 tags: ["maremma-sheepdog", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Justlettersandnumbers"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Pastore_Maremmano-Abruzzese,_young_dog_(cropped).jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Maremma Sheepdog, also called the Maremma-Abruzzese, is an ancient Italian livestock guardian bred for centuries to protect flocks of sheep from wolves and other predators in the rugged hills of central Italy. Large, white, and powerfully built, this breed is independent, watchful, and deeply devoted to the animals and people it considers its own.

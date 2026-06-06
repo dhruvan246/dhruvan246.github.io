@@ -4,11 +4,14 @@ description: "A complete Kangal Shepherd Dog care guide covering this powerful T
 category: "dogs"
 species: "Kangal Shepherd Dog"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Kangal Shepherd Dog dog"
+heroImage: "/images/kangal-shepherd-dog.jpg"
+heroImageAlt: "A Kangal Shepherd Dog"
 tags: ["kangal-shepherd-dog", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Kangalshepherddog"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Kangal_front_on.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 Originating in the Sivas region of central Turkey, the Kangal Shepherd Dog is a large livestock guardian bred for centuries to protect flocks from wolves and other predators. Calm, independent, and fiercely loyal, the Kangal is a working dog whose protective instincts and impressive size demand an experienced, committed owner.

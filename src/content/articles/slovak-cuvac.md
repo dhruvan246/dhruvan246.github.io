@@ -4,11 +4,14 @@ description: "Care guide for the Slovak Cuvac, a large white Slovakian mountain 
 category: "dogs"
 species: "Slovak Cuvac"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Slovak Cuvac dog"
+heroImage: "/images/slovak-cuvac.jpg"
+heroImageAlt: "A Slovak Cuvac"
 tags: ["slovak-cuvac", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Cuvac_1.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Slovak Cuvac (also spelled Slovenský Čuvač) is a large, all-white livestock guardian dog from the mountainous regions of Slovakia. Bred to protect flocks and homesteads from predators, it is a vigilant, devoted, and independent breed best suited to experienced owners with room to spare.

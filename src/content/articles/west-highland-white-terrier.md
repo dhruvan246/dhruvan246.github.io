@@ -4,11 +4,14 @@ description: "Everything about the West Highland White Terrier — their confide
 category: "dogs"
 species: "West Highland White Terrier"
 pubDate: 2026-03-27
-heroImage: ""
-heroImageAlt: "A white West Highland White Terrier standing alert"
+heroImage: "/images/west-highland-white-terrier.jpg"
+heroImageAlt: "A West Highland White Terrier"
 tags: ["west highland white terrier", "westie", "small dogs", "terriers", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Christopher Walker from Krakow, Poland"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:West_Highland_White_Terrier_Krakow.jpg"
+heroLicense: "CC BY 2.0"
 ---
 
 Bright, confident and full of terrier spirit, the West Highland White Terrier — the "Westie" — is a sturdy little Scottish breed with a big personality. Friendly and lively, they make charming, characterful companions.

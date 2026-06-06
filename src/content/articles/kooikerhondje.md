@@ -4,11 +4,14 @@ description: "Discover the Kooikerhondje, the friendly Dutch spaniel-type breed.
 category: "dogs"
 species: "Kooikerhondje"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Kooikerhondje dog"
+heroImage: "/images/kooikerhondje.jpg"
+heroImageAlt: "A Kooikerhondje"
 tags: ["kooikerhondje", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Kooiker03.jpg"
+heroLicense: "CC BY 2.5"
 ---
 
 The Kooikerhondje (pronounced roughly "koy-ker-hond-yuh") is a small, spaniel-type sporting dog from the Netherlands, where it was historically used to lure ducks into traps called *eendenkooien*. Striking in red-and-white markings and gentle by nature, it has grown into a much-loved companion and versatile family dog.

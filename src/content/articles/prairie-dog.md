@@ -4,11 +4,14 @@ description: "Learn how to keep a pet prairie dog happy: housing, diet, daily ha
 category: "exotic"
 species: "Prairie Dog"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/prairie-dog.jpg"
 heroImageAlt: "A Prairie Dog"
 tags: ["prairie-dog", "exotic", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Joe Ravi"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Black-Tailed_Prairie_Dog.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Prairie dogs are highly social, burrowing rodents native to the grasslands of North America. The black-tailed prairie dog is the species most often kept as a pet. They are intelligent, vocal, and deeply bonded to their family group, which makes them rewarding but demanding companions that are not suited to casual or first-time exotic owners.

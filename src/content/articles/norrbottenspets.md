@@ -4,11 +4,14 @@ description: "Care guide for the Norrbottenspets, a small, alert Swedish spitz h
 category: "dogs"
 species: "Norrbottenspets"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Norrbottenspets dog"
+heroImage: "/images/norrbottenspets.jpg"
+heroImageAlt: "A Norrbottenspets"
 tags: ["norrbottenspets", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Nordic_Spitz.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Norrbottenspets is a small, agile spitz-type hunting dog originating in the Nordic regions of Sweden and Finland. Once nearly lost as a recognized breed, it was revived in the mid-20th century and remains a rare but beloved working and companion dog. Quick, alert, and good-natured, it is prized for its hunting ability and devotion to family.

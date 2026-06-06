@@ -4,11 +4,14 @@ description: "Everything about Ragdoll cats — their docile, loving nature, sem
 category: "cats"
 species: "Ragdoll"
 pubDate: 2026-04-20
-heroImage: ""
-heroImageAlt: "A blue-point Ragdoll cat with blue eyes"
+heroImage: "/images/ragdoll.jpg"
+heroImageAlt: "A Ragdoll"
 tags: ["ragdoll", "cat breeds", "longhair cats", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Simone Johnsson"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Ragdoll_from_Gatil_Ragbelas.jpg"
+heroLicense: "CC BY-SA 2.0"
 ---
 
 Named for their tendency to go limp and relaxed when picked up, Ragdolls are among the most docile and affectionate of all cat breeds. Big, beautiful and devoted, they're the ultimate gentle companion.
