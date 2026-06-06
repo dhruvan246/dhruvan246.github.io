@@ -1,0 +1,76 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SUPABASE_URL, SUPABASE_ANON_KEY, REVIEWS_ENABLED } from '../lib/supabase.ts';
+---
+<BaseLayout title="Log in / Sign up" description="Log in or create a free PawPedia account to leave owner reviews and share photos of your pets.">
+  <section class="hero">
+    <div class="container">
+      <h1>🐾 PawPedia Account</h1>
+      <p>Log in or sign up to leave owner reviews and share photos.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    {!REVIEWS_ENABLED ? (
+      <p class="page sub">Accounts are launching soon — check back shortly!</p>
+    ) : (
+      <div class="tool" style="max-width:440px;">
+        <div id="auth-status" class="result-box" hidden></div>
+        <form id="auth-form" class="tool">
+          <div class="field">
+            <label class="field-label" for="email">Email</label>
+            <input id="email" type="email" autocomplete="email" required />
+          </div>
+          <div class="field">
+            <label class="field-label" for="password">Password</label>
+            <input id="password" type="password" autocomplete="current-password" minlength="6" required />
+          </div>
+          <div class="matcher-actions">
+            <button type="submit" id="btn-login" class="btn-primary">Log in</button>
+            <button type="button" id="btn-signup" class="btn-ghost">Create account</button>
+          </div>
+          <p id="auth-msg" class="rv-msg"></p>
+        </form>
+        <p id="auth-loggedin" hidden>
+          You're logged in as <strong id="auth-email"></strong>.
+          <button id="btn-logout" class="btn-ghost btn-sm" style="margin-left:8px;">Log out</button>
+        </p>
+      </div>
+    )}
+  </div>
+
+  {REVIEWS_ENABLED && (
+    <>
+      <script is:inline src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+      <script is:inline define:vars={{ SUPABASE_URL, SUPABASE_ANON_KEY }}>
+        const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+        const form = document.getElementById('auth-form');
+        const msg = document.getElementById('auth-msg');
+        const loggedIn = document.getElementById('auth-loggedin');
+        const emailLbl = document.getElementById('auth-email');
+
+        async function refresh() {
+          const { data: { user } } = await sb.auth.getUser();
+          if (user) { form.hidden = true; loggedIn.hidden = false; emailLbl.textContent = user.email; }
+          else { form.hidden = false; loggedIn.hidden = true; }
+        }
+        const creds = () => ({ email: document.getElementById('email').value.trim(), password: document.getElementById('password').value });
+
+        form.addEventListener('submit', async (e) => {
+          e.preventDefault(); msg.textContent = 'Logging in…';
+          const { error } = await sb.auth.signInWithPassword(creds());
+          msg.textContent = error ? ('Error: ' + error.message) : '✅ Logged in!';
+          if (!error) refresh();
+        });
+        document.getElementById('btn-signup').addEventListener('click', async () => {
+          msg.textContent = 'Creating account…';
+          const { error } = await sb.auth.signUp(creds());
+          msg.textContent = error ? ('Error: ' + error.message) : '✅ Account created! You can now log in and leave reviews.';
+          if (!error) refresh();
+        });
+        document.getElementById('btn-logout').addEventListener('click', async () => { await sb.auth.signOut(); refresh(); });
+        refresh();
+      </script>
+    </>
+  )}
+</BaseLayout>

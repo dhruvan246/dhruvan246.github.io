@@ -1,6 +1,7 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import AdSlot from '../components/AdSlot.astro';
+import Reviews from '../components/Reviews.astro';
 import { getCategory, SITE_TITLE, SITE_AUTHOR, SITE_URL } from '../consts.ts';
 import type { CollectionEntry } from 'astro:content';
 
@@ -81,6 +82,8 @@ const jsonLd = {
         {d.tags.map((t) => <span class="tag">#{t}</span>)}
       </div>
     )}
+
+    <Reviews slug={article.id} name={d.species ?? d.title} />
 
     <AdSlot />
   </article>
