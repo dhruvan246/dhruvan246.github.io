@@ -34,8 +34,11 @@ const { slug, name } = Astro.props;
       <script is:inline src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
       <script is:inline define:vars={{ SUPABASE_URL, SUPABASE_ANON_KEY, REVIEW_PHOTO_BUCKET, slug, name }}>
         const listEl = document.getElementById('rv-list');
+        window.__rv = 'top';
         function startReviews() {
+        window.__rv = 'start';
         const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+        window.__rv = 'client-made';
         const summaryEl = document.getElementById('rv-summary');
         const formWrap = document.getElementById('rv-formwrap');
         const loginPrompt = document.getElementById('rv-loginprompt');
@@ -51,7 +54,9 @@ const { slug, name } = Astro.props;
         }));
 
         async function loadReviews() {
+          window.__rv = 'load-start';
           const { data, error } = await sb.from('reviews').select('*').eq('slug', slug).order('created_at', { ascending: false });
+          window.__rv = 'load-query:' + (error ? ('ERR ' + error.message) : ('rows ' + data.length));
           if (error) { listEl.innerHTML = '<p class="sub">Could not load reviews.</p>'; return; }
           if (!data.length) { summaryEl.innerHTML = ''; listEl.innerHTML = '<p class="sub">No reviews yet — be the first to share!</p>'; return; }
           const avg = (data.reduce((s, r) => s + (r.rating || 0), 0) / data.length).toFixed(1);
@@ -106,8 +111,10 @@ const { slug, name } = Astro.props;
         }
         // Wait for the Supabase SDK to be ready before initialising (the CDN
         // script can finish after this inline script on heavier pages).
-        if (window.supabase && window.supabase.createClient) { startReviews(); }
-        else {
+        window.__rv = 'gate:' + (window.supabase && window.supabase.createClient ? 'ready' : 'waiting');
+        try { if (window.supabase && window.supabase.createClient) { startReviews(); } else { throw new Error('defer'); } }
+        catch (e) {
+          window.__rvErr = (e && e.message) || String(e);
           let _n = 0;
           const _iv = setInterval(function () {
             if (window.supabase && window.supabase.createClient) { clearInterval(_iv); startReviews(); }
