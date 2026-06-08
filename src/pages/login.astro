@@ -74,7 +74,9 @@ const providers = OAUTH_PROVIDERS.filter((p) => PROVIDER_META[p]).map((p) => ({ 
       <script is:inline src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
       <script is:inline define:vars={{ SUPABASE_URL, SUPABASE_ANON_KEY }}>
         function startAuth() {
-        const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+        const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
+          auth: { lock: async (_name, _timeout, fn) => await fn() }
+        });
         const form = document.getElementById('auth-form');
         const msg = document.getElementById('auth-msg');
         const loggedIn = document.getElementById('auth-loggedin');
