@@ -31,91 +31,107 @@ const { slug, name } = Astro.props;
         <a class="btn-ghost" href="/login/">Log in or sign up</a> to leave a review.
       </p>
 
-      <script is:inline src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
       <script is:inline define:vars={{ SUPABASE_URL, SUPABASE_ANON_KEY, REVIEW_PHOTO_BUCKET, slug, name }}>
-        const listEl = document.getElementById('rv-list');
-        function startReviews() {
-        const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
-          auth: { lock: async (_name, _timeout, fn) => await fn() }
-        });
-        const summaryEl = document.getElementById('rv-summary');
-        const formWrap = document.getElementById('rv-formwrap');
-        const loginPrompt = document.getElementById('rv-loginprompt');
-        const msg = document.getElementById('rv-msg');
-        let rating = 0;
+        // Reviews use direct REST calls (no Supabase SDK) so reads never wait on
+        // the SDK's session-init, which can deadlock on page load when logged in.
+        (function () {
+          const KEY = SUPABASE_ANON_KEY;
+          const REST = SUPABASE_URL + '/rest/v1/reviews';
+          const listEl = document.getElementById('rv-list');
+          const summaryEl = document.getElementById('rv-summary');
+          const formWrap = document.getElementById('rv-formwrap');
+          const loginPrompt = document.getElementById('rv-loginprompt');
+          const msg = document.getElementById('rv-msg');
+          let rating = 0;
 
-        const esc = (s) => String(s || '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-        const stars = (n) => '★★★★★'.slice(0, n) + '☆☆☆☆☆'.slice(0, 5 - n);
+          const esc = (s) => String(s || '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+          const stars = (n) => '★★★★★'.slice(0, n) + '☆☆☆☆☆'.slice(0, 5 - n);
+          const headers = (token) => ({ apikey: KEY, Authorization: 'Bearer ' + (token || KEY) });
 
-        document.querySelectorAll('#rv-stars button').forEach((b) => b.addEventListener('click', () => {
-          rating = +b.dataset.v;
-          document.querySelectorAll('#rv-stars button').forEach((x) => x.classList.toggle('on', +x.dataset.v <= rating));
-        }));
+          // Read the logged-in session straight from localStorage (avoids the
+          // Supabase SDK entirely on the page-load path).
+          function getSession() {
+            try {
+              const k = Object.keys(localStorage).find((x) => x.indexOf('sb-') === 0 && x.indexOf('-auth-token') > -1);
+              if (!k) return null;
+              const s = JSON.parse(localStorage.getItem(k) || 'null');
+              if (s && s.user && s.access_token) return s;
+              if (s && s.currentSession && s.currentSession.user) return s.currentSession;
+              return null;
+            } catch (e) { return null; }
+          }
 
-        async function loadReviews() {
-          const { data, error } = await sb.from('reviews').select('*').eq('slug', slug).order('created_at', { ascending: false });
-          if (error) { listEl.innerHTML = '<p class="sub">Could not load reviews.</p>'; return; }
-          if (!data.length) { summaryEl.innerHTML = ''; listEl.innerHTML = '<p class="sub">No reviews yet — be the first to share!</p>'; return; }
-          const avg = (data.reduce((s, r) => s + (r.rating || 0), 0) / data.length).toFixed(1);
-          summaryEl.innerHTML = `<span class="rv-avg">${avg}</span> <span class="rv-avgstars">${stars(Math.round(avg))}</span> <span class="sub">(${data.length} review${data.length === 1 ? '' : 's'})</span>`;
-          listEl.innerHTML = data.map((r) => `
-            <article class="rv-item">
-              <div class="rv-head"><strong>${esc(r.author_name) || 'Pet owner'}</strong> <span class="rv-itemstars">${stars(r.rating)}</span></div>
-              ${r.comment ? `<p>${esc(r.comment)}</p>` : ''}
-              ${r.photo_url ? `<img class="rv-photo" src="${esc(r.photo_url)}" alt="Owner photo of a ${esc(name)}" loading="lazy" />` : ''}
-              <div class="rv-date">${new Date(r.created_at).toLocaleDateString()}</div>
-            </article>`).join('');
-        }
+          document.querySelectorAll('#rv-stars button').forEach((b) => b.addEventListener('click', () => {
+            rating = +b.dataset.v;
+            document.querySelectorAll('#rv-stars button').forEach((x) => x.classList.toggle('on', +x.dataset.v <= rating));
+          }));
 
-        async function refreshAuth() {
-          const { data: { user } } = await sb.auth.getUser();
-          formWrap.hidden = !user;
-          loginPrompt.hidden = !!user;
-        }
+          async function loadReviews() {
+            try {
+              const res = await fetch(REST + '?slug=eq.' + encodeURIComponent(slug) + '&select=*&order=created_at.desc', { headers: headers() });
+              const data = await res.json();
+              if (!Array.isArray(data)) { listEl.innerHTML = '<p class="sub">Could not load reviews.</p>'; return; }
+              if (!data.length) { summaryEl.innerHTML = ''; listEl.innerHTML = '<p class="sub">No reviews yet — be the first to share!</p>'; return; }
+              const avg = (data.reduce((s, r) => s + (r.rating || 0), 0) / data.length).toFixed(1);
+              summaryEl.innerHTML = `<span class="rv-avg">${avg}</span> <span class="rv-avgstars">${stars(Math.round(avg))}</span> <span class="sub">(${data.length} review${data.length === 1 ? '' : 's'})</span>`;
+              listEl.innerHTML = data.map((r) => `
+                <article class="rv-item">
+                  <div class="rv-head"><strong>${esc(r.author_name) || 'Pet owner'}</strong> <span class="rv-itemstars">${stars(r.rating)}</span></div>
+                  ${r.comment ? `<p>${esc(r.comment)}</p>` : ''}
+                  ${r.photo_url ? `<img class="rv-photo" src="${esc(r.photo_url)}" alt="Owner photo of a ${esc(name)}" loading="lazy" />` : ''}
+                  <div class="rv-date">${new Date(r.created_at).toLocaleDateString()}</div>
+                </article>`).join('');
+            } catch (e) { listEl.innerHTML = '<p class="sub">Could not load reviews.</p>'; }
+          }
 
-        document.getElementById('rv-form').addEventListener('submit', async (e) => {
-          e.preventDefault();
-          msg.textContent = '';
-          if (!rating) { msg.textContent = 'Please pick a star rating.'; return; }
-          const submit = document.getElementById('rv-submit');
-          submit.disabled = true; msg.textContent = 'Posting…';
-          try {
-            const { data: { user } } = await sb.auth.getUser();
-            if (!user) { msg.textContent = 'Please log in again.'; submit.disabled = false; return; }
-            let photo_url = null;
-            const file = document.getElementById('rv-photo').files[0];
-            if (file) {
-              const path = `${slug}/${user.id}-${Date.now()}-${file.name.replace(/[^a-zA-Z0-9.]/g, '_')}`;
-              const up = await sb.storage.from(REVIEW_PHOTO_BUCKET).upload(path, file, { upsert: false });
-              if (up.error) throw up.error;
-              photo_url = sb.storage.from(REVIEW_PHOTO_BUCKET).getPublicUrl(path).data.publicUrl;
-            }
-            const author_name = (user.user_metadata && user.user_metadata.name) || (user.email ? user.email.split('@')[0] : 'Pet owner');
-            const ins = await sb.from('reviews').insert({ slug, user_id: user.id, author_name, rating, comment: document.getElementById('rv-comment').value.trim(), photo_url });
-            if (ins.error) throw ins.error;
-            msg.textContent = '✅ Thanks for your review!';
-            document.getElementById('rv-comment').value = ''; document.getElementById('rv-photo').value = ''; rating = 0;
-            document.querySelectorAll('#rv-stars button').forEach((x) => x.classList.remove('on'));
-            loadReviews();
-          } catch (err) {
-            msg.textContent = 'Error: ' + (err.message || 'could not post review');
-          } finally { submit.disabled = false; }
-        });
+          function refreshAuth() {
+            const sess = getSession();
+            const user = sess && sess.user;
+            formWrap.hidden = !user;
+            loginPrompt.hidden = !!user;
+          }
 
-        loadReviews();
-        refreshAuth();
-        sb.auth.onAuthStateChange(() => refreshAuth());
-        }
-        // Wait for the Supabase SDK to be ready before initialising (the CDN
-        // script can finish after this inline script on heavier pages).
-        if (window.supabase && window.supabase.createClient) { startReviews(); }
-        else {
-          let _n = 0;
-          const _iv = setInterval(function () {
-            if (window.supabase && window.supabase.createClient) { clearInterval(_iv); startReviews(); }
-            else if (++_n > 120) { clearInterval(_iv); if (listEl) listEl.innerHTML = '<p class="sub">Could not load reviews right now — please refresh.</p>'; }
-          }, 50);
-        }
+          document.getElementById('rv-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            msg.textContent = '';
+            if (!rating) { msg.textContent = 'Please pick a star rating.'; return; }
+            const sess = getSession();
+            const user = sess && sess.user;
+            const token = sess && sess.access_token;
+            if (!user || !token) { msg.textContent = 'Please log in again to post.'; return; }
+            const submit = document.getElementById('rv-submit');
+            submit.disabled = true; msg.textContent = 'Posting…';
+            try {
+              let photo_url = null;
+              const file = document.getElementById('rv-photo').files[0];
+              if (file) {
+                const path = `${slug}/${user.id}-${Date.now()}-${file.name.replace(/[^a-zA-Z0-9.]/g, '_')}`;
+                const up = await fetch(SUPABASE_URL + '/storage/v1/object/' + REVIEW_PHOTO_BUCKET + '/' + path, {
+                  method: 'POST', headers: Object.assign(headers(token), { 'x-upsert': 'false' }), body: file
+                });
+                if (!up.ok) throw new Error('Photo upload failed (' + up.status + ')');
+                photo_url = SUPABASE_URL + '/storage/v1/object/public/' + REVIEW_PHOTO_BUCKET + '/' + path;
+              }
+              const author_name = (user.user_metadata && (user.user_metadata.name || user.user_metadata.full_name)) || (user.email ? user.email.split('@')[0] : 'Pet owner');
+              const ins = await fetch(REST, {
+                method: 'POST',
+                headers: Object.assign(headers(token), { 'Content-Type': 'application/json', Prefer: 'return=minimal' }),
+                body: JSON.stringify({ slug, user_id: user.id, author_name, rating, comment: document.getElementById('rv-comment').value.trim(), photo_url })
+              });
+              if (!ins.ok) { const t = await ins.text(); throw new Error(ins.status === 401 ? 'Your session expired — please log in again.' : (t || 'could not post review')); }
+              msg.textContent = '✅ Thanks for your review!';
+              document.getElementById('rv-comment').value = ''; document.getElementById('rv-photo').value = ''; rating = 0;
+              document.querySelectorAll('#rv-stars button').forEach((x) => x.classList.remove('on'));
+              loadReviews();
+            } catch (err) {
+              msg.textContent = 'Error: ' + (err.message || 'could not post review');
+            } finally { submit.disabled = false; }
+          });
+
+          loadReviews();
+          refreshAuth();
+          window.addEventListener('storage', refreshAuth);
+        })();
       </script>
     </>
   )}
