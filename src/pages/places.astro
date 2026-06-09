@@ -34,6 +34,10 @@ import AdSlot from '../components/AdSlot.astro';
     </div>
 
     <p id="places-status" class="sub">Share your location or search a place to begin.</p>
+    <p id="gmaps-more-wrap" hidden style="margin:-4px 0 12px;">
+      <a id="gmaps-more" class="btn-ghost btn-sm" target="_blank" rel="noopener">🔎 See even more on Google Maps →</a>
+      <span class="sub" style="margin-left:8px;">Our map uses free community data; Google has more listings.</span>
+    </p>
     <div id="map" class="places-map"></div>
     <ul id="places-list" class="place-list"></ul>
 
@@ -150,6 +154,8 @@ import AdSlot from '../components/AdSlot.astro';
     initMap();
     center = { lat, lon };
     map.setView([lat, lon], 13);
+    const g = document.getElementById('gmaps-more');
+    if (g) { g.href = `https://www.google.com/maps/search/pet+care+vet+pet+shop/@${lat},${lon},14z`; document.getElementById('gmaps-more-wrap').hidden = false; }
     if (userMarker) map.removeLayer(userMarker);
     userMarker = L.circleMarker([lat, lon], { radius: 7, color: '#226b4a', fillColor: '#226b4a', fillOpacity: 1 })
       .addTo(map).bindPopup(label || 'You are here');
