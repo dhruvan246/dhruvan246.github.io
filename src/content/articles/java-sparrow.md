@@ -4,11 +4,14 @@ description: "Learn how to care for a Java Sparrow, covering housing, diet, temp
 category: "birds"
 species: "Java Sparrow"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/java-sparrow.jpg"
 heroImageAlt: "A Java Sparrow"
 tags: ["java-sparrow", "birds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Francesco Veronesi from Italy"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Java_Sparrow_-_Baluran_NP_-_East_Java_MG_8180_(29726690101).jpg"
+heroLicense: "CC BY-SA 2.0"
 ---
 
 The Java Sparrow (*Padda oryzivora*) is a small, sturdy finch admired for its striking grey plumage, rosy beak, and calm, sociable nature. Native to Indonesia, it has long been kept as an aviary bird and makes a rewarding companion for keepers who enjoy watching active, gregarious birds rather than handling them.

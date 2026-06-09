@@ -4,11 +4,14 @@ description: "Care guide to the Karakachan, a large Bulgarian livestock guardian
 category: "dogs"
 species: "Karakachan"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Karakachan dog"
+heroImage: "/images/karakachan.jpg"
+heroImageAlt: "A Karakachan"
 tags: ["karakachan", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "SlavaBogur"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Karakacan_Greeks_Kotel_Bulgaria.JPG"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Karakachan is an ancient livestock guardian breed from Bulgaria, traditionally used by nomadic shepherds to protect flocks from wolves and bears. Powerful, independent, and deeply loyal, it remains a working dog at heart and thrives with owners who understand and respect its guardian nature.

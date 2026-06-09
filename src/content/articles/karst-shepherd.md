@@ -4,11 +4,14 @@ description: "The Karst Shepherd is a rugged Slovenian livestock guardian with a
 category: "dogs"
 species: "Karst Shepherd"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Karst Shepherd dog"
+heroImage: "/images/karst-shepherd.jpg"
+heroImageAlt: "A Karst Shepherd"
 tags: ["karst-shepherd", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Pleple2000"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Owczarek_kraski_654.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Karst Shepherd (Kraševec) is an ancient livestock guardian breed from the Karst plateau region of Slovenia. Hardy, devoted, and protective, it was bred to watch over flocks of sheep against predators in harsh mountain terrain. Today it remains a calm but vigilant companion that bonds deeply with its family.

@@ -4,11 +4,14 @@ description: "A complete Jamthund care guide covering this hardy Swedish spitz h
 category: "dogs"
 species: "Jamthund"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Jamthund dog"
+heroImage: "/images/jamthund.jpg"
+heroImageAlt: "A Jamthund"
 tags: ["jamthund", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Canarian"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Swedish_Elkhound.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Jamthund, also known as the Swedish Elkhound, is a large, ancient spitz breed from the Jämtland region of northern Sweden. Bred to hunt moose and other big game in harsh forest terrain, it is a hardy, courageous, and independent working dog with deep loyalty to its family.

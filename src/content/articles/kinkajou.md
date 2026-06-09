@@ -4,11 +4,14 @@ description: "Learn how to keep a kinkajou healthy with expert guidance on housi
 category: "exotic"
 species: "Kinkajou"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/kinkajou.jpg"
 heroImageAlt: "A Kinkajou"
 tags: ["kinkajou", "exotic", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Dick Culbert from Gibsons, B.C., Canada"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Potos_flavus_(8973438737).jpg"
+heroLicense: "CC BY 2.0"
 ---
 
 The kinkajou (*Potos flavus*) is a small, tree-dwelling rainforest mammal native to Central and South America. Though sometimes called a "honey bear," it is not a bear or a primate but a member of the raccoon family (Procyonidae). Highly specialized and demanding, the kinkajou is an exotic pet best suited to experienced, committed keepers.

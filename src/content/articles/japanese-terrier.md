@@ -4,11 +4,14 @@ description: "Care guide for the Japanese Terrier, a rare small smooth-coated co
 category: "dogs"
 species: "Japanese Terrier"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Japanese Terrier dog"
+heroImage: "/images/japanese-terrier.jpg"
+heroImageAlt: "A Japanese Terrier"
 tags: ["japanese-terrier", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Pleple2000"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Japanese_Terrier_22.04.2012_2pl.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Japanese Terrier, sometimes called the Nihon Teria or Nippon Terrier, is a small, elegant companion dog developed in Japan. Bred largely as a lapdog rather than a working ratter, it is friendly, lively, and devoted to its family. The breed remains quite rare, even within Japan.

@@ -4,11 +4,14 @@ description: "The Kerry Blue Terrier is a soft-coated, non-shedding Irish workin
 category: "dogs"
 species: "Kerry Blue Terrier"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Kerry Blue Terrier dog"
+heroImage: "/images/kerry-blue-terrier.jpg"
+heroImageAlt: "A Kerry Blue Terrier"
 tags: ["kerry-blue-terrier", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Peter Kumpert, Germany"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Kerry_Blue_Terrier.jpg"
+heroLicense: "CC BY-SA 3.0 de"
 ---
 
 The Kerry Blue Terrier is a spirited, versatile working terrier from County Kerry in Ireland, famous for its soft, wavy blue-grey coat and bold, affectionate personality. Once an all-purpose farm dog used for hunting vermin, herding, and guarding, it remains a confident and devoted companion today.

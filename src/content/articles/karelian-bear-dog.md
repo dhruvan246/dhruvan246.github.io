@@ -4,11 +4,14 @@ description: "A complete Karelian Bear Dog care guide covering this bold Finnish
 category: "dogs"
 species: "Karelian Bear Dog"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Karelian Bear Dog dog"
+heroImage: "/images/karelian-bear-dog.jpg"
+heroImageAlt: "A Karelian Bear Dog"
 tags: ["karelian-bear-dog", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Fraczek.marcin"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Karelski_pies_na_nied%C5%BAwiedzie_sylwetka.JPG"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Karelian Bear Dog is a bold, black-and-white spitz from the forests of Finland and northern Russia, bred to hunt large game such as moose, boar, and even bear. Intensely loyal and fearless, this hardy working breed thrives with an active, experienced owner who can channel its drive and independence.

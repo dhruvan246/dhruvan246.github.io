@@ -4,11 +4,14 @@ description: "Care guide for the Jagdterrier, a compact German hunting terrier k
 category: "dogs"
 species: "Jagdterrier"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Jagdterrier dog"
+heroImage: "/images/jagdterrier.jpg"
+heroImageAlt: "A Jagdterrier"
 tags: ["jagdterrier", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Svenska Mässan from Sweden"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Grupp_3,_TYSK_JAKTTERRIER,_Stollfors_Larionov_(23942381219).jpg"
+heroLicense: "CC BY 2.0"
 ---
 
 The Jagdterrier, also called the German Hunting Terrier, is a small, powerfully built working dog developed in Germany in the early 20th century. Bred specifically for versatile hunting, it remains an intensely driven, courageous breed that thrives when given a serious job to do.

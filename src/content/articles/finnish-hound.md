@@ -4,11 +4,14 @@ description: "Care guide for the Finnish Hound (Suomenajokoira), a large Nordic 
 category: "dogs"
 species: "Finnish Hound"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Finnish Hound dog"
+heroImage: "/images/finnish-hound.jpg"
+heroImageAlt: "A Finnish Hound"
 tags: ["finnish-hound", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "EtäKärppä"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Finnish_Hound.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Finnish Hound (Suomenajokoira) is a large, athletic scenthound developed in Finland for tracking hare and fox across cold, forested terrain. One of the most popular native breeds in its homeland, it is prized as a hardworking hunting dog and a gentle, even-tempered companion at home.

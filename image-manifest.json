@@ -2266,5 +2266,96 @@
     "credit": "see source",
     "license": "CC BY 2.5",
     "source": "https://commons.wikimedia.org/wiki/File:Zebra_finch_group.png"
+  },
+  "finnish-hound": {
+    "file": "/images/finnish-hound.jpg",
+    "alt": "A Finnish Hound",
+    "credit": "EtäKärppä",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Finnish_Hound.jpg"
+  },
+  "firefish-goby": {
+    "file": "/images/firefish-goby.jpg",
+    "alt": "A Firefish Goby",
+    "credit": "Rickard Zerpe",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fire_dartfish_(Nemateleotris_magnifica)_(43372442502).jpg"
+  },
+  "gordon-setter": {
+    "file": "/images/gordon-setter.jpg",
+    "alt": "A Gordon Setter",
+    "credit": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Orrvilas_enska_w800px.jpg"
+  },
+  "irish-terrier": {
+    "file": "/images/irish-terrier.jpg",
+    "alt": "A Irish Terrier",
+    "credit": "Andrew Clark",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:IrishTerrierSydenhamHillWoods.jpg"
+  },
+  "jagdterrier": {
+    "file": "/images/jagdterrier.jpg",
+    "alt": "A Jagdterrier",
+    "credit": "Svenska Mässan from Sweden",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Grupp_3,_TYSK_JAKTTERRIER,_Stollfors_Larionov_(23942381219).jpg"
+  },
+  "jamthund": {
+    "file": "/images/jamthund.jpg",
+    "alt": "A Jamthund",
+    "credit": "Canarian",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Swedish_Elkhound.jpg"
+  },
+  "japanese-terrier": {
+    "file": "/images/japanese-terrier.jpg",
+    "alt": "A Japanese Terrier",
+    "credit": "Pleple2000",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Japanese_Terrier_22.04.2012_2pl.jpg"
+  },
+  "java-sparrow": {
+    "file": "/images/java-sparrow.jpg",
+    "alt": "A Java Sparrow",
+    "credit": "Francesco Veronesi from Italy",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Java_Sparrow_-_Baluran_NP_-_East_Java_MG_8180_(29726690101).jpg"
+  },
+  "karakachan": {
+    "file": "/images/karakachan.jpg",
+    "alt": "A Karakachan",
+    "credit": "SlavaBogur",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Karakacan_Greeks_Kotel_Bulgaria.JPG"
+  },
+  "karelian-bear-dog": {
+    "file": "/images/karelian-bear-dog.jpg",
+    "alt": "A Karelian Bear Dog",
+    "credit": "Fraczek.marcin",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Karelski_pies_na_nied%C5%BAwiedzie_sylwetka.JPG"
+  },
+  "karst-shepherd": {
+    "file": "/images/karst-shepherd.jpg",
+    "alt": "A Karst Shepherd",
+    "credit": "Pleple2000",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Owczarek_kraski_654.jpg"
+  },
+  "kerry-blue-terrier": {
+    "file": "/images/kerry-blue-terrier.jpg",
+    "alt": "A Kerry Blue Terrier",
+    "credit": "Peter Kumpert, Germany",
+    "license": "CC BY-SA 3.0 de",
+    "source": "https://commons.wikimedia.org/wiki/File:Kerry_Blue_Terrier.jpg"
+  },
+  "kinkajou": {
+    "file": "/images/kinkajou.jpg",
+    "alt": "A Kinkajou",
+    "credit": "Dick Culbert from Gibsons, B.C., Canada",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Potos_flavus_(8973438737).jpg"
   }
 }

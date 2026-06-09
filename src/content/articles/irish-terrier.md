@@ -4,11 +4,14 @@ description: "Learn how to care for the Irish Terrier, a bold red-coated medium 
 category: "dogs"
 species: "Irish Terrier"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Irish Terrier dog"
+heroImage: "/images/irish-terrier.jpg"
+heroImageAlt: "A Irish Terrier"
 tags: ["irish-terrier", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Andrew Clark"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:IrishTerrierSydenhamHillWoods.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Irish Terrier is one of the oldest terrier breeds, easily recognized by its fiery red coat, lively spirit, and deep loyalty. Often nicknamed the "Daredevil," this medium-sized dog blends courage, intelligence, and a strong devotion to its family.

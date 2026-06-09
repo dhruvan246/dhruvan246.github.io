@@ -4,11 +4,14 @@ description: "Care guide to the Gordon Setter: the black-and-tan Scottish gundog
 category: "dogs"
 species: "Gordon Setter"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Gordon Setter dog"
+heroImage: "/images/gordon-setter.jpg"
+heroImageAlt: "A Gordon Setter"
 tags: ["gordon-setter", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Orrvilas_enska_w800px.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Gordon Setter is the largest and most substantial of the setter breeds, instantly recognizable by its glossy black coat with rich chestnut or mahogany tan markings. Developed in Scotland as a bird dog, this devoted, hard-working gundog combines stamina in the field with deep loyalty at home.

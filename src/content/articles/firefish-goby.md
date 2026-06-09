@@ -4,11 +4,14 @@ description: "Learn how to keep the Firefish Goby thriving with tips on tank set
 category: "fish"
 species: "Firefish Goby"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/firefish-goby.jpg"
 heroImageAlt: "A Firefish Goby"
 tags: ["firefish-goby", "fish", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Rickard Zerpe"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Fire_dartfish_(Nemateleotris_magnifica)_(43372442502).jpg"
+heroLicense: "CC BY 2.0"
 ---
 
 The Firefish Goby (*Nemateleotris magnifica*), also called the fire dartfish, is one of the most popular small saltwater fish for reef and nano aquariums. Hardy, peaceful, and strikingly coloured, it suits both beginner and experienced marine keepers, provided its tank is securely covered.
