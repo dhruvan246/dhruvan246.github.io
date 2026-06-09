@@ -30,13 +30,14 @@ import AdSlot from '../components/AdSlot.astro';
       <label class="opt"><input type="checkbox" id="f-vet" checked /><span class="opt-card"><span class="dot" style="background:#e74c3c"></span> Vets</span></label>
       <label class="opt"><input type="checkbox" id="f-pet" checked /><span class="opt-card"><span class="dot" style="background:#2f8f63"></span> Pet shops</span></label>
       <label class="opt"><input type="checkbox" id="f-park" checked /><span class="opt-card"><span class="dot" style="background:#f0a202"></span> Dog parks</span></label>
+      <label class="opt"><input type="checkbox" id="f-shelter" checked /><span class="opt-card"><span class="dot" style="background:#7e57c2"></span> Shelters &amp; boarding</span></label>
     </div>
 
     <p id="places-status" class="sub">Share your location or search a place to begin.</p>
     <div id="map" class="places-map"></div>
     <ul id="places-list" class="place-list"></ul>
 
-    <p class="disclaimer">Place data comes from OpenStreetMap contributors and may be incomplete. Always check details before visiting.</p>
+    <p class="disclaimer">Places come from <a href="https://www.openstreetmap.org" target="_blank" rel="noopener">OpenStreetMap</a> — a free, community-mapped database. Coverage of small businesses can be patchy (especially outside major cities), so some local vets and pet shops may not appear here yet. Always verify details before visiting.</p>
     <AdSlot />
   </div>
 </BaseLayout>
@@ -44,15 +45,34 @@ import AdSlot from '../components/AdSlot.astro';
 <script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script is:inline>
   const TYPES = {
-    vet:  { label: 'Vet', color: '#e74c3c', q: 'node["amenity"="veterinary"]' },
-    pet:  { label: 'Pet shop', color: '#2f8f63', q: 'node["shop"="pet"]' },
-    park: { label: 'Dog park', color: '#f0a202', q: 'node["leisure"="dog_park"]' },
+    vet:     { label: 'Vet',      color: '#e74c3c' },
+    pet:     { label: 'Pet shop', color: '#2f8f63' },
+    park:    { label: 'Dog park', color: '#f0a202' },
+    shelter: { label: 'Shelter',  color: '#7e57c2' },
   };
+  // Which OSM tags we ask Overpass for (broad, to catch as many pet places as
+  // OpenStreetMap has). nwr = nodes + ways + relations.
+  const OSM_TAGS = [
+    'amenity=veterinary', 'healthcare=veterinary',
+    'shop=pet', 'shop=pet_grooming', 'shop=pets', 'craft=dog_trainer',
+    'leisure=dog_park',
+    'amenity=animal_shelter', 'amenity=animal_boarding', 'amenity=animal_breeding',
+  ];
+  function classify(t) {
+    if (!t) return null;
+    if (t.amenity === 'veterinary' || t.healthcare === 'veterinary') return 'vet';
+    if (t.shop === 'pet' || t.shop === 'pet_grooming' || t.shop === 'pets' || t.craft === 'dog_trainer') return 'pet';
+    if (t.leisure === 'dog_park') return 'park';
+    if (t.amenity === 'animal_shelter' || t.amenity === 'animal_boarding' || t.amenity === 'animal_breeding') return 'shelter';
+    return null;
+  }
+  const RADIUS_M = 12000; // 12 km
+
   const statusEl = document.getElementById('places-status');
   const listEl = document.getElementById('places-list');
   let map, layer, userMarker, results = [], center = null;
   const markerByKey = {};
-  const active = { vet: true, pet: true, park: true };
+  const active = { vet: true, pet: true, park: true, shelter: true };
 
   const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   function setStatus(t) { statusEl.textContent = t; }
@@ -134,19 +154,30 @@ import AdSlot from '../components/AdSlot.astro';
     userMarker = L.circleMarker([lat, lon], { radius: 7, color: '#226b4a', fillColor: '#226b4a', fillOpacity: 1 })
       .addTo(map).bindPopup(label || 'You are here');
     setStatus('Searching for nearby pet places…');
-    const parts = Object.values(TYPES).map((t) => `${t.q}(around:6000,${lat},${lon});`).join('');
-    const query = `[out:json][timeout:25];(${parts});out body 80;`;
+    // Build a broad Overpass query across all our tags, matching nodes, ways
+    // AND relations (some places are mapped as buildings/areas, not points).
+    const parts = OSM_TAGS.map((tag) => {
+      const [k, v] = tag.split('=');
+      return `nwr["${k}"="${v}"](around:${RADIUS_M},${lat},${lon});`;
+    }).join('');
+    const query = `[out:json][timeout:30];(${parts});out center 300;`;
     try {
       const res = await fetch('https://overpass-api.de/api/interpreter', {
         method: 'POST', body: 'data=' + encodeURIComponent(query),
       });
       const data = await res.json();
-      results = (data.elements || []).filter((e) => e.lat && e.lon).map((e) => ({
-        lat: e.lat, lon: e.lon,
-        name: (e.tags && e.tags.name) || '(unnamed place)',
-        addr: fmtAddr(e.tags),
-        type: e.tags.amenity === 'veterinary' ? 'vet' : e.tags.shop === 'pet' ? 'pet' : 'park',
-      }));
+      const seen = new Set();
+      results = (data.elements || []).map((e) => {
+        const plat = e.lat != null ? e.lat : (e.center && e.center.lat);
+        const plon = e.lon != null ? e.lon : (e.center && e.center.lon);
+        const type = classify(e.tags);
+        if (plat == null || plon == null || !type) return null;
+        return { lat: plat, lon: plon, name: (e.tags && e.tags.name) || '(unnamed place)', addr: fmtAddr(e.tags), type };
+      }).filter(Boolean).filter((r) => {
+        const key = r.name + '@' + r.lat.toFixed(4) + ',' + r.lon.toFixed(4);
+        if (seen.has(key)) return false;
+        seen.add(key); return true;
+      });
       render();
     } catch (err) {
       setStatus('Could not load places — the free map service may be busy. Please try again in a moment.');
@@ -177,7 +208,7 @@ import AdSlot from '../components/AdSlot.astro';
     } catch (err) { setStatus('Search failed — please try again.'); }
   });
 
-  ['vet', 'pet', 'park'].forEach((k) => {
+  ['vet', 'pet', 'park', 'shelter'].forEach((k) => {
     document.getElementById('f-' + k).addEventListener('change', (e) => { active[k] = e.target.checked; render(); });
   });
 
