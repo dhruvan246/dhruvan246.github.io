@@ -11,7 +11,7 @@ import AdSlot from '../components/AdSlot.astro';
   <section class="hero">
     <div class="container">
       <h1>📍 Pet Places Near You</h1>
-      <p>Find vets, pet shops and dog parks nearby — live, on a map. Free and no sign-up.</p>
+      <p>Find vets, pet shops and dog parks nearby — shown on a live map <strong>and listed below with addresses &amp; directions</strong>. Free and no sign-up.</p>
     </div>
   </section>
 
@@ -50,10 +50,28 @@ import AdSlot from '../components/AdSlot.astro';
   };
   const statusEl = document.getElementById('places-status');
   const listEl = document.getElementById('places-list');
-  let map, layer, userMarker, results = [];
+  let map, layer, userMarker, results = [], center = null;
+  const markerByKey = {};
   const active = { vet: true, pet: true, park: true };
 
+  const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   function setStatus(t) { statusEl.textContent = t; }
+  function fmtAddr(t) {
+    if (!t) return '';
+    const line = [t['addr:housenumber'], t['addr:street']].filter(Boolean).join(' ');
+    return [line, t['addr:city'], t['addr:postcode']].filter(Boolean).join(', ');
+  }
+  function distKm(aLat, aLon, bLat, bLon) {
+    const R = 6371, toR = (x) => x * Math.PI / 180;
+    const dLat = toR(bLat - aLat), dLon = toR(bLon - aLon);
+    const s = Math.sin(dLat / 2) ** 2 + Math.cos(toR(aLat)) * Math.cos(toR(bLat)) * Math.sin(dLon / 2) ** 2;
+    return R * 2 * Math.atan2(Math.sqrt(s), Math.sqrt(1 - s));
+  }
+  function popupHtml(r) {
+    return `<b>${esc(r.name)}</b><br>${TYPES[r.type].label}` +
+      (r.addr ? `<br><small>${esc(r.addr)}</small>` : '') +
+      `<br><a href="https://www.google.com/maps/dir/?api=1&destination=${r.lat},${r.lon}" target="_blank" rel="noopener">Directions ↗</a>`;
+  }
 
   function initMap() {
     if (map) return;
@@ -67,21 +85,50 @@ import AdSlot from '../components/AdSlot.astro';
   function render() {
     if (!layer) return;
     layer.clearLayers();
-    const shown = results.filter((r) => active[r.type]);
-    shown.forEach((r) => {
+    Object.keys(markerByKey).forEach((k) => delete markerByKey[k]);
+
+    let shown = results.filter((r) => active[r.type]);
+    if (center) shown.forEach((r) => { r.km = distKm(center.lat, center.lon, r.lat, r.lon); });
+    shown.sort((a, b) => (a.km ?? 1e9) - (b.km ?? 1e9));
+
+    shown.forEach((r, i) => {
       const c = TYPES[r.type].color;
-      L.circleMarker([r.lat, r.lon], { radius: 8, color: c, fillColor: c, fillOpacity: 0.85, weight: 2 })
-        .addTo(layer)
-        .bindPopup(`<b>${r.name}</b><br>${TYPES[r.type].label}`);
+      markerByKey[i] = L.circleMarker([r.lat, r.lon], { radius: 8, color: c, fillColor: c, fillOpacity: 0.85, weight: 2 })
+        .addTo(layer).bindPopup(popupHtml(r));
     });
-    setStatus(shown.length ? `${shown.length} pet places found nearby.` : 'No matching places found nearby — try widening your filters or a bigger area.');
-    listEl.innerHTML = shown.map((r) =>
-      `<li><span class="dot" style="background:${TYPES[r.type].color}"></span> <b>${r.name}</b> <small>· ${TYPES[r.type].label}</small></li>`
-    ).join('') || '';
+
+    setStatus(shown.length
+      ? `${shown.length} pet places found nearby — see the full list below the map.`
+      : 'No matching places found nearby — try widening your filters or a bigger area.');
+
+    listEl.innerHTML = shown.map((r, i) => {
+      const t = TYPES[r.type];
+      return `<li class="place-item" data-i="${i}" data-lat="${r.lat}" data-lon="${r.lon}">
+        <span class="place-rank">${i + 1}</span>
+        <div class="place-body">
+          <div class="place-name"><span class="dot" style="background:${t.color}"></span> ${esc(r.name)}<span class="place-type">${t.label}</span></div>
+          ${r.addr ? `<div class="place-addr">📍 ${esc(r.addr)}</div>` : `<div class="place-addr place-addr-none">Address not listed on OpenStreetMap</div>`}
+          <div class="place-meta">${r.km != null ? `<strong>${r.km.toFixed(1)} km</strong> away · ` : ''}<a class="place-dir" href="https://www.google.com/maps/dir/?api=1&destination=${r.lat},${r.lon}" target="_blank" rel="noopener">Directions ↗</a></div>
+        </div>
+      </li>`;
+    }).join('');
+
+    listEl.querySelectorAll('.place-item').forEach((li) => {
+      li.addEventListener('click', (e) => {
+        if (e.target.closest('a')) return;
+        const m = markerByKey[li.dataset.i];
+        if (m && map) {
+          map.setView([+li.dataset.lat, +li.dataset.lon], 16);
+          m.openPopup();
+          document.getElementById('map').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
   }
 
   async function searchAt(lat, lon, label) {
     initMap();
+    center = { lat, lon };
     map.setView([lat, lon], 13);
     if (userMarker) map.removeLayer(userMarker);
     userMarker = L.circleMarker([lat, lon], { radius: 7, color: '#226b4a', fillColor: '#226b4a', fillOpacity: 1 })
@@ -97,6 +144,7 @@ import AdSlot from '../components/AdSlot.astro';
       results = (data.elements || []).filter((e) => e.lat && e.lon).map((e) => ({
         lat: e.lat, lon: e.lon,
         name: (e.tags && e.tags.name) || '(unnamed place)',
+        addr: fmtAddr(e.tags),
         type: e.tags.amenity === 'veterinary' ? 'vet' : e.tags.shop === 'pet' ? 'pet' : 'park',
       }));
       render();
