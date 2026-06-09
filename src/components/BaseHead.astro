@@ -37,6 +37,15 @@ const fullTitle = title === SITE_TITLE ? title : `${title} | ${SITE_TITLE}`;
 <link rel="sitemap" href="/sitemap-index.xml" />
 <link rel="alternate" type="application/rss+xml" title={SITE_TITLE} href="/rss.xml" />
 
+<!-- PWA (installable app) -->
+<link rel="manifest" href="/manifest.webmanifest" />
+<meta name="theme-color" content="#2f8f63" />
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content={SITE_TITLE} />
+
 <!-- Open Graph (Facebook, LinkedIn, etc.) -->
 <meta property="og:type" content={type} />
 <meta property="og:site_name" content={SITE_TITLE} />
@@ -53,6 +62,38 @@ const fullTitle = title === SITE_TITLE ? title : `${title} | ${SITE_TITLE}`;
 
 <!-- Structured data for rich search results -->
 {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+
+<!-- PWA: register service worker + offer an install button -->
+<script is:inline>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('/sw.js').catch(function () {});
+    });
+  }
+  (function () {
+    var deferred = null;
+    window.addEventListener('beforeinstallprompt', function (e) {
+      e.preventDefault();
+      deferred = e;
+      if (document.getElementById('pwa-install-btn')) return;
+      var b = document.createElement('button');
+      b.id = 'pwa-install-btn';
+      b.type = 'button';
+      b.textContent = '📲 Install app';
+      b.setAttribute('aria-label', 'Install the PawPedia app');
+      b.addEventListener('click', function () {
+        if (!deferred) return;
+        deferred.prompt();
+        deferred.userChoice.finally(function () { deferred = null; b.remove(); });
+      });
+      document.body.appendChild(b);
+    });
+    window.addEventListener('appinstalled', function () {
+      var b = document.getElementById('pwa-install-btn');
+      if (b) b.remove();
+    });
+  })();
+</script>
 
 <!-- Google AdSense (only loads once you set ADSENSE_CLIENT in src/consts.ts) -->
 {ADSENSE_CLIENT && (
