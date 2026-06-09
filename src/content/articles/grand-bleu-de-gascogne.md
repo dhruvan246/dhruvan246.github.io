@@ -4,11 +4,14 @@ description: "Meet the Grand Bleu de Gascogne, a large French scent hound with a
 category: "dogs"
 species: "Grand Bleu de Gascogne"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Grand Bleu de Gascogne dog"
+heroImage: "/images/grand-bleu-de-gascogne.jpg"
+heroImageAlt: "A Grand Bleu de Gascogne"
 tags: ["grand-bleu-de-gascogne", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "RanchoRosco"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Grand_Bleu_de_Gascogne_in_a_blue_dogcollar.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Grand Bleu de Gascogne is an ancient French scent hound from the Gascony region in the southwest of France. Bred over centuries to track large game such as boar and deer, it is one of the oldest and largest of the French "bleu" hounds. Its striking mottled coat, deep voice and gentle character have made it a recognisable figure in pack hunting traditions, and it is increasingly appreciated as a calm, affectionate companion for owners who can meet its needs.

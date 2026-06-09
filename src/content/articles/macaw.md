@@ -4,11 +4,14 @@ description: "Learn how to care for a macaw, including cage size, diet, enrichme
 category: "birds"
 species: "Macaw"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/macaw.jpg"
 heroImageAlt: "A Macaw"
 tags: ["macaw", "birds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "LancerEvolution ; from New Jersey, United States (USA)"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Ara_macao,_Ara_ararauna_and_Ara_militaris.jpg"
+heroLicense: "CC BY 2.0"
 ---
 
 Macaws are among the largest and most striking parrots in the world, prized for their brilliant plumage, sharp intelligence and powerful personalities. They are rewarding companions for experienced bird keepers, but their size, noise and decades-long lifespan make them a serious, lifelong commitment.

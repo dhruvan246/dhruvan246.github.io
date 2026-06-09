@@ -4,11 +4,14 @@ description: "Care guide to the Ibizan Hound: an elegant, athletic sighthound wi
 category: "dogs"
 species: "Ibizan Hound"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Ibizan Hound dog"
+heroImage: "/images/ibizan-hound.jpg"
+heroImageAlt: "A Ibizan Hound"
 tags: ["ibizan-hound", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Jan Eduard, corrected by Pleple2000"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Podenco_z_ibizy_645.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Ibizan Hound is a lean, agile sighthound known for its large upright ears, amber eyes, and remarkable jumping ability. Originating in the Balearic Islands of Spain, this ancient hunting breed is friendly, clever, and athletic, making a striking yet relatively low-maintenance companion.

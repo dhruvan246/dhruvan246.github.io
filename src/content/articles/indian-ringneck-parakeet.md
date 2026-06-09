@@ -4,11 +4,14 @@ description: "Learn how to care for an Indian Ringneck Parakeet, covering housin
 category: "birds"
 species: "Indian Ringneck Parakeet"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/indian-ringneck-parakeet.jpg"
 heroImageAlt: "A Indian Ringneck Parakeet"
 tags: ["indian-ringneck-parakeet", "birds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "danielskatz"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:African_Rose-ringed_Parakeet,_Tendaba,_Gambia_1.jpg"
+heroLicense: "CC BY 4.0"
 ---
 
 The Indian Ringneck Parakeet (*Psittacula krameri*) is a striking, intelligent parrot prized for its vivid colors, impressive talking ability, and bold personality. With consistent attention and training, it can become a confident, engaging companion that bonds closely with its keeper.

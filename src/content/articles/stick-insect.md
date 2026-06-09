@@ -4,11 +4,14 @@ description: "Learn how to care for a stick insect, from setting up a humid encl
 category: "invertebrates"
 species: "Stick Insect"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/stick-insect.jpg"
 heroImageAlt: "A Stick Insect"
 tags: ["stick-insect", "invertebrates", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Fritz Geller-Grimm and Felix Grimm"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Le_Caylar_fg01.JPG"
+heroLicense: "CC BY-SA 2.5"
 ---
 
 Stick insects, also called phasmids, are among the easiest and most fascinating invertebrate pets to keep. Their twig-like bodies, slow movements, and undemanding nature make them popular with beginners, children, and classrooms. With a simple enclosure and a steady supply of fresh leaves, these gentle insects thrive in captivity.

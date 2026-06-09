@@ -4,11 +4,14 @@ description: "Complete Standard Schnauzer care guide covering this bearded Germa
 category: "dogs"
 species: "Standard Schnauzer"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Standard Schnauzer dog"
+heroImage: "/images/standard-schnauzer.jpg"
+heroImageAlt: "A Standard Schnauzer"
 tags: ["standard-schnauzer", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Tamorlan"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Standard_Grey_Schnauzer_(cropped).JPG"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Standard Schnauzer is a robust, square-built German working dog and the original of the three schnauzer breeds, sized between the Miniature and the Giant. Instantly recognizable by its bushy eyebrows, bristly beard, and harsh wiry coat, it is a spirited, intelligent companion that combines a guardian's alertness with playful family devotion.

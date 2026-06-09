@@ -4,11 +4,14 @@ description: "Care guide for the Spanish Mastiff: a giant Spanish livestock guar
 category: "dogs"
 species: "Spanish Mastiff"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Spanish Mastiff dog"
+heroImage: "/images/spanish-mastiff.jpg"
+heroImageAlt: "A Spanish Mastiff"
 tags: ["spanish-mastiff", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Canarian"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Spanish_Mastiff.JPG"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Spanish Mastiff (Mastín Español) is an ancient giant breed developed over centuries on the Iberian Peninsula to guard flocks of sheep against wolves and other predators during seasonal migrations. Calm, devoted and deeply protective, it is a guardian rather than a sporting dog, and its sheer size and instincts make it a serious commitment best suited to experienced owners with plenty of space.

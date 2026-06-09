@@ -4,11 +4,14 @@ description: "Care guide for the Small Munsterlander: this versatile German gund
 category: "dogs"
 species: "Small Munsterlander"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Small Munsterlander dog"
+heroImage: "/images/small-munsterlander.jpg"
+heroImageAlt: "A Small Munsterlander"
 tags: ["small-munsterlander", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "4028mdk09"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Kleiner_M%C3%BCnsterl%C3%A4nder.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Small Munsterlander (Kleiner Münsterländer) is a versatile German hunting dog bred to point, track and retrieve on land and in water. Despite its name, it is a medium-sized gundog with a handsome spaniel-like coat, a keen nose and a friendly, people-oriented nature that also makes it a devoted family companion.

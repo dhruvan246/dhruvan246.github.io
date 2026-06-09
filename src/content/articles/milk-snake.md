@@ -4,11 +4,14 @@ description: "Learn how to keep a Milk Snake, covering enclosure setup, heating,
 category: "reptiles"
 species: "Milk Snake"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/milk-snake.jpg"
 heroImageAlt: "A Milk Snake"
 tags: ["milk-snake", "reptiles", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "The original uploader was BillC at English Wikipedia."
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Red_milk_snake.JPG"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Milk Snake (*Lampropeltis triangulum*) is a non-venomous North and Central American constrictor prized for its bold rings of red, black, and white or yellow. A type of kingsnake, it is hardy, manageable in size, and a popular choice for keepers moving beyond their first reptile.

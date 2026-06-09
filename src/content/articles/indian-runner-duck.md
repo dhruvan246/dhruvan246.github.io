@@ -4,11 +4,14 @@ description: "Learn how to keep Indian Runner Ducks happy with the right space, 
 category: "farm-pets"
 species: "Indian Runner Duck"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/indian-runner-duck.jpg"
 heroImageAlt: "A Indian Runner Duck"
 tags: ["indian-runner-duck", "farm-pets", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Bjoern Clauss"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Runner-ducks.jpg"
+heroLicense: "CC BY-SA 2.5"
 ---
 
 The Indian Runner is one of the most recognizable domestic duck breeds, famous for standing nearly upright and running rather than waddling. Originally raised across Southeast Asia as prolific egg layers and pest controllers, Runners are lightweight, energetic, and a favourite on small farms and homesteads.

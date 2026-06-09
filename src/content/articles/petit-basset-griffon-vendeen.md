@@ -4,11 +4,14 @@ description: "Care guide to the Petit Basset Griffon Vendeen: a cheerful, shaggy
 category: "dogs"
 species: "Petit Basset Griffon Vendeen"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Petit Basset Griffon Vendeen dog"
+heroImage: "/images/petit-basset-griffon-vendeen.jpg"
+heroImageAlt: "A Petit Basset Griffon Vendeen"
 tags: ["petit-basset-griffon-vendeen", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Sannse"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:P_Basset_Griffon_Vendeen_600.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Cheerful, scruffy and endlessly curious, the Petit Basset Griffon Vendeen (often shortened to PBGV) is a small French scent hound bred to hunt rabbit and hare over the rough terrain of the Vendee region. With a shaggy double coat, low-slung body and a famously merry disposition, this hardy hound has won fans well beyond the field as a sturdy, fun-loving companion.

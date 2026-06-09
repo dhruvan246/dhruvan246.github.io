@@ -4,11 +4,14 @@ description: "Care guide for the Japanese Chin: an elegant, cat-like toy compani
 category: "dogs"
 species: "Japanese Chin"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Japanese Chin dog"
+heroImage: "/images/japanese-chin.jpg"
+heroImageAlt: "A Japanese Chin"
 tags: ["japanese-chin", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Joliot"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Chin_posing.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Japanese Chin is an aristocratic toy companion long associated with Japanese and Chinese nobility. Refined, quiet and remarkably graceful, the Chin is often described as the most cat-like of dogs, prone to climbing onto high perches, washing its face with a paw and watching the household with calm, knowing eyes. Its flowing coat, plumed tail and distinctively flat face give it an elegant, almost regal appearance that has charmed owners for centuries.

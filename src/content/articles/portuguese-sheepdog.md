@@ -4,11 +4,14 @@ description: "Care guide for the Portuguese Sheepdog (Cão da Serra de Aires), a
 category: "dogs"
 species: "Portuguese Sheepdog"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Portuguese Sheepdog dog"
+heroImage: "/images/portuguese-sheepdog.jpg"
+heroImageAlt: "A Portuguese Sheepdog"
 tags: ["portuguese-sheepdog", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Cao_de_Serra_de_Aires600.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Portuguese Sheepdog, known in its homeland as the Cão da Serra de Aires, is a medium-sized herding breed developed in the Serra de Aires region of southern Portugal. Prized by shepherds for its agility and devotion, it earned the affectionate nickname "monkey dog" for its lively expression and shaggy coat. Today it is a spirited, loyal companion for active homes.

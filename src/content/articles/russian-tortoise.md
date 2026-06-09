@@ -4,11 +4,14 @@ description: "Learn how to keep a Russian Tortoise happy and healthy, covering e
 category: "reptiles"
 species: "Russian Tortoise"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/russian-tortoise.jpg"
 heroImageAlt: "A Russian Tortoise"
 tags: ["russian-tortoise", "reptiles", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Yuriy75"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Testudo_horsfieldii;_Baikonur_001.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Russian Tortoise (*Testudo horsfieldii*), also called the Horsfield's or steppe tortoise, is one of the most popular pet tortoises. Hardy, personable, and compact, it suits keepers who can provide a dry, spacious habitat and a high-fiber plant diet.

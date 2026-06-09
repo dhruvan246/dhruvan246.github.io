@@ -4,11 +4,14 @@ description: "Care guide for the Hovawart, a large German working dog known for 
 category: "dogs"
 species: "Hovawart"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Hovawart dog"
+heroImage: "/images/hovawart.jpg"
+heroImageAlt: "A Hovawart"
 tags: ["hovawart", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Ursula Schneider / Nürmbrecht"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Helos_11.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Hovawart is a large, powerful working breed from Germany, traditionally bred to guard farms and estates. Its name comes from old German words meaning "yard watchman." Devoted, intelligent, and naturally protective, the Hovawart bonds closely with its family while remaining reserved toward strangers.

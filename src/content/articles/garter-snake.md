@@ -4,11 +4,14 @@ description: "Learn how to keep a garter snake healthy with the right enclosure,
 category: "reptiles"
 species: "Garter Snake"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/garter-snake.jpg"
 heroImageAlt: "A Garter Snake"
 tags: ["garter-snake", "reptiles", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Wilson44691"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Thamnophis_sirtalis_sirtalis_Wooster.jpg"
+heroLicense: "Public domain"
 ---
 
 The garter snake (genus *Thamnophis*) is one of North America's most familiar and widespread snakes, and it has become a popular beginner reptile. These small, active, day-loving snakes are non-venomous, hardy, and far more inquisitive than many other pet serpents, which makes watching them genuinely entertaining.

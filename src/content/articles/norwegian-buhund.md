@@ -4,11 +4,14 @@ description: "Care guide to the Norwegian Buhund, a hardy Nordic spitz and herdi
 category: "dogs"
 species: "Norwegian Buhund"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Norwegian Buhund dog"
+heroImage: "/images/norwegian-buhund.jpg"
+heroImageAlt: "A Norwegian Buhund"
 tags: ["norwegian-buhund", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Norwegian_Buhund_600.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Norwegian Buhund is a compact, energetic spitz from Norway, where it has long worked as an all-purpose farm dog herding livestock and guarding the homestead. Lively, affectionate and quick to learn, this medium-sized companion thrives in active homes that can match its tireless enthusiasm.

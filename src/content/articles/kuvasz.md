@@ -4,11 +4,14 @@ description: "Care guide for the Kuvasz, a large white Hungarian livestock guard
 category: "dogs"
 species: "Kuvasz"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Kuvasz dog"
+heroImage: "/images/kuvasz.jpg"
+heroImageAlt: "A Kuvasz"
 tags: ["kuvasz", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Erdelyi kopo"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Kuvasz_named_Kan.jpg"
+heroLicense: "Public domain"
 ---
 
 The Kuvasz is an ancient Hungarian livestock guardian breed, prized for centuries for protecting flocks and estates. Today this striking white dog remains a devoted, watchful family guardian that thrives with experienced, committed owners.

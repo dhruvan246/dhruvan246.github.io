@@ -4,11 +4,14 @@ description: "A complete care guide to the Stabyhoun, a rare Dutch dual-purpose 
 category: "dogs"
 species: "Stabyhoun"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Stabyhoun dog"
+heroImage: "/images/stabyhoun.jpg"
+heroImageAlt: "A Stabyhoun"
 tags: ["stabyhoun", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "mjk23"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Frisianstaby.jpg"
+heroLicense: "CC BY 2.0"
 ---
 
 The Stabyhoun is a rare, versatile dog breed from the Friesland region of the Netherlands, where it was traditionally kept on farms as an all-purpose hunter, watchdog and family companion. Though still uncommon outside its homeland, the breed has earned a devoted following for its calm, friendly nature and willingness to work. Its name is often linked to the Frisian phrase meaning "stand by me dog," which suits this loyal, people-oriented breed well.

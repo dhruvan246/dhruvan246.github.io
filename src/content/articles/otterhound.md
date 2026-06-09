@@ -4,11 +4,14 @@ description: "Care guide to the Otterhound, a large rough-coated scent hound: te
 category: "dogs"
 species: "Otterhound"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Otterhound dog"
+heroImage: "/images/otterhound.jpg"
+heroImageAlt: "A Otterhound"
 tags: ["otterhound", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "No machine-readable author provided. Machinecha~commonswiki assumed (based on copyright claims)."
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Two_otterhounds.jpg"
+heroLicense: "Public domain"
 ---
 
 The Otterhound is a large, shaggy British scent hound originally bred to hunt otters along rivers. Friendly, boisterous and endearingly clownish, it is also one of the rarest native dog breeds in the world.

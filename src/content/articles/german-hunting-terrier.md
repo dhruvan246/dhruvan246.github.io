@@ -4,11 +4,14 @@ description: "Learn how to care for the German Hunting Terrier (Jagdterrier), a 
 category: "dogs"
 species: "German Hunting Terrier"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A German Hunting Terrier dog"
+heroImage: "/images/german-hunting-terrier.jpg"
+heroImageAlt: "A German Hunting Terrier"
 tags: ["german-hunting-terrier", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Svenska Mässan from Sweden"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Grupp_3,_TYSK_JAKTTERRIER,_Stollfors_Larionov_(23942381219).jpg"
+heroLicense: "CC BY 2.0"
 ---
 
 The German Hunting Terrier, known in its homeland as the Deutscher Jagdterrier, is a compact, intensely driven working dog developed in Germany in the early 20th century. Bred purely for function rather than looks, it remains one of the most determined and versatile hunting terriers in the world.

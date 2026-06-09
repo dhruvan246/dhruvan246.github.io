@@ -4,11 +4,14 @@ description: "Care guide for the White Cloud Mountain Minnow, a hardy, cool-wate
 category: "fish"
 species: "White Cloud Mountain Minnow"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/white-cloud-mountain-minnow.jpg"
 heroImageAlt: "A White Cloud Mountain Minnow"
 tags: ["white-cloud-mountain-minnow", "fish", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:White_Cloud_Mountain_Minnow_1.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The White Cloud Mountain Minnow (*Tanichthys albonubes*) is a small, peaceful schooling fish that has earned the nickname "the poor man's neon tetra" for its bright colours and easygoing nature. Hardy, inexpensive, and tolerant of cooler temperatures, it is one of the best fish for beginners and for unheated nano aquariums.

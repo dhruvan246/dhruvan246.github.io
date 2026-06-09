@@ -4,11 +4,14 @@ description: "Learn how to keep a Gargoyle Gecko healthy with this care guide co
 category: "reptiles"
 species: "Gargoyle Gecko"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/gargoyle-gecko.png"
 heroImageAlt: "A Gargoyle Gecko"
 tags: ["gargoyle-gecko", "reptiles", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Generish"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Gargoylegecko_2017_(cropped).png"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Gargoyle Gecko (*Rhacodactylus auriculatus*) is a hardy, arboreal lizard native to the forests of southern New Caledonia. Named for the bumpy, horn-like cranial crests above its eyes, it has become a favorite among keepers who want a low-maintenance, room-temperature gecko with bold patterns and an easygoing nature.

@@ -4,11 +4,14 @@ description: "Learn how to keep a Pacman Frog: tank setup, humidity, substrate, 
 category: "amphibians"
 species: "Pacman Frog"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/pacman-frog.jpg"
 heroImageAlt: "A Pacman Frog"
 tags: ["pacman-frog", "amphibians", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Diberri and Celgeofrog"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Cranwell%27s_horned_frog.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Pacman Frog (genus *Ceratophrys*), also called the South American horned frog, is one of the most popular pet amphibians. Named after the round, wide-mouthed arcade character, it is a sit-and-wait ambush predator that spends most of its life half-buried, waiting for a meal to wander close.

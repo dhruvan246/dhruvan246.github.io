@@ -4,11 +4,14 @@ description: "Care guide to the Wirehaired Vizsla: a versatile Hungarian gundog 
 category: "dogs"
 species: "Wirehaired Vizsla"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Wirehaired Vizsla dog"
+heroImage: "/images/wirehaired-vizsla.jpg"
+heroImageAlt: "A Wirehaired Vizsla"
 tags: ["wirehaired-vizsla", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Noveczki Katalin"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Dr%C3%B3tosvizsla_vadat_%C3%A1ll.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Wirehaired Vizsla is a Hungarian hunting breed developed in the early 20th century by crossing the smooth Vizsla with wirehaired pointing stock to create a tougher, weather-resistant gundog. Athletic, affectionate and intelligent, it combines the loving "velcro dog" personality of its relative with a rugged coat built for cold water and dense cover.

@@ -4,11 +4,14 @@ description: "A complete Goldendoodle care guide covering size, temperament, die
 category: "dogs"
 species: "Goldendoodle"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Goldendoodle dog"
+heroImage: "/images/goldendoodle.jpg"
+heroImageAlt: "A Goldendoodle"
 tags: ["goldendoodle", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Gullpavon"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Golden_Doodle_Standing_(HD).jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 Friendly, clever and famously sociable, the Goldendoodle is a popular crossbreed created by mating a Golden Retriever with a Poodle. Bred largely from the 1990s onward as a companion and assistance dog, it combines the easy-going warmth of the Golden with the smarts and low-shedding coat of the Poodle.

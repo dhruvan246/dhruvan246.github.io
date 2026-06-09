@@ -4,11 +4,14 @@ description: "Care guide for the Russian Toy, a tiny elegant Russian companion b
 category: "dogs"
 species: "Russian Toy"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Russian Toy dog"
+heroImage: "/images/russian-toy.jpg"
+heroImageAlt: "A Russian Toy"
 tags: ["russian-toy", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:RusskiyToyWelpe9Mon.JPG"
+heroLicense: "Public domain"
 ---
 
 The Russian Toy is one of the smallest dog breeds in the world, a refined and affectionate companion developed in Russia from English Toy Terrier stock. Elegant, alert, and deeply devoted, this little dog packs a surprising amount of personality into a delicate frame.

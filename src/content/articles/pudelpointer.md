@@ -4,11 +4,14 @@ description: "Meet the Pudelpointer, a versatile German hunting dog. Learn this 
 category: "dogs"
 species: "Pudelpointer"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Pudelpointer dog"
+heroImage: "/images/pudelpointer.jpg"
+heroImageAlt: "A Pudelpointer"
 tags: ["pudelpointer", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Pudelpointer_on_point.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Pudelpointer is a versatile German hunting dog created in the late 19th century by crossing the Poodle with the English Pointer. The aim was a single dog that could point, retrieve and work in water across field and forest. Today it remains an uncommon but highly capable gundog, valued for its trainability, even temperament and weather-resistant coat.

@@ -4,11 +4,14 @@ description: "Learn how to care for a pet hedgehog, from spacious heated housing
 category: "exotic"
 species: "Hedgehog"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/hedgehog.jpg"
 heroImageAlt: "A Hedgehog"
 tags: ["hedgehog", "exotic", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Gibe"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Igel.JPG"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The most common pet hedgehog is the African pygmy hedgehog, a small, spiny, nocturnal insectivore. Though endearing, they are exotic animals with specific needs and a reserved temperament, making them better suited to patient, quiet owners than to young children.

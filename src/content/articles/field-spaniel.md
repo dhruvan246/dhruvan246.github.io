@@ -4,11 +4,14 @@ description: "Care guide to the Field Spaniel: a calm, devoted medium spaniel wi
 category: "dogs"
 species: "Field Spaniel"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Field Spaniel dog"
+heroImage: "/images/field-spaniel.jpg"
+heroImageAlt: "A Field Spaniel"
 tags: ["field-spaniel", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Pleple2000"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Field_spaniel_581.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Field Spaniel is a calm, affectionate gundog that often flies under the radar compared with its Cocker and Springer cousins. Bred in Britain to flush and retrieve game, it pairs a gentle, devoted nature with a love of outdoor work, making it a steady companion for an active, attentive home.

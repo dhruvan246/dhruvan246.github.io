@@ -4,11 +4,14 @@ description: "A complete guide to the Havanese — their affectionate nature, si
 category: "dogs"
 species: "Havanese"
 pubDate: 2026-03-28
-heroImage: ""
-heroImageAlt: "A silky-coated Havanese dog"
+heroImage: "/images/havanese.jpg"
+heroImageAlt: "A Havanese"
 tags: ["havanese", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "RenaatPeeters"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:DJI_0197_crp_wiki.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The national dog of Cuba, the Havanese is a charming, affectionate companion with a silky coat and an irrepressibly happy nature. Sociable and adaptable, they thrive as devoted family lap dogs.

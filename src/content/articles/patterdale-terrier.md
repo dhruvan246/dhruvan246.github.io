@@ -4,11 +4,14 @@ description: "Care guide for the Patterdale Terrier, a small, fearless working t
 category: "dogs"
 species: "Patterdale Terrier"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Patterdale Terrier dog"
+heroImage: "/images/patterdale-terrier.jpg"
+heroImageAlt: "A Patterdale Terrier"
 tags: ["patterdale-terrier", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Alephalpha"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:05078045_Patterdale_Terrier.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Patterdale Terrier is a small, tough, and fearless working terrier that originated in the Lake District of northern England. Bred to hunt foxes and other quarry across rugged fell country, it remains one of the most determined and hard-working of the small terrier breeds.

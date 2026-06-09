@@ -4,11 +4,14 @@ description: "Care guide to the Schipperke, the bold Belgian 'little captain': f
 category: "dogs"
 species: "Schipperke"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Schipperke dog"
+heroImage: "/images/schipperke.jpg"
+heroImageAlt: "A Schipperke"
 tags: ["schipperke", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "No machine-readable author provided. 鏑木對馬守 assumed (based on copyright claims)."
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Schipperke0001.jpg"
+heroLicense: "Public domain"
 ---
 
 Nicknamed the "little captain," the Schipperke is a small black Belgian breed that once guarded barges and shops along the canals of Brussels. Curious, fearless and full of energy, this fox-faced dog packs a big personality into a compact, tailless frame and thrives with active owners who appreciate a watchful, mischievous companion.

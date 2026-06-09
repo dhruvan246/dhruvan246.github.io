@@ -4,11 +4,14 @@ description: "Everything about the Keeshond — their friendly nature, plush coa
 category: "dogs"
 species: "Keeshond"
 pubDate: 2026-03-13
-heroImage: ""
-heroImageAlt: "A grey and black Keeshond with a plush coat and spectacles markings"
+heroImage: "/images/keeshond.jpg"
+heroImageAlt: "A Keeshond"
 tags: ["keeshond", "medium dogs", "spitz breeds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "dancing with wolves"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Keeshond_Majic_standing_cropped.jpg"
+heroLicense: "CC BY 2.0"
 ---
 
 A fluffy, friendly spitz from the Netherlands, the Keeshond is famous for its plush grey coat, expressive "spectacles" markings and warm, sociable nature. Devoted and people-loving, the "Kees" makes a wonderful family companion.

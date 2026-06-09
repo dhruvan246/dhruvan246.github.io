@@ -4,11 +4,14 @@ description: "Care guide to the Schapendoes, a shaggy-coated Dutch herding dog k
 category: "dogs"
 species: "Schapendoes"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Schapendoes dog"
+heroImage: "/images/schapendoes.jpg"
+heroImageAlt: "A Schapendoes"
 tags: ["schapendoes", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Jennifernl123 Angela van Lieshout"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Nederlandse-schapendoes-02.jpg"
+heroLicense: "Public domain"
 ---
 
 The Schapendoes, sometimes called the Dutch Sheepdog, is a lively, shaggy herding breed from the Netherlands. Once a common farm dog used to drive flocks, it nearly disappeared during the mid-20th century before dedicated breeders revived it. Today it is prized as an agile, affectionate companion with a famously springy, bounding gait.

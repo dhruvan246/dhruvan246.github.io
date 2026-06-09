@@ -4,11 +4,14 @@ description: "Learn how to keep a Tiger Salamander: a hardy burrowing amphibian 
 category: "amphibians"
 species: "Tiger Salamander"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/tiger-salamander.png"
 heroImageAlt: "A Tiger Salamander"
 tags: ["tiger-salamander", "amphibians", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Carla Isabel Ribeiro"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Salamandra_Tigre.png"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Tiger Salamander (*Ambystoma tigrinum*) is one of the largest land-dwelling salamanders in North America and a popular choice for amphibian keepers. Hardy, long-lived, and full of personality, it rewards a stable, low-stress setup with years of fascinating behaviour.

@@ -4,11 +4,14 @@ description: "Care guide for the Wirehaired Pointing Griffon: this rugged Kortha
 category: "dogs"
 species: "Wirehaired Pointing Griffon"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Wirehaired Pointing Griffon dog"
+heroImage: "/images/wirehaired-pointing-griffon.jpg"
+heroImageAlt: "A Wirehaired Pointing Griffon"
 tags: ["wirehaired-pointing-griffon", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "CarolPtak"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:GCH_Int_Ch_UCH_Zerubbabel_von_Herrenhausen_CGC_MHA.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Wirehaired Pointing Griffon, sometimes called the Korthals Griffon, is a versatile hunting dog developed in continental Europe to point and retrieve on land and in water. Known for its harsh, weatherproof coat and shaggy beard and eyebrows, this breed is a hardworking field companion and an affectionate, people-oriented family dog.

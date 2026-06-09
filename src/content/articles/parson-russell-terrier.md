@@ -4,11 +4,14 @@ description: "Care guide for the Parson Russell Terrier, a small, energetic fox-
 category: "dogs"
 species: "Parson Russell Terrier"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Parson Russell Terrier dog"
+heroImage: "/images/parson-russell-terrier.jpg"
+heroImageAlt: "A Parson Russell Terrier"
 tags: ["parson-russell-terrier", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Alephalpha"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:05052881_PRT_braun_rau.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Parson Russell Terrier is a small, square-built working terrier originally bred in 19th-century England to run alongside foxhounds and bolt foxes from their dens. Named after the Reverend John "Jack" Russell, this breed combines plucky courage with an affectionate, lively nature, making it a spirited companion for active households.

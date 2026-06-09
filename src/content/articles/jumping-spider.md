@@ -4,11 +4,14 @@ description: "Keeping a jumping spider as a pet: a beginner-friendly guide to ho
 category: "invertebrates"
 species: "Jumping Spider"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/jumping-spider.jpg"
 heroImageAlt: "A Jumping Spider"
 tags: ["jumping-spider", "invertebrates", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Kevincollins123"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:PlatycryptusUndatusFemale.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Jumping spiders (family Salticidae) have become beloved invertebrate pets thanks to their large forward-facing eyes, alert personalities, and apparent curiosity toward their keepers. Species like the bold jumper (*Phidippus audax*) and regal jumper (*Phidippus regius*) are popular because they are hardy and easy to observe. This guide covers the essentials of keeping one healthy.

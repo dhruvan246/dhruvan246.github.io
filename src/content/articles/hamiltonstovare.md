@@ -4,11 +4,14 @@ description: "Care guide to the Hamiltonstovare, a large Swedish scenthound: its
 category: "dogs"
 species: "Hamiltonstovare"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Hamiltonstovare dog"
+heroImage: "/images/hamiltonstovare.jpg"
+heroImageAlt: "A Hamiltonstovare"
 tags: ["hamiltonstovare", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "sannse"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Hamiltonstovare_600.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Hamiltonstovare, also known as the Hamilton Hound, is a large Swedish scenthound bred to track hare and fox over long distances. Named after Count Adolf Patrick Hamilton, who helped develop the breed in the late 19th century, it remains popular in Sweden as a hunting companion while also making an affectionate, even-tempered family dog.

@@ -4,11 +4,14 @@ description: "Keeping a pet wallaby requires a large secure outdoor enclosure, a
 category: "exotic"
 species: "Wallaby"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/wallaby.jpg"
 heroImageAlt: "A Wallaby"
 tags: ["wallaby", "exotic", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "User:benjamint444"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Red_necked_wallaby444.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The wallaby is a small to mid-sized marsupial native to Australia and nearby islands. Several species, most commonly the Bennett's (red-necked) and dama (tammar) wallaby, are sometimes kept by experienced exotic keepers. They are grazing, hopping animals that need wide outdoor space and are best suited to dedicated hobbyists rather than first-time pet owners.

@@ -4,11 +4,14 @@ description: "Keeping guinea fowl: a practical care guide covering housing, diet
 category: "farm-pets"
 species: "Guinea Fowl"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/guinea-fowl.jpg"
 heroImageAlt: "A Guinea Fowl"
 tags: ["guinea-fowl", "farm-pets", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Bob"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Numida_meleagris_-Serengeti_National_Park,_Tanzania-8_(1).jpg"
+heroLicense: "CC BY 3.0"
 ---
 
 Guinea fowl are hardy, semi-wild farm birds prized for pest control, watchdog-like alarm calls, and low-maintenance free-ranging. Native to Africa, the helmeted guinea fowl is the species most commonly kept on homesteads and small farms.

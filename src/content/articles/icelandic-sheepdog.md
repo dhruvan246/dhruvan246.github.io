@@ -4,11 +4,14 @@ description: "Care guide to the Icelandic Sheepdog, Iceland's friendly spitz her
 category: "dogs"
 species: "Icelandic Sheepdog"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Icelandic Sheepdog dog"
+heroImage: "/images/icelandic-sheepdog.jpg"
+heroImageAlt: "A Icelandic Sheepdog"
 tags: ["icelandic-sheepdog", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Veronica Druk"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Icelandic_Sheepdog_Alisa_von_Lehenberg.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Icelandic Sheepdog is Iceland's only native dog breed, a hardy Nordic spitz developed to herd sheep, horses, and cattle across rugged terrain. Cheerful, alert, and deeply people-oriented, it remains a beloved farm companion and family dog.

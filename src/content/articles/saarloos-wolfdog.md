@@ -4,11 +4,14 @@ description: "Care guide for the Saarloos Wolfdog, a wolf-like Dutch breed with 
 category: "dogs"
 species: "Saarloos Wolfdog"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Saarloos Wolfdog dog"
+heroImage: "/images/saarloos-wolfdog.jpg"
+heroImageAlt: "A Saarloos Wolfdog"
 tags: ["saarloos-wolfdog", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Claudia Schröder"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Oishani_Othari_van_Koekie%27s_Ranch.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Saarloos Wolfdog is a large, wolf-like breed developed in the Netherlands by Leendert Saarloos, who crossed a German Shepherd with a wolf in the early 20th century with the goal of creating a hardier working dog. The result is a striking, intelligent animal that retains much of the wolf's reserved, instinctive character and is best suited to dedicated, experienced owners.

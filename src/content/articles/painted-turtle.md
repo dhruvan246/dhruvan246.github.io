@@ -4,11 +4,14 @@ description: "Learn how to care for a Painted Turtle, including tank setup, bask
 category: "reptiles"
 species: "Painted Turtle"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/painted-turtle.jpg"
 heroImageAlt: "A Painted Turtle"
 tags: ["painted-turtle", "reptiles", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "MH Herpetology"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Painted_turtle_(Chrysemys_picta)_Madden_Haag.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Painted Turtle (*Chrysemys picta*) is one of North America's most widespread freshwater turtles and a popular choice for aquatic turtle keepers. Hardy, active, and attractively marked, it can thrive in captivity for decades when given a properly sized aquatic setup, basking access, and UVB lighting.

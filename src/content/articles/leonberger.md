@@ -4,11 +4,14 @@ description: "Care guide for the Leonberger, a giant gentle working breed: tempe
 category: "dogs"
 species: "Leonberger"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Leonberger dog"
+heroImage: "/images/leonberger.jpg"
+heroImageAlt: "A Leonberger"
 tags: ["leonberger", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Kurre92"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Leonberger_male.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Leonberger is a giant working breed from the town of Leonberg in Germany, prized for combining impressive size with a calm, family-friendly nature. Often called a "gentle giant," it was historically used as a farm and draft dog and later as a water rescue companion. Today it is a devoted family dog that needs space, grooming time, and steady leadership.

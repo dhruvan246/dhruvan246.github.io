@@ -4,11 +4,14 @@ description: "Care guide for the Russo-European Laika, a hardy black-and-white R
 category: "dogs"
 species: "Russo-European Laika"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Russo-European Laika dog"
+heroImage: "/images/russo-european-laika.jpg"
+heroImageAlt: "A Russo-European Laika"
 tags: ["russo-european-laika", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Konrad Loesch"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Russo_European_Laika_2.jpg"
+heroLicense: "CC BY 2.5"
 ---
 
 The Russo-European Laika is a medium-sized spitz-type hunting dog developed in northern Russia and Scandinavia. Bred to track and bay game in cold forests, it is energetic, courageous, and devoted to its family while remaining wary of strangers.

@@ -4,11 +4,14 @@ description: "Everything about Russian Blue cats — their shy but devoted natur
 category: "cats"
 species: "Russian Blue"
 pubDate: 2026-04-24
-heroImage: ""
-heroImageAlt: "A silvery-blue Russian Blue cat with green eyes"
+heroImage: "/images/russian-blue.jpg"
+heroImageAlt: "A Russian Blue"
 tags: ["russian blue", "cat breeds", "shorthair cats", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Anna Utekhina http://kidsphoto.ru/"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Russian_blue_kitten_(cropped).jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Quiet, elegant and devoted, the Russian Blue is a beautiful breed known for its shimmering blue-grey coat and vivid green eyes. Gentle and a little reserved, they bond deeply with their chosen people.

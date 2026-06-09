@@ -4,11 +4,14 @@ description: "Care guide for the Large Munsterlander: this versatile black-and-w
 category: "dogs"
 species: "Large Munsterlander"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Large Munsterlander dog"
+heroImage: "/images/large-munsterlander.jpg"
+heroImageAlt: "A Large Munsterlander"
 tags: ["large-munsterlander", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Pia C. Groening"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:GrosserMuensterlaender.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Large Munsterlander is a versatile German gundog bred to point, track and retrieve game on land and in water. Known for its striking black-and-white coat and affectionate, people-oriented nature, this athletic breed thrives with active families who can give it plenty of work and companionship.

@@ -4,11 +4,14 @@ description: "Care guide to the Nova Scotia Duck Tolling Retriever: this clever,
 category: "dogs"
 species: "Nova Scotia Duck Tolling Retriever"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Nova Scotia Duck Tolling Retriever dog"
+heroImage: "/images/nova-scotia-duck-tolling-retriever.jpg"
+heroImageAlt: "A Nova Scotia Duck Tolling Retriever"
 tags: ["nova-scotia-duck-tolling-retriever", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Cal119 at English Wikipedia"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Duck_Toller.jpg"
+heroLicense: "Public domain"
 ---
 
 The Nova Scotia Duck Tolling Retriever, affectionately called the "Toller," is the smallest of the retrievers. Developed in the Little River area of Nova Scotia, Canada, this breed was bred to "toll," or lure, waterfowl within gun range by playing along the shoreline before retrieving downed birds. The result is a compact, athletic, intensely driven dog that blends a working spirit with strong devotion to family.

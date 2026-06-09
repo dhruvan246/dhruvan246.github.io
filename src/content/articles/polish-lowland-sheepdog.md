@@ -4,11 +4,14 @@ description: "Care guide for the Polish Lowland Sheepdog (PON): a shaggy, medium
 category: "dogs"
 species: "Polish Lowland Sheepdog"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Polish Lowland Sheepdog dog"
+heroImage: "/images/polish-lowland-sheepdog.jpg"
+heroImageAlt: "A Polish Lowland Sheepdog"
 tags: ["polish-lowland-sheepdog", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Pleple2000"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Polski_owczarek_nizinny_rybnik-kamien_pl.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Polish Lowland Sheepdog, known in its homeland as the Polski Owczarek Nizinny (often shortened to PON), is a compact, shaggy herding dog with a long history of working flocks across the plains of Poland. Hardy, clever, and devoted, the breed combines a watchful guarding instinct with an affectionate family temperament.

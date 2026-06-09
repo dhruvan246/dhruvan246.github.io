@@ -4,11 +4,14 @@ description: "Care guide to the Weimaraner, the silver-grey Grey Ghost gundog: t
 category: "dogs"
 species: "Weimaraner"
 pubDate: 2026-04-09
-heroImage: ""
-heroImageAlt: "A Weimaraner dog"
+heroImage: "/images/weimaraner.jpg"
+heroImageAlt: "A Weimaraner"
 tags: ["weimaraner", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Rufus46"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Weimaraner_Freika-2.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 Nicknamed the "Grey Ghost" for its sleek silver-grey coat and pale eyes, the Weimaraner is an athletic German hunting dog bred to work all day in the field. Devoted, intelligent and tireless, it suits an active owner who can keep both its body and mind busy.

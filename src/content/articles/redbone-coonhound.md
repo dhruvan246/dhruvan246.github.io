@@ -4,11 +4,14 @@ description: "Care guide for the Redbone Coonhound: the friendly, even-tempered 
 category: "dogs"
 species: "Redbone Coonhound"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Redbone Coonhound dog"
+heroImage: "/images/redbone-coonhound.jpg"
+heroImageAlt: "A Redbone Coonhound"
 tags: ["redbone-coonhound", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "127177p"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Redbone-coonhound-detail.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Redbone Coonhound is a striking American scenthound, instantly recognizable by its solid, glossy red coat. Bred in the southern United States to trail and tree raccoons and other game over rugged terrain, it pairs a serious working nose with a famously easygoing, affectionate manner at home.

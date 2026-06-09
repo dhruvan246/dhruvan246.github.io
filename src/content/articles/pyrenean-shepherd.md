@@ -4,11 +4,14 @@ description: "Pyrenean Shepherd care guide covering this energetic French herdin
 category: "dogs"
 species: "Pyrenean Shepherd"
 pubDate: 2026-04-12
-heroImage: ""
-heroImageAlt: "A Pyrenean Shepherd dog"
+heroImage: "/images/pyrenean-shepherd.jpg"
+heroImageAlt: "A Pyrenean Shepherd"
 tags: ["pyrenean-shepherd", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "No machine-readable author provided. KeJa~commonswiki assumed (based on copyright claims)."
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Berger-des-Pyrenees_Ellea_800x600.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Pyrenean Shepherd, or "Pyr Shep," is a small-to-medium herding dog from the mountains of southern France. For centuries it worked alongside the larger Great Pyrenees, with the smaller Pyr Shep moving and gathering the flocks while its companion guarded them. Lively, devoted, and famously energetic, it is considered one of the most active and intense of all herding breeds.

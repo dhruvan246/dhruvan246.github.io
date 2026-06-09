@@ -4,11 +4,14 @@ description: "A care guide to the Shikoku, a rare medium-sized Japanese spitz br
 category: "dogs"
 species: "Shikoku"
 pubDate: 2026-03-01
-heroImage: ""
-heroImageAlt: "A Shikoku dog"
+heroImage: "/images/shikoku.png"
+heroImageAlt: "A Shikoku"
 tags: ["shikoku", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Jeff Schmaltz, MODIS Land Rapid Response Team, NASA GSFC"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Satellite_image_of_Shikoku_in_April_2018.png"
+heroLicense: "Public domain"
 ---
 
 The Shikoku is a rare, medium-sized Japanese spitz breed that originated in the mountainous Kochi region of Shikoku island, where it was developed to hunt wild boar and deer over rugged terrain. One of Japan's six native "Nihon Ken" breeds, it was designated a Living Natural Monument in 1937. Agile, hardy, and deeply loyal, the Shikoku combines wolf-like looks with a spirited, intelligent character.

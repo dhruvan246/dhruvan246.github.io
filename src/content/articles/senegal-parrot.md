@@ -4,11 +4,14 @@ description: "Learn how to care for a Senegal Parrot, including cage setup, diet
 category: "birds"
 species: "Senegal Parrot"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/senegal-parrot.jpg"
 heroImageAlt: "A Senegal Parrot"
 tags: ["senegal-parrot", "birds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "ThomHasi at English Wikipedia"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Senegal-parrot-montage-2.jpg"
+heroLicense: "CC BY 2.5"
 ---
 
 The Senegal Parrot (*Poicephalus senegalus*) is a small, stocky African parrot prized for its quiet nature, charming personality, and manageable size. Native to the woodlands of West Africa, it has become a popular companion bird for those who want an engaging parrot without the volume of larger species.

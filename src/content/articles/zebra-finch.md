@@ -4,11 +4,14 @@ description: "Learn how to care for a Zebra Finch, a small, social songbird that
 category: "birds"
 species: "Zebra Finch"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/zebra-finch.png"
 heroImageAlt: "A Zebra Finch"
 tags: ["zebra-finch", "birds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "see source"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Zebra_finch_group.png"
+heroLicense: "CC BY 2.5"
 ---
 
 The Zebra Finch is one of the most popular small pet birds in the world, prized for its cheerful chatter, hardy nature, and charming social behavior. Native to the arid grasslands of Australia, it has been kept and bred in captivity for generations, making it well suited to first-time bird keepers who want active, engaging pets that do not demand constant handling.
