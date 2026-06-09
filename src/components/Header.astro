@@ -1,30 +1,64 @@
 ---
-import { SITE_TITLE, CATEGORIES } from '../consts.ts';
-// Show the first 5 categories in the top nav to keep it tidy.
-const topNav = CATEGORIES.slice(0, 5);
+import { SITE_TITLE } from '../consts.ts';
+
+const navLinks = [
+  { href: '/category/dogs', label: 'Dogs' },
+  { href: '/category/cats', label: 'Cats' },
+  { href: '/category/birds', label: 'Birds' },
+  { href: '/category/fish', label: 'Fish' },
+  { href: '/category/reptiles', label: 'Reptiles' },
+  { href: '/categories', label: 'All Pets' },
+  { href: '/tools', label: 'Tools' },
+  { href: '/places', label: 'Pet Places' },
+  { href: '/senior-pets', label: 'Senior Pets' },
+  { href: '/search', label: 'Search' },
+  { href: '/about', label: 'About' },
+];
 ---
 <header class="site-header">
   <div class="container bar">
-    <a class="brand" href="/">🐾 {SITE_TITLE}</a>
-    <nav class="nav" aria-label="Primary">
-      {topNav.map((c) => (
-        <a href={`/category/${c.slug}`}>{c.label}</a>
-      ))}
-      <a href="/categories">All Pets</a>
-      <a href="/tools">Tools</a>
-      <a href="/places">Pet Places</a>
-      <a href="/search">Search</a>
-      <a href="/senior-pets">Senior Pets</a>
-      <a href="/about">About</a>
+    <a class="brand" href="/" aria-label={`${SITE_TITLE} home`}>
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 64 64" width="34" height="34">
+          <rect width="64" height="64" rx="16" fill="#2f8f63" />
+          <g fill="#ffffff">
+            <circle cx="22" cy="24" r="6" /><circle cx="42" cy="24" r="6" />
+            <circle cx="14" cy="36" r="5" /><circle cx="50" cy="36" r="5" />
+            <path d="M32 32c-7 0-12 6-12 12 0 5 4 7 12 7s12-2 12-7c0-6-5-12-12-12z" />
+          </g>
+        </svg>
+      </span>
+      <span class="brand-name">{SITE_TITLE}</span>
+    </a>
+
+    <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+      <span class="nav-toggle-bars"></span>
+    </button>
+
+    <nav class="nav" id="site-nav" aria-label="Primary">
+      {navLinks.map((n) => <a href={n.href}>{n.label}</a>)}
       <a href="/login" class="nav-account" id="nav-account-link">Log in</a>
     </nav>
   </div>
 </header>
 
 <script is:inline>
-  // Reflect Supabase login state in the nav (static site — read the session
-  // straight from localStorage so we don't load the whole Supabase SDK on
-  // every page). Shows the logged-in user's name (or email) linking to /login.
+  // Mobile menu toggle.
+  (function () {
+    var t = document.getElementById('nav-toggle');
+    var n = document.getElementById('site-nav');
+    if (!t || !n) return;
+    function setOpen(open) {
+      n.classList.toggle('open', open);
+      t.classList.toggle('open', open);
+      t.setAttribute('aria-expanded', open ? 'true' : 'false');
+      t.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    }
+    t.addEventListener('click', function () { setOpen(!n.classList.contains('open')); });
+    n.addEventListener('click', function (e) { if (e.target.closest('a')) setOpen(false); });
+  })();
+
+  // Reflect Supabase login state: show the user's name (or email) in the nav.
   (function () {
     try {
       var key = Object.keys(localStorage).find(function (k) {
@@ -43,6 +77,6 @@ const topNav = CATEGORIES.slice(0, 5);
         link.textContent = '👤 ' + name;
         link.setAttribute('title', 'View account / log out');
       }
-    } catch (e) { /* not logged in or storage blocked — leave "Log in" */ }
+    } catch (e) { /* not logged in — leave "Log in" */ }
   })();
 </script>
