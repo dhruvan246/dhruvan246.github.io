@@ -4,11 +4,14 @@ description: "Care guide to the rare Pont-Audemer Spaniel: a curly-coated French
 category: "dogs"
 species: "Pont-Audemer Spaniel"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Pont-Audemer Spaniel dog"
+heroImage: "/images/pont-audemer-spaniel.jpg"
+heroImageAlt: "A Pont-Audemer Spaniel"
 tags: ["pont-audemer-spaniel", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Alephalpha"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:04031158_Epagneul_Pont_Audemer.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Pont-Audemer Spaniel is one of France's rarest gundogs, a curly-coated water specialist developed in the marshes of Normandy. Affectionate, hardy and endlessly willing, this medium-sized retriever-spaniel is prized by the few who know it for its calm home manner and tireless drive in the field.

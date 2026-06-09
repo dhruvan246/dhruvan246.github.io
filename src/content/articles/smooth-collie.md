@@ -4,11 +4,14 @@ description: "A complete Smooth Collie care guide covering this smart, gentle he
 category: "dogs"
 species: "Smooth Collie"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Smooth Collie dog"
+heroImage: "/images/smooth-collie.jpg"
+heroImageAlt: "A Smooth Collie"
 tags: ["smooth-collie", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Mwensley"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:SmoothCollie_TriColour.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Smooth Collie is the short-coated variety of the Collie, sharing the same lean, graceful build and keen herding heritage as its more famous Rough-coated cousin. Intelligent, sensitive, and devoted to its family, this Scottish farm dog combines a gentle temperament with an alert, watchful nature that makes it both a loving companion and a capable working partner.

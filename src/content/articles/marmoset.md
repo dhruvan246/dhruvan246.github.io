@@ -4,11 +4,14 @@ description: "Learn how to care for a marmoset, a tiny New World monkey with com
 category: "exotic"
 species: "Marmoset"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/marmoset.jpg"
 heroImageAlt: "A Marmoset"
 tags: ["marmoset", "exotic", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Carmem A. Busko"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Marmoset_copy.jpg"
+heroLicense: "CC BY 2.5"
 ---
 
 Marmosets are tiny New World primates native to the forests of South America. Their small size and expressive faces make them appealing, but they are intelligent, social, and long-lived animals with demanding needs. Keeping one is a serious, decades-long commitment that is illegal or restricted in many places.

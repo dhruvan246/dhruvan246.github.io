@@ -4,11 +4,14 @@ description: "Learn how to keep the Otocinclus, a tiny peaceful algae-eating cat
 category: "fish"
 species: "Otocinclus"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/otocinclus.jpg"
 heroImageAlt: "A Otocinclus"
 tags: ["otocinclus", "fish", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "CHUCAO"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Otocinclus_arnoldi_(1).JPG"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Otocinclus, often called the "oto" or dwarf sucker, is a tiny South American catfish prized by aquarists for its gentle nature and appetite for algae. Despite their small size, these fish have specific needs that catch out many beginners. With a mature, well-planted tank and a reliable food supply, otos make rewarding, hard-working community residents.

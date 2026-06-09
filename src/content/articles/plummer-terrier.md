@@ -4,11 +4,14 @@ description: "A complete Plummer Terrier care guide covering size, temperament, 
 category: "dogs"
 species: "Plummer Terrier"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Plummer Terrier dog"
+heroImage: "/images/plummer-terrier.jpg"
+heroImageAlt: "A Plummer Terrier"
 tags: ["plummer-terrier", "dogs", "small dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Plummer Terrier Club"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Plummer_Terrier_Nathy.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Plummer Terrier is a small, hardy working terrier developed in England by Brian Plummer in the latter half of the 20th century. Bred for ratting and bolting quarry, it combines drive, courage and a striking tan-and-white coat. It remains a working and companion terrier rather than a show breed, prized by enthusiasts for its tenacity and intelligence.

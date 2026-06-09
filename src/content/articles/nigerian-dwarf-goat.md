@@ -4,11 +4,14 @@ description: "Learn how to keep a Nigerian Dwarf Goat happy: housing, fencing, d
 category: "farm-pets"
 species: "Nigerian Dwarf Goat"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/nigerian-dwarf-goat.jpg"
 heroImageAlt: "A Nigerian Dwarf Goat"
 tags: ["nigerian-dwarf-goat", "farm-pets", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Jmkarohl"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:NigerianDwarfDairyGoat.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Nigerian Dwarf Goat is a small, friendly dairy breed prized by hobby farmers and homesteaders for its manageable size, gentle nature, and surprisingly rich milk. Originally descended from West African stock, these compact goats thrive in backyards and small acreages where a full-sized goat would be impractical.

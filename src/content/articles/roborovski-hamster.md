@@ -4,11 +4,14 @@ description: "Care guide for the Roborovski hamster, the tiny, fast, social dwar
 category: "small-pets"
 species: "Roborovski Hamster"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/roborovski-hamster.jpg"
 heroImageAlt: "A Roborovski Hamster"
 tags: ["roborovski-hamster", "small-pets", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Bullet"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Phodopus_roborovskii.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Roborovski hamster ("Robo") is the smallest of the domesticated dwarf hamster species. Famous for its speed, energy, and tiny size, it is a fascinating pet to watch but is best suited to owners who enjoy observing rather than frequently cuddling their animals.

@@ -4,11 +4,14 @@ description: "Learn how to keep Orpington chickens with this care guide covering
 category: "farm-pets"
 species: "Orpington"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/orpington.jpg"
 heroImageAlt: "A Orpington"
 tags: ["orpington", "farm-pets", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "WisDom-UK"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:White_Hart_pub,_Orpington_High_Street.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Orpington is a large, friendly English chicken breed prized by backyard keepers for its gentle nature, fluffy plumage, and reliable brown eggs. Developed in Orpington, Kent, in the late 1800s, it remains one of the most popular dual-purpose breeds for families and small farms.

@@ -4,11 +4,14 @@ description: "Care guide to the Pharaoh Hound, an elegant, athletic sighthound k
 category: "dogs"
 species: "Pharaoh Hound"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Pharaoh Hound dog"
+heroImage: "/images/pharaoh-hound.jpg"
+heroImageAlt: "A Pharaoh Hound"
 tags: ["pharaoh-hound", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Pleple2000"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Pies_faraona_e34.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Pharaoh Hound is a graceful, athletic sighthound prized for its striking tan coat, amber eyes, and lively, affectionate personality. Originally developed as a hunting and coursing dog, it remains the national hound of Malta and makes a clean, devoted companion for active homes.

@@ -4,11 +4,14 @@ description: "Care guide to the Portuguese Pointer (Perdigueiro Português), a f
 category: "dogs"
 species: "Portuguese Pointer"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Portuguese Pointer dog"
+heroImage: "/images/portuguese-pointer.jpg"
+heroImageAlt: "A Portuguese Pointer"
 tags: ["portuguese-pointer", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Canarian"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Portuguesepointer2.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 One of the oldest pointing breeds, the Portuguese Pointer (Perdigueiro Português) is a sturdy, medium-sized gundog from Portugal, prized for its keen nose, square head and famously affectionate, people-loving nature.

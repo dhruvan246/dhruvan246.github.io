@@ -4,11 +4,14 @@ description: "Care guide for the Norwegian Elkhound: a hardy medium spitz with a
 category: "dogs"
 species: "Norwegian Elkhound"
 pubDate: 2026-06-04
-heroImage: ""
-heroImageAlt: "A Norwegian Elkhound dog"
+heroImage: "/images/norwegian-elkhound.jpg"
+heroImageAlt: "A Norwegian Elkhound"
 tags: ["norwegian-elkhound", "dogs", "medium dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "HawkNightingale175"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Elkhound2020_(cropped).jpg"
+heroLicense: "CC BY 4.0"
 ---
 
 One of the ancient Nordic spitz breeds, the Norwegian Elkhound was developed in Norway to track and hold large game such as moose ("elg") and to serve as a hardy farm and watchdog. Sturdy, weatherproof and deeply loyal, it remains a bold and devoted companion today.

@@ -2357,5 +2357,96 @@
     "credit": "Dick Culbert from Gibsons, B.C., Canada",
     "license": "CC BY 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Potos_flavus_(8973438737).jpg"
+  },
+  "marmoset": {
+    "file": "/images/marmoset.jpg",
+    "alt": "A Marmoset",
+    "credit": "Carmem A. Busko",
+    "license": "CC BY 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Marmoset_copy.jpg"
+  },
+  "nigerian-dwarf-goat": {
+    "file": "/images/nigerian-dwarf-goat.jpg",
+    "alt": "A Nigerian Dwarf Goat",
+    "credit": "Jmkarohl",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:NigerianDwarfDairyGoat.jpg"
+  },
+  "norwegian-elkhound": {
+    "file": "/images/norwegian-elkhound.jpg",
+    "alt": "A Norwegian Elkhound",
+    "credit": "HawkNightingale175",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Elkhound2020_(cropped).jpg"
+  },
+  "old-german-shepherd-dog": {
+    "file": "/images/old-german-shepherd-dog.jpg",
+    "alt": "A Old German Shepherd Dog",
+    "credit": "Ann-Christin Hellmuth",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gelbbacke.jpg"
+  },
+  "orpington": {
+    "file": "/images/orpington.jpg",
+    "alt": "A Orpington",
+    "credit": "WisDom-UK",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:White_Hart_pub,_Orpington_High_Street.jpg"
+  },
+  "otocinclus": {
+    "file": "/images/otocinclus.jpg",
+    "alt": "A Otocinclus",
+    "credit": "CHUCAO",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Otocinclus_arnoldi_(1).JPG"
+  },
+  "pharaoh-hound": {
+    "file": "/images/pharaoh-hound.jpg",
+    "alt": "A Pharaoh Hound",
+    "credit": "Pleple2000",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pies_faraona_e34.jpg"
+  },
+  "plummer-terrier": {
+    "file": "/images/plummer-terrier.jpg",
+    "alt": "A Plummer Terrier",
+    "credit": "Plummer Terrier Club",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Plummer_Terrier_Nathy.jpg"
+  },
+  "pont-audemer-spaniel": {
+    "file": "/images/pont-audemer-spaniel.jpg",
+    "alt": "A Pont-Audemer Spaniel",
+    "credit": "Alephalpha",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:04031158_Epagneul_Pont_Audemer.jpg"
+  },
+  "portuguese-pointer": {
+    "file": "/images/portuguese-pointer.jpg",
+    "alt": "A Portuguese Pointer",
+    "credit": "Canarian",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Portuguesepointer2.jpg"
+  },
+  "quaker-parrot": {
+    "file": "/images/quaker-parrot.jpg",
+    "alt": "A Quaker Parrot",
+    "credit": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Monk_parakeet_(Myiopsitta_monachus)_Santiago.jpg"
+  },
+  "roborovski-hamster": {
+    "file": "/images/roborovski-hamster.jpg",
+    "alt": "A Roborovski Hamster",
+    "credit": "Bullet",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Phodopus_roborovskii.jpg"
+  },
+  "smooth-collie": {
+    "file": "/images/smooth-collie.jpg",
+    "alt": "A Smooth Collie",
+    "credit": "Mwensley",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SmoothCollie_TriColour.jpg"
   }
 }

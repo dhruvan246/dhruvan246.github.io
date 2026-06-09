@@ -4,11 +4,14 @@ description: "An Old German Shepherd Dog care guide covering this longer-coated 
 category: "dogs"
 species: "Old German Shepherd Dog"
 pubDate: 2026-06-05
-heroImage: ""
-heroImageAlt: "A Old German Shepherd Dog dog"
+heroImage: "/images/old-german-shepherd-dog.jpg"
+heroImageAlt: "A Old German Shepherd Dog"
 tags: ["old-german-shepherd-dog", "dogs", "large dogs", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Ann-Christin Hellmuth"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Gelbbacke.jpg"
+heroLicense: "CC BY-SA 3.0"
 ---
 
 The Old German Shepherd Dog, often called the Altdeutscher Schäferhund, refers to the older, longer-coated working lines of herding dogs from Germany. Rather than a separate standardized breed, it describes traditional shepherd-type dogs prized for their steady temperament, working ability, and natural look. Loyal and intelligent, these dogs make devoted companions and capable working partners.

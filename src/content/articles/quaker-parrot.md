@@ -4,11 +4,14 @@ description: "Care guide for the Quaker parrot (monk parakeet): housing, diet, t
 category: "birds"
 species: "Quaker Parrot"
 pubDate: 2026-03-01
-heroImage: ""
+heroImage: "/images/quaker-parrot.jpg"
 heroImageAlt: "A Quaker Parrot"
 tags: ["quaker-parrot", "birds", "care guide"]
 author: "The PawPedia Team"
 draft: false
+heroCredit: "Charles J. Sharp"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Monk_parakeet_(Myiopsitta_monachus)_Santiago.jpg"
+heroLicense: "CC BY-SA 4.0"
 ---
 
 The Quaker parrot, also called the monk parakeet, is a small, intelligent South American parrot prized as a pet for its big personality and impressive talking ability. Affordable and outgoing, it suits owners ready to commit to years of daily interaction.
